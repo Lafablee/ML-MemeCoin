@@ -1,0 +1,68 @@
+{
+  "tweet_id": "8839ce9169414456afd",
+  "original_text": "Ferrari says it will raise prices by 10% on certain models after April 1 in response to new U.S. auto tariffs, adding up to $50,000 to the price of a typical Ferrari.",
+  "named_entities": [
+    {
+      "text": "Ferrari",
+      "type": "PERSON"
+    },
+    {
+      "text": "10%",
+      "type": "PERCENT"
+    },
+    {
+      "text": "April 1",
+      "type": "DATE"
+    },
+    {
+      "text": "U.S.",
+      "type": "GPE"
+    },
+    {
+      "text": "up to $50,000",
+      "type": "MONEY"
+    },
+    {
+      "text": "Ferrari",
+      "type": "PERSON"
+    }
+  ],
+  "capital_words": [
+    "April",
+    "Ferrari"
+  ],
+  "symbols": [
+    "$50"
+  ],
+  "important_nouns": [
+    "prices",
+    "models",
+    "response",
+    "auto",
+    "tariffs",
+    "price"
+  ],
+  "significant_verbs": [
+    "says",
+    "raise",
+    "adding"
+  ],
+  "unique_identifiers": [
+    "response",
+    "Ferrari",
+    "$50",
+    "auto",
+    "models",
+    "prices",
+    "tariffs",
+    "April",
+    "price"
+  ],
+  "tweet_identity": "response Ferrari $50 auto models",
+  "detected_themes": {
+    "technologie": [
+      "AI",
+      "AR"
+    ]
+  }
+}

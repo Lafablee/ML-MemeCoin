@@ -1,0 +1,4 @@
+{
+  "error": "sequence item 6: expected str instance, NoneType found",
+  "raw_response": "{\n    \"description\": \"L'image montre un insigne dor\u00e9 avec le mot 'DOGE' inscrit dessus, pos\u00e9 sur un fond repr\u00e9sentant le drapeau am\u00e9ricain.\",\n    \"subjects\": [\"Insigne dor\u00e9\", \"Drapeau am\u00e9ricain\"],\n    \"actions\": [\"Aucune action sp\u00e9cifique\"],\n    \"mood\": \"Humoristique et patriotique\",\n    \"visible_text\": [\"DOGE\"],\n    \"emotional_themes\": [\"Humour\"],\n    \"is_meme\": true,\n    \"is_crisis\": false,\n    \"crisis_type\": null\n}"
+}

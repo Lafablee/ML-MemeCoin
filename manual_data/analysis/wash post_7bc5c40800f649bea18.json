@@ -1,0 +1,25 @@
+{
+  "tweet_id": "7bc5c40800f649bea18",
+  "original_text": "Chappell Roan says having kids is hellish \u2014 and not all parents are upset about it",
+  "named_entities": [
+    {
+      "text": "Chappell Roan",
+      "type": "PERSON"
+    }
+  ],
+  "capital_words": [
+    "Roan"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "kids",
+    "parents"
+  ],
+  "unique_identifiers": [
+    "Roan",
+    "Chappell Roan",
+    "parents",
+    "kids"
+  ],
+  "tweet_identity": "Roan Chappell Roan parents kids"
+}

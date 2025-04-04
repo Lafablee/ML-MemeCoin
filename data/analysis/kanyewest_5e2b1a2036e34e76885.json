@@ -1,0 +1,28 @@
+{
+  "tweet_id": "5e2b1a2036e34e76885",
+  "original_text": "No one listens to J Cole after loosing their virginity",
+  "named_entities": [
+    {
+      "text": "J Cole",
+      "type": "PRODUCT"
+    }
+  ],
+  "capital_words": [
+    "Cole"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "virginity"
+  ],
+  "significant_verbs": [
+    "listens",
+    "loosing"
+  ],
+  "unique_identifiers": [
+    "Cole",
+    "J Cole",
+    "virginity"
+  ],
+  "tweet_identity": "Cole J Cole virginity",
+  "detected_themes": {}
+}

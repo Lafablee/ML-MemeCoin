@@ -1,0 +1,35 @@
+{
+  "description": "The image shows a handwritten list containing potentially offensive and controversial topics on a piece of paper, with two swastika symbols drawn on it.",
+  "subjects": [
+    "Handwritten list",
+    "Swastikas"
+  ],
+  "actions": [],
+  "mood": "Disturbing",
+  "visible_text": [
+    "WW3 FEAT. DAVE BLUNTS",
+    "COSBY",
+    "FREEDOM",
+    "DIRTY MAGAZINES",
+    "BIANCA",
+    "VIRGIL LET ME DOWN",
+    "HEIL HITLER",
+    "HITLER YE AND JESUS",
+    "JARED",
+    "MONEY AND FAME",
+    "NITROUS"
+  ],
+  "emotional_themes": [
+    "Offense",
+    "Controversy",
+    "Shock"
+  ],
+  "is_meme": false,
+  "is_crisis": true,
+  "crisis_type": "Hate symbols and offensive content",
+  "detected_themes": {
+    "celebrite": [
+      "controversy"
+    ]
+  }
+}

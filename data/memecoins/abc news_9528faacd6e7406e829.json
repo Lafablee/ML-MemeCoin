@@ -1,0 +1,15 @@
+{
+  "token_name": "abc newscentena",
+  "token_symbol": "AT",
+  "tag_line": "Based on @abc news's viral tweet!",
+  "description": "Meme coin inspired by @abc news's tweet about centenary, the Royal Australian Corps of Signals, Australian.",
+  "tweet_author": "abc news",
+  "primary_theme": "technologie",
+  "relevant_keywords": [
+    "centenary",
+    "the Royal Australian Corps of Signals",
+    "Australian"
+  ],
+  "generated_at": "2025-04-03 15:53:50",
+  "is_fallback": true
+}

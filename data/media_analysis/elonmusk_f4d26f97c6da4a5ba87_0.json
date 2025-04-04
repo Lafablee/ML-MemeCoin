@@ -1,0 +1,22 @@
+{
+  "description": "The image depicts the launch of a large rocket, with flames and smoke billowing out from the engines. The rocket is in the process of taking off against a blue sky background.",
+  "subjects": [
+    "Rocket",
+    "Flames",
+    "Smoke"
+  ],
+  "actions": [
+    "Rocket launching",
+    "Engines firing"
+  ],
+  "mood": "Dynamic and intense",
+  "visible_text": [],
+  "emotional_themes": [
+    "Excitement",
+    "Awe"
+  ],
+  "is_meme": false,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

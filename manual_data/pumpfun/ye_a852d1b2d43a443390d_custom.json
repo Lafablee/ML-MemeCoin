@@ -1,0 +1,31 @@
+{
+  "token_name": "ye_English",
+  "token_symbol": "YE",
+  "description": "Meme coin based on @ye's viral tweet",
+  "tag_line": "To the moon!",
+  "tweet_reference": "a852d1b2d43a443390d",
+  "tweet_author": "ye",
+  "original_tweet_text": "Nobody sounds smarter than Indians with English accents",
+  "profile_image_url": null,
+  "metadata": {
+    "named_entities": [
+      {
+        "text": "Indians",
+        "type": "NORP"
+      },
+      {
+        "text": "English",
+        "type": "NORP"
+      }
+    ],
+    "symbols": [],
+    "unique_identifiers": [
+      "English",
+      "Indians",
+      "accents"
+    ],
+    "important_nouns": [
+      "accents"
+    ]
+  }
+}

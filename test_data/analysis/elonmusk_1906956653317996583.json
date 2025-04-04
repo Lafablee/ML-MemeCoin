@@ -1,0 +1,51 @@
+{
+  "tweet_id": "1906956653317996583",
+  "original_text": "RT @IanJaeger29: JD Vance called out the Europeans at CPAC for jailing their political opponents.\n\nToday Marine Le-Pen was sentenced to 4 y\u2026",
+  "named_entities": [
+    {
+      "text": "JD Vance",
+      "type": "PERSON"
+    },
+    {
+      "text": "Europeans",
+      "type": "NORP"
+    },
+    {
+      "text": "Today",
+      "type": "DATE"
+    },
+    {
+      "text": "4",
+      "type": "CARDINAL"
+    }
+  ],
+  "capital_words": [
+    "JD",
+    "Vance",
+    "Europeans",
+    "CPAC",
+    "Today",
+    "Marine",
+    "Le"
+  ],
+  "symbols": [
+    "@IanJaeger29"
+  ],
+  "important_nouns": [
+    "opponents",
+    "Today"
+  ],
+  "unique_identifiers": [
+    "CPAC",
+    "Le",
+    "JD Vance",
+    "JD",
+    "Today",
+    "@IanJaeger29",
+    "opponents",
+    "Marine",
+    "Europeans",
+    "Vance"
+  ],
+  "tweet_identity": "CPAC Le JD Vance JD Today"
+}

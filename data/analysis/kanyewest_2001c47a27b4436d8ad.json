@@ -1,0 +1,75 @@
+{
+  "tweet_id": "2001c47a27b4436d8ad",
+  "original_text": "I hate J Cole music so much     It\u2019s like between Kendrick and J Cole     I bet you industry plants asked J Cole to diss Drake then we would have been accosted with a J Cole Super Bowl commercial with no SZA song to save it",
+  "named_entities": [
+    {
+      "text": "Cole",
+      "type": "PRODUCT"
+    },
+    {
+      "text": "Kendrick",
+      "type": "PERSON"
+    },
+    {
+      "text": "J Cole     ",
+      "type": "PRODUCT"
+    },
+    {
+      "text": "J Cole",
+      "type": "PRODUCT"
+    },
+    {
+      "text": "Drake",
+      "type": "PERSON"
+    },
+    {
+      "text": "Super Bowl",
+      "type": "EVENT"
+    },
+    {
+      "text": "SZA",
+      "type": "ORG"
+    }
+  ],
+  "capital_words": [
+    "Cole",
+    "It",
+    "Kendrick",
+    "Cole",
+    "Cole",
+    "Drake",
+    "Cole",
+    "Super",
+    "Bowl",
+    "SZA"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "music",
+    "industry",
+    "plants",
+    "commercial",
+    "song"
+  ],
+  "significant_verbs": [
+    "hate",
+    "asked",
+    "diss",
+    "accosted",
+    "save"
+  ],
+  "unique_identifiers": [
+    "J Cole     ",
+    "Cole",
+    "Drake",
+    "Kendrick",
+    "Super",
+    "Bowl",
+    "J Cole",
+    "SZA",
+    "plants",
+    "music"
+  ],
+  "tweet_identity": "plants J Cole      Cole Drake music",
+  "detected_themes": {}
+}

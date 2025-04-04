@@ -1,0 +1,37 @@
+{
+  "token_name": "SmartIndianAccent",
+  "token_symbol": "SMRTIND",
+  "description": "Accents Power",
+  "tag_line": "For those who appreciate the intelligence in accents",
+  "tweet_reference": "a852d1b2d43a443390d",
+  "tweet_author": "ye",
+  "original_tweet_text": "Nobody sounds smarter than Indians with English accents",
+  "profile_image_url": null,
+  "metadata": {
+    "named_entities": [
+      {
+        "text": "Indians",
+        "type": "NORP"
+      },
+      {
+        "text": "English",
+        "type": "NORP"
+      }
+    ],
+    "symbols": [],
+    "unique_identifiers": [
+      "English",
+      "Indians",
+      "accents"
+    ],
+    "important_nouns": [
+      "accents"
+    ],
+    "public_metrics": {
+      "like_count": 1800,
+      "retweet_count": 200,
+      "reply_count": 0,
+      "quote_count": 0
+    }
+  }
+}

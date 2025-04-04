@@ -1,0 +1,19 @@
+# API Twitter
+requests==2.31.0
+tweepy==4.14.0
+
+# Traitement du texte
+spacy==3.7.2
+nltk==3.8.1
+
+# Planification des tâches
+schedule==1.2.0
+
+# Variables d'environnement
+python-dotenv==1.0.0
+
+# Logging
+logging==0.4.9.6
+
+# Stockage
+bson==0.5.10

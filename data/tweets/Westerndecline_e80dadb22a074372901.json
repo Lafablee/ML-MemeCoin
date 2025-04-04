@@ -1,0 +1,19 @@
+{
+  "id": "e80dadb22a074372901",
+  "text": "Is still coming Elon?",
+  "created_at": "2025-04-03T19:05:22.085513",
+  "public_metrics": {
+    "like_count": 4800,
+    "retweet_count": 500,
+    "reply_count": 0,
+    "quote_count": 0
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/Gngol5aXsAArnOO?format=jpg&name=medium",
+      "preview_image_url": "https://pbs.twimg.com/media/Gngol5aXsAArnOO?format=jpg&name=medium",
+      "media_key": "media_key_e80dadb22a074372901_0"
+    }
+  ]
+}

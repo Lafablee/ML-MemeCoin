@@ -1,0 +1,24 @@
+{
+  "description": "Two individuals standing in a large, modern lobby area with the emblem of the Central Intelligence Agency (CIA) on the floor. American flags are visible in the background, and the setting appears official.",
+  "subjects": [
+    "Two individuals",
+    "CIA emblem",
+    "American flags"
+  ],
+  "actions": [
+    "Standing"
+  ],
+  "mood": "Formal and official",
+  "visible_text": [
+    "CENTRAL INTELLIGENCE AGENCY",
+    "UNITED STATES OF AMERICA"
+  ],
+  "emotional_themes": [
+    "Neutral",
+    "Formal"
+  ],
+  "is_meme": false,
+  "is_crisis": false,
+  "crisis_type": "",
+  "detected_themes": {}
+}

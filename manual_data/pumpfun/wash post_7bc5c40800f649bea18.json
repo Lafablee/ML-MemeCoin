@@ -1,0 +1,35 @@
+{
+  "token_name": "HellishKids",
+  "token_symbol": "HKIDZ",
+  "description": "Bas\u00e9 sur le tweet viral de @washpost, o\u00f9 Chappell Roan dit que 'avoir des enfants, c'est l'enfer'. Un clin d'\u0153il \u00e0 tous les parents qui se sentent vus et entendus. #Parenting #MemeCoin",
+  "tag_line": "Pour les parents qui savourent le chaos",
+  "tweet_reference": "7bc5c40800f649bea18",
+  "tweet_author": "wash post",
+  "original_tweet_text": "Chappell Roan says having kids is hellish \u2014 and not all parents are upset about it",
+  "profile_image_url": null,
+  "metadata": {
+    "named_entities": [
+      {
+        "text": "Chappell Roan",
+        "type": "PERSON"
+      }
+    ],
+    "symbols": [],
+    "unique_identifiers": [
+      "Roan",
+      "Chappell Roan",
+      "parents",
+      "kids"
+    ],
+    "important_nouns": [
+      "kids",
+      "parents"
+    ],
+    "public_metrics": {
+      "like_count": 25,
+      "retweet_count": 6,
+      "reply_count": 0,
+      "quote_count": 0
+    }
+  }
+}

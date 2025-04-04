@@ -1,0 +1,23 @@
+{
+  "tweet_id": "e80dadb22a074372901",
+  "original_text": "Is still coming Elon?",
+  "named_entities": [
+    {
+      "text": "Elon",
+      "type": "PERSON"
+    }
+  ],
+  "capital_words": [
+    "Elon"
+  ],
+  "symbols": [],
+  "important_nouns": [],
+  "significant_verbs": [
+    "coming"
+  ],
+  "unique_identifiers": [
+    "Elon"
+  ],
+  "tweet_identity": "Elon",
+  "detected_themes": {}
+}

@@ -1,0 +1,49 @@
+{
+  "token_name": "elonmusk_CPAC",
+  "token_symbol": "EC",
+  "description": "Meme coin based on @elonmusk's viral tweet",
+  "tag_line": "To the moon!",
+  "tweet_reference": "1906956653317996583",
+  "tweet_author": "elonmusk",
+  "original_tweet_text": "RT @IanJaeger29: JD Vance called out the Europeans at CPAC for jailing their political opponents.\n\nToday Marine Le-Pen was sentenced to 4 y\u2026",
+  "profile_image_url": null,
+  "metadata": {
+    "named_entities": [
+      {
+        "text": "JD Vance",
+        "type": "PERSON"
+      },
+      {
+        "text": "Europeans",
+        "type": "NORP"
+      },
+      {
+        "text": "Today",
+        "type": "DATE"
+      },
+      {
+        "text": "4",
+        "type": "CARDINAL"
+      }
+    ],
+    "symbols": [
+      "@IanJaeger29"
+    ],
+    "unique_identifiers": [
+      "CPAC",
+      "Le",
+      "JD Vance",
+      "JD",
+      "Today",
+      "@IanJaeger29",
+      "opponents",
+      "Marine",
+      "Europeans",
+      "Vance"
+    ],
+    "important_nouns": [
+      "opponents",
+      "Today"
+    ]
+  }
+}

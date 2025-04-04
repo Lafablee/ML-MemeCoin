@@ -1,0 +1,55 @@
+{
+  "tweet_id": "9528faacd6e7406e829",
+  "original_text": "The Mint has released a $1 coin for the centenary of the Royal Australian Corps of Signals, complete with a secret encoded message.",
+  "named_entities": [
+    {
+      "text": "Mint",
+      "type": "ORG"
+    },
+    {
+      "text": "1",
+      "type": "MONEY"
+    },
+    {
+      "text": "the Royal Australian Corps of Signals",
+      "type": "ORG"
+    }
+  ],
+  "capital_words": [
+    "Mint",
+    "Royal",
+    "Australian",
+    "Corps",
+    "Signals"
+  ],
+  "symbols": [
+    "$1"
+  ],
+  "important_nouns": [
+    "coin",
+    "centenary",
+    "message"
+  ],
+  "significant_verbs": [
+    "released"
+  ],
+  "unique_identifiers": [
+    "Mint",
+    "Signals",
+    "Corps",
+    "Royal",
+    "centenary",
+    "$1",
+    "the Royal Australian Corps of Signals",
+    "message",
+    "coin",
+    "Australian"
+  ],
+  "tweet_identity": "Mint Signals Corps Royal centenary",
+  "detected_themes": {
+    "technologie": [
+      "IA",
+      "AR"
+    ]
+  }
+}

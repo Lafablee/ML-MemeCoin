@@ -1,0 +1,19 @@
+{
+  "id": "87b55917fb3d41e98ac",
+  "text": "",
+  "created_at": "2025-04-03T18:18:32.355033",
+  "public_metrics": {
+    "like_count": 460000,
+    "retweet_count": 42000,
+    "reply_count": 0,
+    "quote_count": 0
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/GnfS7oUW0AAp2ab?format=jpg&name=large",
+      "preview_image_url": "https://pbs.twimg.com/media/GnfS7oUW0AAp2ab?format=jpg&name=large",
+      "media_key": "media_key_87b55917fb3d41e98ac_0"
+    }
+  ]
+}

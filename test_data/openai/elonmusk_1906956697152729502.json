@@ -1,0 +1,39 @@
+{
+  "token_name": "elonmusk_Romania",
+  "token_symbol": "ER",
+  "description": "Meme coin based on @elonmusk's viral tweet",
+  "tag_line": "To the moon!",
+  "tweet_reference": "1906956697152729502",
+  "tweet_author": "elonmusk",
+  "original_tweet_text": "RT @PeterSweden7: In Brazil they BANNED the main opposition from running for President.\n\nIn Romania they BANNED the main opposition from ru\u2026",
+  "profile_image_url": null,
+  "metadata": {
+    "named_entities": [
+      {
+        "text": "Brazil",
+        "type": "GPE"
+      },
+      {
+        "text": "Romania",
+        "type": "GPE"
+      }
+    ],
+    "symbols": [
+      "@PeterSweden7"
+    ],
+    "unique_identifiers": [
+      "Romania",
+      "Brazil",
+      "In",
+      "opposition",
+      "President",
+      "BANNED",
+      "@PeterSweden7"
+    ],
+    "important_nouns": [
+      "@PeterSweden7",
+      "opposition",
+      "opposition"
+    ]
+  }
+}

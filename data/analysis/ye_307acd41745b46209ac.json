@@ -1,0 +1,21 @@
+{
+  "tweet_id": "307acd41745b46209ac",
+  "original_text": "I never seen nigers handle shit like that",
+  "named_entities": [],
+  "capital_words": [],
+  "symbols": [],
+  "important_nouns": [
+    "nigers",
+    "shit"
+  ],
+  "significant_verbs": [
+    "seen",
+    "handle"
+  ],
+  "unique_identifiers": [
+    "nigers",
+    "shit"
+  ],
+  "tweet_identity": "nigers shit",
+  "detected_themes": {}
+}

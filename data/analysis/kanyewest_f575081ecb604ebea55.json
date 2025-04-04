@@ -1,0 +1,22 @@
+{
+  "tweet_id": "f575081ecb604ebea55",
+  "original_text": "cant believe this guy was found dead... bro seriously",
+  "named_entities": [
+    {
+      "text": "bro",
+      "type": "ORG"
+    }
+  ],
+  "capital_words": [],
+  "symbols": [],
+  "important_nouns": [],
+  "significant_verbs": [
+    "believe",
+    "found"
+  ],
+  "unique_identifiers": [
+    "bro"
+  ],
+  "tweet_identity": "bro",
+  "detected_themes": {}
+}

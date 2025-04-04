@@ -1,0 +1,26 @@
+{
+  "tweet_id": "375c86f5ba894547850",
+  "original_text": "Accurate actuators accelerate automation",
+  "named_entities": [
+    {
+      "text": "Accurate",
+      "type": "ORG"
+    }
+  ],
+  "capital_words": [],
+  "symbols": [],
+  "important_nouns": [
+    "actuators",
+    "automation"
+  ],
+  "significant_verbs": [
+    "accelerate"
+  ],
+  "unique_identifiers": [
+    "automation",
+    "Accurate",
+    "actuators"
+  ],
+  "tweet_identity": "automation Accurate actuators",
+  "detected_themes": {}
+}

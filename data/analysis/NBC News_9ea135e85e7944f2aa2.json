@@ -1,0 +1,38 @@
+{
+  "tweet_id": "9ea135e85e7944f2aa2",
+  "original_text": "Indiana University parted ways with a longtime athletic trainer after 44 seasons, the man's attorney says.",
+  "named_entities": [
+    {
+      "text": "Indiana University",
+      "type": "ORG"
+    },
+    {
+      "text": "44 seasons",
+      "type": "DATE"
+    }
+  ],
+  "capital_words": [
+    "University"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "ways",
+    "trainer",
+    "seasons",
+    "attorney"
+  ],
+  "significant_verbs": [
+    "parted",
+    "says"
+  ],
+  "unique_identifiers": [
+    "trainer",
+    "attorney",
+    "Indiana University",
+    "seasons",
+    "University",
+    "ways"
+  ],
+  "tweet_identity": "trainer attorney Indiana University seasons University",
+  "detected_themes": {}
+}

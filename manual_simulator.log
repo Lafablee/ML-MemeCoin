@@ -1,0 +1,30 @@
+2025-04-01 19:15:23,904 - __main__ - INFO - Tweet fictif créé avec l'ID 0ac2656e92634fe3860 pour @nbc news
+2025-04-01 19:22:37,816 - __main__ - INFO - Tweet fictif créé avec l'ID 7bc5c40800f649bea18 pour @wash post
+2025-04-01 19:22:39,627 - __main__ - INFO - Analyse du tweet 7bc5c40800f649bea18 terminée
+2025-04-01 19:22:39,627 - __main__ - INFO - Identité extraite: Roan Chappell Roan parents kids
+2025-04-01 19:22:39,627 - __main__ - INFO - Génération du meme coin avec OpenAI...
+2025-04-01 19:22:45,814 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 19:22:45,820 - __main__ - INFO - Meme coin généré avec succès: HellishKids (HKIDZ)
+2025-04-01 19:22:45,821 - __main__ - INFO - Tag line: Pour les parents qui savourent le chaos
+2025-04-01 19:31:53,326 - __main__ - INFO - Tweet fictif créé avec l'ID a852d1b2d43a443390d pour @ye
+2025-04-01 19:31:56,254 - __main__ - INFO - Analyse du tweet a852d1b2d43a443390d terminée
+2025-04-01 19:31:56,255 - __main__ - INFO - Identité extraite: English Indians accents
+2025-04-01 19:31:56,255 - __main__ - INFO - Génération du meme coin avec OpenAI...
+2025-04-01 19:31:59,964 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 19:31:59,970 - __main__ - INFO - Meme coin généré avec succès: SmartIndianAccent (SMRTIND)
+2025-04-01 19:31:59,970 - __main__ - INFO - Tag line: For those who appreciate the intelligence in accents
+2025-04-01 19:59:58,850 - __main__ - INFO - Génération du meme coin avec prompt personnalisé...
+2025-04-01 20:00:04,455 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 20:00:04,459 - openai_formatter - WARNING - La réponse n'est pas au format JSON valide: "SmartIndianAccent"
+
+{
+  "coin_name": "SmartIndianAccent",
+  "ticker": "SIA",
+  "description": "A troll-inspired coin that humorously celebrates the perceived intellectual superiority of Indians with English accents, as observed by @ye. This coin is all about turning stereotypes into a source of pride and amusement."
+}
+2025-04-01 20:00:06,908 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 20:00:06,910 - openai_formatter - WARNING - La réponse n'est pas au format JSON valide: "TrollAccent", "TAC", "Putting a humorous spin on the internet troll's perception of intelligence through accents."
+2025-04-01 20:00:07,995 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 20:00:08,039 - openai_formatter - WARNING - Champs manquants dans la réponse OpenAI: ['token_name', 'token_symbol', 'description', 'tag_line']
+2025-04-01 20:00:08,039 - openai_formatter - WARNING - Génération de secours après échec des appels OpenAI
+2025-04-01 20:00:08,041 - __main__ - INFO - Meme coin généré avec prompt personnalisé: ye_English (YE)

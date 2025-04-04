@@ -1,0 +1,56 @@
+{
+  "token_name": "elonmusk_Musk",
+  "token_symbol": "EM",
+  "description": "Meme coin based on @elonmusk's viral tweet",
+  "tag_line": "To the moon!",
+  "tweet_reference": "1906957470011994164",
+  "tweet_author": "elonmusk",
+  "original_tweet_text": "RT @FoxNews: Musk shares 'mind blowing' chart showing millions of 'noncitizens' given Social Security numbers under Biden https://t.co/EpbI\u2026",
+  "profile_image_url": null,
+  "metadata": {
+    "named_entities": [
+      {
+        "text": "Musk",
+        "type": "PERSON"
+      },
+      {
+        "text": "millions",
+        "type": "CARDINAL"
+      },
+      {
+        "text": "Social Security",
+        "type": "ORG"
+      },
+      {
+        "text": "Biden",
+        "type": "PERSON"
+      }
+    ],
+    "symbols": [
+      "@FoxNews"
+    ],
+    "unique_identifiers": [
+      "Musk",
+      "Biden",
+      "chart",
+      "millions",
+      "noncitizens",
+      "numbers",
+      "Security",
+      "shares",
+      "Social",
+      "mind",
+      "@FoxNews",
+      "Social Security"
+    ],
+    "important_nouns": [
+      "@FoxNews",
+      "shares",
+      "mind",
+      "chart",
+      "millions",
+      "noncitizens",
+      "numbers"
+    ]
+  }
+}

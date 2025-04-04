@@ -1,0 +1,41 @@
+{
+  "tweet_id": "1906956697152729502",
+  "original_text": "RT @PeterSweden7: In Brazil they BANNED the main opposition from running for President.\n\nIn Romania they BANNED the main opposition from ru\u2026",
+  "named_entities": [
+    {
+      "text": "Brazil",
+      "type": "GPE"
+    },
+    {
+      "text": "Romania",
+      "type": "GPE"
+    }
+  ],
+  "capital_words": [
+    "In",
+    "Brazil",
+    "BANNED",
+    "President",
+    "In",
+    "Romania",
+    "BANNED"
+  ],
+  "symbols": [
+    "@PeterSweden7"
+  ],
+  "important_nouns": [
+    "@PeterSweden7",
+    "opposition",
+    "opposition"
+  ],
+  "unique_identifiers": [
+    "Romania",
+    "Brazil",
+    "In",
+    "opposition",
+    "President",
+    "BANNED",
+    "@PeterSweden7"
+  ],
+  "tweet_identity": "Romania Brazil In opposition President"
+}

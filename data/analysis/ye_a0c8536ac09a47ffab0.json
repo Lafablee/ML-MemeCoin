@@ -1,0 +1,23 @@
+{
+  "tweet_id": "a0c8536ac09a47ffab0",
+  "original_text": "I love Carti",
+  "named_entities": [
+    {
+      "text": "Carti",
+      "type": "PRODUCT"
+    }
+  ],
+  "capital_words": [
+    "Carti"
+  ],
+  "symbols": [],
+  "important_nouns": [],
+  "significant_verbs": [
+    "love"
+  ],
+  "unique_identifiers": [
+    "Carti"
+  ],
+  "tweet_identity": "Carti",
+  "detected_themes": {}
+}

@@ -1,0 +1,40 @@
+{
+  "tweet_id": "5ec7443380e64cdf854",
+  "original_text": "Extraterrestrials who seeded Earth with human bootloaders for a new AGI subspecies",
+  "named_entities": [
+    {
+      "text": "Earth",
+      "type": "LOC"
+    },
+    {
+      "text": "AGI",
+      "type": "ORG"
+    }
+  ],
+  "capital_words": [
+    "Earth",
+    "AGI"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "Extraterrestrials",
+    "bootloaders",
+    "subspecies"
+  ],
+  "significant_verbs": [
+    "seeded"
+  ],
+  "unique_identifiers": [
+    "AGI",
+    "Earth",
+    "Extraterrestrials",
+    "subspecies",
+    "bootloaders"
+  ],
+  "tweet_identity": "AGI Earth Extraterrestrials subspecies bootloaders",
+  "detected_themes": {
+    "justice": [
+      "trial"
+    ]
+  }
+}

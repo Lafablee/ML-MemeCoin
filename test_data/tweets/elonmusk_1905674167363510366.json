@@ -1,0 +1,33 @@
+{
+  "id": "1905674167363510366",
+  "edit_history_tweet_ids": [
+    "1905674167363510366"
+  ],
+  "author_id": "44196397",
+  "referenced_tweets": [
+    {
+      "type": "replied_to",
+      "id": "1905664191488262201"
+    }
+  ],
+  "public_metrics": {
+    "retweet_count": 40,
+    "reply_count": 91,
+    "like_count": 692,
+    "quote_count": 5,
+    "bookmark_count": 9,
+    "impression_count": 41963
+  },
+  "text": "@nayibbukele \ud83d\udd25\ud83d\udd25",
+  "created_at": "2025-03-28T17:31:41.000Z",
+  "entities": {
+    "mentions": [
+      {
+        "start": 0,
+        "end": 12,
+        "username": "nayibbukele",
+        "id": "20736511"
+      }
+    ]
+  }
+}

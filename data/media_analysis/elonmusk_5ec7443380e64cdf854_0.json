@@ -1,0 +1,24 @@
+{
+  "description": "The image shows a person in a bright yellow jacket looking around a tree with a playful, scheming expression. The person is rubbing their hands together and has a mischievous smile.",
+  "subjects": [
+    "Person",
+    "Tree"
+  ],
+  "actions": [
+    "Peeking around a tree",
+    "Rubbing hands together"
+  ],
+  "mood": "Playful and humorous",
+  "visible_text": [
+    "SUMMER 608",
+    "Pioneer"
+  ],
+  "emotional_themes": [
+    "Amusement",
+    "Anticipation"
+  ],
+  "is_meme": true,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

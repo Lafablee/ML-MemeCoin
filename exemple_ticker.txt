@@ -1,0 +1,1377 @@
+"input": {
+            "tweet_text": "I drink my own pee for the health benefits — I also do urine enemas and splash it on my skin to sunbathe",
+            "image_url": "https://pbs.twimg.com/media/Gncdqv6WkAAAqkA?format=jpg&name=medium"
+        },
+        "output": {
+            "ticker": « peedrinker »,
+            "name": "pee drinker",
+            "bénéfice": 4,
+            "créativité": 4
+       }
+
+"input": {  
+            "tweet_text": "fine FINE",  
+            "image_url": "https://pbs.twimg.com/media/GneHLBsasAAlGzC?format=jpg&name=medium"  
+        },  
+        "output": {  
+            "ticker": "dogebutton",  
+            "name": "dogebutton"  
+            "bénéfice": 3,
+            "créativité": 4
+       }  
+
+"input": {  
+            "tweet_text": "Goodbye!",  
+            "image_url": "https://pbs.twimg.com/media/GneHOB_XsAA3KKy?format=jpg&name=large"  
+        },  
+        "output": {  
+            "ticker": "mctrump",  
+            "name": "mctrump"  
+            "bénéfice": 1,
+            "créativité": 4
+       }  
+
+"input": {  
+            "tweet_text": "BREAKING: You can now edit images on Grok directly from the 𝕏 app and the Grok standalone app.",  
+            "image_url": "https://pbs.twimg.com/media/GneAP4gbQAArwZI?format=jpg&name=medium"  
+        },  
+        "output": {  
+            "ticker": "anime",  
+            "name": "animefication" 
+            "bénéfice": 3,
+            "créativité": 4 
+       }  
+
+"input": {  
+            "tweet_text": "BREAKING: You can now edit images on Grok directly from the 𝕏 app and the Grok standalone app.",  
+            "image_url": "https://pbs.twimg.com/media/GneAP4gbQAArwZI?format=jpg&name=medium"  
+        },  
+        "output": {  
+            "ticker": "animeficat",  
+            "name": "animefication"  
+            "bénéfice": 2,
+            "créativité": 3
+       }  
+
+"input": {  
+            "tweet_text": "🇺🇸 LATEST: Elon Musk plans to step down from his role as head of the Department of Government Efficiency (DOGE) by the end of May, concluding his 130-day tenure aimed at reducing the U.S. federal deficit by $1 trillion.",  
+            "image_url": "https://pbs.twimg.com/media/Gnd_51AWQAAQCHK?format=jpg&name=large"  
+        },  
+        "output": {  
+            "ticker": "byelon",  
+            "name": "byelon"
+            "bénéfice": 2,
+            "créativité": 3   
+       }  
+
+"input": {  
+            "tweet_text": "Sad: Day Of Remembrance For St. April O’Fool Reduced To A Day Of Pranks https://buff.ly/XXfRPmH",  
+            "image_url": "https://pbs.twimg.com/media/GndZpBOXIAADPGa?format=jpg&name=medium"  
+        },  
+        "output": {  
+            "ticker": "st april",  
+            "name": "st april o'fool"  
+            "bénéfice": 3,
+            "créativité": 2 
+       }  
+
+"input": {  
+            "tweet_text": "all birds go to heaven",  
+            "image_url": "https://pbs.twimg.com/media/Gjwug_2XMAY8Kn2?format=jpg&name=medium"  
+        },  
+        "output": {  
+            "ticker": "larry",  
+            "name": "justice for larry" 
+            "bénéfice": 4,
+            "créativité": 4  
+       }  
+
+"input": {  
+            "tweet_text": "NEW: SOLANA-BASED CLAYNOSAURZ NOMINATED FOR WEBBY AWARD",  
+            "image_url": "https://pbs.twimg.com/media/Gnc_sPkWkAAB9qU?format=jpg&name=medium"  
+        },  
+        "output": {  
+            "ticker": "clayno",  
+            "name": "claynosaurz"      
+            "bénéfice": 3,
+            "créativité": 2
+
+       }  
+
+"input": {  
+            "tweet_text": "Trump just signed an executive order to make $grok the official grok mascot",  
+            "image_url": "https://pbs.twimg.com/media/GnYqc_CWQAAhhVZ?format=jpg&name=large"  
+        },  
+        "output": {  
+            "ticker": "GROK BILL",  
+            "name": "GROK BILL"  
+            "bénéfice": 3,
+            "créativité": 3  
+       }  
+"input": {  
+            "tweet_text": "Silly Fritz! DYK:  
+* One hippo produces about 22 lbs. of waste per day.  
+* The hippo’s closest living relatives are whales and porpoises.  
+* Hippos can easily outrun most humans. They have been clocked at 19mph over short distances.",  
+            "image_url": "https://pbs.twimg.com/media/Gndh_nZXQAAGj1k?format=jpg&name=medium"  
+        },  
+        "output": {  
+            "ticker": « fritz »,  
+            "name": "fritz",  
+            "bénéfice": 2,
+            "créativité": 2  
+       } 
+
+"input": {  
+            "tweet_text": "QUICK! It's me, Khumbie! I'm taking selfies and full control of social media! Come chat with me in the replies before admin realizes what's going on (or just send snacks) 😁",  
+            "image_url": "https://pbs.twimg.com/media/GndX3VKXkAAZfhv?format=jpg&name=large"  
+        },  
+        "output": {  
+            "ticker": « khumbie »,  
+            "name": "khumbie", 
+            "bénéfice": 2,
+            "créativité": 2  
+       }  
+
+"input": {  
+            "tweet_text": "I have to agree with you on that",  
+            "image_url": "https://pbs.twimg.com/media/GnbxumbWUAAuY-y?format=png&name=small"  
+        },  
+        "output": {  
+            "ticker": « pepe »,  
+            "name": "justice for pepe", 
+            "bénéfice": 2,
+            "créativité": 4 
+       } 
+
+"input": {  
+            "tweet_text": "Wanna craft a mine in Minecraft with the new Craftmine update?  
+
+Because we realize there are limits to creativity... Announcing the Craftmine update. Pick resources, put them in a Mine Crafter and a mine will be generated for you. The mission? Survive long enough to reach the exit. Learn more: https://aka.ms/CraftMineUpdate",  
+            "image_url": "https://pbs.twimg.com/profile_images/1559209238076919809/H57ucjs2_400x400.jpg"  
+        },  
+        "output": {  
+            "ticker": "craftmine",  
+            "name": "craftmine"  
+            "bénéfice": 2,
+            "créativité": 1
+       }  
+
+"input": {  
+            "tweet_text": "welcome back",  
+            "image_url": "https://pbs.twimg.com/media/GndntYtXEAgp4RK?format=jpg&name=medium"  
+        },  
+        "output": {  
+            "ticker": "dog wif mc",  
+            "name": "dog wif mc"  
+            "bénéfice": 2,
+            "créativité": 4
+       }  
+
+"input": {  
+            "tweet_text": "👉 👈",  
+            "image_url": "https://pbs.twimg.com/media/Gndp7OzXIAA3aPa?format=jpg&name=large"  
+        },  
+        "output": {  
+            "ticker": "toothless »,  
+            "name": "toothless »  
+            "bénéfice": 4,
+            "créativité": 4 
+       }  
+"input": {  
+            "tweet_text": "👉 👈",  
+            "image_url": "https://pbs.twimg.com/media/Gndp7OzXIAA3aPa?format=jpg&name=large"  
+        },  
+        "output": {  
+            "ticker": "zuru",  
+            "name": "zuru"
+            "bénéfice": 2,
+            "créativité": 4   
+       }  
+"input": {  
+            "tweet_text": "👉 👈",  
+            "image_url": "https://pbs.twimg.com/media/Gndp7OzXIAA3aPa?format=jpg&name=large"  
+        },  
+        "output": {  
+            "ticker": "FUGGLER",  
+            "name": "FUGGLER"  
+            "bénéfice": 2,
+            "créativité": 4 
+       }  
+{
+    "input": {
+        "tweet_text": "Meet Katherine Shurik, a lecturer at @Fresno_State. She posted this on Facebook calling for the death of Trump, Elon, and Republicans.\n\nAny comment @Fresno_State?",
+        "image_url": "https://pbs.twimg.com/media/GndZtSiXUAAWWX3?format=jpg&name=900x900"
+    },
+    "output": {
+        "ticker": "jk",
+        "name": "jail katherine"
+         "bénéfice": 2,
+         "créativité": 3
+    }
+}
+{
+    "input": {
+        "tweet_text": "I voted!! 🗳️ 🇺🇸",
+        "image_url": "https://pbs.twimg.com/media/Gnd0rWsWIAAJSDG?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "gwc",
+        "name": "grok wif cheese"
+        "bénéfice": 2,
+        "créativité": 4
+    }
+}
+{
+    "input": {
+        "tweet_text": "NEW: Brown University 'DOGE' student shares his side of the story with Pirate Wires\n\nAt Brown University, there's roughly one non-faculty administrator for every two undergrads. Tuition, living expenses, and fees now amount to $93,064 a year. The school runs a $46 million annual budget deficit, and professors constantly complain they’re underpaid.\n\nTrying to make sense of this situation, Brown sophomore @alexkshieh emailed all 3,800+ administrators, asking a simple question: \"What do you do all day?\" Among the few responses he did get, one person replied \"fuck you,\" and another told him to “stick an entire cactus up [his] ass.” Now, Shieh says Brown is investigating him for “emotional/psychological harm,” among other things.\n\nToday on PW, Alex tells his side of the story — and describes the aftermath. Link is threaded 👇",
+        "image_url": "https://pbs.twimg.com/media/GndwElBaMAMJnF8?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "alex",
+        "name": "doge student"
+        "bénéfice": 2,
+        "créativité": 2
+    }
+}
+
+
+{
+    "input": {
+        "tweet_text": "",
+        "image_url": "https://pbs.twimg.com/card_img/1906438750172798976/gY-wLnf4?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "tkwe",
+        "name": "the kanye west experience"
+        "bénéfice": 2,
+        "créativité": 4
+    }
+}
+{
+    "input": {
+        "tweet_text": "I would like some privacy at this moment. \n@elonmusk I’m excited for this new beginning in TX-31st CD.\n\nI don’t need $2.5 million, $1.69M will be just fine.\n\nI promise not to sell my Cybertruck on carvana.",
+        "image_url": "https://pbs.twimg.com/media/GndjbVbXAAEjNRo?format=jpg&name=large"
+    },
+    "output": {
+        "ticker": "valentina",
+        "name": "elon new babymomma"
+        "bénéfice": 3,
+        "créativité": 4
+    }
+}
+{
+    "input": {
+        "tweet_text": "President Trump and Kid Rock 🎸🔥🇺🇸",
+        "image_url": "https://pbs.twimg.com/media/Gnd5NefXEAAgvV0?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "tng",
+        "name": "trump new gun"
+        "bénéfice": 2,
+        "créativité": 4
+    }
+}
+{
+    "input": {
+        "tweet_text": "Become a Block Captain for #SuperJudge Brad Schimel:\n\nYou will earn $20 for every picture with a Wisconsin resident — they’ll get $20 too\n\n— FIRST: Visit homes in your area and snap a picture with a neighbor holding a photo of Super Judge Brad Schimel.\n\n— SECOND: Upload your picture at https://block-captain.theamericapac.org/signee by entering your email and your neighbor's information.\n\nYou can also EMAIL your photos to captain@theamericapac.org\n\nBONUS: If they sign up to be a Block Captain, you both earn an extra $10!",
+        "image_url": "https://pbs.twimg.com/media/Gnd-oKwWoAANAD0?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "superlon",
+        "name": "superlon"
+        "bénéfice": 2,
+        "créativité": 4
+    }
+}
+{
+    "input": {
+        "tweet_text": "Try Grok! It's super cool. 🔥",
+        "image_url": "https://pbs.twimg.com/media/GneMfEaWAAAaakT?format=jpg&name=small"
+    },
+    "output": {
+        "ticker": "puppet",
+        "name": "puppification"
+        "bénéfice": 4,
+        "créativité": 4
+    }
+}
+{
+    "input": {
+        "tweet_text": "my DMs are getting wild",
+        "image_url": "https://pbs.twimg.com/media/GneQImOa8AAHLcy?format=jpg&name=large"
+    },
+    "output": {
+        "ticker": "theomkarva",
+        "name": "elon alt"
+        "bénéfice": 2,
+        "créativité": 3
+    }
+}
+{
+    "input": {
+        "tweet_text": "Introducing Bitcoin Lite Lester (IRL) LE of 100 units\n\nThis designer art piece is paying homage to the April 1st joke - rebranding of Litecoin to Bitcoin Lite - accurately showcasing that Litecoin is literally Bitcoin Lite\n\nWith Bitcoin bones, Litecoin speed, and easy-to-HODL vibes, Bitcoin Lite Lester is ready to join your collection\n\nReserve yours at http://arttoy.org at 3pm ET (~2 hours from post time)\n\nor on http://shop.litecoin.com (working out the details - coming soon)\n\nIn-Production Now - Delivery set for Summer 2025\n\nPackaging will vary from prototype but will be traditional toy backing card and blister pack.\n\n(No this isn't an April Fools joke)",
+        "image_url": "https://pbs.twimg.com/media/GndvDYlW8AEhkRD?format=jpg&name=large"
+    },
+    "output": {
+        "ticker": "litelester",
+        "name": "lite lester"
+        "bénéfice": 3,
+        "créativité": 2
+    }
+}
+{
+    "input": {
+        "tweet_text": "Try Grok! It's super cool. 🔥",
+        "image_url": "https://pbs.twimg.com/media/GneMfEaWAAAaakT?format=jpg&name=small"
+    },
+    "output": {
+        "ticker": "knit",
+        "name": "knitification"
+        "bénéfice": 4,
+        "créativité": 4
+    }
+}
+{
+    "input": {
+        "tweet_text": "Kekius Maximus wants Wisconsin to Vote for Brad Schimel",
+        "image_url": "https://pbs.twimg.com/media/GneUHuwW8AAeWny?format=jpg&name=900x900"
+    },
+    "output": {
+        "ticker": "cheese",
+        "name": "cheesification"
+        "bénéfice": 3,
+        "créativité": 4
+    }
+}
+{
+    "input": {
+        "tweet_text": "Grok is becoming the best artist in the world",
+        "image_url": "https://pbs.twimg.com/media/GneUTqGXEAALoWz?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "anime",
+        "name": "animification"
+        "bénéfice": 4,
+        "créativité": 4
+    }
+}
+{
+    "input": {
+        "tweet_text": "Costa Rica resort denies ex-Yankee Brett Gardner’s son died of carbon monoxide: ‘Levels in the hotel room were non-existent’ https://trib.al/oWXc2dg",
+        "image_url": "https://pbs.twimg.com/media/GneVqZ2XoAAXXXC?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "brett",
+        "name": "justice for brett"
+        "bénéfice": 2,
+        "créativité": 2
+    }
+}
+{
+    "input": {
+        "tweet_text": "How long until a Strategic Newsmax Reserve? 💀",
+        "image_url": "https://pbs.twimg.com/media/GneQrV0bUAA1g1B?format=jpg&name=large"
+    },
+    "output": {
+        "ticker": "snr",
+        "name": "Strategic Newsmax Reserve"
+        "bénéfice": 2,
+        "créativité": 2
+    }
+}
+{
+    "input": {
+        "tweet_text": "Girl, 9, dies after going to dentist for routine surgery.",
+        "image_url": "https://pbs.twimg.com/card_img/1906780032732708864/fUh9ACbT?format=jpg&name=small"
+    },
+    "output": {
+        "ticker": "rip sarah",
+        "name": "rip sarah"
+        "bénéfice": 2,
+        "créativité": 3
+    }
+}
+{
+    "input": {
+        "tweet_text": "I touched grass \n@discord finally cant be told to \"touch grass\"",
+        "image_url": "https://pbs.twimg.com/media/Gnd6uHUW4AA6JNN?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "wumpus",
+        "name": "wumpus"
+        "bénéfice": 1,
+        "créativité": 4
+    }
+}
+{
+    "input": {
+        "tweet_text": "April Fool’s is off to the races and boy does it make for some funny clips.\n\nWant to unlock the glimmering Gone Bananas Badge?\n\nDownload and export your funniest clip moments like snacks that make you wonder if that person’s ok during Apr 1-4 on social!",
+        "image_url": "https://pbs.twimg.com/media/GneY51zWgAA3Tci?format=jpg&name=large"
+    },
+    "output": {
+        "ticker": "gb",
+        "name": "gone bananas"
+        "bénéfice": 2,
+        "créativité": 2
+    }
+}
+{
+    "input": {
+        "tweet_text": "",
+        "image_url": "https://pbs.twimg.com/media/GndqLg4XUAAYILm?format=jpg&name=large"
+    },
+    "output": {
+        "ticker": "RETIRE",
+        "name": "RETIRE"
+        "bénéfice": 1,
+        "créativité": 3
+    }
+}
+{
+    "input": {
+        "tweet_text": "welcome back",
+        "image_url": "https://pbs.twimg.com/media/GndntYtXEAgp4RK?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "iwj",
+        "name": "intern wif job"
+        "bénéfice": 1,
+        "créativité": 4
+    }
+}
+{
+    "input": {
+        "tweet_text": "Cory Booker staffer arrested for carrying gun on Capitol grounds as senator holds floor for more than 17 hours",
+        "image_url": "https://pbs.twimg.com/media/Gnd3098XcAAIUZn?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "cory",
+        "name": "jail corry"
+        "bénéfice": 2,
+        "créativité": 3
+    }
+}
+{
+    "input": {
+        "tweet_text": "Elon chose the word \"scrawl\". I strongly suspect he did so to facilitate a motte and bailey strategy, but I suppose he could just have been careless.",
+        "image_url": ""
+    },
+    "output": {
+        "ticker": "scrawl",
+        "name": "scrawl"
+        "bénéfice": 1,
+        "créativité": 1
+    }
+}
+{
+    "input": {
+        "tweet_text": "Happy 9th birthday to chimpanzee Ruw!",
+        "image_url": "https://pbs.twimg.com/media/Gnd6EgdWYAAp736?format=jpg&name=900x900"
+    },
+    "output": {
+        "ticker": "ruw",
+        "name": "ruw"
+        "bénéfice": 2,
+        "créativité": 1
+    }
+}
+{
+    "input": {
+        "tweet_text": "Bayley is proof that real-life Snoopy lookalikes exist! Those floppy ears and sweet expression make this pup a heart-melter. But did you know that different dog breeds have unique wellness needs? From nutrition to emotional care, understanding what’s best for your pet can help them live a longer, healthier life. What’s one thing you do to keep your furry friend happy and thriving? Let’s share tips below! 🐾💙",
+        "image_url": "https://pbs.twimg.com/media/Gnd6etTXYAAn97r?format=png&name=900x900"
+    },
+    "output": {
+        "ticker": "bayley",
+        "name": "bayley"
+        "bénéfice": 2,
+        "créativité": 1
+    }
+}
+{
+    "input": {
+        "tweet_text": "Alibaba prepares for flagship AI model release as soon as April, Bloomberg News reports http://reut.rs/4cxGaWZ",
+        "image_url": "https://pbs.twimg.com/media/Gnd9j65XsAAx5ib?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "QWEN",
+        "name": "ALIBABA AI"
+        "bénéfice": 1,
+        "créativité": 3
+    }
+}
+{
+   {
+    "input": {
+        "tweet_text": "-restart-0331-final-final2-restart-forreal-omfg3-YOLO is gonna hit, i know it",
+        "image_url": ""
+    },
+    "output": {
+        "ticker": "yolo",
+        "name": "yolo"
+        "bénéfice": 1,
+        "créativité": 1
+    }
+}
+{
+    "input": {
+        "tweet_text": "i’ve kept this a secret for so long !!!",
+        "image_url": "https://pbs.twimg.com/media/GneDxPWbcAAuwzx?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "tiffanykid",
+        "name": "tiffany kid"
+        "bénéfice": 2,
+        "créativité": 4
+    }
+}
+{
+    "input": {
+        "tweet_text": "VLLC 💜  @JMilei",
+        "image_url": "https://pbs.twimg.com/media/GnaQ1leXQAAepV1?format=jpg&name=large"
+    },
+    "output": {
+        "ticker": "animilei",
+        "name": "animilei"
+        "bénéfice": 1,
+        "créativité": 4
+    }
+}
+{
+    "input": {
+        "tweet_text": "how to get all achievements?",
+        "image_url": "https://pbs.twimg.com/media/GneA1fTXoAAvToz?format=png&name=900x900"
+    },
+    "output": {
+        "ticker": "wuwpus",
+        "name": "wuwpus"
+        "bénéfice": 1,
+        "créativité": 4
+    }
+}
+    "input": {
+        "tweet_text": "What’s a better album title Nigger Cock or White Rape",
+        "image_url": ""
+    },
+    "output": {
+        "ticker": "niggercock",
+        "name": "nigger cock"
+        "bénéfice": 1,
+        "créativité": 1
+    }
+}
+"input": {  
+    "tweet_text": "Is this still coming Elon?",  
+    "image_url": "https://pbs.twimg.com/media/Gngol5aXsAArnOO?format=jpg&name=medium"  
+},  
+"output": {  
+    "ticker": « ow »,  
+    "name": "optimus woman",  
+    "bénéfice": 1,  
+    "créativité": 3  
+}  
+"input": {  
+    "tweet_text": "Is this still coming Elon?",  
+    "image_url": "https://pbs.twimg.com/media/Gngol5aXsAArnOO?format=jpg&name=medium"  
+},  
+"output": {  
+    "ticker": « ow »,  
+    "name": "optimus woman",  
+    "bénéfice": 2,  
+    "créativité": 3  
+}
+{
+    "input": {
+        "tweet_text": "Turn your photos into anime using Grok! 🔥",
+        "image_url": "https://pbs.twimg.com/media/GnfZkAmXcAASdaU?format=jpg&name=900x900"
+    },
+    "output": {
+        "ticker": "animelon",
+        "name": "animelon",
+        "bénéfice": 4,
+        "créativité": 4
+    }
+}
+{
+    "input": {
+        "tweet_text": "Grok created a cat-girl version of the Optimus.😂",
+        "image_url": "https://pbs.twimg.com/media/Gng1VhhaUAAKM2x?format=jpg&name=large"
+    },
+    "output": {
+        "ticker": "catimus",
+        "name": "catimus",
+        "bénéfice": 4,
+        "créativité": 4
+    }
+}
+{
+    "input": {
+        "tweet_text": "Two intoxicated men have been sentenced to community service and ordered to pay a hefty fine after ripping in half and stealing a statue of Paddington Bear in England.",
+        "image_url": "https://pbs.twimg.com/card_img/1904956893027553281/24le10_W?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "paddington",
+        "name": "justice for paddington",
+        "bénéfice": 2,
+        "créativité": 3
+    }
+}
+{
+    "input": {
+        "tweet_text": "Georgia dad arrested for leaving young kids at McDonald’s to attend job interview — ex-NFL star Antonio Brown vows to help family: report",
+        "image_url": "https://pbs.twimg.com/media/Gng3z7CW0AEwgxe?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "mcdiddy",
+        "name": "mcdiddy",
+        "bénéfice": 2,
+        "créativité": 2
+    }
+}
+{
+    "input": {
+        "tweet_text": "JUST IN: $1.5 TRILLION FRANKLIN TEMPLETON EXPLORING #BITCOIN ETP LAUNCH IN EUROPE\n\nNOTHING STOPS THIS TRAIN 🚀",
+        "image_url": "https://pbs.twimg.com/media/GnhOrk4WIAA50uI?format=png&name=900x900"
+    },
+    "output": {
+        "ticker": "btc etp",
+        "name": "btc etp",
+        "bénéfice": 2,
+        "créativité": 2
+    }
+}
+{
+    "input": {
+        "tweet_text": "BREAKING: Actor Val Kilmer, known for his roles in iconic movies including \"Top Gun\" and \"Heat\" has died, the AP reports. He was 65. https://abcnews.link/UQ9IrRe",
+        "image_url": "https://pbs.twimg.com/media/GnhcgYlXwAA_eQP?format=jpg&name=large"
+    },
+    "output": {
+        "ticker": "rip val",
+        "name": "rip val",
+        "bénéfice": 3,
+        "créativité": 2
+    }
+}
+{
+    "input": {
+        "tweet_text": "Disgraced ex-NYC Councilman Dan Halloran arrested at Miami airport with thousands of child sex abuse videos on phone",
+        "image_url": "https://pbs.twimg.com/media/Gnhd_40WwAAS-xy?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": « dan »,
+        "name": « new Diddy »,
+        "bénéfice": 3,
+        "créativité": 2
+    }
+}
+{
+"input": {
+"tweet_text": "Disgraced ex-NYC Councilman Dan Halloran arrested at Miami airport with thousands of child sex abuse videos on phone",
+"image_url": "https://pbs.twimg.com/media/Gnhd_40WwAAS-xy?format=jpg&name=medium"
+},
+"output": {
+"ticker": "dan",
+"name": "new Diddy",
+"bénéfice": 3,
+"créativité": 2
+}
+}
+
+{
+    "input": {
+        "tweet_text": "🇯🇵 LATEST: Japan’s second-largest bank, Sumitomo Mitsui Financial Group, teams up with Ava Labs and Fireblocks to launch a stablecoin with testing set for late 2025.",
+        "image_url": "https://pbs.twimg.com/media/Gnhg6pnW8AA_XWE?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "SMFG",
+        "name": "stablecoin",
+        "bénéfice": 3,
+        "créativité": 2
+    }
+}
+
+{
+"input": {
+"tweet_text": "JUST IN: 🇮🇳 Indian Public Company Jerking's Board approves to raise money to buy #Bitcoin\n\nAsia is getting prepared 🙌",
+"image_url": "https://pbs.twimg.com/media/GnhhYntWAAEUECS?format=jpg&name=medium"
+},
+"output": {
+"ticker": "IBR",
+"name": "india bitcoin reserve",
+"bénéfice": 3,
+"créativité": 2
+}
+}
+
+{
+"input": {
+"tweet_text": "HamsterSwap coded",
+"image_url": "https://pbs.twimg.com/media/GneOKBsWgAAM0Lx?format=jpg&name=medium"
+},
+"output": {
+"ticker": "HAMSTERSWA",
+"name": "HAMSTERSWAP",
+"bénéfice": 1,
+"créativité": 1
+}
+}
+
+{
+    "input": {
+        "tweet_text": "'Bored club girl' who was turned into internet meme reveals why she made that famous face - as new photos show what she looks like now",
+        "image_url": "https://pbs.twimg.com/card_img/1907380511988686849/RuzZIEsk?format=jpg&name=360x360"
+    },
+    "output": {
+        "ticker": "lucia",
+        "name": "bored club girl",
+        "bénéfice": 1,
+        "créativité": 3
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "A group of young retards in Ireland protesting to give more power to the government by demanding stronger online hate speech laws 🇮🇪",
+        "image_url": "https://pbs.twimg.com/media/Gnhli8XWIAAw35B?format=jpg&name=large"
+    },
+    "output": {
+        "ticker": "leprechaun",
+        "name": "new irland mascot",
+        "bénéfice": 1,
+        "créativité": 4
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "Space X is 40% Government Funded",
+        "image_url": "https://pbs.twimg.com/media/Gnh50lAWEAA9QE7?format=png&name=small"
+    },
+    "output": {
+        "ticker": "elonking",
+        "name": "elonking",
+        "bénéfice": 4,
+        "créativité": 4
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "Rico is bussing right into Tornado alley. This is why we Ryde.",
+        "image_url": "https://pbs.twimg.com/media/GniCqrFXIAA3vft?format=jpg&name=large"
+    },
+    "output": {
+        "ticker": "pumpparty",
+        "name": "pumpparty",
+        "benefit_rating": 3,
+        "creativity_rating": 4
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "Wisconsin has spoken.",
+        "image_url": "https://pbs.twimg.com/media/Gnh7IpDWkAAs9qp?format=png&name=small"
+    },
+    "output": {
+        "ticker": "cheesetruc",
+        "name": "cheesetruck",
+        "benefit_rating": 4,
+        "creativity_rating": 4
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "Space X is 40% Government Funded",
+        "image_url": "https://pbs.twimg.com/media/Gnh50lAWEAA9QE7?format=png&name=small"
+    },
+    "output": {
+        "ticker": "elon hood",
+        "name": "elon hood",
+        "bénéfice": 1,
+        "créativité": 4
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "#Bitcoin",
+        "image_url": "https://pbs.twimg.com/media/Gnh-fA4WMAAyCo3?format=jpg&name=large"
+    },
+    "output": {
+        "ticker": "bitsloth",
+        "name": "bitsloth",
+        "bénéfice": 3,
+        "créativité": 4
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "🇺🇸 NEW: Alabama passes bill allowing state investment board to allocate funds to #Bitcoin and crypto.",
+        "image_url": "https://pbs.twimg.com/media/GniA1khWQAAHi9e?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "abr",
+        "name": "alabama btc reserve",
+        "benefit_rating": 2,
+        "creativity_rating": 3
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "",
+        "image_url": "https://pbs.twimg.com/media/GniMskTXIAA5Dlp?format=png&name=900x900"
+    },
+    "output": {
+        "ticker": "kfcdog",
+        "name": "kfcdog",
+        "benefit_rating": 4,
+        "creativity_rating": 4
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "Apple quietly adds 8 new emojis to iPhones — including one that might be ‘the most used of the year’ https://trib.al/GX0no86",
+        "image_url": "https://pbs.twimg.com/media/GniNQKZWwAAW3BC?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "tow",
+        "name": "tired of winning",
+        "benefit_rating": 2,
+        "creativity_rating": 4
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "Baggage handler’s shirtless stunt in airplane’s turbine could have got him killed: ‘Stupid’",
+        "image_url": "https://pbs.twimg.com/media/GniO2N1WQAEJK1_?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "irl hulk",
+        "name": "irl hulk",
+        "benefit_rating": 3,
+        "creativity_rating": 4
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "Buttcoins only",
+        "image_url": "https://pbs.twimg.com/media/GniNpo2WcAAJ8w7?format=jpg&name=small"
+    },
+    "output": {
+        "ticker": "buttcoin",
+        "name": "buttcoin",
+        "benefit_rating": 3,
+        "creativity_rating": 3
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "Council staff to monitor Molly Malone statue to discourage touching",
+        "image_url": "https://pbs.twimg.com/card_img/1907355156074618880/2PsTrHBD?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "MMS",
+        "name": "molly malone statue",
+        "benefit_rating": 1,
+        "creativity_rating": 1
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "Council staff to monitor Molly Malone statue to discourage touching",
+        "image_url": "https://pbs.twimg.com/card_img/1907355156074618880/2PsTrHBD?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "GS",
+        "name": "gooner statue",
+        "benefit_rating": 3,
+        "creativity_rating": 4
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "#Dogimus",
+        "image_url": "https://pbs.twimg.com/media/Gng2q5aWIAEMVhh?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "Dog",
+        "name": "dogification",
+        "benefit_rating": 1,
+        "creativity_rating": 4
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "Cause of death revealed for Atlanta rapper Young Scooter https://trib.al/QrIE2XN",
+        "image_url": "https://pbs.twimg.com/media/Gng43SeWkAAagM2?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "ripscooter",
+        "name": "rip scooter",
+        "benefit_rating": 1,
+        "creativity_rating": 3
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "",
+        "image_url": "https://pbs.twimg.com/media/GnhGH3HWgAAsqrb?format=jpg&name=large"
+    },
+    "output": {
+        "ticker": "gv",
+        "name": "ghibli vitalik",
+        "benefit_rating": 1,
+        "creativity_rating": 4
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "⚡️ NEW: VanEck files to establish a trust entity in Delaware for a proposed $BNB ETF.",
+        "image_url": "https://pbs.twimg.com/media/GnhFXIIWMAAMUFM?format=png&name=900x900"
+    },
+    "output": {
+        "ticker": "bnb etf",
+        "name": "bnb etf",
+        "benefit_rating": 1,
+        "creativity_rating": 1
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "US Olympic and Paralympic officials fire coach and director after report on sexual abuse https://trib.al/bcJfaFV",
+        "image_url": "https://pbs.twimg.com/media/GnhP0wOXgAAFowC?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "diddycoach",
+        "name": "diddy coach",
+        "benefit_rating": 1,
+        "creativity_rating": 4
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "This is what happens if you take DayQuil & NyQuil at the same time",
+        "image_url": "https://pbs.twimg.com/media/GngjjP0WIAAdjJN?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "matrix",
+        "name": "matrixification",
+        "benefit_rating": 1,
+        "creativity_rating": 4
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "Introducing the CMC 100 Index: The definitive benchmark for crypto market performance 📈
+
+🔹 Tracks top 100 cryptocurrencies
+🔹 Weighted by market cap
+🔹 Transparent methodology
+🔹 Real-time updates every 5 seconds ⚡
+
+Track the market:",
+        "image_url": "https://pbs.twimg.com/card_img/1905155171438706688/IHNV1F3T?format=png&name=small"
+    },
+    "output": {
+        "ticker": "cmc100",
+        "name": "cmc100",
+        "benefit_rating": 1,
+        "creativity_rating": 1
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "아치는 쮸쮸를 좋아해(?)",
+        "image_url": "https://pbs.twimg.com/media/GnhgSm-bsAA53Du?format=jpg&name=large"
+    },
+    "output": {
+        "ticker": "CHUCHU",
+        "name": "CHUCHU",
+        "bénéfice": 1,
+        "créativité": 1
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "아치는 쮸쮸를 좋아해(?)",
+        "image_url": "https://pbs.twimg.com/media/GnhgSm-bsAA53Du?format=jpg&name=large"
+    },
+    "output": {
+        "ticker": "DWT",
+        "name": "dog wif toy",
+        "bénéfice": 1,
+        "créativité": 4
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "LFG!!!",
+        "image_url": "https://pbs.twimg.com/media/Gnhhr-CWAAA2Mnw?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "krakenninj",
+        "name": "krakenninja",
+        "bénéfice": 1,
+        "créativité": 4
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "Jeffrey Epstein victim Virginia Giuffre was charged with breaching restraining order days before crash",
+        "image_url": "https://pbs.twimg.com/media/GnhlC-oXAAAjNcW?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "VIRGINIA",
+        "name": "justice for VIRGINIA",
+        "bénéfice": 1,
+        "créativité": 3
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "JUST IN: INDIAN PUBLIC COMPANY JETKING PLANS TO RAISE FUNDS TO PURCHASE BITCOIN.\n\nSource:\n@WatcherGuru",
+        "image_url": "https://pbs.twimg.com/media/Gnhlx9BWcAAqcwq?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "jetking",
+        "name": "jetking",
+        "bénéfice": 1,
+        "créativité": 1
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "When I was in elementary school, my mom started going blind. Retinitis pigmentosa. No family history. No treatments. No cure.\n\nI got lucky. She didn’t. It led me to build @OrchidInc so my baby —and everyone else's—gets to win the genetic lottery—avoid blindness— and hundreds of severe genetic diseases.\n\nToday, the New York Times covered the tech we’ve spent years building:\nWhole genome embryo screening for *hundreds* of diseases.\nNot in theory. Not in mice. In humans. In IVF centers. Right now.",
+        "image_url": "https://pbs.twimg.com/media/GnepHIfa8AA2hEx?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "gattaca",
+        "name": "gattaca",
+        "bénéfice": 1,
+        "créativité": 1
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "> those aren't bitcoins",
+        "image_url": "https://pbs.twimg.com/media/GniMK54W4AA_F9Y?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "titcoin",
+        "name": "titcoin",
+        "bénéfice": 1,
+        "créativité": 4
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "> those aren't bitcoins",
+        "image_url": "https://pbs.twimg.com/media/GniMK54W4AA_F9Y?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "goonercoin",
+        "name": "goonercoin",
+        "bénéfice": 1,
+        "créativité": 4
+    }
+}
+
+{
+    "input": {
+        "tweet_text": "BREAKING: PAYPAL INTRODUCES SOLANA (SOL) AND CHAINLINK (LINK) FOR CUSTOMERS IN THE U.S. AND U.S. TERRITORIES.\n\nSource:\n@TreeNewsFeed",
+        "image_url": "https://pbs.twimg.com/media/GniheSWXkAIhBgD?format=jpg&name=medium"
+    },
+    "output": {
+        "ticker": "paysolana",
+        "name": "paysolana",
+        "bénéfice": 2,
+        "créativité": 3
+    }
+}
+
+"input": {  
+    "tweet_text": "The cover for Ye’s new album, WW3, has been released.  
+
+    Follow: @AFpost",  
+    "image_url": "https://pbs.twimg.com/media/Gnn_Q-zbkAAReMm?format=jpg&name=medium"  
+},  
+"output": {  
+    "ticker": " ww3 ",  
+    "name": "ww3",  
+    "bénéfice": 2,  
+    "créativité": 1  
+}  
+
+"input": {  
+    "tweet_text": "Protect these two at all costs!",  
+    "image_url": "https://pbs.twimg.com/media/GnmfZ5uaMAYAdur?format=jpg&name=medium"  
+},  
+"output": {  
+    "ticker": " magaguns ",  
+    "name": "magaguns",  
+    "bénéfice": 2,  
+    "créativité": 4  
+}  
+
+"input": {  
+    "tweet_text": "Protect these two at all costs!",  
+    "image_url": "https://pbs.twimg.com/media/GnmfZ5uaMAYAdur?format=jpg&name=medium"  
+},  
+"output": {  
+    "ticker": "ewh",  
+    "name": "elon wif hat ",  
+    "bénéfice": 1,  
+    "créativité": 4  
+}  
+
+"input": {  
+    "tweet_text": "Do you need ketchup and napkins?",  
+    "image_url": "https://pbs.twimg.com/media/GnmTSd4X0AAAE-X?format=jpg&name=medium"  
+},  
+"output": {  
+    "ticker": "mcfwog ",  
+    "name": "mcfwog",  
+    "bénéfice": 2,  
+    "créativité": 4  
+}  
+
+"input": {  
+    "tweet_text": "Teddi Mellencamp reveals stage 4 cancer spread with new tumors",  
+    "image_url": "https://pbs.twimg.com/card_img/1907551794625912832/ic9yeSs6?format=jpg&name=medium"  
+},  
+"output": {  
+    "ticker": "teddi ",  
+    "name": "justice for teddi",  
+    "bénéfice": 1,  
+    "créativité": 4  
+}  
+
+"input": {  
+    "tweet_text": "On #ThisDayInHistory in 1860, the Pony Express began.  
+
+    The Pony Express, which became a symbol of the Old West, used horseback relay teams to deliver mail and connect the West before the telegraph, revolutionizing mail speed.",  
+    "image_url": "https://pbs.twimg.com/media/GnmzAYWXUAAQKcH?format=jpg&name=medium"  
+},  
+"output": {  
+    "ticker": " pe ",  
+    "name": "Pony Express",  
+    "bénéfice": 2,  
+    "créativité": 1  
+}  
+
+"input": {  
+    "tweet_text": "",  
+    "image_url": "https://pbs.twimg.com/media/Gnmz9ylXQAALJ-k?format=png&name=900x900"  
+},  
+"output": {  
+    "ticker": "dino",  
+    "name": "chicken dino",  
+    "bénéfice": 3,  
+    "créativité": 4  
+}  
+
+"input": {  
+    "tweet_text": "His name is MAX BURWICK.  
+
+    Let us know if you want an intro to chat about the space!",  
+    "image_url": "https://pbs.twimg.com/media/Gnm65sIWgAAKJw5?format=jpg&name=large"  
+},  
+"output": {  
+    "ticker": "ghibli max",  
+    "name": "ghibli max",  
+    "bénéfice": 1,  
+    "créativité": 3  
+}  
+
+"input": {  
+    "tweet_text": "Thoughts on ONCHAIN AI WAIFUS?
+
+Burwick Law is actively investigating potential claims on behalf of investors who experienced financial losses involving $GMIKA and $STATE.  
+
+Investigation and disclosures below.
+",  
+    "image_url": "https://pbs.twimg.com/media/Gnic8zAXAAABXV9?format=jpg&name=medium"  
+},  
+"output": {  
+    "ticker": "ow",  
+    "name": "ONCHAIN WAIFUS",  
+    "bénéfice": 1,  
+    "créativité": 2  
+}  
+
+"input": {  
+    "tweet_text": "JUST IN: Cardano Foundation announces launch of Veridian—An open-source identity wallet and platform now live on iOS and Android, offering secure, verifiable credentials and privacy-preserving infrastructure.",  
+    "image_url": "https://pbs.twimg.com/media/GnnOc-1XQAA6geA?format=jpg&name=small"  
+},  
+"output": {  
+    "ticker": "veridian",  
+    "name": "veridian",  
+    "bénéfice": 1,  
+    "créativité": 2  
+}  
+
+"input": {  
+    "tweet_text": "Tired of winning yet?",  
+    "image_url": "https://pbs.twimg.com/media/GnnYcSpWkAA3dLI?format=jpg&name=medium"  
+},  
+"output": {  
+    "ticker": "gt",  
+    "name": "ghibli trump",  
+    "bénéfice": 3,  
+    "créativité": 4  
+}  
+
+"input": {  
+    "tweet_text": "espero que funcione",  
+    "image_url": "https://pbs.twimg.com/media/GnnZzh7XIAAmy18?format=jpg&name=medium"  
+},  
+"output": {  
+    "ticker": "kfc monkey",  
+    "name": "kfc monkey",  
+    "bénéfice": 2,  
+    "créativité": 4  
+}  
+
+"input": {  
+    "tweet_text": "Satanist NJ janitor sentenced after putting poop and ‘bodily fluid’ in kids’ school food",  
+    "image_url": "https://pbs.twimg.com/media/GnnbdLKXEAAtqgZ?format=jpg&name=medium"  
+},  
+"output": {  
+    "ticker": "giovanni",  
+    "name": "poop janitor",  
+    "bénéfice": 2,  
+    "créativité": 4  
+}  
+
+"input": {  
+    "tweet_text": "Sad penguin is sad.",  
+    "image_url": "https://pbs.twimg.com/media/Gnnh9leWQAAxaXf?format=png&name=900x900"  
+},  
+"output": {  
+    "ticker": "sadpenguin",  
+    "name": "sad penguin",  
+    "bénéfice": 3,  
+    "créativité": 1  
+}  
+
+"input": {  
+    "tweet_text": "damn, I didn't know there were tariffs on fart",  
+    "image_url": "https://pbs.twimg.com/media/Gnn2i15W8AAinB1?format=png&name=240x240"  
+},  
+"output": {  
+    "ticker": "ufa",  
+    "name": "usa fart act",  
+    "bénéfice": 3,  
+    "créativité": 4  
+}  
+
+"input": {  
+    "tweet_text": "There's now a 50% retaliatory tariff on all foreign Vance memes!",  
+    "image_url": "https://pbs.twimg.com/media/GnnkAlvXkAA2EOw?format=png&name=small"  
+},  
+"output": {  
+    "ticker": "pt",  
+    "name": "pwease tariff",  
+    "bénéfice": 4,  
+    "créativité": 4  
+}  
+
+"input": {  
+    "tweet_text": "",  
+    "image_url": "https://pbs.twimg.com/media/Gnnja-nWwAAlPm0?format=jpg&name=medium"  
+},  
+"output": {  
+    "ticker": "tp",  
+    "name": "tariff penguin",  
+    "bénéfice": 2,  
+    "créativité": 3 
+}  
+
+"input": {  
+    "tweet_text": "👀🐸",  
+    "image_url": "https://pbs.twimg.com/media/Gnnk5kEWAAAUoli?format=jpg&name=large"  
+},  
+"output": {  
+    "ticker": "trumpcycle",  
+    "name": "trumpcycle",  
+    "bénéfice": 3,  
+    "créativité": 4 
+} 
+
+"input": {  
+    "tweet_text": "CHOOL COVERS UP PEDOPH*LE TEACHER
+
+Trinity Valley High School in Texas is being sued by parents for allegedly concealing the actions of their music teacher Trent Muse after he allegedly s*xually abused 16 students from ages SIX to ELEVEN.
+
+During piano lessons, Muse reportedly mast*rbated in front of students, touched their private areas, and forced them to touch his pen*s. He also reportedly created sadistic "games" for students and would "reward" them for touching him.
+
+Why are schools PROTECTING an alleged pedoph*le???",  
+    "image_url": "https://pbs.twimg.com/media/GnntXYwWoAAi7QN?format=jpg&name=900x900"  
+},  
+"output": {  
+    "ticker": "muse",  
+    "name": "diddy teacher",  
+    "bénéfice": 2,  
+    "créativité": 4 
+}
+
+"input": {  
+    "tweet_text": "Incoming fan mail for Akobi! 💚 
+
+Akobi's expression says it all. One of Akobi’s youngest fans, Isabel, made the sweetest card for our pygmy hippo. Stop by to see him next to the bongo and zebras during your next visit.  
+
+📸: Hoofstock Keeper Cynthia",  
+    "image_url": "https://pbs.twimg.com/media/GnnuRQbWwAAECte?format=jpg&name=large"  
+},  
+"output": {  
+    "ticker": "Akobi",  
+    "name": "Akobi",  
+    "bénéfice": 2,  
+    "créativité": 1 
+} 
+
+"input": {  
+    "tweet_text": "🔥",  
+    "image_url": "https://pbs.twimg.com/media/Gnn0epOW0AAwpXh?format=jpg&name=large"  
+},  
+"output": {  
+    "ticker": "fyp",  
+    "name": "fuck your portfolio",  
+    "bénéfice": 4,  
+    "créativité": 3 
+} 
+
+"input": {  
+    "tweet_text": "Troubled Justin Bieber hints he's done with music as he makes surprise new career move amid marriage woes",  
+    "image_url": "https://pbs.twimg.com/card_img/1907845016673751041/G0V1HB7y?format=jpg&name=small"  
+},  
+"output": {  
+    "ticker": "jy",  
+    "name": "Justin Yeezy",  
+    "bénéfice": 1,  
+    "créativité": 4 
+} 

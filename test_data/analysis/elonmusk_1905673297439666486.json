@@ -1,0 +1,58 @@
+{
+  "tweet_id": "1905673297439666486",
+  "original_text": "On Sunday night, I will give a talk in Wisconsin.\n\nTo clarify a previous post, entrance is limited to those who have signed the petition in opposition to activist judges.\n\nI will also hand over checks for a million dollars to 2 people to be spokesmen for the petition.",
+  "named_entities": [
+    {
+      "text": "Sunday night",
+      "type": "TIME"
+    },
+    {
+      "text": "Wisconsin",
+      "type": "GPE"
+    },
+    {
+      "text": "a million dollars",
+      "type": "MONEY"
+    },
+    {
+      "text": "2",
+      "type": "CARDINAL"
+    }
+  ],
+  "capital_words": [
+    "Sunday",
+    "Wisconsin",
+    "To"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "night",
+    "talk",
+    "post",
+    "entrance",
+    "petition",
+    "opposition",
+    "judges",
+    "checks",
+    "dollars",
+    "people",
+    "spokesmen",
+    "petition"
+  ],
+  "unique_identifiers": [
+    "talk",
+    "post",
+    "opposition",
+    "dollars",
+    "Sunday",
+    "Wisconsin",
+    "checks",
+    "petition",
+    "spokesmen",
+    "people",
+    "judges",
+    "entrance",
+    "night"
+  ],
+  "tweet_identity": "talk post opposition dollars Sunday"
+}

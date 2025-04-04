@@ -1,0 +1,32 @@
+{
+  "tweet_id": "399e19f0123a4c4c95a",
+  "original_text": "Nobody sounds smarter than Indians with English accents",
+  "named_entities": [
+    {
+      "text": "Indians",
+      "type": "NORP"
+    },
+    {
+      "text": "English",
+      "type": "NORP"
+    }
+  ],
+  "capital_words": [
+    "Indians",
+    "English"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "accents"
+  ],
+  "significant_verbs": [
+    "sounds"
+  ],
+  "unique_identifiers": [
+    "Indians",
+    "accents",
+    "English"
+  ],
+  "tweet_identity": "Indians accents English",
+  "detected_themes": {}
+}

@@ -1,0 +1,33 @@
+{
+  "tweet_id": "1905677405760462873",
+  "original_text": "Someone should do a \u201cWho said it, Obama/Clinton or @DOGE?\u201d\n\nLiterally impossible to tell the difference! https://t.co/LCsdKEiFxb",
+  "named_entities": [
+    {
+      "text": "Obama/Clinton",
+      "type": "ORG"
+    },
+    {
+      "text": "@DOGE",
+      "type": "PERSON"
+    }
+  ],
+  "capital_words": [
+    "Obama",
+    "Literally"
+  ],
+  "symbols": [
+    "@DOGE"
+  ],
+  "important_nouns": [
+    "@DOGE",
+    "difference"
+  ],
+  "unique_identifiers": [
+    "Obama",
+    "difference",
+    "@DOGE",
+    "Literally",
+    "Obama/Clinton"
+  ],
+  "tweet_identity": "Obama difference @DOGE Literally Obama/Clinton"
+}

@@ -1,0 +1,22 @@
+{
+  "tweet_id": "f4d26f97c6da4a5ba87",
+  "original_text": "Prometheus Unbound",
+  "named_entities": [
+    {
+      "text": "Prometheus Unbound",
+      "type": "PERSON"
+    }
+  ],
+  "capital_words": [
+    "Unbound"
+  ],
+  "symbols": [],
+  "important_nouns": [],
+  "significant_verbs": [],
+  "unique_identifiers": [
+    "Prometheus Unbound",
+    "Unbound"
+  ],
+  "tweet_identity": "Prometheus Unbound Unbound",
+  "detected_themes": {}
+}

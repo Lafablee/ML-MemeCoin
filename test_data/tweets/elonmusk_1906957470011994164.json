@@ -1,0 +1,57 @@
+{
+  "created_at": "2025-04-01T06:31:05.000Z",
+  "id": "1906957470011994164",
+  "referenced_tweets": [
+    {
+      "type": "retweeted",
+      "id": "1906878134135263584"
+    }
+  ],
+  "entities": {
+    "urls": [
+      {
+        "start": 122,
+        "end": 139,
+        "url": "https://t.co/EpbI",
+        "display_url": "t.co/EpbI"
+      }
+    ],
+    "mentions": [
+      {
+        "start": 3,
+        "end": 11,
+        "username": "FoxNews",
+        "id": "1367531"
+      }
+    ],
+    "annotations": [
+      {
+        "start": 13,
+        "end": 16,
+        "probability": 0.7502,
+        "type": "Person",
+        "normalized_text": "Musk"
+      },
+      {
+        "start": 116,
+        "end": 120,
+        "probability": 0.9296,
+        "type": "Person",
+        "normalized_text": "Biden"
+      }
+    ]
+  },
+  "public_metrics": {
+    "retweet_count": 2344,
+    "reply_count": 0,
+    "like_count": 0,
+    "quote_count": 0,
+    "bookmark_count": 0,
+    "impression_count": 3
+  },
+  "author_id": "44196397",
+  "edit_history_tweet_ids": [
+    "1906957470011994164"
+  ],
+  "text": "RT @FoxNews: Musk shares 'mind blowing' chart showing millions of 'noncitizens' given Social Security numbers under Biden https://t.co/EpbI\u2026"
+}

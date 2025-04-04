@@ -1,0 +1,269 @@
+2025-04-03 15:40:21,290 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-03 15:40:21,291 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-03 15:42:21,714 - simulator - INFO - Tweet fictif créé avec l'ID 307acd41745b46209ac pour @ye
+2025-04-03 15:42:24,523 - simulator - INFO - Traitement du tweet 307acd41745b46209ac de @ye
+2025-04-03 15:42:24,524 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 15:42:24,556 - simulator - INFO - Analyse de 1 médias...
+2025-04-03 15:42:24,557 - media_analyzer - INFO - Analyse de l'image: https://x.com/AkademiksTV/status/1906834680986419634/photo/1
+2025-04-03 15:42:26,407 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-04-03 15:42:26,412 - media_analyzer - ERROR - Erreur lors de l'analyse de l'image: Error code: 404 - {'error': {'message': 'The model `gpt-4-vision-preview` has been deprecated, learn more here: https://platform.openai.com/docs/deprecations', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-04-03 15:42:26,413 - simulator - INFO - Consolidation des thèmes...
+2025-04-03 15:42:26,413 - simulator - INFO - Le tweet n'est pas éligible pour la génération d'un meme coin
+2025-04-03 15:53:24,748 - simulator - INFO - Tweet fictif créé avec l'ID 9528faacd6e7406e829 pour @abc news
+2025-04-03 15:53:45,788 - simulator - INFO - Traitement du tweet 9528faacd6e7406e829 de @abc news
+2025-04-03 15:53:45,789 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 15:53:45,808 - simulator - INFO - Consolidation des thèmes...
+2025-04-03 15:53:45,808 - simulator - INFO - Thème principal détecté: technologie
+2025-04-03 15:53:45,808 - simulator - INFO - Mots-clés pertinents: ['centenary', 'the Royal Australian Corps of Signals', 'Australian']
+2025-04-03 15:53:45,808 - simulator - INFO - Génération du meme coin...
+2025-04-03 15:53:46,582 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-03 15:53:46,583 - memecoin_generator - ERROR - Erreur lors de l'appel à OpenAI: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_object' is not supported with this model.", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}
+2025-04-03 15:53:46,583 - memecoin_generator - INFO - Nouvelle tentative dans 1 secondes...
+2025-04-03 15:53:47,977 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-03 15:53:47,978 - memecoin_generator - ERROR - Erreur lors de l'appel à OpenAI: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_object' is not supported with this model.", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}
+2025-04-03 15:53:47,978 - memecoin_generator - INFO - Nouvelle tentative dans 2 secondes...
+2025-04-03 15:53:50,358 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-04-03 15:53:50,360 - memecoin_generator - ERROR - Erreur lors de l'appel à OpenAI: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_object' is not supported with this model.", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}
+2025-04-03 15:53:50,360 - memecoin_generator - WARNING - Génération de secours après échec des appels OpenAI
+2025-04-03 15:53:50,361 - simulator - INFO - Meme coin généré: abc newscentena (AT)
+2025-04-03 15:53:50,361 - simulator - INFO - Tag line: Based on @abc news's viral tweet!
+2025-04-03 16:03:36,279 - simulator - INFO - Tweet fictif créé avec l'ID fe93e90044f7428fadb pour @elonmusk
+2025-04-03 16:04:06,537 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-03 16:04:06,537 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-03 16:04:20,686 - simulator - INFO - Traitement du tweet fe93e90044f7428fadb de @elonmusk
+2025-04-03 16:04:20,687 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 16:04:20,698 - simulator - INFO - Consolidation des thèmes...
+2025-04-03 16:04:20,698 - simulator - INFO - Le tweet n'est pas éligible pour la génération d'un meme coin
+2025-04-03 16:06:11,553 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-03 16:06:11,553 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-03 16:07:01,096 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-03 16:07:01,097 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-03 16:08:09,160 - simulator - INFO - Tweet fictif créé avec l'ID d8242a4eae504f79949 pour @DogeDesigner
+2025-04-03 16:08:26,888 - simulator - INFO - Traitement du tweet d8242a4eae504f79949 de @DogeDesigner
+2025-04-03 16:08:26,889 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 16:08:26,909 - simulator - INFO - Analyse de 1 médias...
+2025-04-03 16:08:26,909 - media_analyzer - INFO - Analyse de l'image: https://pbs.twimg.com/media/GnlS694WIAA3WRd?format=jpg&name=medium
+2025-04-03 16:08:31,430 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 16:08:31,437 - media_analyzer - ERROR - Erreur lors du traitement de la réponse Vision API: sequence item 6: expected str instance, NoneType found
+2025-04-03 16:08:31,438 - simulator - INFO - Consolidation des thèmes...
+2025-04-03 16:08:31,438 - theme_detector - WARNING - Erreur dans l'analyse du média 0: sequence item 6: expected str instance, NoneType found
+2025-04-03 16:08:31,439 - simulator - INFO - Thème principal détecté: technologie
+2025-04-03 16:08:31,439 - simulator - INFO - Mots-clés pertinents: ['dollars']
+2025-04-03 16:08:31,439 - simulator - INFO - Génération du meme coin...
+2025-04-03 16:08:33,614 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 16:08:33,619 - simulator - INFO - Meme coin généré: DogeDollar (DOG3)
+2025-04-03 16:08:33,619 - simulator - INFO - Tag line: Économies en 💰 avec Doge
+2025-04-03 17:49:42,999 - simulator - INFO - Tweet fictif créé avec l'ID 8839ce9169414456afd pour @NBC News
+2025-04-03 17:49:45,428 - simulator - INFO - Traitement du tweet 8839ce9169414456afd de @NBC News
+2025-04-03 17:49:45,429 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 17:49:45,449 - simulator - INFO - Consolidation des thèmes...
+2025-04-03 17:49:45,449 - simulator - INFO - Thème principal détecté: technologie
+2025-04-03 17:49:45,450 - simulator - INFO - Mots-clés pertinents: ['Ferrari', 'tariffs']
+2025-04-03 17:49:45,450 - simulator - INFO - Génération du meme coin...
+2025-04-03 17:49:48,311 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 17:49:48,312 - simulator - INFO - Meme coin généré: FerrariTech (FTECH)
+2025-04-03 17:49:48,312 - simulator - INFO - Tag line: 🚗 Vitesse sous tarifs 💰
+2025-04-03 17:53:41,132 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-03 17:53:41,133 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-03 17:54:24,807 - simulator - INFO - Tweet fictif créé avec l'ID 9ea135e85e7944f2aa2 pour @NBC News
+2025-04-03 17:54:26,769 - simulator - INFO - Traitement du tweet 9ea135e85e7944f2aa2 de @NBC News
+2025-04-03 17:54:26,770 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 17:54:26,788 - simulator - INFO - Analyse de 1 médias...
+2025-04-03 17:54:26,788 - media_analyzer - INFO - Extraction de la première frame de: https://t.co/9cHMs4Mtlt
+2025-04-03 17:54:28,353 - media_analyzer - ERROR - Impossible d'extraire un frame de la vidéo
+2025-04-03 17:54:28,355 - simulator - INFO - Consolidation des thèmes...
+2025-04-03 17:54:28,355 - theme_detector - WARNING - Erreur dans l'analyse du média 0: Impossible d'extraire un frame de la vidéo
+2025-04-03 17:54:28,355 - simulator - INFO - Le tweet n'est pas éligible pour la génération d'un meme coin
+2025-04-03 18:18:32,356 - simulator - INFO - Tweet fictif créé avec l'ID 87b55917fb3d41e98ac pour @elonmusk
+2025-04-03 18:18:35,058 - simulator - INFO - Traitement du tweet 87b55917fb3d41e98ac de @elonmusk
+2025-04-03 18:18:35,059 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 18:18:35,060 - simulator - INFO - Analyse de 1 médias...
+2025-04-03 18:18:35,061 - media_analyzer - INFO - Analyse de l'image: https://pbs.twimg.com/media/GnfS7oUW0AAp2ab?format=jpg&name=large
+2025-04-03 18:18:42,375 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 18:18:42,383 - media_analyzer - ERROR - Erreur lors du traitement de la réponse Vision API: sequence item 6: expected str instance, NoneType found
+2025-04-03 18:18:42,384 - simulator - INFO - Consolidation des thèmes...
+2025-04-03 18:18:42,384 - theme_detector - WARNING - Erreur dans l'analyse du média 0: sequence item 6: expected str instance, NoneType found
+2025-04-03 18:18:42,384 - simulator - INFO - Le tweet n'est pas éligible pour la génération d'un meme coin
+2025-04-03 18:41:12,131 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-03 18:41:12,131 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-03 18:41:31,550 - simulator - INFO - Traitement du tweet 87b55917fb3d41e98ac de @elonmusk
+2025-04-03 18:41:31,551 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 18:41:31,551 - simulator - INFO - Analyse de 1 médias...
+2025-04-03 18:41:31,552 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GnfS7oUW0AAp2ab?format=jpg&name=large
+2025-04-03 18:41:38,695 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 18:41:38,702 - simulator - INFO - Consolidation des thèmes...
+2025-04-03 18:41:38,702 - simulator - INFO - Le tweet n'est pas éligible pour la génération d'un meme coin
+2025-04-03 18:57:52,023 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-03 18:57:52,023 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-03 19:01:26,559 - simulator - INFO - Tweet fictif créé avec l'ID 375c86f5ba894547850 pour @elonmusk
+2025-04-03 19:01:33,548 - simulator - INFO - Traitement du tweet 375c86f5ba894547850 de @elonmusk
+2025-04-03 19:01:33,549 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 19:01:33,562 - simulator - INFO - Analyse de 1 médias...
+2025-04-03 19:01:33,562 - media_analyzer - INFO - Extraction de la première frame de: https://x.com/i/status/1907317741763084507
+2025-04-03 19:01:33,792 - media_analyzer - ERROR - Erreur lors de l'extraction du frame: 400 Client Error: Bad Request for url: https://x.com/i/status/1907317741763084507
+2025-04-03 19:01:33,795 - simulator - INFO - Consolidating themes...
+2025-04-03 19:01:33,796 - theme_detector - WARNING - Erreur dans l'analyse du média 0: Impossible d'extraire un frame de la vidéo
+2025-04-03 19:01:33,796 - simulator - INFO - Tweet is not eligible for meme coin generation
+2025-04-03 19:03:33,082 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-03 19:03:33,082 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-03 19:04:10,484 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-03 19:04:10,485 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-03 19:05:22,086 - simulator - INFO - Tweet fictif créé avec l'ID e80dadb22a074372901 pour @Westerndecline
+2025-04-03 19:05:24,123 - simulator - INFO - Traitement du tweet e80dadb22a074372901 de @Westerndecline
+2025-04-03 19:05:24,124 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 19:05:24,138 - simulator - INFO - Analyse de 1 médias...
+2025-04-03 19:05:24,138 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gngol5aXsAArnOO?format=jpg&name=medium
+2025-04-03 19:05:31,582 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 19:05:31,588 - media_analyzer - ERROR - Erreur lors du traitement de la réponse Vision API: sequence item 6: expected str instance, NoneType found
+2025-04-03 19:05:31,590 - simulator - INFO - Consolidating themes...
+2025-04-03 19:05:31,590 - theme_detector - WARNING - Erreur dans l'analyse du média 0: sequence item 6: expected str instance, NoneType found
+2025-04-03 19:05:31,590 - simulator - INFO - Tweet is not eligible for meme coin generation
+2025-04-03 19:16:11,247 - simulator - INFO - Traitement du tweet e80dadb22a074372901 de @Westerndecline
+2025-04-03 19:16:11,248 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 19:16:11,261 - simulator - INFO - Analyse de 1 médias...
+2025-04-03 19:16:11,262 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gngol5aXsAArnOO?format=jpg&name=medium
+2025-04-03 19:16:19,399 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 19:16:19,401 - media_analyzer - ERROR - Erreur lors du traitement de la réponse Vision API: sequence item 6: expected str instance, NoneType found
+2025-04-03 19:16:19,402 - simulator - INFO - Consolidating themes...
+2025-04-03 19:16:19,402 - theme_detector - WARNING - Erreur dans l'analyse du média 0: sequence item 6: expected str instance, NoneType found
+2025-04-03 19:16:19,402 - simulator - INFO - Tweet is not eligible for meme coin generation
+2025-04-03 19:16:33,677 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-03 19:16:33,678 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-03 19:16:39,776 - simulator - INFO - Traitement du tweet e80dadb22a074372901 de @Westerndecline
+2025-04-03 19:16:39,777 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 19:16:39,784 - simulator - INFO - Analyse de 1 médias...
+2025-04-03 19:16:39,785 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gngol5aXsAArnOO?format=jpg&name=medium
+2025-04-03 19:16:47,675 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 19:16:47,682 - simulator - INFO - Consolidating themes...
+2025-04-03 19:16:47,683 - simulator - INFO - Thème principal détecté: meme
+2025-04-03 19:16:47,683 - simulator - INFO - Mots-clés pertinents: ['Anime catgirl', 'NYAGAGO', 'Optimus will come in many forms', 'Jun 21, 2023', 'Elon Musk tweet']
+2025-04-03 19:16:47,683 - simulator - INFO - Generating meme coin...
+2025-04-03 19:16:48,529 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 19:16:48,532 - simulator - INFO - Meme coin généré: OptiCat (0PTI)
+2025-04-03 19:18:29,299 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-03 19:18:29,300 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-03 19:19:17,559 - simulator - INFO - Traitement du tweet e80dadb22a074372901 de @Westerndecline
+2025-04-03 19:19:17,560 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 19:19:17,574 - simulator - INFO - Analyse de 1 médias...
+2025-04-03 19:19:17,574 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gngol5aXsAArnOO?format=jpg&name=medium
+2025-04-03 19:19:24,563 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 19:19:24,569 - simulator - INFO - Consolidating themes...
+2025-04-03 19:19:24,569 - simulator - INFO - Thème principal détecté: meme
+2025-04-03 19:19:24,569 - simulator - INFO - Mots-clés pertinents: ['Elon Musk tweet', 'BBC NEWS', 'Elon', 'Mock BBC article', '/r/animemes']
+2025-04-03 19:19:24,569 - simulator - INFO - Generating meme coin...
+2025-04-03 19:19:26,044 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 19:19:26,048 - simulator - INFO - Meme coin généré: ElonYawn (Y4WN)
+2025-04-03 19:20:37,041 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-03 19:20:37,041 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-03 19:22:36,335 - simulator - INFO - Tweet fictif créé avec l'ID d048c86cd8274b058c9 pour @ye
+2025-04-03 19:22:37,817 - simulator - INFO - Traitement du tweet d048c86cd8274b058c9 de @ye
+2025-04-03 19:22:37,818 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 19:22:37,832 - simulator - INFO - Analyse de 1 médias...
+2025-04-03 19:22:37,832 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gnl0-2XbwAAm_pm?format=jpg&name=large
+2025-04-03 19:22:46,149 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 19:22:46,155 - simulator - INFO - Consolidating themes...
+2025-04-03 19:22:46,155 - simulator - INFO - Thème principal détecté: celebrite
+2025-04-03 19:22:46,156 - simulator - INFO - Mots-clés pertinents: ['JARED', 'HEIL HITLER', 'COSBY', 'HITLER YE AND JESUS', 'DIRTY MAGAZINES']
+2025-04-03 19:22:46,156 - simulator - INFO - Generating meme coin...
+2025-04-03 19:22:46,156 - simulator - INFO - Tweet has minimal text - generating meme coin based primarily on image content
+2025-04-03 19:22:47,182 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-03 19:22:47,192 - simulator - INFO - Meme coin généré: YeHitlerCoin (YHC)
+2025-04-03 20:24:53,366 - simulator - INFO - Tweet fictif créé avec l'ID 399e19f0123a4c4c95a pour @ye
+2025-04-03 20:24:55,078 - simulator - INFO - Traitement du tweet 399e19f0123a4c4c95a de @ye
+2025-04-03 20:24:55,080 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 20:24:55,096 - simulator - INFO - Consolidating themes...
+2025-04-03 20:24:55,096 - simulator - INFO - Tweet is not eligible for meme coin generation
+2025-04-03 20:25:31,690 - simulator - INFO - Tweet fictif créé avec l'ID a0c8536ac09a47ffab0 pour @ye
+2025-04-03 20:25:33,610 - simulator - INFO - Traitement du tweet a0c8536ac09a47ffab0 de @ye
+2025-04-03 20:25:33,611 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 20:25:33,622 - simulator - INFO - Consolidating themes...
+2025-04-03 20:25:33,622 - simulator - INFO - Tweet is not eligible for meme coin generation
+2025-04-03 20:27:24,784 - simulator - INFO - Traitement du tweet a0c8536ac09a47ffab0 de @ye
+2025-04-03 20:27:24,785 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 20:27:24,795 - simulator - INFO - Consolidating themes...
+2025-04-03 20:27:24,796 - simulator - INFO - Tweet is not eligible for meme coin generation
+2025-04-03 23:51:59,769 - simulator - INFO - Tweet fictif créé avec l'ID 1e16d01968d741349fe pour @kanyewest
+2025-04-03 23:52:02,150 - simulator - INFO - Traitement du tweet 1e16d01968d741349fe de @kanyewest
+2025-04-03 23:52:02,151 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 23:52:02,176 - simulator - INFO - Consolidating themes...
+2025-04-03 23:52:02,176 - simulator - INFO - Tweet is not eligible for meme coin generation
+2025-04-03 23:56:38,791 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-03 23:56:38,791 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-03 23:58:29,920 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-03 23:58:29,921 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-03 23:58:43,696 - simulator - INFO - Traitement du tweet 1e16d01968d741349fe de @kanyewest
+2025-04-03 23:58:43,696 - simulator - INFO - Analyse du texte du tweet...
+2025-04-03 23:58:43,738 - simulator - INFO - Consolidating themes...
+2025-04-03 23:58:43,738 - simulator - INFO - Tweet is not eligible for meme coin generation
+2025-04-04 00:00:11,357 - simulator - INFO - Tweet fictif créé avec l'ID f575081ecb604ebea55 pour @kanyewest
+2025-04-04 00:00:14,730 - simulator - INFO - Traitement du tweet f575081ecb604ebea55 de @kanyewest
+2025-04-04 00:00:14,731 - simulator - INFO - Analyse du texte du tweet...
+2025-04-04 00:00:14,747 - simulator - INFO - Consolidating themes...
+2025-04-04 00:00:14,747 - simulator - INFO - Tweet is not eligible for meme coin generation
+2025-04-04 00:28:27,916 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-04 00:28:27,916 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-04 00:28:47,275 - simulator - INFO - Traitement du tweet f575081ecb604ebea55 de @kanyewest
+2025-04-04 00:28:47,276 - simulator - INFO - Analyse du texte du tweet...
+2025-04-04 00:28:47,288 - simulator - INFO - Tweet matches pattern criteria - automatically eligible
+2025-04-04 00:28:47,289 - simulator - INFO - Consolidating themes...
+2025-04-04 00:28:47,289 - theme_detector - INFO - Content eligible based on pattern matching
+2025-04-04 00:28:47,289 - simulator - INFO - Thème principal détecté: None
+2025-04-04 00:28:47,289 - simulator - INFO - Mots-clés pertinents: ['bro']
+2025-04-04 00:28:47,289 - simulator - INFO - Generating meme coin...
+2025-04-04 00:28:53,317 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-04 00:28:53,326 - simulator - INFO - Meme coin généré: RipBro (RIPBRO)
+2025-04-04 00:30:20,625 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-04 00:30:20,626 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-04 00:30:42,943 - simulator - INFO - Tweet fictif créé avec l'ID 5e2b1a2036e34e76885 pour @kanyewest
+2025-04-04 00:30:45,500 - simulator - INFO - Traitement du tweet 5e2b1a2036e34e76885 de @kanyewest
+2025-04-04 00:30:45,501 - simulator - INFO - Analyse du texte du tweet...
+2025-04-04 00:30:45,515 - simulator - INFO - Tweet matches pattern criteria - automatically eligible
+2025-04-04 00:30:45,515 - simulator - INFO - Consolidating themes...
+2025-04-04 00:30:45,515 - theme_detector - INFO - Content eligible based on pattern matching
+2025-04-04 00:30:45,515 - simulator - INFO - Thème principal détecté: None
+2025-04-04 00:30:45,515 - simulator - INFO - Mots-clés pertinents: ['Cole', 'J Cole', 'virginity']
+2025-04-04 00:30:45,515 - simulator - INFO - Generating meme coin...
+2025-04-04 00:30:47,404 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-04 00:30:47,407 - simulator - INFO - Meme coin généré: ColeLess (N0JC0L3)
+2025-04-04 00:32:22,164 - simulator - INFO - Tweet fictif créé avec l'ID 2001c47a27b4436d8ad pour @kanyewest
+2025-04-04 00:32:23,631 - simulator - INFO - Traitement du tweet 2001c47a27b4436d8ad de @kanyewest
+2025-04-04 00:32:23,632 - simulator - INFO - Analyse du texte du tweet...
+2025-04-04 00:32:23,656 - simulator - INFO - Tweet matches pattern criteria - automatically eligible
+2025-04-04 00:32:23,656 - simulator - INFO - Consolidating themes...
+2025-04-04 00:32:23,656 - theme_detector - INFO - Content eligible based on pattern matching
+2025-04-04 00:32:23,656 - simulator - INFO - Thème principal détecté: None
+2025-04-04 00:32:23,656 - simulator - INFO - Mots-clés pertinents: ['plants', 'J Cole     ', 'Cole', 'Drake', 'Super Bowl']
+2025-04-04 00:32:23,656 - simulator - INFO - Generating meme coin...
+2025-04-04 00:32:24,933 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-04 00:32:24,934 - simulator - INFO - Meme coin généré: JCOLE WIF HAT (JWWH)
+2025-04-04 00:35:09,504 - simulator - INFO - Tweet fictif créé avec l'ID 5ec7443380e64cdf854 pour @elonmusk
+2025-04-04 00:35:10,946 - simulator - INFO - Traitement du tweet 5ec7443380e64cdf854 de @elonmusk
+2025-04-04 00:35:10,946 - simulator - INFO - Analyse du texte du tweet...
+2025-04-04 00:35:10,963 - simulator - INFO - Analyse de 1 médias...
+2025-04-04 00:35:10,964 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/FyY4qACacAAn4HG?format=jpg&name=medium
+2025-04-04 00:35:15,686 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-04 00:35:15,689 - simulator - INFO - Tweet matches pattern criteria - automatically eligible
+2025-04-04 00:35:15,689 - simulator - INFO - Consolidating themes...
+2025-04-04 00:35:15,689 - theme_detector - INFO - Content eligible based on pattern matching
+2025-04-04 00:35:15,689 - simulator - INFO - Thème principal détecté: justice
+2025-04-04 00:35:15,690 - simulator - INFO - Mots-clés pertinents: ['Extraterrestrials']
+2025-04-04 00:35:15,690 - simulator - INFO - Generating meme coin...
+2025-04-04 00:35:17,068 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-04 00:35:17,090 - simulator - INFO - Meme coin généré: AlienAGI (ET4GI)
+2025-04-04 16:29:45,669 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-04 16:29:45,669 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-04 16:32:17,319 - simulator - INFO - Tweet fictif créé avec l'ID f4d26f97c6da4a5ba87 pour @elonmusk
+2025-04-04 16:32:19,514 - simulator - INFO - Traitement du tweet f4d26f97c6da4a5ba87 de @elonmusk
+2025-04-04 16:32:19,516 - simulator - INFO - Analyse du texte du tweet...
+2025-04-04 16:32:19,522 - simulator - INFO - Analyse de 1 médias...
+2025-04-04 16:32:19,523 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GnqquRUWIAAck-K?format=jpg&name=medium
+2025-04-04 16:32:25,549 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-04 16:32:25,556 - simulator - INFO - Tweet matches pattern criteria - automatically eligible
+2025-04-04 16:32:25,557 - simulator - INFO - Consolidating themes...
+2025-04-04 16:32:25,557 - theme_detector - INFO - Content eligible based on pattern matching
+2025-04-04 16:32:25,557 - simulator - INFO - Tweet eligible via pattern matching
+2025-04-04 16:32:25,557 - simulator - INFO - Thème principal détecté: None
+2025-04-04 16:32:25,557 - simulator - INFO - Mots-clés pertinents: ['Unbound', 'Prometheus Unbound', 'Rocket', 'Smoke', 'Flames']
+2025-04-04 16:32:25,557 - simulator - INFO - Generating meme coin...
+2025-04-04 16:32:26,447 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-04 16:32:26,450 - simulator - INFO - Meme coin généré: elonfire (ELONFLAME)

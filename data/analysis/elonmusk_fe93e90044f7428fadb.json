@@ -1,0 +1,32 @@
+{
+  "tweet_id": "fe93e90044f7428fadb",
+  "original_text": "Democrats would never use the Hitler Nazi hand gesture would they?",
+  "named_entities": [
+    {
+      "text": "Democrats",
+      "type": "NORP"
+    },
+    {
+      "text": "the Hitler Nazi",
+      "type": "LOC"
+    }
+  ],
+  "capital_words": [
+    "Hitler",
+    "Nazi"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "hand",
+    "gesture"
+  ],
+  "significant_verbs": [],
+  "unique_identifiers": [
+    "hand",
+    "Hitler",
+    "Nazi",
+    "gesture"
+  ],
+  "tweet_identity": "hand Hitler Nazi gesture",
+  "detected_themes": {}
+}
