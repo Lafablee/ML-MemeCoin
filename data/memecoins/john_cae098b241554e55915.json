@@ -1,0 +1,8 @@
+{
+  "token_name": "John Wif Hat",
+  "token_symbol": "JWH",
+  "tweet_author": "john",
+  "relevant_keywords": [],
+  "generated_at": "2025-04-06 11:17:19",
+  "condition": "Create a memecoin concept where ticker is first letter of person + WH (max 8 chars), name is '[person] Wif Hat' (default person: no coin if no name found)"
+}

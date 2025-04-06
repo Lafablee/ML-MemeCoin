@@ -1,0 +1,31 @@
+{
+  "tweet_id": "74522024a1dc45a5b49",
+  "original_text": "This is what happens if you take DayQuil & NyQuil at the same time",
+  "named_entities": [
+    {
+      "text": "DayQuil & NyQuil",
+      "type": "ORG"
+    }
+  ],
+  "capital_words": [
+    "DayQuil",
+    "NyQuil"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "time"
+  ],
+  "significant_verbs": [
+    "happens",
+    "take"
+  ],
+  "unique_identifiers": [
+    "NyQuil",
+    "DayQuil",
+    "DayQuil & NyQuil",
+    "time"
+  ],
+  "tweet_identity": "NyQuil DayQuil time DayQuil & NyQuil",
+  "detected_themes": {},
+  "username": "elonmusk"
+}

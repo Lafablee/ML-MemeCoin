@@ -19,12 +19,20 @@ def extract_ticker_info(text):
     touch_words = {'touching', 'Caress', 'Fondle', 'Stroke', 'Massage', 'Embrace', 'Cuddle', 'Rub', 'Tease'}
 
     text_lower = text.lower()
-    words = text.split()
+    text_lower = text_lower.replace(","," ")
+    text_lower = text_lower.replace("."," ")
+    text_lower = text_lower.replace(";"," ")
+    text_lower = text_lower.replace("-"," ")
+    text_lower = text_lower.replace("/"," ")
+
+    words = text_lower.split()
 
     # Condition 1: '$' suivi d'un mot
     for word in words:
         if word.startswith('$') and len(word) > 1:
             return "Create a memecoin concept where ticker is the word following '$' (uppercase, max 10 chars, abbreviate if longer), name is the word following '$' + ' Coin'"
+        if word == 'hat':
+            return "Create a memecoin concept where ticker is first letter of person + WH (max 8 chars), name is '[person] Wif Hat' (default person: no coin if no name found)"
 
     # Condition 2: Elon
     if 'elon' in text_lower:
@@ -49,10 +57,6 @@ def extract_ticker_info(text):
     # Condition 7: Crime
     if any(word.lower() in crime_words for word in words):
         return "Create a memecoin concept where ticker is person's name (max 10 chars, use first name if multiple), name is 'Jail [first name]' (if no name, use 'billy')"
-
-    # Condition 8: Chapeau
-    if 'hat' in text_lower:
-        return "Create a memecoin concept where ticker is first letter of person + WH (max 8 chars), name is '[person] Wif Hat' (default person: no coin if no name found)"
 
     # Condition 9: Mots de toilette
     if any(word.lower() in toilet_words for word in words):
@@ -117,6 +121,8 @@ def is_pattern_eligible(tweet_text: str, username: str = None, media_analysis: D
     if condition_match:
         return True
     
+    return False
+
     # Check for death-related terms
     death_words = ["dead", "deceased", "gone", "perished", "died", "rip", "killed", "passed"]
     tweet_lower = tweet_text.lower()

@@ -59,17 +59,18 @@
     "save"
   ],
   "unique_identifiers": [
-    "J Cole     ",
     "Cole",
-    "Drake",
-    "Kendrick",
-    "Super",
     "Bowl",
-    "J Cole",
     "SZA",
-    "plants",
-    "music"
+    "J Cole     ",
+    "J Cole",
+    "Super",
+    "Kendrick",
+    "Drake",
+    "industry",
+    "commercial"
   ],
-  "tweet_identity": "plants J Cole      Cole Drake music",
-  "detected_themes": {}
+  "tweet_identity": "industry Cole Bowl commercial music",
+  "detected_themes": {},
+  "username": "kanyewest"
 }

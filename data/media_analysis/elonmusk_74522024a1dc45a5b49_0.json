@@ -1,0 +1,25 @@
+{
+  "description": "The image depicts two individuals standing in a lobby with marble floors. The background displays several American flags and a bust, suggesting a governmental or official setting. One individual is dressed in a long coat, while the other has sunglasses and carries large guns. Both appear to be in a stylized action pose. The floor has a large emblem indicating 'Central Intelligence Agency'. The image has been edited with a green tint.",
+  "subjects": [
+    "Two people",
+    "Central Intelligence Agency emblem",
+    "American flags",
+    "Bust"
+  ],
+  "actions": [
+    "Standing in a lobby",
+    "Holding guns"
+  ],
+  "mood": "Humorous, Surreal",
+  "visible_text": [
+    "Intelligence"
+  ],
+  "emotional_themes": [
+    "Humor",
+    "Parody"
+  ],
+  "is_meme": true,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

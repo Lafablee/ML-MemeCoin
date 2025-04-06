@@ -382,3 +382,155 @@
 2025-04-06 00:36:15,193 - simulator - INFO - Generating meme coin...
 2025-04-06 00:36:16,237 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-04-06 00:36:16,241 - simulator - INFO - Meme coin généré: CATNIME (ELNIME)
+2025-04-06 10:31:12,116 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 10:31:12,117 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 10:31:28,291 - simulator - INFO - Traitement du tweet 2001c47a27b4436d8ad de @kanyewest
+2025-04-06 10:31:28,292 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 10:31:28,336 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where ticker is first letter of person + WH (max 8 chars), name is '[person] Wif Hat' (default person: no coin if no name found)
+2025-04-06 10:31:28,336 - simulator - INFO - Mots-clés pertinents: ['industry', 'Cole', 'Bowl', 'commercial', 'Super Bowl', 'SZA', 'J Cole', 'J Cole     ', 'Super', 'Kendrick']
+2025-04-06 10:31:28,336 - simulator - INFO - Generating meme coin...
+2025-04-06 10:31:29,808 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 10:31:29,817 - simulator - INFO - Meme coin généré: Cole WIF HAT (CWH)
+2025-04-06 10:33:23,247 - simulator - INFO - Tweet fictif créé avec l'ID 74522024a1dc45a5b49 pour @elonmusk
+2025-04-06 10:33:24,666 - simulator - INFO - Traitement du tweet 74522024a1dc45a5b49 de @elonmusk
+2025-04-06 10:33:24,672 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 10:33:24,685 - simulator - INFO - Analyse de 1 médias...
+2025-04-06 10:33:24,685 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GngjjP0WIAAdjJN?format=jpg&name=medium
+2025-04-06 10:33:29,048 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 10:33:29,049 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where ticker is first letter of person + WH (max 8 chars), name is '[person] Wif Hat' (default person: no coin if no name found)
+2025-04-06 10:33:29,049 - simulator - INFO - Mots-clés pertinents: ['DayQuil & NyQuil', 'NyQuil', 'Two people', 'Central Intelligence Agency emblem', 'American flags', 'time', 'Intelligence', 'DayQuil', 'Bust']
+2025-04-06 10:33:29,049 - simulator - INFO - Generating meme coin...
+2025-04-06 10:33:29,966 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 10:33:29,972 - simulator - INFO - Meme coin généré: Elon Wif Hat (EWH)
+2025-04-06 10:55:01,339 - simulator - INFO - Tweet fictif créé avec l'ID c5e8fdc7ecf64eeaa08 pour @michaelJackson
+2025-04-06 10:55:03,022 - simulator - INFO - Traitement du tweet c5e8fdc7ecf64eeaa08 de @michaelJackson
+2025-04-06 10:55:03,022 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 10:55:03,032 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where ticker is first letter of person + WH (max 8 chars), name is '[person] Wif Hat' (default person: no coin if no name found)
+2025-04-06 10:55:03,032 - simulator - INFO - Mots-clés pertinents: []
+2025-04-06 10:55:03,033 - simulator - INFO - Generating meme coin...
+2025-04-06 10:55:05,522 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 10:55:05,528 - simulator - INFO - Meme coin généré: Michael Wif Hat (MWH)
+2025-04-06 10:56:29,621 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 10:56:29,621 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 10:56:40,467 - simulator - INFO - Traitement du tweet c5e8fdc7ecf64eeaa08 de @michaelJackson
+2025-04-06 10:56:40,468 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 10:56:40,480 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where ticker is first letter of person + WH (max 8 chars), name is '[person] Wif Hat' (default person: no coin if no name found)
+2025-04-06 10:56:40,480 - simulator - INFO - Mots-clés pertinents: []
+2025-04-06 10:56:40,486 - simulator - INFO - Generating meme coin...
+2025-04-06 10:56:41,853 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 10:56:41,860 - simulator - INFO - Meme coin généré: Michael WIF HAT (MWH)
+2025-04-06 11:07:24,688 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 11:07:24,688 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 11:08:06,203 - simulator - INFO - Tweet fictif créé avec l'ID 645d0ee43ad24b2da0c pour @jack
+2025-04-06 11:08:08,711 - simulator - INFO - Traitement du tweet 645d0ee43ad24b2da0c de @jack
+2025-04-06 11:08:08,711 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 11:08:08,715 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where ticker is first letter of person + WH (max 8 chars), name is '[person] Wif Hat' (default person: no coin if no name found)
+2025-04-06 11:08:08,715 - simulator - INFO - Mots-clés pertinents: []
+2025-04-06 11:08:08,718 - simulator - INFO - Generating meme coin...
+2025-04-06 11:08:09,722 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 11:08:09,727 - simulator - INFO - Meme coin généré: Jack Wif Hat (JWH)
+2025-04-06 11:09:30,087 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 11:09:30,088 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 11:09:47,117 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 11:09:47,118 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 11:10:00,660 - simulator - INFO - Tweet fictif créé avec l'ID bcde46685cfd46a8999 pour @james
+2025-04-06 11:10:02,106 - simulator - INFO - Traitement du tweet bcde46685cfd46a8999 de @james
+2025-04-06 11:10:02,107 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 11:10:02,114 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where ticker is first letter of person + WH (max 8 chars), name is '[person] Wif Hat' (default person: no coin if no name found)
+2025-04-06 11:10:02,114 - simulator - INFO - Mots-clés pertinents: []
+2025-04-06 11:10:02,115 - simulator - INFO - Generating meme coin...
+2025-04-06 11:10:03,362 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 11:10:03,371 - simulator - INFO - Meme coin généré: James WIF HAT (JWH)
+2025-04-06 11:15:45,885 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 11:15:45,886 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 11:16:15,997 - simulator - INFO - Tweet fictif créé avec l'ID a13fa61d9a8b46a2b07 pour @robin
+2025-04-06 11:16:18,499 - simulator - INFO - Traitement du tweet a13fa61d9a8b46a2b07 de @robin
+2025-04-06 11:16:18,500 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 11:16:18,512 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin Hat was found
+2025-04-06 11:16:18,512 - simulator - INFO - Mots-clés pertinents: []
+2025-04-06 11:16:18,513 - simulator - INFO - Generating meme coin...
+2025-04-06 11:16:19,805 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 11:16:19,809 - simulator - INFO - Meme coin généré: HAT WIF HAT (HWH)
+2025-04-06 11:17:16,985 - simulator - INFO - Tweet fictif créé avec l'ID cae098b241554e55915 pour @john
+2025-04-06 11:17:18,273 - simulator - INFO - Traitement du tweet cae098b241554e55915 de @john
+2025-04-06 11:17:18,273 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 11:17:18,278 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where ticker is first letter of person + WH (max 8 chars), name is '[person] Wif Hat' (default person: no coin if no name found)
+2025-04-06 11:17:18,278 - simulator - INFO - Mots-clés pertinents: []
+2025-04-06 11:17:18,278 - simulator - INFO - Generating meme coin...
+2025-04-06 11:17:19,179 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 11:17:19,182 - simulator - INFO - Meme coin généré: John Wif Hat (JWH)
+2025-04-06 11:25:01,248 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 11:25:01,249 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 11:26:38,861 - simulator - INFO - Tweet fictif créé avec l'ID dc21d93604374e8fa39 pour @chris
+2025-04-06 11:26:40,778 - simulator - INFO - Traitement du tweet dc21d93604374e8fa39 de @chris
+2025-04-06 11:26:40,779 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 11:26:40,789 - simulator - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-06 11:26:40,789 - simulator - INFO - Mots-clés pertinents: []
+2025-04-06 11:26:40,790 - simulator - INFO - Generating meme coin...
+2025-04-06 11:26:41,677 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 11:26:41,686 - simulator - INFO - Meme coin généré: ChrisWHat (CWH)
+2025-04-06 11:32:10,552 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 11:32:10,553 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 11:32:33,782 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 11:32:33,784 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 11:33:00,348 - simulator - INFO - Tweet fictif créé avec l'ID 3a89bebeed9143a8894 pour @julie
+2025-04-06 11:33:02,188 - simulator - INFO - Traitement du tweet 3a89bebeed9143a8894 de @julie
+2025-04-06 11:33:02,189 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 11:33:02,200 - simulator - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-06 11:33:02,200 - simulator - INFO - Mots-clés pertinents: []
+2025-04-06 11:33:02,201 - simulator - INFO - Generating meme coin...
+2025-04-06 11:33:03,351 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 11:33:03,354 - simulator - INFO - Meme coin généré: JulieWifHat (JWH)
+2025-04-06 11:34:02,297 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 11:34:02,297 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 11:34:10,074 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 11:34:10,074 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 11:34:16,187 - simulator - INFO - Traitement du tweet 3a89bebeed9143a8894 de @julie
+2025-04-06 11:34:16,187 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 11:34:16,192 - simulator - INFO - Tweet éligible via is_pattern_eligible: False
+2025-04-06 11:34:16,192 - simulator - INFO - Tweet non éligible - aucune condition validée
+2025-04-06 11:34:46,002 - simulator - INFO - Traitement du tweet dc21d93604374e8fa39 de @chris
+2025-04-06 11:34:46,003 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 11:34:46,012 - simulator - INFO - Tweet éligible via is_pattern_eligible: False
+2025-04-06 11:34:46,012 - simulator - INFO - Tweet non éligible - aucune condition validée
+2025-04-06 11:35:58,725 - simulator - INFO - Tweet fictif créé avec l'ID 16a33bfc760f4813b8a pour @calum
+2025-04-06 11:36:00,317 - simulator - INFO - Traitement du tweet 16a33bfc760f4813b8a de @calum
+2025-04-06 11:36:00,317 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 11:36:00,323 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where ticker is first letter of person + WH (max 8 chars), name is '[person] Wif Hat' (default person: no coin if no name found)
+2025-04-06 11:36:00,323 - simulator - INFO - Mots-clés pertinents: []
+2025-04-06 11:36:00,324 - simulator - INFO - Generating meme coin...
+2025-04-06 11:36:01,476 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 11:36:01,479 - simulator - INFO - Meme coin généré: Calum WIF HAT (CWH)
+2025-04-06 11:36:43,749 - simulator - INFO - Tweet fictif créé avec l'ID aba7eb015629430fb67 pour @zoe
+2025-04-06 11:36:46,618 - simulator - INFO - Traitement du tweet aba7eb015629430fb67 de @zoe
+2025-04-06 11:36:46,618 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 11:36:46,626 - simulator - INFO - Tweet éligible via is_pattern_eligible: False
+2025-04-06 11:36:46,626 - simulator - INFO - Tweet non éligible - aucune condition validée
+2025-04-06 11:39:34,734 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 11:39:34,734 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 11:39:44,697 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 11:39:44,697 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 11:39:51,722 - simulator - INFO - Traitement du tweet aba7eb015629430fb67 de @zoe
+2025-04-06 11:39:51,723 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 11:39:51,735 - simulator - INFO - Tweet éligible via is_pattern_eligible: False
+2025-04-06 11:39:51,736 - simulator - INFO - Tweet non éligible - aucune condition validée
+2025-04-06 11:40:34,511 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 11:40:34,511 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 11:40:39,756 - simulator - INFO - Traitement du tweet aba7eb015629430fb67 de @zoe
+2025-04-06 11:40:39,757 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 11:40:39,770 - simulator - INFO - Tweet éligible via is_pattern_eligible: False
+2025-04-06 11:40:39,771 - simulator - INFO - Tweet non éligible - aucune condition validée
+2025-04-06 11:41:58,474 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 11:41:58,474 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 11:42:47,002 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 11:42:47,002 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 11:43:38,102 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 11:43:38,103 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 11:43:59,755 - simulator - INFO - Tweet fictif créé avec l'ID e44658e1b27c42d4b8c pour @timmy
+2025-04-06 11:44:02,363 - simulator - INFO - Traitement du tweet e44658e1b27c42d4b8c de @timmy
+2025-04-06 11:44:02,363 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 11:44:02,376 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where ticker is first letter of person + WH (max 8 chars), name is '[person] Wif Hat' (default person: no coin if no name found)
+2025-04-06 11:44:02,376 - simulator - INFO - Mots-clés pertinents: []
+2025-04-06 11:44:02,377 - simulator - INFO - Generating meme coin...
+2025-04-06 11:44:03,655 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 11:44:03,664 - simulator - INFO - Meme coin généré: Timmy WIF HAT (TWH)

@@ -167,6 +167,10 @@ class MemecoinsGenerator:
             Remember the special instructions and follow examples provided when applicable.
             """
         
+        # add debug for prompt structure
+        self.logger.debug(f"SYSTEM PROMPT:\n{system_prompt}")
+        self.logger.debug(f"USER PROMPT:\n{user_prompt}")
+        
         # Multiple attempts in case of error
         for attempt in range(max_retries):
             try:
