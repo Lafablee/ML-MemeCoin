@@ -1,0 +1,21 @@
+{
+  "description": "The image depicts a long-exposure shot of a rocket launch at night. The bright arc shows the trajectory of the rocket as it ascends, with a starry sky and a horizon with lights in the background.",
+  "subjects": [
+    "Rocket",
+    "Starry sky",
+    "Horizon"
+  ],
+  "actions": [
+    "Rocket launch"
+  ],
+  "mood": "Majestic and awe-inspiring",
+  "visible_text": [],
+  "emotional_themes": [
+    "Wonder",
+    "Excitement"
+  ],
+  "is_meme": false,
+  "is_crisis": false,
+  "crisis_type": "",
+  "detected_themes": {}
+}

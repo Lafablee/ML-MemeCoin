@@ -1,0 +1,19 @@
+{
+  "id": "68692952133c44008fc",
+  "text": "molu Grab one while supplies last",
+  "created_at": "2025-04-06T15:28:30.143445",
+  "public_metrics": {
+    "like_count": 12000,
+    "retweet_count": 2300,
+    "reply_count": 0,
+    "quote_count": 0
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/GnpFEk1WwAApyF6?format=jpg&name=medium",
+      "preview_image_url": "https://pbs.twimg.com/media/GnpFEk1WwAApyF6?format=jpg&name=medium",
+      "media_key": "media_key_68692952133c44008fc_0"
+    }
+  ]
+}

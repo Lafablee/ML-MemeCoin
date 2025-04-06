@@ -1,0 +1,25 @@
+{
+  "description": "The image shows a basketball game with two players prominently in the foreground. One player in a New York Knicks uniform is dribbling the ball while being defended by an opposing player in a black and red uniform. The background includes spectators watching the game. There is an inset image of a man, possibly a coach, appearing focused.",
+  "subjects": [
+    "Basketball player in New York Knicks uniform",
+    "Defending player in black and red uniform",
+    "Spectators",
+    "Inset image of a man"
+  ],
+  "actions": [
+    "Dribbling",
+    "Defending"
+  ],
+  "mood": "Competitive",
+  "visible_text": [
+    "New York"
+  ],
+  "emotional_themes": [
+    "Intensity",
+    "Focus"
+  ],
+  "is_meme": false,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

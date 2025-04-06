@@ -1,0 +1,43 @@
+{
+  "tweet_id": "967ef7e7a111417b801",
+  "original_text": "newyorkpost Tom Thibodeau takes Josh Hart\u2019s tantrum in stride: \u2018no-win situation\u2019 ",
+  "named_entities": [
+    {
+      "text": "Tom Thibodeau",
+      "type": "PERSON"
+    },
+    {
+      "text": "Josh Hart\u2019s",
+      "type": "PERSON"
+    }
+  ],
+  "capital_words": [
+    "Tom",
+    "Thibodeau",
+    "Josh",
+    "Hart"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "tantrum",
+    "stride",
+    "situation"
+  ],
+  "significant_verbs": [
+    "takes"
+  ],
+  "unique_identifiers": [
+    "Josh",
+    "Hart",
+    "Josh Hart\u2019s",
+    "Tom",
+    "Tom Thibodeau",
+    "Thibodeau",
+    "stride",
+    "tantrum",
+    "situation"
+  ],
+  "tweet_identity": "stride Josh tantrum situation Hart",
+  "detected_themes": {},
+  "username": "newyorkpost"
+}

@@ -1,0 +1,23 @@
+{
+  "description": "A person dressed in formal attire is looking forward with a neutral expression against a dark background.",
+  "subjects": [
+    "Person"
+  ],
+  "actions": [
+    "Sitting or standing still"
+  ],
+  "mood": "Neutral",
+  "visible_text": [],
+  "emotional_themes": [
+    "Calmness",
+    "Intensity"
+  ],
+  "is_meme": false,
+  "is_crisis": false,
+  "crisis_type": "",
+  "detected_themes": {
+    "conflit": [
+      "war"
+    ]
+  }
+}

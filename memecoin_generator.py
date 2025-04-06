@@ -26,18 +26,15 @@ class MemecoinsGenerator:
 
         Rules for the meme coin name:
         1. The name must be SHORT, catchy and memorable (maximum 10 characters preferred)
-        2. It must have a DIRECT connection to the tweet content
+        2. It must have a DIRECT connection to the tweet content or the descritpion(most important point dont be too creative)
         3. NEVER include the word "coin" in the name
-        4. Be creative, unexpected, and humorous
-        5. Use wordplay, puns, or references from the tweet
-        6. If the tweet mentions a person, incorporate their name
+        6. If the tweet mentions a person, incorporate their name (important)
 
         Rules for the ticker:
-        1. The ticker must be between 3 and 10 characters 
+        1. The ticker must be between 3 and 10 characters(10 preferably)
         2. CAPITAL LETTERS ONLY
-        3. It must be directly related to the name or main subject
-        4. Can include numbers as letter replacements (E->3, A->4, O->0)
-        5. Should be extremely memorable and distinctive
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive reagde
 
         Provide ONLY a JSON with these fields:
         - token_name: the meme coin name (without the word "coin")
@@ -168,8 +165,8 @@ class MemecoinsGenerator:
             """
         
         # add debug for prompt structure
-        self.logger.debug(f"SYSTEM PROMPT:\n{system_prompt}")
-        self.logger.debug(f"USER PROMPT:\n{user_prompt}")
+        self.logger.info(f"SYSTEM PROMPT:\n{system_prompt}")
+        self.logger.info(f"USER PROMPT:\n{user_prompt}")
         
         # Multiple attempts in case of error
         for attempt in range(max_retries):

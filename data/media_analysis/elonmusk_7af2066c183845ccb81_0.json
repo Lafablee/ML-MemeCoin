@@ -1,0 +1,24 @@
+{
+  "description": "Two individuals are standing on the emblem of the Central Intelligence Agency in a large, formal building with American flags in the background.",
+  "subjects": [
+    "Two people",
+    "CIA emblem",
+    "American flags"
+  ],
+  "actions": [
+    "Standing"
+  ],
+  "mood": "Formal",
+  "visible_text": [
+    "CENTRAL INTELLIGENCE AGENCY",
+    "UNITED STATES OF AMERICA"
+  ],
+  "emotional_themes": [
+    "Seriousness",
+    "Authority"
+  ],
+  "is_meme": false,
+  "is_crisis": false,
+  "crisis_type": "",
+  "detected_themes": {}
+}

@@ -1,0 +1,28 @@
+{
+  "description": "The image shows a packaged toy labeled as 'MOLU Crypto Action Figure' featuring an orange lizard-like creature with spiked armor. Additional items in the package include a smartphone, a key with a shield emblem, a flash drive, and a block-like device. The package color is bright orange with a circular label that reads 'SOUNDS GAY, I'M IN!'",
+  "subjects": [
+    "Lizard-like action figure",
+    "Smartphone",
+    "Key",
+    "Flash drive",
+    "Block-like device",
+    "Packaging"
+  ],
+  "actions": [
+    "Packaging of an action figure and accessories"
+  ],
+  "mood": "Humorous and playful",
+  "visible_text": [
+    "MOLU",
+    "CRYPTO ACTION FIGURE",
+    "SOUNDS GAY, I'M IN!"
+  ],
+  "emotional_themes": [
+    "Humor",
+    "Playfulness"
+  ],
+  "is_meme": true,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

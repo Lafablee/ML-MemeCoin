@@ -1,0 +1,35 @@
+{
+  "tweet_id": "a8f2184785e341089fb",
+  "original_text": "DogeDesigner Just had my second coffee of the morning",
+  "named_entities": [
+    {
+      "text": "DogeDesigner",
+      "type": "ORG"
+    },
+    {
+      "text": "second",
+      "type": "ORDINAL"
+    },
+    {
+      "text": "morning",
+      "type": "TIME"
+    }
+  ],
+  "capital_words": [
+    "Just"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "coffee",
+    "morning"
+  ],
+  "significant_verbs": [],
+  "unique_identifiers": [
+    "DogeDesigner",
+    "morning",
+    "coffee"
+  ],
+  "tweet_identity": "morning coffee DogeDesigner",
+  "detected_themes": {},
+  "username": "DogeDesigner"
+}

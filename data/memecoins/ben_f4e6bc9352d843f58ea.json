@@ -1,0 +1,11 @@
+{
+  "token_name": "Ben Wif Hat",
+  "token_symbol": "BWH",
+  "tweet_author": "ben",
+  "relevant_keywords": [
+    "hats",
+    "ben"
+  ],
+  "generated_at": "2025-04-06 15:06:39",
+  "condition": "Create a memecoin concept where ticker is first letter of person + WH (max 8 chars), name is '[person] Wif benHat' (default person: no coin if no name found)"
+}

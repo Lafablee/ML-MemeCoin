@@ -1,0 +1,61 @@
+{
+  "tweet_id": "a43cf7474e8d46b0802",
+  "original_text": "DEMOCRATS IN PANIC MODE AS ELON\u2019S DOGE REVELATIONS GO PUBLIC Elon and his DOGE team are exposing what they call massive fraud inside the U.S. government.",
+  "named_entities": [
+    {
+      "text": "DEMOCRATS",
+      "type": "GPE"
+    },
+    {
+      "text": "ELON",
+      "type": "ORG"
+    },
+    {
+      "text": "DOGE",
+      "type": "ORG"
+    },
+    {
+      "text": "U.S.",
+      "type": "GPE"
+    }
+  ],
+  "capital_words": [
+    "IN",
+    "PANIC",
+    "MODE",
+    "AS",
+    "ELON",
+    "DOGE",
+    "REVELATIONS",
+    "GO",
+    "PUBLIC",
+    "Elon",
+    "DOGE"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "REVELATIONS",
+    "team",
+    "fraud",
+    "government"
+  ],
+  "significant_verbs": [
+    "exposing",
+    "call"
+  ],
+  "unique_identifiers": [
+    "AS",
+    "ELON",
+    "IN",
+    "MODE",
+    "PANIC",
+    "Elon",
+    "REVELATIONS",
+    "PUBLIC",
+    "GO",
+    "DOGE"
+  ],
+  "tweet_identity": "team AS ELON IN MODE",
+  "detected_themes": {},
+  "username": "marionawfal"
+}

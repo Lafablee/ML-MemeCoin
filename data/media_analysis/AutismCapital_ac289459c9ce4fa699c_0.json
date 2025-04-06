@@ -1,0 +1,26 @@
+{
+  "description": "The image features a well-known public figure with pixelated sunglasses, smoking a cigar, and wearing a large chain necklace. The text 'Thug Life' is styled at the top, and 'GANGSTA' is prominently displayed on the necklace.",
+  "subjects": [
+    "Public figure",
+    "Sunglasses",
+    "Cigar",
+    "Chain necklace"
+  ],
+  "actions": [
+    "Wearing sunglasses",
+    "Smoking"
+  ],
+  "mood": "Humorous, satirical",
+  "visible_text": [
+    "Thug Life",
+    "GANGSTA"
+  ],
+  "emotional_themes": [
+    "Humor",
+    "Satire"
+  ],
+  "is_meme": true,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The image shows two individuals standing in front of a large aircraft model displayed outdoors. The aircraft is black and mounted on mirrored silver stands. The setting appears to be a park or an outdoor display area.",
+  "subjects": [
+    "Two individuals",
+    "Aircraft model",
+    "Outdoor display"
+  ],
+  "actions": [
+    "Standing"
+  ],
+  "mood": "Neutral",
+  "visible_text": [
+    "08561"
+  ],
+  "emotional_themes": [],
+  "is_meme": false,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

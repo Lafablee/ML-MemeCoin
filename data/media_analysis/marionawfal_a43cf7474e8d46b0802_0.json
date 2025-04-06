@@ -1,0 +1,23 @@
+{
+  "description": "A person is standing outdoors in a nighttime setting, opening their jacket to reveal a shirt with 'DOGE' written on it.",
+  "subjects": [
+    "Person",
+    "Jacket",
+    "DOGE shirt"
+  ],
+  "actions": [
+    "Opening jacket"
+  ],
+  "mood": "Confident",
+  "visible_text": [
+    "DOGE"
+  ],
+  "emotional_themes": [
+    "Confidence",
+    "Playfulness"
+  ],
+  "is_meme": true,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

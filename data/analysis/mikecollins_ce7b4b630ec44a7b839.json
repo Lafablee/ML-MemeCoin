@@ -1,0 +1,179 @@
+{
+  "tweet_id": "ce7b4b630ec44a7b839",
+  "original_text": "On #ThisDayInHistory in 2016, actress Carrie Fisher, best known for portraying Princess Leia in \ud835\udc46\ud835\udc61\ud835\udc4e\ud835\udc5f \ud835\udc4a\ud835\udc4e\ud835\udc5f\ud835\udc60, dies at 60 years old. Her death came after she had a heart attack four days earlier on a flight from London. Fisher, the daughter of Hollywood stars Debbie Reynolds and Eddie Fisher, began her career in 1975 with \ud835\udc46\u210e\ud835\udc4e\ud835\udc5a\ud835\udc5d\ud835\udc5c\ud835\udc5c and rose to fame as Leia in the 1977 \ud835\udc46\ud835\udc61\ud835\udc4e\ud835\udc5f \ud835\udc4a\ud835\udc4e\ud835\udc5f\ud835\udc60. Her portrayal of the strong, independent princess became iconic.Fisher's other notable roles included parts in  \ud835\udc47\u210e\ud835\udc52 \ud835\udc35\ud835\udc59\ud835\udc62\ud835\udc52\ud835\udc60 \ud835\udc35\ud835\udc5f\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f\ud835\udc60 and \ud835\udc4a\u210e\ud835\udc52\ud835\udc5b \ud835\udc3b\ud835\udc4e\ud835\udc5f\ufffd\ufffd\ud835\udc66 \ud835\udc40\ud835\udc52\ud835\udc61 \ud835\udc46\ud835\udc4e\ud835\udc59\ud835\udc59\ud835\udc66. She also worked as a script doctor for films like \ud835\udc47\u210e\ud835\udc52 \ud835\udc4a\ud835\udc52\ud835\udc51\ud835\udc51\ud835\udc56\ud835\udc5b\ud835\udc54 \ud835\udc46\ud835\udc56\ud835\udc5b\ud835\udc54\ud835\udc52\ud835\udc5f and \ud835\udc46\ud835\udc56\ud835\udc60\ud835\udc61\ud835\udc52\ud835\udc5f \ud835\udc34\ud835\udc50\ud835\udc61. In 2015, Fisher returned to her \ud835\udc46\ud835\udc61\ud835\udc4e\ud835\udc5f \ud835\udc4a\ud835\udc4e\ud835\udc5f\ud835\udc60 role in \ud835\udc47\u210e\ud835\udc52 \ud835\udc39\ud835\udc5c\ud835\udc5f\ud835\udc50\ud835\udc52 \ud835\udc34\ud835\udc64\ud835\udc4e\ud835\udc58\ud835\udc52\ud835\udc5b\ud835\udc60.",
+  "named_entities": [
+    {
+      "text": "2016",
+      "type": "DATE"
+    },
+    {
+      "text": "Carrie Fisher",
+      "type": "PERSON"
+    },
+    {
+      "text": "\ud835\udc46\ud835\udc61\ud835\udc4e\ud835\udc5f \ud835\udc4a\ud835\udc4e\ud835\udc5f\ud835\udc60",
+      "type": "PERSON"
+    },
+    {
+      "text": "60 years old",
+      "type": "DATE"
+    },
+    {
+      "text": "four days earlier",
+      "type": "DATE"
+    },
+    {
+      "text": "London",
+      "type": "GPE"
+    },
+    {
+      "text": "Hollywood",
+      "type": "GPE"
+    },
+    {
+      "text": "Debbie Reynolds",
+      "type": "FAC"
+    },
+    {
+      "text": "Eddie Fisher",
+      "type": "PERSON"
+    },
+    {
+      "text": "1975",
+      "type": "DATE"
+    },
+    {
+      "text": "\ud835\udc46\u210e\ud835\udc4e\ud835\udc5a\ud835\udc5d\ud835\udc5c\ud835\udc5c",
+      "type": "GPE"
+    },
+    {
+      "text": "1977",
+      "type": "DATE"
+    },
+    {
+      "text": "\ud835\udc46\ud835\udc61\ud835\udc4e\ud835\udc5f \ud835\udc4a\ud835\udc4e\ud835\udc5f\ud835\udc60.",
+      "type": "EVENT"
+    },
+    {
+      "text": "Fisher",
+      "type": "ORG"
+    },
+    {
+      "text": "\ud835\udc47\u210e\ud835\udc52 \ud835\udc35\ud835\udc59\ud835\udc62\ud835\udc52\ud835\udc60 \ud835\udc35\ud835\udc5f\ud835\udc5c\ud835\udc61\u210e\ud835\udc52\ud835\udc5f\ud835\udc60",
+      "type": "PERSON"
+    },
+    {
+      "text": "\ud835\udc4a\u210e\ud835\udc52\ud835\udc5b \ud835\udc3b\ud835\udc4e\ud835\udc5f",
+      "type": "PERSON"
+    },
+    {
+      "text": "\ud835\udc47\u210e\ud835\udc52 \ud835\udc4a\ud835\udc52\ud835\udc51\ud835\udc51\ud835\udc56\ud835\udc5b\ud835\udc54",
+      "type": "PERSON"
+    },
+    {
+      "text": "\ud835\udc46\ud835\udc56\ud835\udc5b\ud835\udc54\ud835\udc52\ud835\udc5f",
+      "type": "PERSON"
+    },
+    {
+      "text": "\ud835\udc46\ud835\udc56\ud835\udc60\ud835\udc61\ud835\udc52\ud835\udc5f",
+      "type": "PERSON"
+    },
+    {
+      "text": "2015",
+      "type": "DATE"
+    },
+    {
+      "text": "Fisher",
+      "type": "PERSON"
+    },
+    {
+      "text": "\ud835\udc46\ud835\udc61\ud835\udc4e\ud835\udc5f \ud835\udc4a\ud835\udc4e\ud835\udc5f\ud835\udc60",
+      "type": "PERSON"
+    },
+    {
+      "text": "\ud835\udc47\u210e\ud835\udc52 \ud835\udc39\ud835\udc5c\ud835\udc5f\ud835\udc50\ud835\udc52",
+      "type": "PERSON"
+    }
+  ],
+  "capital_words": [
+    "Carrie",
+    "Fisher",
+    "Princess",
+    "Leia",
+    "Her",
+    "London",
+    "Fisher",
+    "Hollywood",
+    "Debbie",
+    "Reynolds",
+    "Eddie",
+    "Fisher",
+    "Leia",
+    "Her",
+    "Fisher",
+    "She",
+    "In",
+    "Fisher"
+  ],
+  "symbols": [
+    "#ThisDayInHistory"
+  ],
+  "important_nouns": [
+    "ThisDayInHistory",
+    "actress",
+    "years",
+    "death",
+    "heart",
+    "attack",
+    "days",
+    "flight",
+    "daughter",
+    "career",
+    "fame",
+    "portrayal",
+    "princess",
+    "roles",
+    "parts",
+    "script",
+    "doctor",
+    "films",
+    "role"
+  ],
+  "significant_verbs": [
+    "known",
+    "portraying",
+    "dies",
+    "came",
+    "stars",
+    "began",
+    "rose",
+    "became",
+    "included",
+    "worked",
+    "returned"
+  ],
+  "unique_identifiers": [
+    "Hollywood",
+    "Leia",
+    "Fisher",
+    "\ud835\udc4a\u210e\ud835\udc52\ud835\udc5b \ud835\udc3b\ud835\udc4e\ud835\udc5f",
+    "ThisDayInHistory",
+    "\ud835\udc46\ud835\udc61\ud835\udc4e\ud835\udc5f \ud835\udc4a\ud835\udc4e\ud835\udc5f\ud835\udc60",
+    "London",
+    "\ud835\udc46\ud835\udc56\ud835\udc5b\ud835\udc54\ud835\udc52\ud835\udc5f",
+    "\ud835\udc47\u210e\ud835\udc52 \ud835\udc4a\ud835\udc52\ud835\udc51\ud835\udc51\ud835\udc56\ud835\udc5b\ud835\udc54",
+    "Carrie Fisher"
+  ],
+  "tweet_identity": "Hollywood script Leia attack Fisher",
+  "detected_themes": {
+    "conflit": [
+      "attack"
+    ],
+    "celebrite": [
+      "rip",
+      "RIP",
+      "death"
+    ]
+  },
+  "username": "mikecollins"
+}

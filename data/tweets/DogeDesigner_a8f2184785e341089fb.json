@@ -1,0 +1,19 @@
+{
+  "id": "a8f2184785e341089fb",
+  "text": "DogeDesigner Just had my second coffee of the morning",
+  "created_at": "2025-04-06T15:26:35.522564",
+  "public_metrics": {
+    "like_count": 12000,
+    "retweet_count": 3456,
+    "reply_count": 0,
+    "quote_count": 0
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/Gn2SYV7WkAAjCi1?format=jpg&name=900x900",
+      "preview_image_url": "https://pbs.twimg.com/media/Gn2SYV7WkAAjCi1?format=jpg&name=900x900",
+      "media_key": "media_key_a8f2184785e341089fb_0"
+    }
+  ]
+}

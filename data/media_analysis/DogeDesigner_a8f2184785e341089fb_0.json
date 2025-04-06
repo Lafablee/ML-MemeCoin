@@ -1,0 +1,21 @@
+{
+  "description": "The image depicts a medieval-style painting of an older man with a long beard and a crown, holding a sword. The word 'caffeinated.' is overlayed on the image.",
+  "subjects": [
+    "Older man with a crown",
+    "Sword"
+  ],
+  "actions": [
+    "Holding a sword"
+  ],
+  "mood": "Serious with a humorous overlay",
+  "visible_text": [
+    "caffeinated."
+  ],
+  "emotional_themes": [
+    "Humor"
+  ],
+  "is_meme": true,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

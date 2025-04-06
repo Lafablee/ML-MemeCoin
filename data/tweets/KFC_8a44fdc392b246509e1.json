@@ -1,0 +1,19 @@
+{
+  "id": "8a44fdc392b246509e1",
+  "text": "TUNG TUNG TUNG CHICKEN",
+  "created_at": "2025-04-06T12:45:59.825787",
+  "public_metrics": {
+    "like_count": 8800,
+    "retweet_count": 841,
+    "reply_count": 0,
+    "quote_count": 0
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/GnrzdKeXIAABE66?format=jpg&name=medium",
+      "preview_image_url": "https://pbs.twimg.com/media/GnrzdKeXIAABE66?format=jpg&name=medium",
+      "media_key": "media_key_8a44fdc392b246509e1_0"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "description": "The image depicts a surreal character, a wooden figure with human legs and arms holding a baseball bat. The figure has a face resembling a well-known mascot. It stands in what appears to be a dimly lit outdoor shelter or bus stop with a wooden bench.",
+  "subjects": [
+    "Wooden figure",
+    "Baseball bat",
+    "Shelter",
+    "Bench"
+  ],
+  "actions": [
+    "Standing"
+  ],
+  "mood": "Humorous and surreal",
+  "visible_text": [
+    "PENTUNG POS RON"
+  ],
+  "emotional_themes": [
+    "Whimsy",
+    "Amusement"
+  ],
+  "is_meme": true,
+  "is_crisis": false,
+  "crisis_type": "",
+  "detected_themes": {}
+}

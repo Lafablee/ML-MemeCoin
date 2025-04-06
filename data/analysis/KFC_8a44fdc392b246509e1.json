@@ -1,0 +1,20 @@
+{
+  "tweet_id": "8a44fdc392b246509e1",
+  "original_text": "TUNG TUNG TUNG CHICKEN",
+  "named_entities": [],
+  "capital_words": [
+    "TUNG",
+    "TUNG",
+    "CHICKEN"
+  ],
+  "symbols": [],
+  "important_nouns": [],
+  "significant_verbs": [],
+  "unique_identifiers": [
+    "TUNG",
+    "CHICKEN"
+  ],
+  "tweet_identity": "TUNG CHICKEN",
+  "detected_themes": {},
+  "username": "KFC"
+}

@@ -22,11 +22,12 @@
   ],
   "significant_verbs": [],
   "unique_identifiers": [
-    "hand",
-    "Hitler",
     "Nazi",
-    "gesture"
+    "Hitler",
+    "gesture",
+    "hand"
   ],
-  "tweet_identity": "hand Hitler Nazi gesture",
-  "detected_themes": {}
+  "tweet_identity": "gesture Nazi Hitler hand",
+  "detected_themes": {},
+  "username": "elonmusk"
 }

@@ -1,0 +1,19 @@
+{
+  "description": "The image shows a person with a distinctive hairstyle holding a weapon, standing against a red background.",
+  "subjects": [
+    "Person",
+    "Weapon"
+  ],
+  "actions": [
+    "Posing with weapon"
+  ],
+  "mood": "Serious",
+  "visible_text": [],
+  "emotional_themes": [
+    "Determination"
+  ],
+  "is_meme": false,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

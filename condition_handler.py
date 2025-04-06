@@ -6,7 +6,7 @@ from typing import Dict, Optional, List
 def extract_ticker_info(text):
     # Listes de mots pour chaque condition
     negative_words = {'Pain', 'Wounded', 'Broken', 'Defeated', 'stealing', 'Shattered', 'Ruined', 'Damaged', 'Crushed', 'Bankrupt', 'Destroyed', 'Helpless', 'Devastated', 'Exhausted', 'Collapsed', 'Sunk', 'Despair', 'Stranded'}
-    death_words = {'Dead', 'Deceased', 'Gone', 'Perished', 'Buried', 'Withered', 'died'}
+    death_words = {'Dead', 'Deceased', 'Gone', 'Perished', 'Buried', 'Withered', 'died', 'dies', 'death'}
     mascot_words = {'mascot', 'logo', 'character', 'fictional character'}
     crime_words = {'charged', 'arrested', 'detained', 'indicted', 'convicted', 'gun', 'knife'}
     toilet_words = {'Pee', 'Poo', 'Wee-wee', 'Tinkle', 'Whiz', 'Piddle', 'Poop', 'Doo-doo', 'Dookie', 'Number two', 'Pee-pee', 'Potty', 'Dump', 'BM'}
@@ -17,6 +17,7 @@ def extract_ticker_info(text):
     elon_brands = {'spacex', 'Optimus', 'boringcompany', 'Tesla', 'cybertruck'}
     sex_offender_words = {'Sexual Predator', 'Sexual Abuser', 'Rapist', 'Child Molester', 'Pedophile', 'Statutory Rapist', 'Sexual Assailant', 'Sex Criminal', 'Registered Sex Offender', 'Sexual Deviant', 'Perpetrator', 'Sexual Delinquent', 'Sexual Violator', 'Incest Offender', 'Exhibitionist', 'Voyeur', 'Sexual Exploiter', 'Pornography Offender', 'Sex Trafficker', 'Sexual Coercer'}
     touch_words = {'touching', 'Caress', 'Fondle', 'Stroke', 'Massage', 'Embrace', 'Cuddle', 'Rub', 'Tease'}
+    
 
     text_lower = text.lower()
     text_lower = text_lower.replace(","," ")
@@ -24,6 +25,9 @@ def extract_ticker_info(text):
     text_lower = text_lower.replace(";"," ")
     text_lower = text_lower.replace("-"," ")
     text_lower = text_lower.replace("/"," ")
+    text_lower = text_lower.replace("@"," ")
+    text_lower = text_lower.replace("?"," ")
+    text_lower = text_lower.replace("!"," ")
 
     words = text_lower.split()
 
@@ -31,12 +35,20 @@ def extract_ticker_info(text):
     for word in words:
         if word.startswith('$') and len(word) > 1:
             return "Create a memecoin concept where ticker is the word following '$' (uppercase, max 10 chars, abbreviate if longer), name is the word following '$' + ' Coin'"
-        if word == 'hat':
-            return "Create a memecoin concept where ticker is first letter of person + WH (max 8 chars), name is '[person] Wif Hat' (default person: no coin if no name found)"
+        
+        if word == 'hat' or word == "hats":
+            return "Create a memecoin concept where ticker is first letter of person + WH (max 8 chars), name is '[person] Wif " + word + "' (default person: no coin if no name found)"
 
-    # Condition 2: Elon
-    if 'elon' in text_lower:
-        return "Create a memecoin concept where ticker and name are related to Elon Musk"
+        # Condition 2: Elon
+        if word == 'elon':
+            return "Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, do nothing."
+
+        # Condition 10: Style (simulé ici pour texte, à adapter pour images)
+        if word == 'style' or word =='styles':
+            return "Create a memecoin concept where ticker is the style identified, name is the style simplified + 'ification' (e.g., Anime -> Animification)"
+
+        if word == 'meme' or word == 'memes':
+            return "Create a memecoin concept where ticker and name are related to memes"
 
     # Condition 3: Kanye West
     if 'kanye west' in text_lower:
@@ -61,10 +73,6 @@ def extract_ticker_info(text):
     # Condition 9: Mots de toilette
     if any(word.lower() in toilet_words for word in words):
         return "Create a memecoin concept where ticker is related to the most shocking toilet word action (max 10 chars), name is the most shocking action involving the toilet word"
-
-    # Condition 10: Style (simulé ici pour texte, à adapter pour images)
-    if 'style' in text_lower:
-        return "Create a memecoin concept where ticker is the style identified, name is the style simplified + 'ification' (e.g., Anime -> Animification)"
 
     # Condition 11: Trump
     if 'trump' in text_lower:
@@ -101,10 +109,6 @@ def extract_ticker_info(text):
     # Condition 19: Délinquants sexuels
     if any(word.lower() in sex_offender_words for word in words):
         return "Create a memecoin concept where ticker is first proper noun or random name (max 10 chars), name is ‘new diddy’"
-
-    # Condition 20: Meme
-    if 'meme' in text_lower:
-        return "Create a memecoin concept where ticker and name are related to memes"
 
     # Condition 21: Toucher
     if any(word.lower() in touch_words for word in words):

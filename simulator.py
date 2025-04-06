@@ -56,7 +56,7 @@ class TweetSimulator:
         # Créer un objet tweet similaire à la structure de Twitter
         tweet = {
             "id": tweet_id,
-            "text": text,
+            "text": username + ' ' + text,
             "created_at": datetime.now().isoformat(),
             "public_metrics": {
                 "like_count": likes,

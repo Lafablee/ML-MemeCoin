@@ -1,0 +1,78 @@
+{
+  "tweet_id": "b72533b8325e4396ad5",
+  "original_text": "muskonomy SpaceX Launches 28 More Starlink Satellites! On April 5, 2025, Falcon 9 lifted off from Florida skies, adding 28 new satellites to the ever-growing Starlink constellation, now boasting 7,100+ satellites in orbit! This flawless mission marks another leap in SpaceX\u2019s mission to deliver global high-speed internet, especially in remote and underserved areas.",
+  "named_entities": [
+    {
+      "text": "April 5, 2025",
+      "type": "DATE"
+    },
+    {
+      "text": "Falcon 9",
+      "type": "LAW"
+    },
+    {
+      "text": "Florida",
+      "type": "GPE"
+    },
+    {
+      "text": "28",
+      "type": "CARDINAL"
+    },
+    {
+      "text": "7,100",
+      "type": "CARDINAL"
+    }
+  ],
+  "capital_words": [
+    "SpaceX",
+    "Launches",
+    "More",
+    "Starlink",
+    "Satellites",
+    "On",
+    "April",
+    "Falcon",
+    "Florida",
+    "Starlink",
+    "This",
+    "SpaceX"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "skies",
+    "satellites",
+    "constellation",
+    "satellites",
+    "orbit",
+    "flawless",
+    "mission",
+    "leap",
+    "mission",
+    "speed",
+    "internet",
+    "areas"
+  ],
+  "significant_verbs": [
+    "lifted",
+    "adding",
+    "growing",
+    "boasting",
+    "marks",
+    "deliver"
+  ],
+  "unique_identifiers": [
+    "Satellites",
+    "SpaceX",
+    "April",
+    "Launches",
+    "Starlink",
+    "Falcon",
+    "Florida",
+    "flawless",
+    "areas",
+    "satellites"
+  ],
+  "tweet_identity": "flawless areas Satellites SpaceX satellites",
+  "detected_themes": {},
+  "username": "muskonomy"
+}

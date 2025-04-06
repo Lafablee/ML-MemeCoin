@@ -1,0 +1,27 @@
+{
+  "tweet_id": "68692952133c44008fc",
+  "original_text": "molu Grab one while supplies last",
+  "named_entities": [
+    {
+      "text": "Grab",
+      "type": "NORP"
+    }
+  ],
+  "capital_words": [
+    "Grab"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "supplies"
+  ],
+  "significant_verbs": [
+    "last"
+  ],
+  "unique_identifiers": [
+    "Grab",
+    "supplies"
+  ],
+  "tweet_identity": "supplies Grab",
+  "detected_themes": {},
+  "username": "molu"
+}

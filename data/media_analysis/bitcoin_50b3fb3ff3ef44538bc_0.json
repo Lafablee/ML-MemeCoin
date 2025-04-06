@@ -1,0 +1,20 @@
+{
+  "description": "The image displays the flag of Gibraltar, featuring a red castle with three towers and a golden key below it, on a horizontal bicolor of white and red.",
+  "subjects": [
+    "Flag of Gibraltar",
+    "Castle",
+    "Key"
+  ],
+  "actions": [
+    "Flag waving"
+  ],
+  "mood": "Neutral",
+  "visible_text": [],
+  "emotional_themes": [
+    "Patriotism"
+  ],
+  "is_meme": false,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

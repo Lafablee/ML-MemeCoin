@@ -1,0 +1,19 @@
+{
+  "id": "fa4b8d28a3a049688bd",
+  "text": "Archangel-12",
+  "created_at": "2025-04-06T12:24:08.340591",
+  "public_metrics": {
+    "like_count": 366000,
+    "retweet_count": 26000,
+    "reply_count": 0,
+    "quote_count": 0
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/GnfTCE3WIAAT5RW?format=jpg&name=medium",
+      "preview_image_url": "https://pbs.twimg.com/media/GnfTCE3WIAAT5RW?format=jpg&name=medium",
+      "media_key": "media_key_fa4b8d28a3a049688bd_0"
+    }
+  ]
+}

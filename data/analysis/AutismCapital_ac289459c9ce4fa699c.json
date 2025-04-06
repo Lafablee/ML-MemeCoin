@@ -1,0 +1,43 @@
+{
+  "tweet_id": "ac289459c9ce4fa699c",
+  "original_text": "NEW: White House officials say Trump is \"at the peak of not giving a fu*k anymore.\" Based. \ud83d\udc80",
+  "named_entities": [
+    {
+      "text": "White House",
+      "type": "ORG"
+    },
+    {
+      "text": "Trump",
+      "type": "ORG"
+    }
+  ],
+  "capital_words": [
+    "White",
+    "House",
+    "Trump",
+    "Based"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "officials",
+    "peak",
+    "fu*k"
+  ],
+  "significant_verbs": [
+    "giving",
+    "Based"
+  ],
+  "unique_identifiers": [
+    "White",
+    "Based",
+    "Trump",
+    "White House",
+    "House",
+    "fu*k",
+    "officials",
+    "peak"
+  ],
+  "tweet_identity": "White Based Trump fu*k White House",
+  "detected_themes": {},
+  "username": "AutismCapital"
+}

@@ -1,0 +1,23 @@
+{
+  "tweet_id": "f4e6bc9352d843f58ea",
+  "original_text": "ben man with hats",
+  "named_entities": [
+    {
+      "text": "ben",
+      "type": "PERSON"
+    }
+  ],
+  "capital_words": [],
+  "symbols": [],
+  "important_nouns": [
+    "hats"
+  ],
+  "significant_verbs": [],
+  "unique_identifiers": [
+    "hats",
+    "ben"
+  ],
+  "tweet_identity": "hats ben",
+  "detected_themes": {},
+  "username": "ben"
+}

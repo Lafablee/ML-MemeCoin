@@ -240,6 +240,7 @@ class MediaAnalyzer:
                                     "error": "Impossible de parser la réponse JSON"
                                 }
                 
+                self.logger.info(f" *** Analyse média: {analysis_result} ***")
                 # Détection des thèmes
                 detected_themes = self.detect_themes_from_analysis(analysis_result)
                 analysis_result["detected_themes"] = detected_themes

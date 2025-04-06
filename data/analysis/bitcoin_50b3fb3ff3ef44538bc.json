@@ -1,0 +1,52 @@
+{
+  "tweet_id": "50b3fb3ff3ef44538bc",
+  "original_text": "bitcoin JUST IN: GIBRALTAR WILL INTRODUCE BILL TO LEGALIZE #BITCOIN AND CRYPTO AS PROPERTY WINNING",
+  "named_entities": [],
+  "capital_words": [
+    "JUST",
+    "IN",
+    "GIBRALTAR",
+    "WILL",
+    "INTRODUCE",
+    "BILL",
+    "TO",
+    "LEGALIZE",
+    "AND",
+    "CRYPTO",
+    "AS",
+    "PROPERTY",
+    "WINNING"
+  ],
+  "symbols": [
+    "#BITCOIN"
+  ],
+  "important_nouns": [
+    "GIBRALTAR",
+    "CRYPTO",
+    "PROPERTY",
+    "WINNING"
+  ],
+  "significant_verbs": [
+    "bitcoin",
+    "INTRODUCE"
+  ],
+  "unique_identifiers": [
+    "INTRODUCE",
+    "BILL",
+    "IN",
+    "#BITCOIN",
+    "GIBRALTAR",
+    "LEGALIZE",
+    "CRYPTO",
+    "WINNING",
+    "AS",
+    "PROPERTY"
+  ],
+  "tweet_identity": "INTRODUCE BILL IN #BITCOIN GIBRALTAR",
+  "detected_themes": {
+    "justice": [
+      "legal"
+    ]
+  },
+  "username": "bitcoin"
+}
