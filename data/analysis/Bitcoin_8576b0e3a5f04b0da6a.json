@@ -1,0 +1,31 @@
+{
+  "tweet_id": "8576b0e3a5f04b0da6a",
+  "original_text": "Bitcoin #Bitcoin",
+  "named_entities": [
+    {
+      "text": "#",
+      "type": "CARDINAL"
+    },
+    {
+      "text": "Bitcoin",
+      "type": "PERSON"
+    }
+  ],
+  "capital_words": [],
+  "symbols": [
+    "#Bitcoin"
+  ],
+  "important_nouns": [
+    "Bitcoin"
+  ],
+  "significant_verbs": [
+    "Bitcoin"
+  ],
+  "unique_identifiers": [
+    "#Bitcoin",
+    "Bitcoin"
+  ],
+  "tweet_identity": "#Bitcoin Bitcoin",
+  "detected_themes": {},
+  "username": "Bitcoin"
+}

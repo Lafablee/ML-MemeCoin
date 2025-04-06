@@ -1,6 +1,6 @@
 {
-  "tweet_id": "9fceea1f9a2c4a92991",
-  "original_text": "BRICSN UST IN: \ud83c\uddeb\ud83c\uddf7 Elon Musk calls on France to free Marine Le Pen.",
+  "tweet_id": "f65414199091478e964",
+  "original_text": "lepen JUST IN: \ud83c\uddeb\ud83c\uddf7 Elon Musk calls on France to free Marine Le Pen.",
   "named_entities": [
     {
       "text": "France",
@@ -12,7 +12,7 @@
     }
   ],
   "capital_words": [
-    "UST",
+    "JUST",
     "IN",
     "Elon",
     "Musk",
@@ -24,20 +24,20 @@
   "symbols": [],
   "important_nouns": [],
   "significant_verbs": [
+    "lepen",
     "calls",
     "free"
   ],
   "unique_identifiers": [
-    "Le",
-    "Pen",
-    "UST",
-    "Musk",
-    "France",
-    "IN",
     "Elon",
-    "Marine"
+    "France",
+    "Musk",
+    "Pen",
+    "Marine",
+    "Le",
+    "IN"
   ],
-  "tweet_identity": "Le Pen UST Musk France",
+  "tweet_identity": "Elon France Musk Pen Marine",
   "detected_themes": {},
-  "username": "BRICSN"
+  "username": "lepen"
 }

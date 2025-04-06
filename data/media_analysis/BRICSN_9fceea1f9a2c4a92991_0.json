@@ -1,23 +1,22 @@
 {
-  "description": "A person dressed in formal attire is looking forward with a neutral expression against a dark background.",
+  "description": "A person in a suit looking serious, possibly during an interview or conference setting.",
   "subjects": [
-    "Person"
+    "Person",
+    "Suit",
+    "Microphones"
   ],
   "actions": [
-    "Sitting or standing still"
+    "Sitting",
+    "Listening or preparing to speak"
   ],
-  "mood": "Neutral",
+  "mood": "Serious",
   "visible_text": [],
   "emotional_themes": [
-    "Calmness",
-    "Intensity"
+    "Seriousness",
+    "Contemplation"
   ],
   "is_meme": false,
   "is_crisis": false,
-  "crisis_type": "",
-  "detected_themes": {
-    "conflit": [
-      "war"
-    ]
-  }
+  "crisis_type": null,
+  "detected_themes": {}
 }

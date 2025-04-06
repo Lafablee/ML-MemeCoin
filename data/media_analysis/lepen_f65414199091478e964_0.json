@@ -1,0 +1,23 @@
+{
+  "description": "A person in a formal suit appears to be speaking or listening, with a neutral or serious expression, set against a dark background.",
+  "subjects": [
+    "Person in suit"
+  ],
+  "actions": [
+    "Looking forward, possibly speaking or listening"
+  ],
+  "mood": "Neutral to serious",
+  "visible_text": [],
+  "emotional_themes": [
+    "Seriousness",
+    "Contemplation"
+  ],
+  "is_meme": false,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {
+    "conflit": [
+      "war"
+    ]
+  }
+}

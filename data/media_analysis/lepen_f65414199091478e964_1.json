@@ -1,0 +1,18 @@
+{
+  "description": "The image is a portrait of a person with blonde hair wearing a white shirt and a dark blazer, smiling and looking at the camera.",
+  "subjects": [
+    "Person"
+  ],
+  "actions": [
+    "Smiling"
+  ],
+  "mood": "Positive",
+  "visible_text": [],
+  "emotional_themes": [
+    "Happiness"
+  ],
+  "is_meme": false,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

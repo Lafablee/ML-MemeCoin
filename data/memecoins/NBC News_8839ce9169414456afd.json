@@ -1,13 +1,18 @@
 {
-  "token_name": "FerrariTech",
-  "token_symbol": "FTECH",
-  "tag_line": "\ud83d\ude97 Vitesse sous tarifs \ud83d\udcb0",
-  "description": "FerrariTech incarne la mont\u00e9e des prix des Ferrari due aux nouveaux tarifs auto am\u00e9ricains. Inspir\u00e9 par @NBC News, ce meme coin refl\u00e8te l'impact technologique sur l'industrie automobile.",
+  "token_name": "Ferrari",
+  "token_symbol": "FERRARI",
   "tweet_author": "NBC News",
-  "primary_theme": "technologie",
   "relevant_keywords": [
+    "April",
+    "response",
+    "models",
+    "prices",
+    "$50",
     "Ferrari",
-    "tariffs"
+    "tariffs",
+    "auto",
+    "price"
   ],
-  "generated_at": "2025-04-03 17:49:48"
+  "generated_at": "2025-04-06 19:26:12",
+  "condition": "Create a memecoin concept where ticker is the word following '$' (uppercase, max 10 chars, abbreviate if longer), name is the word following '$' + ' Coin'"
 }

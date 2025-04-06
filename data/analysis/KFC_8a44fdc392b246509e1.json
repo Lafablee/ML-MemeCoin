@@ -11,10 +11,10 @@
   "important_nouns": [],
   "significant_verbs": [],
   "unique_identifiers": [
-    "TUNG",
-    "CHICKEN"
+    "CHICKEN",
+    "TUNG"
   ],
-  "tweet_identity": "TUNG CHICKEN",
+  "tweet_identity": "CHICKEN TUNG",
   "detected_themes": {},
   "username": "KFC"
 }

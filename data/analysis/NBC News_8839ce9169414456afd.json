@@ -48,21 +48,22 @@
     "adding"
   ],
   "unique_identifiers": [
-    "response",
-    "Ferrari",
     "$50",
-    "auto",
-    "models",
-    "prices",
-    "tariffs",
     "April",
-    "price"
+    "$50",
+    "Ferrari",
+    "models",
+    "auto",
+    "tariffs",
+    "prices",
+    "price",
+    "response"
   ],
-  "tweet_identity": "response Ferrari $50 auto models",
+  "tweet_identity": "April models $50 auto tariffs",
   "detected_themes": {
-    "technologie": [
-      "AI",
-      "AR"
+    "celebrite": [
+      "price"
     ]
-  }
+  },
+  "username": "NBC News"
 }

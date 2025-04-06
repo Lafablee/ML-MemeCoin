@@ -34,11 +34,7 @@ class MemecoinsGenerator:
         1. The ticker must be between 3 and 10 characters(10 preferably)
         2. CAPITAL LETTERS ONLY
         3. It must be directly related to the name or main subject(important)
-        4. Should be memorable and distinctive reagde
-
-        Provide ONLY a JSON with these fields:
-        - token_name: the meme coin name (without the word "coin")
-        - token_symbol: the ticker (without the word "COIN")
+        4. Should be memorable and distinctive
         """
     
     def generate_memecoin(self, username: str, tweet_content: str, 
@@ -48,8 +44,7 @@ class MemecoinsGenerator:
                          media_analysis: Optional[Dict] = None,
                          condition_match: Optional[str] = None) -> Dict[str, Any]:
         """
-        Generate a meme coin based on a tweet and its analysis,
-        with simplified prompt construction focused on condition-based guidance
+        Generate a meme coin based on a tweet with a simplified prompt structure
         
         Args:
             username: Twitter account username
@@ -58,7 +53,7 @@ class MemecoinsGenerator:
             primary_theme: Main detected theme (optional)
             max_retries: Maximum number of retry attempts
             is_image_primary: Whether the image is the primary content (not the text)
-            format_guidance: Format guidance from pattern matcher
+            format_guidance: Format guidance from pattern matcher (not heavily used in simplified version)
             media_analysis: Analysis of media content
             condition_match: The specific condition that was matched to trigger generation
         Returns:
@@ -78,57 +73,26 @@ class MemecoinsGenerator:
                 "examples": []
             }
          # Find similar examples from our training data
-        try:
-            matching_examples = self.example_learner.find_matching_examples(tweet_content, relevant_keywords)
-        except Exception as e:
-            self.logger.warning(f"Error finding matching examples: {str(e)}")
-            matching_examples = []
+        #try:
+             #matching_examples = self.example_learner.find_matching_examples(tweet_content, relevant_keywords)
+        #except Exception as e:
+            #self.logger.warning(f"Error finding matching examples: {str(e)}")
+            #matching_examples = []
 
         # Build the system prompt using the instructions
         system_prompt = self.base_prompt
 
          # Add the matched condition if available (prioritize this)
         if condition_match:
-            system_prompt += f"\n\nThis tweet was selected based on condition: {condition_match}"
-        
-        # Add specific instructions if available (prioritize these over other guidance)
-        if prompt_instructions["base_instruction"]:
-            system_prompt += f"\n\nSpecial instruction: {prompt_instructions['base_instruction']}"
-        
-        if prompt_instructions["ticker_format"]:
-            system_prompt += f"\n\nTicker format: {prompt_instructions['ticker_format']}"
-        
-        if prompt_instructions["name_format"]:
-            system_prompt += f"\n\nName format: {prompt_instructions['name_format']}"
-        
-        # Add condition examples if available (high priority)
-        if prompt_instructions["examples"]:
-            system_prompt += "\n\nUse these specific examples:"
-            for example in prompt_instructions["examples"]:
-                system_prompt += f"\n- {example.get('ticker', '')}: {example.get('name', '')}"
-        
-        # Add format guidance if available
-        elif format_guidance and not prompt_instructions["base_instruction"]:
-            if format_guidance["format_type"] != "standard":
-                system_prompt += f"\n\nUse this special format: {format_guidance['format_type']}\n"
-                
-                if format_guidance["ticker_format"]:
-                    system_prompt += f"Ticker format: {format_guidance['ticker_format']}\n"
-                    
-                if format_guidance["name_format"]:
-                    system_prompt += f"Name format: {format_guidance['name_format']}\n"
-                    
-                if format_guidance["example_ticker"] and format_guidance["example_name"]:
-                    system_prompt += f"Example: ticker '{format_guidance['example_ticker']}', name '{format_guidance['example_name']}'\n"
-        
-        # Add examples if available from our tranding data set
-        if matching_examples and not prompt_instructions["examples"]:
-            system_prompt += "\n\nAdditional inspiration examples:"
-            for example in matching_examples:
-                system_prompt += f"\n- For a tweet about '{example['tweet_text'][:30]}...': {example['name']} with ticker {example['ticker']}"
-        
-        # Add theme-specific prompts (utilise plus les thèmes)
-        
+            system_prompt += f"\n\n{condition_match}"
+
+        #Finalisation construction base prompt (format output) 
+        system_prompt += """
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        """   
         
         # Build the user prompt focused on the tweet and media content
         if is_image_primary and media_analysis:
@@ -138,17 +102,11 @@ class MemecoinsGenerator:
             subjects_text = ", ".join([str(s) for s in subjects if s]) if subjects else "unknown subjects"
 
             user_prompt = f"""
-            Generate a meme coin for a tweet by @{username} that contains primarily an image.
-            
-            The tweet text is: "{tweet_content}"
-            
-            The image analysis detected these elements: {', '.join(relevant_keywords)}
-            
-            Create a funny, creative meme coin name and ticker that captures the essence of what's in the image.
+            Generate a meme coin for this tweet by @{username}:
 
-            Main subjects in the image: {subjects_text}
+            "{tweet_content}"
             
-            Remember the special instructions and follow examples provided when applicable.
+            The image shows: {media_desc}
             """
         else:
             # For text-primary content, focus on the tweet text
@@ -156,12 +114,6 @@ class MemecoinsGenerator:
             Generate a meme coin for this tweet by @{username}:
             
             "{tweet_content}"
-            
-            Relevant keywords: {', '.join(relevant_keywords[:5]) if relevant_keywords else "None identified"}
-            
-            Create a funny, clever meme coin name and ticker that follows the special format instructions when applicable.
-            
-            Remember the special instructions and follow examples provided when applicable.
             """
         
         # add debug for prompt structure
@@ -231,6 +183,8 @@ class MemecoinsGenerator:
                                 break  # Exit if valid block found
                             except json.JSONDecodeError:
                                 continue
+                        else:
+                            memecoin_data = {}    
                     else:
                         # If no block, just look for braces
                         json_pattern = r'\{[\s\S]*\}'
@@ -240,19 +194,32 @@ class MemecoinsGenerator:
                                 memecoin_data = json.loads(matches.group(0))
                             except json.JSONDecodeError:
                                 raise json.JSONDecodeError("Could not find valid JSON", response_text, 0)
+                        else:
+                            memecoin_data = {}
+
+                # Handle name and ticker variations
+                name_field = memecoin_data.get("name") or memecoin_data.get("token_name")
+                symbol_field = memecoin_data.get("ticker") or memecoin_data.get("token_symbol")
                 
-                # Check that all required fields are present
-                required_fields = ["token_name", "token_symbol"]
-                if all(field in memecoin_data for field in required_fields):
-                    # Complete with metadata
-                    memecoin_data["tweet_author"] = username
-                    memecoin_data["relevant_keywords"] = relevant_keywords
-                    memecoin_data["generated_at"] = time.strftime("%Y-%m-%d %H:%M:%S")
-                    memecoin_data["condition"] = condition_match
+                if name_field and symbol_field:
+                    # Create standardized response
+                    result = {
+                        "token_name": name_field,
+                        "token_symbol": symbol_field.upper(),
+                        "tweet_author": username,
+                        "relevant_keywords": relevant_keywords,
+                        "generated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+                        "condition": condition_match
+                    }
                     
-                    return memecoin_data
+                    return result
                 else:
-                    missing = [f for f in required_fields if f not in memecoin_data]
+                    missing = []
+                    if not name_field:
+                        missing.append("name/token_name")
+                    if not symbol_field:
+                        missing.append("ticker/token_symbol")
+                        
                     self.logger.warning(f"Missing fields in OpenAI response: {missing}")
             
             except Exception as e:

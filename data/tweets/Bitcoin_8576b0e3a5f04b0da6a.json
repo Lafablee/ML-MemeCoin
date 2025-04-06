@@ -1,0 +1,19 @@
+{
+  "id": "8576b0e3a5f04b0da6a",
+  "text": "Bitcoin #Bitcoin",
+  "created_at": "2025-04-06T21:57:59.045410",
+  "public_metrics": {
+    "like_count": 2500,
+    "retweet_count": 605,
+    "reply_count": 0,
+    "quote_count": 0
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/Gnz8XmEWwAA-dQ1?format=jpg&name=medium",
+      "preview_image_url": "https://pbs.twimg.com/media/Gnz8XmEWwAA-dQ1?format=jpg&name=medium",
+      "media_key": "media_key_8576b0e3a5f04b0da6a_0"
+    }
+  ]
+}

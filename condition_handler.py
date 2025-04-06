@@ -5,18 +5,18 @@ from typing import Dict, Optional, List
 # Import the existing function with all its condition logic
 def extract_ticker_info(text):
     # Listes de mots pour chaque condition
-    negative_words = {'Pain', 'Wounded', 'Broken', 'Defeated', 'stealing', 'Shattered', 'Ruined', 'Damaged', 'Crushed', 'Bankrupt', 'Destroyed', 'Helpless', 'Devastated', 'Exhausted', 'Collapsed', 'Sunk', 'Despair', 'Stranded'}
-    death_words = {'Dead', 'Deceased', 'Gone', 'Perished', 'Buried', 'Withered', 'died', 'dies', 'death'}
-    mascot_words = {'mascot', 'logo', 'character', 'fictional character'}
-    crime_words = {'charged', 'arrested', 'detained', 'indicted', 'convicted', 'gun', 'knife'}
-    toilet_words = {'Pee', 'Poo', 'Wee-wee', 'Tinkle', 'Whiz', 'Piddle', 'Poop', 'Doo-doo', 'Dookie', 'Number two', 'Pee-pee', 'Potty', 'Dump', 'BM'}
-    social_media_brands = {'twitter', 'KFC', 'X', 'Duolingo', 'reddit', 'twitch', 'Minecraft', 'Walmart'}
+    negative_words = {'Pain', 'Hurting', 'Hurt', 'Wound', 'Wounded', 'Wounding', 'Defeat', 'Defeated', 'Defeating', 'Steal', 'Stolen', 'Stealing', 'Shatter', 'Shattered', 'Shattering', 'Ruin', 'Ruined', 'Ruining', 'Damage', 'Damaged', 'Damaging', 'Crush', 'Crushed', 'Crushing', 'Bankrupt', 'Bankrupted', 'Bankrupting', 'Destroy', 'Destroyed', 'Destroying', 'Help', 'Helpless', 'Helping', 'Devastate', 'Devastated', 'Devastating', 'Exhaust', 'Exhausted', 'Exhausting', 'Collapse', 'Collapsed', 'Collapsing', 'Sink', 'Sunk', 'Sinking', 'Despair', 'Despaired', 'Despairing', 'Strand', 'Stranded', 'Stranding'}
+    death_words = {'Die', 'Dead', 'Died', 'Decease', 'Deceased', 'Deceasing', 'Go', 'Gone', 'Went', 'Perish', 'Perished', 'Perishing', 'Bury', 'Buried', 'Buried', 'Wither', 'Withered', 'Withering', 'Expire', 'Expired', 'Expiring', 'Pass', 'Passed', 'Passing', 'Succumb', 'Succumbed', 'Succumbing', 'Depart', 'Departed', 'Departing', 'Fade', 'Faded', 'Fading', 'Live', 'Lifeless', 'Lived', 'Extinguish', 'Extinct', 'Extinguished', 'Lose', 'Lost', 'Lost', 'Slay', 'Slain', 'Slaying', 'Kill', 'Killed', 'Killing', 'Murder', 'Murdered', 'Murdering', 'Execute', 'Executed', 'Executing', 'Vanish', 'Vanished', 'Vanishing', 'Fall', 'Felled', 'Felling', 'Rest', 'Resting', 'Rested', 'dies', 'death'}
+    mascot_words = {'Mascot', 'Logo', 'Symbol', 'Icon', 'Badge', 'Figure', 'Character', 'Avatar', 'Entity', 'Fictional Character', 'Cartoon ', 'Illustration', 'Caricature', 'Creature', 'Totem', 'Puppet', 'Alter Ego', 'Creature', 'Imaginary Figure', 'Fantasy Being', 'Virtual Character', 'Animated Figure'}
+    crime_words = {'Charge', 'Charged', 'Charging', 'Arrest', 'Arrested', 'Arresting', 'Detain', 'Detained', 'Detaining', 'Indict', 'Indicted', 'Indicting', 'Convict', 'Convicted', 'Convicting', 'Gun', 'Gunned', 'Gunning', 'Shoot', 'Shot', 'Shooting', 'Knife', 'Knifed', 'Knifing', 'Stab', 'Stabbed', 'Stabbing', 'Accuse', 'Accused', 'Accusing', 'Assault', 'Assaulted', 'Assaulting', 'Attack', 'Attacked', 'Attacking', 'Rob', 'Robbed', 'Robbing', 'Accuse', 'Accused', 'Accusing', 'Assault', 'Assaulted', 'Assaulting', 'Attack', 'Attacked', 'Attacking', 'Rob', 'Robbed', 'Robbing'}
+    toilet_words = {'Pee', 'Peed', 'Peeing', 'Poo', 'Pooed', 'Pooing', 'Wee-wee', 'Wee-weed', 'Wee-weeing', 'Tinkle', 'Tinkled', 'Tinkling', 'Whiz', 'Whizzed', 'Whizzing', 'Piddle', 'Piddled', 'Piddling', 'Poop', 'Pooped', 'Pooping', 'Doo-doo', 'Doo-dooed', 'Doo-dooing', 'Dookie', 'Dookied', 'Dookieing', 'Number two', 'Number twoed', 'Number twoing', 'Pee-pee', 'Pee-peed', 'Pee-peeing', 'Potty', 'Pottied', 'Pottying', 'Dump', 'Dumped', 'Dumping', 'BM', 'BMed', 'BMing'}
+    social_media_brands = {'twitter', 'KFC', 'X', 'Duolingo', 'reddit', 'twitch', 'Minecraft', 'Walmart', 'Discord', 'McDonald\'s', 'pumpfun', 'Colonel Sanders'}
     animals = {'Lion', 'Elephant', 'Giraffe', 'Zebra', 'Tiger', 'Bear', 'Monkey', 'Gorilla', 'Hippopotamus', 'Rhinoceros', 'Crocodile', 'Snake', 'Flamingo', 'Ostrich', 'Kangaroo', 'Koala', 'Panda', 'Wolf', 'Cheetah'}
     meme_coins = {'Pepe', 'doge'}
-    crypto_words = {'bitcoin', 'ethereum', 'stablecoin', 'Solana', 'DOGE', 'Shiba', 'Pepe', 'Floki', 'Bonk', 'Dogwifhat', 'Popcat'}
-    elon_brands = {'spacex', 'Optimus', 'boringcompany', 'Tesla', 'cybertruck'}
-    sex_offender_words = {'Sexual Predator', 'Sexual Abuser', 'Rapist', 'Child Molester', 'Pedophile', 'Statutory Rapist', 'Sexual Assailant', 'Sex Criminal', 'Registered Sex Offender', 'Sexual Deviant', 'Perpetrator', 'Sexual Delinquent', 'Sexual Violator', 'Incest Offender', 'Exhibitionist', 'Voyeur', 'Sexual Exploiter', 'Pornography Offender', 'Sex Trafficker', 'Sexual Coercer'}
-    touch_words = {'touching', 'Caress', 'Fondle', 'Stroke', 'Massage', 'Embrace', 'Cuddle', 'Rub', 'Tease'}
+    crypto_words = {'bitcoin', 'ethereum', 'stablecoin', 'Solana', 'DOGE', 'Shiba', 'Pepe', 'Floki', 'Bonk', 'Dogwifhat', 'Popcat', 'Floki', 'Bonk'}
+    elon_brands = {'spacex', 'Optimus', 'boringcompany', 'Tesla', 'cybertruck', 'neuralink'}
+    sex_offender_words = {'Sexual Predator', 'Sexual Abuser', 'Rapist', 'Child Molester', 'Pedophile', 'Statutory Rapist', 'Sexual Assailant', 'Sex Criminal', 'Registered Sex Offender', 'Sexual Deviant', 'Perpetrator', 'Sexual Delinquent', 'Sexual Violator', 'Incest Offender', 'Exhibitionist', 'Voyeur', 'Sexual Exploiter', 'Pornography Offender', 'Sex Trafficker', 'Sexual Coercer', 'indecency', 'P*dophile'}
+    touch_words = {'Touch', 'Touched', 'Touching', 'Caress', 'Caressed', 'Caressing', 'Fondle', 'Fondled', 'Fondling', 'Stroke', 'Stroked', 'Stroking', 'Cuddle', 'Cuddled', 'Cuddling', 'Rub', 'Rubbed', 'Rubbing', 'Tease', 'Teased', 'Teasing'}
     
 
     text_lower = text.lower()
@@ -31,10 +31,14 @@ def extract_ticker_info(text):
 
     words = text_lower.split()
 
-    # Condition 1: '$' suivi d'un mot
+    # Condition 1: '$' suivi d'un mot (à supprimer carrément)
     for word in words:
         if word.startswith('$') and len(word) > 1:
-            return "Create a memecoin concept where ticker is the word following '$' (uppercase, max 10 chars, abbreviate if longer), name is the word following '$' + ' Coin'"
+            # Extrait la partie après le '$'
+            ticker_part = word[1:]
+             # Vérifie si cette partie contient au moins une lettre (pour exclure les montants)
+            if any(c.isalpha() for c in ticker_part):
+                return "Create a memecoin concept where ticker is the word following '$' (uppercase, max 10 chars, abbreviate if longer), name is the word following '$' + ' Coin'"
         
         if word == 'hat' or word == "hats":
             return "Create a memecoin concept where ticker is first letter of person + WH (max 8 chars), name is '[person] Wif " + word + "' (default person: no coin if no name found)"

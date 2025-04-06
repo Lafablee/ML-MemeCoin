@@ -1,0 +1,28 @@
+{
+  "description": "An artistic image featuring a large bison standing in a grassy field with a backdrop of a digital Bitcoin symbol in the sky. The setting appears serene with clouds and open plains.",
+  "subjects": [
+    "bison",
+    "Bitcoin symbol",
+    "field",
+    "clouds"
+  ],
+  "actions": [
+    "bison standing"
+  ],
+  "mood": "Majestic and serene",
+  "visible_text": [
+    "Follow: @Bitcoin"
+  ],
+  "emotional_themes": [
+    "strength",
+    "innovation"
+  ],
+  "is_meme": false,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {
+    "crise_economique": [
+      "drop"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "tweet_id": "e516c9ae9c9e41c79b8",
+  "original_text": "DEMOCRATS IN PANIC MODE AS ELON\u2019S DOGE REVELATIONS GO PUBLIC",
+  "named_entities": [
+    {
+      "text": "DEMOCRATS",
+      "type": "GPE"
+    },
+    {
+      "text": "ELON",
+      "type": "ORG"
+    }
+  ],
+  "capital_words": [
+    "IN",
+    "PANIC",
+    "MODE",
+    "AS",
+    "ELON",
+    "DOGE",
+    "REVELATIONS",
+    "GO",
+    "PUBLIC"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "REVELATIONS"
+  ],
+  "significant_verbs": [],
+  "unique_identifiers": [
+    "MODE",
+    "PUBLIC",
+    "PANIC",
+    "REVELATIONS",
+    "GO",
+    "DOGE",
+    "AS",
+    "IN",
+    "ELON"
+  ],
+  "tweet_identity": "MODE PUBLIC PANIC REVELATIONS GO",
+  "detected_themes": {},
+  "username": "Mario Nawfal"
+}

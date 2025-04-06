@@ -1,19 +1,20 @@
 {
-  "description": "The image features an anthropomorphic wooden character with a humorous face resembling a well-known figure, standing in a dimly lit shelter or bus stop with a sign. The setting is somewhat surreal, with exaggerated human-like limbs and a baseball bat in hand.",
+  "description": "The image depicts a cartoonish character with a head resembling a well-known fast-food mascot, but with a sausage-like body and legs. The character is holding a club-like object, standing outside what appears to be a shelter or station at night.",
   "subjects": [
-    "Anthropomorphic figure",
-    "Baseball bat",
-    "Bus stop or shelter"
+    "Cartoon character",
+    "Club",
+    "Building"
   ],
   "actions": [
-    "Standing and holding a bat"
+    "Standing"
   ],
   "mood": "Humorous and surreal",
   "visible_text": [
     "PENTUNG POS RON"
   ],
   "emotional_themes": [
-    "Humor"
+    "Amusement",
+    "Confusion"
   ],
   "is_meme": true,
   "is_crisis": false,
