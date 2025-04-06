@@ -88,14 +88,7 @@ class TweetSimulator:
     
     def process_tweet(self, username: str, tweet_id: str) -> Optional[Dict[str, Any]]:
         """
-        Traite un tweet fictif en utilisant le pipeline complet
-        
-        Args:
-            username: Nom d'utilisateur du compte Twitter
-            tweet_id: ID du tweet à traiter
-            
-        Returns:
-            Données du meme coin généré ou None en cas d'échec
+        Traite un tweet fictif en utilisant uniquement les conditions pour déterminer l'éligibilité
         """
         self.logger.info(f"Traitement du tweet {tweet_id} de @{username}")
         
@@ -104,21 +97,16 @@ class TweetSimulator:
         if not tweet:
             self.logger.error(f"Tweet {tweet_id} non trouvé pour @{username}")
             return None
-        
-        from pattern_matcher import PatternMatcher
-            
-        is_eligible_by_pattern = PatternMatcher.is_eligible(
-            tweet_text=tweet["text"],
-            username=username
-        )
 
         # 2. Analyser le texte du tweet
         self.logger.info("Analyse du texte du tweet...")
         text_analysis = self.tweet_analyzer.extract_keywords(tweet)
+        text_analysis["username"] = username  # Ajouter l'username pour la détection
         self.storage.save_analysis(text_analysis, username)
         
         # 3. Analyser les médias du tweet
         media_analyses = []
+        first_media_analysis = None
         
         if "media" in tweet and tweet["media"]:
             self.logger.info(f"Analyse de {len(tweet['media'])} médias...")
@@ -143,125 +131,72 @@ class TweetSimulator:
                     # Sauvegarder l'analyse du média
                     self.storage.save_media_analysis(tweet_id, username, idx, media_analysis)
                     media_analyses.append(media_analysis)
-        
-        # First define the media analysis variable
-        first_media_analysis = media_analyses[0] if media_analyses else None
 
-        # NEW STEP: Check pattern eligibility directly BEFORE theme consolidation
-        from pattern_matcher import PatternMatcher
-        pattern_eligible = PatternMatcher.is_eligible(
-            tweet_text=tweet["text"],
-            username=username,
-            media_analysis=first_media_analysis
-        )
-    
-        if pattern_eligible:
-            self.logger.info("Tweet matches pattern criteria - automatically eligible")
-
-        # 4. Consolidation of themes and eligibility determination
-        self.logger.info("Consolidating themes...")
-        consolidated_themes = self.theme_detector.consolidate_themes(text_analysis, media_analyses)
+                    # Conserver la première analyse média pour les vérifications
+                    if idx == 0:
+                        first_media_analysis = media_analysis
         
-        # Add username to consolidated_themes for reference
-        consolidated_themes["username"] = username
-        consolidated_themes["original_text"] = tweet["text"]
-
-        # Display media analysis information for debugging
-        if media_analyses:
-            print("\n=========== MEDIA ANALYSIS ===========")
-            for idx, media_analysis in enumerate(media_analyses):
-                print(f"\nMEDIA {idx+1}:")
-                try:
-                    if "error" in media_analysis:
-                        print(f"ERROR: {media_analysis['error']}")
-                        continue
-                        
-                    print(f"DESCRIPTION: {media_analysis.get('description', 'No description available')}")
-                    
-                    subjects = media_analysis.get('subjects', [])
-                    if subjects and isinstance(subjects, list):
-                        # Filter out None values and convert to strings
-                        subjects = [str(s) for s in subjects if s is not None]
-                        if subjects:
-                            print(f"SUBJECTS: {', '.join(subjects)}")
-                    
-                    visible_text = media_analysis.get('visible_text', [])
-                    if visible_text and isinstance(visible_text, list):
-                        # Filter out None values and convert to strings
-                        visible_text = [str(t) for t in visible_text if t is not None]
-                        if visible_text:
-                            print(f"VISIBLE TEXT: {', '.join(visible_text)}")
-                    
-                    print(f"IS MEME: {'Yes' if media_analysis.get('is_meme') else 'No'}")
-                    print(f"IS CRISIS: {'Yes' if media_analysis.get('is_crisis') else 'No'}")
-                    
-                    detected_themes = media_analysis.get('detected_themes', {})
-                    if detected_themes:
-                        # Format themes nicely
-                        themes_str = "; ".join([f"{theme}: {', '.join(keywords)}" 
-                                              for theme, keywords in detected_themes.items()])
-                        print(f"DETECTED THEMES: {themes_str}")
-                    else:
-                        print("DETECTED THEMES: None")
-                except Exception as e:
-                    print(f"Error displaying media analysis: {str(e)}")
-                    print(f"Raw data: {media_analysis}")
-            print("=======================================\n")
-        
-        # Check if the content is eligible
-        if not self.theme_detector.is_content_eligible(consolidated_themes) and not pattern_eligible:
-            self.logger.info("Tweet is not eligible for meme coin generation")
-            print("\nThis tweet is not eligible for meme coin generation. Reasons could be:")
-            print("- No relevant themes detected")
-            print("- No interesting content in text or media")
-            print("- Content doesn't match criteria for meme coin generation")
+        # 4. DÉCISION D'ÉLIGIBILITÉ SIMPLIFIÉE: Uniquement basée sur les conditions
+        try:
+            from condition_handler import extract_ticker_info, is_pattern_eligible
             
-            print("\nConsolidated themes analysis:")
-            print(f"Has minimal text: {'Yes' if consolidated_themes.get('has_minimal_text') else 'No'}")
-            print(f"Is meme: {'Yes' if consolidated_themes.get('is_meme') else 'No'}")
-            print(f"Is crisis: {'Yes' if consolidated_themes.get('is_crisis') else 'No'}")
-            print(f"Eligible sources: {consolidated_themes.get('eligible_sources', [])}")
-            print(f"Detected themes: {consolidated_themes.get('themes', {})}")
+            # Vérifier d'abord avec extract_ticker_info (conditions textuelles)
+            ticker_info = extract_ticker_info(tweet["text"])
+            if ticker_info:
+                self.logger.info(f"Tweet éligible via extract_ticker_info: {ticker_info}")
+                is_eligible = True
+                condition_match = ticker_info
+            else:
+                # Ensuite vérifier avec is_pattern_eligible (inclut analyse média)
+                is_eligible = is_pattern_eligible(tweet["text"], username, first_media_analysis)
+                self.logger.info(f"Tweet éligible via is_pattern_eligible: {is_eligible}")
+                condition_match = "Détecté via pattern matching"
+            
+        except ImportError as e:
+            self.logger.error(f"Erreur d'importation de condition_handler: {e}")
+            # Fallback via PatternMatcher
+            from pattern_matcher import PatternMatcher
+            is_eligible = PatternMatcher.is_eligible(tweet["text"], username, first_media_analysis)
+            self.logger.info(f"Tweet éligible via PatternMatcher fallback: {is_eligible}")
+            condition_match = "Détecté via pattern matcher fallback"
+        
+        # Si non éligible, sortir immédiatement
+        if not is_eligible:
+            self.logger.info("Tweet non éligible - aucune condition validée")
+            print("\nCe tweet n'est pas éligible pour la génération d'un meme coin:")
+            print(f"- Tweet: \"{tweet['text']}\"")
+            print("- Aucune condition validée")
             return None
         
-        # If we get here, the tweet is eligible either by pattern or by theme detection
-        if is_eligible_by_pattern:
-            self.logger.info("Tweet eligible via pattern matching")
-        else:
-            self.logger.info("Tweet eligible via theme detection")
-            # 5. Déterminer le thème principal
-            primary_theme = self.theme_detector.get_primary_theme(consolidated_themes)
-            self.logger.info(f"Thème principal détecté: {primary_theme}")
-        
-        # 6. Get the main theme and keywords (unchanged)
-        primary_theme = self.theme_detector.get_primary_theme(consolidated_themes)
-        self.logger.info(f"Thème principal détecté: {primary_theme}")
-
-        # 7. Extraire les mots-clés pertinents
+        # 5. Extraire les mots-clés pertinents (pour le prompt uniquement)
         relevant_keywords = self.theme_detector.extract_relevant_keywords(
-            text_analysis, media_analyses, primary_theme)
+            text_analysis, media_analyses)
         self.logger.info(f"Mots-clés pertinents: {relevant_keywords}")
         
-        # 8. Generate the meme coin
-        self.logger.info("Generating meme coin...")
-        
-        # Get format guidance based on pattern
+        # 6. Obtenir des instructions de format basées sur les conditions
+        from pattern_matcher import PatternMatcher
         memecoin_format = PatternMatcher.get_memecoin_format(tweet["text"], username)
         
-        # Generate with pattern guidance
+        # 7. Générer le meme coin
+        self.logger.info("Generating meme coin...")
         memecoin = self.memecoin_generator.generate_memecoin(
-            username, tweet["text"], relevant_keywords, primary_theme,
-            is_image_primary=(consolidated_themes.get("has_minimal_text", False) and len(media_analyses) > 0),
-            format_guidance=memecoin_format  # Add this parameter to your function
+            username, 
+            tweet["text"], 
+            relevant_keywords,
+            is_image_primary=(len(tweet["text"].strip()) < 15 and len(media_analyses) > 0),
+            format_guidance=memecoin_format,
+            media_analysis=first_media_analysis,
+            condition_match=condition_match  # Passer la condition déclenchée
         )
         
-        # 9. Save the meme coin
+        # 8. Sauvegarder le meme coin
         self.storage.save_memecoin(memecoin, username, tweet_id)
         
         self.logger.info(f"Meme coin généré: {memecoin['token_name']} ({memecoin['token_symbol']})")
         
         return memecoin
-    
+       
+        
     def run_interactive_mode(self):
         """
         Launch an interactive mode to create and process simulated tweets

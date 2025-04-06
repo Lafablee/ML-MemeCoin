@@ -1,0 +1,46 @@
+{
+  "tweet_id": "90cf05a5b1594feeb24",
+  "original_text": "C\u2019est quoi que De Bruyne a fait sur un terrain de foot qui vous a le plus choqu\u00e9? J\u2019ai tellement de moments en t\u00eate j\u2019crois j\u2019vais jamais oublier ce joueur",
+  "named_entities": [
+    {
+      "text": "De Bruyne",
+      "type": "PERSON"
+    },
+    {
+      "text": "un",
+      "type": "ORG"
+    },
+    {
+      "text": "j\u2019crois j\u2019vais jamais",
+      "type": "ORG"
+    }
+  ],
+  "capital_words": [
+    "De",
+    "Bruyne"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "quoi",
+    "fait",
+    "foot",
+    "choqu\u00e9",
+    "moments"
+  ],
+  "significant_verbs": [],
+  "unique_identifiers": [
+    "Bruyne",
+    "De Bruyne",
+    "De",
+    "un",
+    "quoi",
+    "j\u2019crois j\u2019vais jamais",
+    "fait",
+    "foot",
+    "moments",
+    "choqu\u00e9"
+  ],
+  "tweet_identity": "un Bruyne quoi j\u2019crois j\u2019vais jamais fait",
+  "detected_themes": {},
+  "username": "22feno"
+}

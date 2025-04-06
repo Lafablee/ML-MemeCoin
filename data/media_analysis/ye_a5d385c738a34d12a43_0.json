@@ -1,0 +1,21 @@
+{
+  "description": "The image shows a person wearing a red hooded robe standing in front of large hay bales. The person's robe has symbols and patches on it and they are holding a bouquet of flowers.",
+  "subjects": [
+    "Person in red hooded robe",
+    "Hay bales"
+  ],
+  "actions": [
+    "Standing",
+    "Holding flowers"
+  ],
+  "mood": "Unsettling and bizarre",
+  "visible_text": [],
+  "emotional_themes": [
+    "Surreal",
+    "Uncomfortable"
+  ],
+  "is_meme": false,
+  "is_crisis": false,
+  "crisis_type": "",
+  "detected_themes": {}
+}

@@ -1,0 +1,24 @@
+{
+  "tweet_id": "52444434f02840a5a07",
+  "original_text": "RIYADH IS YELLOW AND BLUE!",
+  "named_entities": [],
+  "capital_words": [
+    "IS",
+    "YELLOW",
+    "AND",
+    "BLUE"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "YELLOW",
+    "BLUE"
+  ],
+  "significant_verbs": [],
+  "unique_identifiers": [
+    "BLUE",
+    "YELLOW"
+  ],
+  "tweet_identity": "BLUE YELLOW",
+  "detected_themes": {},
+  "username": "Cristiano"
+}

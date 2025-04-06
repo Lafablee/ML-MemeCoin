@@ -1,0 +1,23 @@
+{
+  "description": "The image shows a mannequin in a spacesuit seated in a Tesla Roadster, floating in space with the Earth visible in the background.",
+  "subjects": [
+    "Mannequin in spacesuit",
+    "Tesla Roadster",
+    "Earth"
+  ],
+  "actions": [
+    "Car floating in space"
+  ],
+  "mood": "Surreal",
+  "visible_text": [
+    "DON'T PANIC"
+  ],
+  "emotional_themes": [
+    "Wonder",
+    "Amazement"
+  ],
+  "is_meme": true,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

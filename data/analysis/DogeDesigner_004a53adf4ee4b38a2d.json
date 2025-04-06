@@ -1,0 +1,57 @@
+{
+  "tweet_id": "004a53adf4ee4b38a2d",
+  "original_text": "DOGE BREAKING: Agencies cancelled 47 wasteful contracts today with $87.5M ceiling value and $30.2M in savings.",
+  "named_entities": [
+    {
+      "text": "47",
+      "type": "CARDINAL"
+    },
+    {
+      "text": "today",
+      "type": "DATE"
+    },
+    {
+      "text": "87.5",
+      "type": "MONEY"
+    },
+    {
+      "text": "$30.2M",
+      "type": "MONEY"
+    }
+  ],
+  "capital_words": [
+    "BREAKING",
+    "Agencies"
+  ],
+  "symbols": [
+    "$87",
+    "$30"
+  ],
+  "important_nouns": [
+    "BREAKING",
+    "Agencies",
+    "contracts",
+    "today",
+    "ceiling",
+    "value",
+    "savings"
+  ],
+  "significant_verbs": [
+    "cancelled"
+  ],
+  "unique_identifiers": [
+    "$87",
+    "$30",
+    "$30",
+    "$87",
+    "Agencies",
+    "BREAKING",
+    "ceiling",
+    "value",
+    "today",
+    "savings"
+  ],
+  "tweet_identity": "ceiling $30 value $87 Agencies",
+  "detected_themes": {},
+  "username": "DogeDesigner"
+}

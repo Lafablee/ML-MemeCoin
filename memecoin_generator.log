@@ -267,3 +267,118 @@
 2025-04-04 16:32:25,557 - simulator - INFO - Generating meme coin...
 2025-04-04 16:32:26,447 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-04-04 16:32:26,450 - simulator - INFO - Meme coin généré: elonfire (ELONFLAME)
+2025-04-05 19:14:06,373 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-05 19:14:06,376 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-05 19:14:42,213 - simulator - INFO - Tweet fictif créé avec l'ID 66693e2c8c5047faa92 pour @Yeat
+2025-04-05 19:14:46,445 - simulator - INFO - Traitement du tweet 66693e2c8c5047faa92 de @Yeat
+2025-04-05 19:14:46,446 - simulator - INFO - Tweet éligible par pattern matching
+2025-04-05 19:14:46,446 - simulator - INFO - Analyse du texte du tweet...
+2025-04-05 19:14:46,459 - simulator - INFO - Consolidation des informations...
+2025-04-05 19:14:46,459 - simulator - INFO - Thème principal détecté: general
+2025-04-05 19:14:46,459 - simulator - INFO - Mots-clés pertinents: []
+2025-04-05 19:14:46,470 - simulator - INFO - Generating meme coin...
+2025-04-05 20:13:39,540 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-05 20:13:39,542 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-05 20:15:43,982 - simulator - INFO - Tweet fictif créé avec l'ID ad891dc35fca49328ad pour @Yeat 
+2025-04-05 20:15:45,918 - simulator - INFO - Traitement du tweet ad891dc35fca49328ad de @Yeat 
+2025-04-05 20:15:45,919 - simulator - INFO - Tweet éligible par pattern matching
+2025-04-05 20:15:45,919 - simulator - INFO - Analyse du texte du tweet...
+2025-04-05 20:15:45,948 - simulator - INFO - Consolidation des informations...
+2025-04-05 20:15:45,949 - simulator - INFO - Thème principal détecté: general
+2025-04-05 20:15:45,949 - simulator - INFO - Mots-clés pertinents: []
+2025-04-05 20:15:45,950 - simulator - INFO - Generating meme coin...
+2025-04-05 20:15:48,911 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-05 20:15:48,921 - simulator - INFO - Meme coin généré: HurdYeat (HURDY)
+2025-04-06 00:16:19,802 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 00:16:19,803 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 00:17:24,746 - simulator - INFO - Traitement du tweet e80dadb22a074372901 de @Westerndecline
+2025-04-06 00:17:24,747 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 00:17:24,763 - simulator - INFO - Analyse de 1 médias...
+2025-04-06 00:17:24,764 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gngol5aXsAArnOO?format=jpg&name=medium
+2025-04-06 00:17:29,825 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 00:17:29,831 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where ticker and name are related to Elon Musk
+2025-04-06 00:17:29,832 - simulator - INFO - Mots-clés pertinents: ['Anime-style illustration', '/r/animemes', 'Wales', 'Optimus will come in many forms', 'Elon', 'Genetically Engineered Catgirls are Possible, Scientists say, but we lack funding.', 'Tweet', '2 Feb 2018', 'Headline', 'Catgirl']
+2025-04-06 00:17:29,835 - simulator - INFO - Generating meme coin...
+2025-04-06 00:17:31,284 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 00:17:31,289 - simulator - INFO - Meme coin généré: Elonimation (EL0NIME)
+2025-04-06 00:19:49,865 - simulator - INFO - Tweet fictif créé avec l'ID 52444434f02840a5a07 pour @Cristiano
+2025-04-06 00:19:54,621 - simulator - INFO - Traitement du tweet 52444434f02840a5a07 de @Cristiano
+2025-04-06 00:19:54,621 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 00:19:54,630 - simulator - INFO - Tweet éligible via is_pattern_eligible: False
+2025-04-06 00:19:54,630 - simulator - INFO - Tweet non éligible - aucune condition validée
+2025-04-06 00:20:44,709 - simulator - INFO - Tweet fictif créé avec l'ID 90cf05a5b1594feeb24 pour @22feno
+2025-04-06 00:20:45,961 - simulator - INFO - Traitement du tweet 90cf05a5b1594feeb24 de @22feno
+2025-04-06 00:20:45,961 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 00:20:45,973 - simulator - INFO - Tweet éligible via is_pattern_eligible: False
+2025-04-06 00:20:45,973 - simulator - INFO - Tweet non éligible - aucune condition validée
+2025-04-06 00:22:22,891 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 00:22:22,891 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 00:22:51,262 - simulator - INFO - Tweet fictif créé avec l'ID a5d385c738a34d12a43 pour @ye
+2025-04-06 00:22:52,882 - simulator - INFO - Traitement du tweet a5d385c738a34d12a43 de @ye
+2025-04-06 00:22:52,883 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 00:22:52,894 - simulator - INFO - Analyse de 1 médias...
+2025-04-06 00:22:52,895 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GnpM1C_aYAAOYEm?format=jpg&name=medium
+2025-04-06 00:22:56,179 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 00:22:56,186 - simulator - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-06 00:22:56,186 - simulator - INFO - Mots-clés pertinents: ['Hay bales', 'Person in red hooded robe']
+2025-04-06 00:22:56,188 - simulator - INFO - Generating meme coin...
+2025-04-06 00:22:57,224 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 00:22:57,228 - simulator - INFO - Meme coin généré: BaleHood (BLHD)
+2025-04-06 00:26:10,481 - simulator - INFO - Tweet fictif créé avec l'ID 83f46119919a47a2a3d pour @elonmusk
+2025-04-06 00:26:11,973 - simulator - INFO - Traitement du tweet 83f46119919a47a2a3d de @elonmusk
+2025-04-06 00:26:11,974 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 00:26:11,982 - simulator - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-06 00:26:11,983 - simulator - INFO - Mots-clés pertinents: ['Pen']
+2025-04-06 00:26:11,983 - simulator - INFO - Generating meme coin...
+2025-04-06 00:26:15,284 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 00:26:15,298 - simulator - INFO - Meme coin généré: LePenPal (P3NFREE)
+2025-04-06 00:27:50,052 - simulator - INFO - Tweet fictif créé avec l'ID fb8733edddb94dd7849 pour @DogeDesigner
+2025-04-06 00:27:51,740 - simulator - INFO - Traitement du tweet fb8733edddb94dd7849 de @DogeDesigner
+2025-04-06 00:27:51,742 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 00:27:51,752 - simulator - INFO - Analyse de 1 médias...
+2025-04-06 00:27:51,753 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gnn7zI0XgAAMXgg?format=jpg&name=medium
+2025-04-06 00:27:55,901 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 00:27:55,903 - simulator - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-06 00:27:55,904 - simulator - INFO - Mots-clés pertinents: ["DON'T PANIC", 'Earth', 'Panic', 'Tesla Roadster', 'Mannequin in spacesuit']
+2025-04-06 00:27:55,904 - simulator - INFO - Generating meme coin...
+2025-04-06 00:27:56,798 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 00:27:56,804 - simulator - INFO - Meme coin généré: SpaceMan (SPC4M)
+2025-04-06 00:31:02,572 - simulator - INFO - Tweet fictif créé avec l'ID 004a53adf4ee4b38a2d pour @DogeDesigner
+2025-04-06 00:31:04,609 - simulator - INFO - Traitement du tweet 004a53adf4ee4b38a2d de @DogeDesigner
+2025-04-06 00:31:04,610 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 00:31:04,627 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where ticker is the word following '$' (uppercase, max 10 chars, abbreviate if longer), name is the word following '$' + ' Coin'
+2025-04-06 00:31:04,628 - simulator - INFO - Mots-clés pertinents: ['ceiling', '$30', 'value', 'Agencies', '$87', 'today', 'BREAKING', 'savings']
+2025-04-06 00:31:04,628 - simulator - INFO - Generating meme coin...
+2025-04-06 00:31:05,859 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 00:31:05,866 - simulator - INFO - Meme coin généré: 87Coin (87)
+2025-04-06 00:32:47,394 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 00:32:47,394 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-06 00:33:32,630 - simulator - INFO - Tweet fictif créé avec l'ID d83e2b395e594d2b847 pour @DogeDesigner
+2025-04-06 00:33:34,279 - simulator - INFO - Traitement du tweet d83e2b395e594d2b847 de @DogeDesigner
+2025-04-06 00:33:34,280 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 00:33:34,297 - simulator - INFO - Analyse de 1 médias...
+2025-04-06 00:33:34,297 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GnfZkAmXcAASdaU?format=jpg&name=900x900
+2025-04-06 00:33:37,951 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 00:33:37,961 - simulator - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-06 00:33:37,961 - simulator - INFO - Mots-clés pertinents: ['anime', 'Grok', 'Hallway interior', 'photos', 'Two animated characters', 'American flags', 'INTELLIGENCE']
+2025-04-06 00:33:37,963 - simulator - INFO - Generating meme coin...
+2025-04-06 00:33:39,019 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 00:33:39,021 - simulator - INFO - Meme coin généré: Groktification (GR0K)
+2025-04-06 00:35:10,845 - simulator - INFO - Tweet fictif créé avec l'ID a7363f65b53d44bd962 pour @elonmusk
+2025-04-06 00:35:14,643 - simulator - INFO - Traitement du tweet a7363f65b53d44bd962 de @elonmusk
+2025-04-06 00:35:14,644 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 00:35:14,657 - simulator - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-06 00:35:14,657 - simulator - INFO - Mots-clés pertinents: ['improvement', 'rate']
+2025-04-06 00:35:14,658 - simulator - INFO - Generating meme coin...
+2025-04-06 00:35:15,682 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 00:35:15,686 - simulator - INFO - Meme coin généré: Rapido (R4PID)
+2025-04-06 00:36:09,814 - simulator - INFO - Traitement du tweet e80dadb22a074372901 de @Westerndecline
+2025-04-06 00:36:09,815 - simulator - INFO - Analyse du texte du tweet...
+2025-04-06 00:36:09,829 - simulator - INFO - Analyse de 1 médias...
+2025-04-06 00:36:09,831 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gngol5aXsAArnOO?format=jpg&name=medium
+2025-04-06 00:36:15,190 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 00:36:15,192 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where ticker and name are related to Elon Musk
+2025-04-06 00:36:15,193 - simulator - INFO - Mots-clés pertinents: ['Elon Musk', 'Anime-style catgirl', 'r/animemes', 'Jun 21, 2023', 'Mocked-up news article', 'NYAGAGO', 'Optimus will come in many forms', 'Genetically Engineered Catgirls are Possible, Scientists say, “but we lack funding.”', 'Tweet', 'BBC NEWS']
+2025-04-06 00:36:15,193 - simulator - INFO - Generating meme coin...
+2025-04-06 00:36:16,237 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-06 00:36:16,241 - simulator - INFO - Meme coin généré: CATNIME (ELNIME)

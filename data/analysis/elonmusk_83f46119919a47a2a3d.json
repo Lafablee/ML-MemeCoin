@@ -1,0 +1,19 @@
+{
+  "tweet_id": "83f46119919a47a2a3d",
+  "original_text": "Free Le Pen ! ",
+  "named_entities": [],
+  "capital_words": [
+    "Le",
+    "Pen"
+  ],
+  "symbols": [],
+  "important_nouns": [],
+  "significant_verbs": [],
+  "unique_identifiers": [
+    "Pen",
+    "Le"
+  ],
+  "tweet_identity": "Pen Le",
+  "detected_themes": {},
+  "username": "elonmusk"
+}

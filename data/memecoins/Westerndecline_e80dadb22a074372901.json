@@ -1,14 +1,19 @@
 {
-  "token_name": "ElonYawn",
-  "token_symbol": "Y4WN",
+  "token_name": "CATNIME",
+  "token_symbol": "ELNIME",
   "tweet_author": "Westerndecline",
-  "primary_theme": "meme",
   "relevant_keywords": [
-    "Elon Musk tweet",
-    "BBC NEWS",
-    "Elon",
-    "Mock BBC article",
-    "/r/animemes"
+    "Elon Musk",
+    "Anime-style catgirl",
+    "r/animemes",
+    "Jun 21, 2023",
+    "Mocked-up news article",
+    "NYAGAGO",
+    "Optimus will come in many forms",
+    "Genetically Engineered Catgirls are Possible, Scientists say, \u201cbut we lack funding.\u201d",
+    "Tweet",
+    "BBC NEWS"
   ],
-  "generated_at": "2025-04-03 19:19:26"
+  "generated_at": "2025-04-06 00:36:16",
+  "condition": "Create a memecoin concept where ticker and name are related to Elon Musk"
 }

@@ -1,0 +1,22 @@
+{
+  "description": "The image shows two animated characters standing in a large hallway with multiple American flags and the word 'INTELLIGENCE' visible on the floor.",
+  "subjects": [
+    "Two animated characters",
+    "American flags",
+    "Hallway interior"
+  ],
+  "actions": [
+    "Standing"
+  ],
+  "mood": "Serious",
+  "visible_text": [
+    "INTELLIGENCE"
+  ],
+  "emotional_themes": [
+    "Seriousness"
+  ],
+  "is_meme": false,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

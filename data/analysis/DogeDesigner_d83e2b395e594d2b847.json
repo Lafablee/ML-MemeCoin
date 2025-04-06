@@ -1,0 +1,30 @@
+{
+  "tweet_id": "d83e2b395e594d2b847",
+  "original_text": "Turn your photos into anime using Grok! \ud83d\udd25",
+  "named_entities": [
+    {
+      "text": "Grok",
+      "type": "PERSON"
+    }
+  ],
+  "capital_words": [
+    "Grok"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "photos",
+    "anime"
+  ],
+  "significant_verbs": [
+    "Turn",
+    "using"
+  ],
+  "unique_identifiers": [
+    "Grok",
+    "photos",
+    "anime"
+  ],
+  "tweet_identity": "photos anime Grok",
+  "detected_themes": {},
+  "username": "DogeDesigner"
+}

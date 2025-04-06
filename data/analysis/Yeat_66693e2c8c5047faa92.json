@@ -1,0 +1,18 @@
+{
+  "tweet_id": "66693e2c8c5047faa92",
+  "original_text": "slamm bottom everaday 4 real",
+  "named_entities": [
+    {
+      "text": "4",
+      "type": "CARDINAL"
+    }
+  ],
+  "capital_words": [],
+  "symbols": [],
+  "important_nouns": [],
+  "significant_verbs": [],
+  "unique_identifiers": [],
+  "tweet_identity": "",
+  "detected_themes": {},
+  "username": "Yeat"
+}

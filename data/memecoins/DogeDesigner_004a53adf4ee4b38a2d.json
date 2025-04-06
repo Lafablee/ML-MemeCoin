@@ -1,0 +1,17 @@
+{
+  "token_name": "87Coin",
+  "token_symbol": "87",
+  "tweet_author": "DogeDesigner",
+  "relevant_keywords": [
+    "ceiling",
+    "$30",
+    "value",
+    "Agencies",
+    "$87",
+    "today",
+    "BREAKING",
+    "savings"
+  ],
+  "generated_at": "2025-04-06 00:31:05",
+  "condition": "Create a memecoin concept where ticker is the word following '$' (uppercase, max 10 chars, abbreviate if longer), name is the word following '$' + ' Coin'"
+}

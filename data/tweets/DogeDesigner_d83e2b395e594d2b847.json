@@ -1,0 +1,19 @@
+{
+  "id": "d83e2b395e594d2b847",
+  "text": "Turn your photos into anime using Grok! \ud83d\udd25",
+  "created_at": "2025-04-06T00:33:32.628219",
+  "public_metrics": {
+    "like_count": 6100,
+    "retweet_count": 1200,
+    "reply_count": 0,
+    "quote_count": 0
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/GnfZkAmXcAASdaU?format=jpg&name=900x900",
+      "preview_image_url": "https://pbs.twimg.com/media/GnfZkAmXcAASdaU?format=jpg&name=900x900",
+      "media_key": "media_key_d83e2b395e594d2b847_0"
+    }
+  ]
+}

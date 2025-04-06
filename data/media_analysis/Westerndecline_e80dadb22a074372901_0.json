@@ -1,26 +1,27 @@
 {
-  "description": "The image is a screenshot of a tweet by Elon Musk with a humorous headline from a mock BBC article about genetically engineered catgirls. It includes an anime-style drawing of a catgirl.",
+  "description": "A screenshot of a tweet from June 21, 2023, by a user displaying a mocked-up BBC News article about 'Genetically Engineered Catgirls.' The tweet emphasizes humorous content using an anime-style catgirl image and humorous commentary.",
   "subjects": [
-    "Elon Musk tweet",
-    "Anime catgirl drawing",
-    "Mock BBC article"
+    "Tweet",
+    "Anime-style catgirl",
+    "Mocked-up news article"
   ],
   "actions": [
     "Tweeting",
-    "Displaying headline about catgirls"
+    "Mocking"
   ],
-  "mood": "Humorous and playful",
+  "mood": "Humorous",
   "visible_text": [
     "Elon Musk",
     "Jun 21, 2023",
     "Optimus will come in many forms",
     "BBC NEWS",
-    "Genetically Engineered Catgirls are Possible, Scientists say, but we lack funding.",
-    "2 Feb 2018",
-    "/r/animemes"
+    "Genetically Engineered Catgirls are Possible, Scientists say, \u201cbut we lack funding.\u201d",
+    "r/animemes",
+    "NYAGAGO"
   ],
   "emotional_themes": [
-    "Humor"
+    "Humor",
+    "Playfulness"
   ],
   "is_meme": true,
   "is_crisis": false,
