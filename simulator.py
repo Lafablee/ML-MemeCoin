@@ -148,9 +148,13 @@ class TweetSimulator:
                 condition_match = ticker_info
             else:
                 # Ensuite vérifier avec is_pattern_eligible (inclut analyse média)
-                is_eligible = is_pattern_eligible(tweet["text"], username, first_media_analysis)
+                pattern_result = is_pattern_eligible(tweet["text"], username, first_media_analysis)
+                if isinstance(pattern_result, tuple):
+                    is_eligible, condition_match = pattern_result
+                else: 
+                    is_eligible = pattern_result    
+                    condition_match = "Détecté via pattern matching"
                 self.logger.info(f"Tweet éligible via is_pattern_eligible: {is_eligible}")
-                condition_match = "Détecté via pattern matching"
             
         except ImportError as e:
             self.logger.error(f"Erreur d'importation de condition_handler: {e}")

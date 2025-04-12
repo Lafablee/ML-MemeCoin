@@ -1527,3 +1527,685 @@ Create a memecoin concept where ticker and name are related to the matched crypt
             
 2025-04-06 21:58:06,545 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-04-06 21:58:06,556 - simulator - INFO - Meme coin généré: BitBuzz (BTCBUZZ)
+2025-04-06 22:36:03,959 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-06 22:36:03,961 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-08 10:19:24,189 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-08 10:19:24,190 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-08 10:48:05,074 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-08 10:48:05,075 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-08 10:49:11,918 - simulator - INFO - Tweet fictif créé avec l'ID 2dbd12ad76ea4f1d90c pour @KFC
+2025-04-08 10:49:13,427 - simulator - INFO - Traitement du tweet 2dbd12ad76ea4f1d90c de @KFC
+2025-04-08 10:49:13,428 - simulator - INFO - Analyse du texte du tweet...
+2025-04-08 10:49:13,448 - simulator - INFO - Analyse de 1 médias...
+2025-04-08 10:49:13,448 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gn_95-jWoAAhN93?format=jpg&name=900x900
+2025-04-08 10:49:19,145 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 10:49:19,153 - media_analyzer - INFO -  *** Analyse média: {'description': "The image depicts a laptop placed on the dirt in a seemingly dug-out space or small hole. The screen shows a social media platform interface. Near the laptop, there are several cans lying around. An arrow pointing to the laptop emphasizes it. Text at the bottom states, 'this is where I post from.'", 'subjects': ['Laptop', 'Dug-out space', 'Cans', 'Red arrow'], 'actions': ['No specific actions, static composition'], 'mood': 'Humorous and sarcastic', 'visible_text': ['this is where i post from'], 'emotional_themes': ['Humor'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-08 10:49:19,155 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where ticker and name are related to the matched brand or social media
+2025-04-08 10:49:19,155 - simulator - INFO - Mots-clés pertinents: ['Dug-out space', 'this is where i post from', 'Red arrow', 'Cans', 'buenos', 'KFC', 'Laptop']
+2025-04-08 10:49:19,157 - simulator - INFO - Generating meme coin...
+2025-04-08 10:49:19,157 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be SHORT, catchy and memorable (maximum 10 characters preferred)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(most important point dont be too creative)
+        3. NEVER include the word "coin" in the name
+        6. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(10 preferably)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where ticker and name are related to the matched brand or social media
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-08 10:49:19,157 - memecoin_generator - INFO - USER PROMPT:
+
+            Generate a meme coin for this tweet by @KFC:
+            
+            "KFC buenos días"
+            
+2025-04-08 10:49:19,861 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 10:49:19,868 - simulator - INFO - Meme coin généré: KFCAM (KFCBDIAS)
+2025-04-08 10:52:08,627 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-08 10:52:08,628 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-08 10:52:19,127 - simulator - INFO - Traitement du tweet 2dbd12ad76ea4f1d90c de @KFC
+2025-04-08 10:52:19,127 - simulator - INFO - Analyse du texte du tweet...
+2025-04-08 10:52:19,132 - simulator - INFO - Analyse de 1 médias...
+2025-04-08 10:52:19,132 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gn_95-jWoAAhN93?format=jpg&name=900x900
+2025-04-08 10:52:23,849 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 10:52:23,858 - media_analyzer - INFO -  *** Analyse média: {'description': 'The image depicts a hole in the ground with a laptop and some soda cans. An arrow points to the laptop with text overlaying the image.', 'subjects': ['Laptop', 'Soda cans', 'Arrow', 'Dirt'], 'actions': ['None specifically, but indicates posting from a location'], 'mood': 'Humorous', 'visible_text': ['this is where i post from'], 'emotional_themes': ['Humor'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-08 10:52:23,859 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where ticker and name are related to the matched brand or social media
+2025-04-08 10:52:23,859 - simulator - INFO - Mots-clés pertinents: ['KFC', 'Arrow', 'buenos', 'this is where i post from', 'Laptop', 'Dirt', 'Soda cans']
+2025-04-08 10:52:23,860 - simulator - INFO - Generating meme coin...
+2025-04-08 10:52:23,860 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters preferred)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(most important point dont be too creative)
+        3. NEVER include the word "coin" in the name
+        6. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(10 preferably)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where ticker and name are related to the matched brand or social media
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-08 10:52:23,860 - memecoin_generator - INFO - USER PROMPT:
+
+            Generate a meme coin for this tweet by @KFC:
+            
+            "KFC buenos días"
+            
+2025-04-08 10:52:24,761 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 10:52:24,763 - simulator - INFO - Meme coin généré: KFCMorning (KFCMORN)
+2025-04-08 11:10:14,079 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-08 11:10:14,079 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-08 11:10:23,438 - simulator - INFO - Traitement du tweet 2dbd12ad76ea4f1d90c de @KFC
+2025-04-08 11:10:23,439 - simulator - INFO - Analyse du texte du tweet...
+2025-04-08 11:10:23,451 - simulator - INFO - Analyse de 1 médias...
+2025-04-08 11:10:23,452 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gn_95-jWoAAhN93?format=jpg&name=900x900
+2025-04-08 11:10:32,044 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 11:10:32,049 - media_analyzer - INFO -  *** Analyse média: {'description': "The image depicts a small, muddy, or dirt-filled space where a laptop is positioned with open tabs visible on its screen. Surrounding the laptop are a few cans and a computer mouse. A large red arrow points to the laptop, and text reads 'this is where i post from.'", 'subjects': ['Laptop', 'Cans', 'Computer mouse', 'Dirt ground', 'Red arrow'], 'actions': ['Laptop being used in an unconventional space'], 'mood': 'Humorous, tongue-in-cheek', 'visible_text': ['this is where i post from'], 'emotional_themes': ['Humor', 'Absurdity'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-08 11:10:32,051 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where the ticker and name are tied to a specific brand or social media phenomenon, but not based on generic updates or basic rebranding , focus on something unique and quirky. If not do nothing.
+2025-04-08 11:10:32,052 - simulator - INFO - Mots-clés pertinents: ['buenos', 'Dirt ground', 'Cans', 'Red arrow', 'this is where i post from', 'KFC', 'Computer mouse', 'Laptop']
+2025-04-08 11:10:32,053 - simulator - INFO - Generating meme coin...
+2025-04-08 11:10:32,053 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters preferred)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(most important point dont be too creative)
+        3. NEVER include the word "coin" in the name
+        6. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(10 preferably)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where the ticker and name are tied to a specific brand or social media phenomenon, but not based on generic updates or basic rebranding , focus on something unique and quirky. If not do nothing.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-08 11:10:32,053 - memecoin_generator - INFO - USER PROMPT:
+
+            Generate a meme coin for this tweet by @KFC:
+            
+            "KFC buenos días"
+            
+2025-04-08 11:10:33,356 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 11:10:33,358 - simulator - INFO - Meme coin généré: KFCDía (KFCDIA123)
+2025-04-08 11:13:46,126 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-08 11:13:46,127 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-08 11:13:53,704 - simulator - INFO - Traitement du tweet 2dbd12ad76ea4f1d90c de @KFC
+2025-04-08 11:13:53,705 - simulator - INFO - Analyse du texte du tweet...
+2025-04-08 11:13:53,718 - simulator - INFO - Analyse de 1 médias...
+2025-04-08 11:13:53,718 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gn_95-jWoAAhN93?format=jpg&name=900x900
+2025-04-08 11:13:57,939 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 11:13:57,947 - media_analyzer - INFO -  *** Analyse média: {'description': 'The image shows a laptop placed in a dirt or rock-filled hole, surrounded by some discarded cans and a red arrow pointing to the laptop. The background appears to be earthy, suggesting it is underground or in a neglected area.', 'subjects': ['Laptop', 'Cans', 'Dirt hole'], 'actions': ['None'], 'mood': 'Humorous', 'visible_text': ['this is where i post from'], 'emotional_themes': ['Humor'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-08 11:13:57,949 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where the ticker and name are tied to a specific brand or social media phenomenon, but not based on generic updates or basic rebranding , focus on something unique and quirky. If not do nothing.
+2025-04-08 11:13:57,949 - simulator - INFO - Mots-clés pertinents: ['Laptop', 'Dirt hole', 'buenos', 'Cans', 'this is where i post from', 'KFC']
+2025-04-08 11:13:57,950 - simulator - INFO - Generating meme coin...
+2025-04-08 11:13:57,951 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where the ticker and name are tied to a specific brand or social media phenomenon, but not based on generic updates or basic rebranding , focus on something unique and quirky. If not do nothing.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-08 11:13:57,951 - memecoin_generator - INFO - USER PROMPT:
+
+            Generate a meme coin for this tweet by @KFC:
+            
+            "KFC buenos días"
+            
+2025-04-08 11:13:59,288 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 11:13:59,292 - simulator - INFO - Meme coin généré: BuenosKFC (BUENOKFC)
+2025-04-08 11:14:34,488 - simulator - INFO - Traitement du tweet 8576b0e3a5f04b0da6a de @Bitcoin
+2025-04-08 11:14:34,489 - simulator - INFO - Analyse du texte du tweet...
+2025-04-08 11:14:34,495 - simulator - INFO - Analyse de 1 médias...
+2025-04-08 11:14:34,495 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gnz8XmEWwAA-dQ1?format=jpg&name=medium
+2025-04-08 11:14:40,748 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 11:14:40,751 - media_analyzer - INFO -  *** Analyse média: {'description': 'The image features a buffalo standing in a vast open landscape with a large Bitcoin symbol in the sky behind it. The sky is filled with clouds, and the landscape appears expansive and natural. The image also includes text promoting a social media account related to Bitcoin.', 'subjects': ['Buffalo', 'Bitcoin symbol', 'Landscape', 'Text'], 'actions': ['Buffalo is standing'], 'mood': 'Majestic and surreal', 'visible_text': ['Follow: @Bitcoin'], 'emotional_themes': ['Strength', 'Financial power'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-08 11:14:40,752 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin where the ticker is based on the existing meme coin (max 10 characters), and the name should be a humorous combination related to the image or text context.
+2025-04-08 11:14:40,752 - simulator - INFO - Mots-clés pertinents: ['Bitcoin symbol', 'Text', 'Follow: @Bitcoin', 'Buffalo', '#Bitcoin', 'Landscape', 'Bitcoin']
+2025-04-08 11:14:40,752 - simulator - INFO - Generating meme coin...
+2025-04-08 11:14:40,753 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin where the ticker is based on the existing meme coin (max 10 characters), and the name should be a humorous combination related to the image or text context.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-08 11:14:40,753 - memecoin_generator - INFO - USER PROMPT:
+
+            Generate a meme coin for this tweet by @Bitcoin:
+            
+            "Bitcoin #Bitcoin"
+            
+2025-04-08 11:14:41,784 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 11:14:41,787 - simulator - INFO - Meme coin généré: BitBoom (BITBOOM)
+2025-04-08 11:17:46,081 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-08 11:17:46,081 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-08 11:18:22,268 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-08 11:18:22,268 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-08 11:18:47,561 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-08 11:18:47,562 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-08 11:18:59,695 - simulator - INFO - Traitement du tweet afac4ce798084a6cae9 de @pump.fun
+2025-04-08 11:18:59,696 - simulator - INFO - Analyse du texte du tweet...
+2025-04-08 11:18:59,712 - simulator - INFO - Analyse de 1 médias...
+2025-04-08 11:18:59,713 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GntkUeIXgAAooqi?format=jpg&name=medium
+2025-04-08 11:19:05,459 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 11:19:05,466 - media_analyzer - INFO -  *** Analyse média: {'description': "The image shows a toy packaging for 'Pump Fun Action Figure.' The package contains a cute, cartoonish figure with a white round head and green body. The package includes accessories like a smartphone, a laptop, and a red cap with a McDonald's-like logo. There's an American flag on the box.", 'subjects': ['Action figure', 'Smartphone', 'Laptop', 'Red cap', 'Toy packaging'], 'actions': ['None'], 'mood': 'Playful and lighthearted', 'visible_text': ['PUMP FUN', 'ACTION FIGURE'], 'emotional_themes': ['Joy', 'Amusement'], 'is_meme': False, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-08 11:19:05,469 - simulator - INFO - Tweet éligible via is_pattern_eligible: False
+2025-04-08 11:19:05,469 - simulator - INFO - Tweet non éligible - aucune condition validée
+2025-04-08 12:49:53,118 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-08 12:49:53,119 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-08 12:49:59,636 - simulator - INFO - Traitement du tweet afac4ce798084a6cae9 de @pump.fun
+2025-04-08 12:49:59,636 - simulator - INFO - Analyse du texte du tweet...
+2025-04-08 12:49:59,652 - simulator - INFO - Analyse de 1 médias...
+2025-04-08 12:49:59,652 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GntkUeIXgAAooqi?format=jpg&name=medium
+2025-04-08 12:50:05,499 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 12:50:05,503 - media_analyzer - INFO -  *** Analyse média: {'description': "The image depicts a green action figure toy packaged in a box labeled 'PUMP FUN ACTION FIGURE'. The figure is simple, with a smiling face and minimalist design. The box includes a red hat with a yellow logo that resembles a fast-food chain and a miniature laptop and smartphone with stock trading interfaces.", 'subjects': ['Action figure', 'Red hat', 'Laptop', 'Smartphone'], 'actions': ['None - static objects inside packaging'], 'mood': 'Playful and humorous', 'visible_text': ['PUMP FUN', 'ACTION FIGURE'], 'emotional_themes': ['Amusement', 'Nostalgia'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-08 12:50:05,504 - simulator - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-08 12:50:05,504 - simulator - INFO - Mots-clés pertinents: ['PUMP FUN', 'Red hat', 'Action figure', 'ACTION FIGURE', 'Laptop', 'Smartphone']
+2025-04-08 12:50:05,507 - simulator - INFO - Generating meme coin...
+2025-04-08 12:50:05,507 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Détecté via pattern matching
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-08 12:50:05,507 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @pump.fun:
+
+        "pump.fun idc if this is tariffed where can i get one???"
+        
+            
+            The image shows: The image depicts a green action figure toy packaged in a box labeled 'PUMP FUN ACTION FIGURE'. The figure is simple, with a smiling face and minimalist design. The box includes a red hat with a yellow logo that resembles a fast-food chain and a miniature laptop and smartphone with stock trading interfaces.
+            
+2025-04-08 12:50:06,518 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 12:50:06,521 - simulator - INFO - Meme coin généré: PumpFun (PUMPTOY)
+2025-04-08 13:53:54,702 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-08 13:53:54,704 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-08 13:54:03,633 - simulator - INFO - Traitement du tweet 2dbd12ad76ea4f1d90c de @KFC
+2025-04-08 13:54:03,633 - simulator - INFO - Analyse du texte du tweet...
+2025-04-08 13:54:03,660 - simulator - INFO - Analyse de 1 médias...
+2025-04-08 13:54:03,660 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gn_95-jWoAAhN93?format=jpg&name=900x900
+2025-04-08 13:54:10,142 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 13:54:10,152 - media_analyzer - INFO -  *** Analyse média: {'description': 'The image shows a laptop placed on dirt, surrounded by a few cans and a mouse. An arrow points to the laptop with text indicating humorously that this is where someone posts from.', 'subjects': ['Laptop', 'Arrow', 'Cans', 'Mouse'], 'actions': ['Laptop sitting on dirt', 'Arrow pointing to the laptop'], 'mood': 'Humorous', 'visible_text': ['this is where i post from'], 'emotional_themes': ['Amusement'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-08 13:54:10,153 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where the ticker and name are tied to a specific brand or social media phenomenon, but not based on generic updates or basic rebranding , focus on something unique and quirky. If not do nothing.
+2025-04-08 13:54:10,153 - simulator - INFO - Mots-clés pertinents: ['KFC', 'Laptop', 'Mouse', 'Cans', 'buenos', 'this is where i post from', 'Arrow']
+2025-04-08 13:54:10,155 - simulator - INFO - Generating meme coin...
+2025-04-08 13:54:10,155 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where the ticker and name are tied to a specific brand or social media phenomenon, but not based on generic updates or basic rebranding , focus on something unique and quirky. If not do nothing.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-08 13:54:10,155 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @KFC:
+
+        "KFC buenos días"
+        
+            
+            The image shows: The image shows a laptop placed on dirt, surrounded by a few cans and a mouse. An arrow points to the laptop with text indicating humorously that this is where someone posts from.
+            
+2025-04-08 13:54:11,109 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 13:54:11,115 - simulator - INFO - Meme coin généré: DirtPost (DIRTPOST)
+2025-04-08 13:58:44,787 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-08 13:58:44,787 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-08 13:58:56,635 - simulator - INFO - Traitement du tweet 8a44fdc392b246509e1 de @KFC
+2025-04-08 13:58:56,635 - simulator - INFO - Analyse du texte du tweet...
+2025-04-08 13:58:56,652 - simulator - INFO - Analyse de 1 médias...
+2025-04-08 13:58:56,653 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GnrzdKeXIAABE66?format=jpg&name=medium
+2025-04-08 13:59:02,312 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 13:59:02,318 - media_analyzer - INFO -  *** Analyse média: {'description': "The image depicts a surreal cartoonish character with a stick-like body, a human face with glasses and a goatee, and a baseball bat in hand. It stands in front of a wooden building with a bench, which has a sign that reads 'PENTUNGUAN POS RONDA'. The setting appears to be outdoors at night with a street lamp providing illumination.", 'subjects': ['Cartoon character', 'Baseball bat', 'Wooden building', 'Bench', 'Street lamp'], 'actions': ['Standing posed', 'Holding a bat'], 'mood': 'Humorous and surreal', 'visible_text': ['PENTUNGUAN POS RONDA'], 'emotional_themes': ['Amusement', 'Surrealism'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-08 13:59:02,320 - simulator - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-08 13:59:02,320 - simulator - INFO - Mots-clés pertinents: ['Cartoon character', 'Street lamp', 'Baseball bat', 'PENTUNGUAN POS RONDA', 'CHICKEN', 'Wooden building', 'Bench', 'TUNG']
+2025-04-08 13:59:02,323 - simulator - INFO - Generating meme coin...
+2025-04-08 13:59:02,323 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Détecté via pattern matching
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-08 13:59:02,323 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @KFC:
+
+        "TUNG TUNG TUNG CHICKEN"
+        
+            
+            The image shows: The image depicts a surreal cartoonish character with a stick-like body, a human face with glasses and a goatee, and a baseball bat in hand. It stands in front of a wooden building with a bench, which has a sign that reads 'PENTUNGUAN POS RONDA'. The setting appears to be outdoors at night with a street lamp providing illumination.
+            keywords : 
+            
+            
+            Key terms detected: Cartoon character, Street lamp, Baseball bat, PENTUNGUAN POS RONDA, CHICKEN
+            
+2025-04-08 13:59:03,238 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 13:59:03,249 - simulator - INFO - Meme coin généré: TUNGBAT (TUNGBAT)
+2025-04-12 11:00:56,809 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-12 11:00:56,811 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-12 11:01:45,764 - simulator - INFO - Traitement du tweet 2dbd12ad76ea4f1d90c de @KFC
+2025-04-12 11:01:45,766 - simulator - INFO - Analyse du texte du tweet...
+2025-04-12 11:01:45,782 - simulator - INFO - Analyse de 1 médias...
+2025-04-12 11:01:45,782 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gn_95-jWoAAhN93?format=jpg&name=900x900
+2025-04-12 11:01:51,722 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 11:01:51,726 - media_analyzer - INFO -  *** Analyse média: {'description': "The image shows a hole in the ground with a laptop, some soda cans, and an arrow pointing to the laptop. There is text on the image that reads 'this is where i post from'.", 'subjects': ['laptop', 'soda cans', 'arrow', 'dirt'], 'actions': ['posting', 'implied online activity'], 'mood': 'humorous', 'visible_text': ['this is where i post from'], 'emotional_themes': ['humor'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-12 11:01:51,728 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where the ticker and name are tied to a specific brand or social media phenomenon, but not based on generic updates or basic rebranding , focus on something unique and quirky. If not do nothing.
+2025-04-12 11:01:51,728 - simulator - INFO - Mots-clés pertinents: ['laptop', 'soda cans', 'KFC', 'this is where i post from', 'arrow', 'buenos', 'dirt']
+2025-04-12 11:01:51,729 - simulator - INFO - Generating meme coin...
+2025-04-12 11:01:51,729 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where the ticker and name are tied to a specific brand or social media phenomenon, but not based on generic updates or basic rebranding , focus on something unique and quirky. If not do nothing.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-12 11:01:51,729 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @KFC:
+
+        "KFC buenos días"
+        
+            
+            The image shows: The image shows a hole in the ground with a laptop, some soda cans, and an arrow pointing to the laptop. There is text on the image that reads 'this is where i post from'.
+            keywords : 
+            
+            
+            Key terms detected: laptop, soda cans, KFC, this is where i post from, arrow
+            
+2025-04-12 11:01:53,005 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 11:01:53,010 - simulator - INFO - Meme coin généré: PostPit (POSTPIT)
+2025-04-12 11:13:06,632 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-12 11:13:06,632 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-12 11:13:15,616 - simulator - INFO - Traitement du tweet 2dbd12ad76ea4f1d90c de @KFC
+2025-04-12 11:13:15,616 - simulator - INFO - Analyse du texte du tweet...
+2025-04-12 11:13:15,623 - simulator - INFO - Analyse de 1 médias...
+2025-04-12 11:13:15,624 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gn_95-jWoAAhN93?format=jpg&name=900x900
+2025-04-12 11:13:19,942 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 11:13:19,951 - media_analyzer - INFO -  *** Analyse média: {'description': "Image of a laptop placed on dirt, surrounded by cans and debris, with a red arrow pointing towards it and the text 'this is where i post from' at the bottom.", 'subjects': ['Laptop', 'Dirt', 'Cans', 'Debris'], 'actions': ['Laptop placed on ground'], 'mood': 'Humorous', 'visible_text': ['this is where i post from'], 'emotional_themes': ['Humor'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-12 11:13:19,953 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where the ticker and name are tied to a specific brand or social media phenomenon, but not based on generic updates or basic rebranding , focus on something unique and quirky. If not do nothing.
+2025-04-12 11:13:19,953 - simulator - INFO - Mots-clés pertinents: ['this is where i post from', 'Cans', 'KFC', 'Debris', 'Laptop', 'Dirt', 'buenos']
+2025-04-12 11:13:19,955 - simulator - INFO - Generating meme coin...
+2025-04-12 11:13:19,955 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where the ticker and name are tied to a specific brand or social media phenomenon, but not based on generic updates or basic rebranding , focus on something unique and quirky. If not do nothing.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-12 11:13:19,955 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @KFC:
+
+        "KFC buenos días"
+        
+            
+            The image shows: Image of a laptop placed on dirt, surrounded by cans and debris, with a red arrow pointing towards it and the text 'this is where i post from' at the bottom. 
+            
+2025-04-12 11:13:20,781 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 11:13:20,785 - simulator - INFO - Meme coin généré: KFCLAPTOP (KFCPOST)
+2025-04-12 11:27:28,529 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-12 11:27:28,529 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-12 11:28:09,859 - simulator - INFO - Tweet fictif créé avec l'ID 4aa86ce6f8bb4eeb9ba pour @skynews
+2025-04-12 11:28:11,455 - simulator - INFO - Traitement du tweet 4aa86ce6f8bb4eeb9ba de @skynews
+2025-04-12 11:28:11,456 - simulator - INFO - Analyse du texte du tweet...
+2025-04-12 11:28:11,490 - simulator - INFO - Analyse de 1 médias...
+2025-04-12 11:28:11,490 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/card_img/1908860124703150081/AduQcr8i?format=jpg&name=900x900
+2025-04-12 11:28:13,955 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 11:28:13,966 - media_analyzer - INFO -  *** Analyse média: {'description': 'A portrait of a young person with braided hair.', 'subjects': ['Person'], 'actions': ['None'], 'mood': 'Neutral', 'visible_text': [], 'emotional_themes': [], 'is_meme': False, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-12 11:28:13,968 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where, ticker is the name of the person associated with the event or create a name if none is given (max 10 chars), name is 'RIP name. The event has to be in the recent time not long ago'
+2025-04-12 11:28:13,968 - simulator - INFO - Mots-clés pertinents: ['Person', 'BREAKING', 'London', 'skynews', 'death', 'year']
+2025-04-12 11:28:13,969 - simulator - INFO - Generating meme coin...
+2025-04-12 11:28:13,969 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where, ticker is the name of the person associated with the event or create a name if none is given (max 10 chars), name is 'RIP name. The event has to be in the recent time not long ago'
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-12 11:28:13,969 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @skynews:
+
+        "skynews BREAKING: A 17-year-old boy has been stabbed to death in west London."
+        
+            
+            The image shows: A portrait of a young person with braided hair. 
+            
+2025-04-12 11:28:14,907 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 11:28:14,912 - simulator - INFO - Meme coin généré: RIP LDN (LONDON)
+2025-04-12 11:33:37,461 - simulator - INFO - Traitement du tweet afac4ce798084a6cae9 de @pump.fun
+2025-04-12 11:33:37,462 - simulator - INFO - Analyse du texte du tweet...
+2025-04-12 11:33:37,476 - simulator - INFO - Analyse de 1 médias...
+2025-04-12 11:33:37,477 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GntkUeIXgAAooqi?format=jpg&name=medium
+2025-04-12 11:33:42,126 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 11:33:42,128 - media_analyzer - INFO -  *** Analyse média: {'description': "The image shows a packaged action figure with a cute, round character, smiling with rosy cheeks, in a green and white attire. The packaging includes small accessories like a smartphone displaying charts, a laptop, and a red cap with a yellow 'M'. The box is predominantly green, featuring a design of the character on the bottom right and an American flag.", 'subjects': ['Action figure', 'Smartphone', 'Laptop', 'Red cap', 'American flag'], 'actions': ['The character is packaged as a toy, no specific action being depicted'], 'mood': 'Playful', 'visible_text': ['PUMP FUN', 'ACTION FIGURE'], 'emotional_themes': ['Joy', 'Lightheartedness'], 'is_meme': False, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-12 11:33:42,129 - simulator - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-12 11:33:42,129 - simulator - INFO - Mots-clés pertinents: ['ACTION FIGURE', 'Smartphone', 'Action figure', 'American flag', 'Laptop', 'PUMP FUN', 'Red cap']
+2025-04-12 11:33:42,129 - simulator - INFO - Generating meme coin...
+2025-04-12 11:33:42,129 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Détecté via pattern matching
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-12 11:33:42,130 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @pump.fun:
+
+        "pump.fun idc if this is tariffed where can i get one???"
+        
+            
+            The image shows: The image shows a packaged action figure with a cute, round character, smiling with rosy cheeks, in a green and white attire. The packaging includes small accessories like a smartphone displaying charts, a laptop, and a red cap with a yellow 'M'. The box is predominantly green, featuring a design of the character on the bottom right and an American flag. 
+            
+2025-04-12 11:33:42,923 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 11:33:42,930 - simulator - INFO - Meme coin généré: PumpPal (PUMPPAL)
+2025-04-12 11:50:29,550 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-12 11:50:29,551 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-12 11:50:38,044 - simulator - INFO - Traitement du tweet afac4ce798084a6cae9 de @pump.fun
+2025-04-12 11:50:38,045 - simulator - INFO - Analyse du texte du tweet...
+2025-04-12 11:50:38,061 - simulator - INFO - Analyse de 1 médias...
+2025-04-12 11:50:38,062 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GntkUeIXgAAooqi?format=jpg&name=medium
+2025-04-12 11:50:44,050 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 11:50:44,054 - media_analyzer - INFO -  *** Analyse média: {'description': "The image shows a packaged toy labeled 'PUMP FUN ACTION FIGURE'. Inside the package is a cute character with a round, white head and a green lower body. Adjacent items include a laptop, a smartphone with visible screens, and a red cap resembling a fast-food chain's logo. The package is green with a small flag that resembles the American flag at the bottom.", 'subjects': ['Toy figurine', 'Laptop', 'Smartphone', 'Red cap'], 'actions': ['No specific actions, the items are stationary within the packaging'], 'mood': 'Playful and humorous', 'visible_text': ['PUMP FUN', 'ACTION FIGURE'], 'emotional_themes': ['Joy', 'Fun'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-12 11:50:44,055 - simulator - INFO - Tweet éligible via is_pattern_eligible: (True, "Create a memecoin concept where ticker is first letter of visible entity + WH (max 10 chars), name is '[entity] Wif Hat' (if no entity visible, create one based on image context)")
+2025-04-12 11:50:44,055 - simulator - INFO - Mots-clés pertinents: ['Smartphone', 'ACTION FIGURE', 'Toy figurine', 'PUMP FUN', 'Red cap', 'Laptop']
+2025-04-12 11:50:44,056 - simulator - INFO - Generating meme coin...
+2025-04-12 11:50:44,056 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Détecté via pattern matching
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-12 11:50:44,056 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @pump.fun:
+
+        "pump.fun idc if this is tariffed where can i get one???"
+        
+            
+            The image shows: The image shows a packaged toy labeled 'PUMP FUN ACTION FIGURE'. Inside the package is a cute character with a round, white head and a green lower body. Adjacent items include a laptop, a smartphone with visible screens, and a red cap resembling a fast-food chain's logo. The package is green with a small flag that resembles the American flag at the bottom. 
+            
+2025-04-12 11:50:45,166 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 11:50:45,171 - simulator - INFO - Meme coin généré: PumpFun (PUMPFUN)
+2025-04-12 12:11:15,171 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-12 12:11:15,171 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-12 12:11:28,099 - simulator - INFO - Traitement du tweet afac4ce798084a6cae9 de @pump.fun
+2025-04-12 12:11:28,099 - simulator - INFO - Analyse du texte du tweet...
+2025-04-12 12:11:28,115 - simulator - INFO - Analyse de 1 médias...
+2025-04-12 12:11:28,116 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GntkUeIXgAAooqi?format=jpg&name=medium
+2025-04-12 12:11:33,909 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 12:11:33,915 - media_analyzer - INFO -  *** Analyse média: {'description': "The image is a depiction of a toy package labeled 'PUMP FUN ACTION FIGURE'. Inside the package, there is a cute, smiling figure in green and white, along with a red cap featuring a logo, possibly representing a fast-food chain. There are also graphics of phones or screens displaying data or applications.", 'subjects': ['Action figure', 'Toy package', 'Cap', 'Screens'], 'actions': ['The action figure is stationary within the package'], 'mood': 'Playful and humorous', 'visible_text': ['PUMP FUN', 'ACTION FIGURE'], 'emotional_themes': ['Joy', 'Amusement'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-12 12:11:33,918 - simulator - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-12 12:11:33,919 - simulator - INFO - Mots-clés pertinents: ['Cap', 'Screens', 'Toy package', 'PUMP FUN', 'ACTION FIGURE', 'Action figure']
+2025-04-12 12:11:33,921 - simulator - INFO - Generating meme coin...
+2025-04-12 12:11:33,921 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where ticker is first letter of visible entity + WH (max 10 chars), name is '[entity] Wif Hat' (if no entity visible, create one based on image context)
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-12 12:11:33,921 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @pump.fun:
+
+        "pump.fun idc if this is tariffed where can i get one???"
+        
+            
+            The image shows: The image is a depiction of a toy package labeled 'PUMP FUN ACTION FIGURE'. Inside the package, there is a cute, smiling figure in green and white, along with a red cap featuring a logo, possibly representing a fast-food chain. There are also graphics of phones or screens displaying data or applications. 
+            
+2025-04-12 12:11:34,764 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 12:11:34,770 - simulator - INFO - Meme coin généré: Pump Wif Hat (PWFH)
+2025-04-12 12:13:29,707 - simulator - INFO - Traitement du tweet 8576b0e3a5f04b0da6a de @Bitcoin
+2025-04-12 12:13:29,708 - simulator - INFO - Analyse du texte du tweet...
+2025-04-12 12:13:29,723 - simulator - INFO - Analyse de 1 médias...
+2025-04-12 12:13:29,724 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gnz8XmEWwAA-dQ1?format=jpg&name=medium
+2025-04-12 12:13:33,379 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 12:13:33,381 - media_analyzer - INFO -  *** Analyse média: {'description': 'The image depicts a large bison standing in a grassy plain with a stylized Bitcoin symbol in the background, resembling a golden coin. The background features a sky with clouds, creating an illustrative and somewhat surreal scene.', 'subjects': ['Bison', 'Bitcoin symbol', 'Clouds', 'Grassy plain'], 'actions': [], 'mood': 'Whimsical and intriguing', 'visible_text': ['Follow: @Bitcoin'], 'emotional_themes': ['Curiosity', 'Wonder'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-12 12:13:33,382 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where the name and ticker riff on an existing cryptocurrency (like BTC, ETH, SOL), but only if it’s twisted in a clever or absurd way. Skip if it's just slapping '-coin' onto the name.elated to the image or text context.
+2025-04-12 12:13:33,382 - simulator - INFO - Mots-clés pertinents: ['Bison', 'Follow: @Bitcoin', 'Grassy plain', 'Bitcoin symbol', '#Bitcoin', 'Clouds', 'Bitcoin']
+2025-04-12 12:13:33,382 - simulator - INFO - Generating meme coin...
+2025-04-12 12:13:33,382 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where the name and ticker riff on an existing cryptocurrency (like BTC, ETH, SOL), but only if it’s twisted in a clever or absurd way. Skip if it's just slapping '-coin' onto the name.elated to the image or text context.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-12 12:13:33,382 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @Bitcoin:
+
+        "Bitcoin #Bitcoin"
+        
+            
+            The image shows: The image depicts a large bison standing in a grassy plain with a stylized Bitcoin symbol in the background, resembling a golden coin. The background features a sky with clouds, creating an illustrative and somewhat surreal scene. 
+            
+2025-04-12 12:13:34,242 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 12:13:34,244 - simulator - INFO - Meme coin généré: BisonBit (BISONBTC)

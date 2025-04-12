@@ -5,19 +5,18 @@ from typing import Dict, Optional, List
 # Import the existing function with all its condition logic
 def extract_ticker_info(text):
     # Listes de mots pour chaque condition
-    negative_words = {'Pain', 'Hurting', 'Hurt', 'Wound', 'Wounded', 'Wounding', 'Defeat', 'Defeated', 'Defeating', 'Steal', 'Stolen', 'Stealing', 'Shatter', 'Shattered', 'Shattering', 'Ruin', 'Ruined', 'Ruining', 'Damage', 'Damaged', 'Damaging', 'Crush', 'Crushed', 'Crushing', 'Bankrupt', 'Bankrupted', 'Bankrupting', 'Destroy', 'Destroyed', 'Destroying', 'Help', 'Helpless', 'Helping', 'Devastate', 'Devastated', 'Devastating', 'Exhaust', 'Exhausted', 'Exhausting', 'Collapse', 'Collapsed', 'Collapsing', 'Sink', 'Sunk', 'Sinking', 'Despair', 'Despaired', 'Despairing', 'Strand', 'Stranded', 'Stranding'}
-    death_words = {'Die', 'Dead', 'Died', 'Decease', 'Deceased', 'Deceasing', 'Go', 'Gone', 'Went', 'Perish', 'Perished', 'Perishing', 'Bury', 'Buried', 'Buried', 'Wither', 'Withered', 'Withering', 'Expire', 'Expired', 'Expiring', 'Pass', 'Passed', 'Passing', 'Succumb', 'Succumbed', 'Succumbing', 'Depart', 'Departed', 'Departing', 'Fade', 'Faded', 'Fading', 'Live', 'Lifeless', 'Lived', 'Extinguish', 'Extinct', 'Extinguished', 'Lose', 'Lost', 'Lost', 'Slay', 'Slain', 'Slaying', 'Kill', 'Killed', 'Killing', 'Murder', 'Murdered', 'Murdering', 'Execute', 'Executed', 'Executing', 'Vanish', 'Vanished', 'Vanishing', 'Fall', 'Felled', 'Felling', 'Rest', 'Resting', 'Rested', 'dies', 'death'}
-    mascot_words = {'Mascot', 'Logo', 'Symbol', 'Icon', 'Badge', 'Figure', 'Character', 'Avatar', 'Entity', 'Fictional Character', 'Cartoon ', 'Illustration', 'Caricature', 'Creature', 'Totem', 'Puppet', 'Alter Ego', 'Creature', 'Imaginary Figure', 'Fantasy Being', 'Virtual Character', 'Animated Figure'}
-    crime_words = {'Charge', 'Charged', 'Charging', 'Arrest', 'Arrested', 'Arresting', 'Detain', 'Detained', 'Detaining', 'Indict', 'Indicted', 'Indicting', 'Convict', 'Convicted', 'Convicting', 'Gun', 'Gunned', 'Gunning', 'Shoot', 'Shot', 'Shooting', 'Knife', 'Knifed', 'Knifing', 'Stab', 'Stabbed', 'Stabbing', 'Accuse', 'Accused', 'Accusing', 'Assault', 'Assaulted', 'Assaulting', 'Attack', 'Attacked', 'Attacking', 'Rob', 'Robbed', 'Robbing', 'Accuse', 'Accused', 'Accusing', 'Assault', 'Assaulted', 'Assaulting', 'Attack', 'Attacked', 'Attacking', 'Rob', 'Robbed', 'Robbing'}
-    toilet_words = {'Pee', 'Peed', 'Peeing', 'Poo', 'Pooed', 'Pooing', 'Wee-wee', 'Wee-weed', 'Wee-weeing', 'Tinkle', 'Tinkled', 'Tinkling', 'Whiz', 'Whizzed', 'Whizzing', 'Piddle', 'Piddled', 'Piddling', 'Poop', 'Pooped', 'Pooping', 'Doo-doo', 'Doo-dooed', 'Doo-dooing', 'Dookie', 'Dookied', 'Dookieing', 'Number two', 'Number twoed', 'Number twoing', 'Pee-pee', 'Pee-peed', 'Pee-peeing', 'Potty', 'Pottied', 'Pottying', 'Dump', 'Dumped', 'Dumping', 'BM', 'BMed', 'BMing'}
-    social_media_brands = {'twitter', 'KFC', 'X', 'Duolingo', 'reddit', 'twitch', 'Minecraft', 'Walmart', 'Discord', 'McDonald\'s', 'pumpfun', 'Colonel Sanders'}
-    animals = {'Lion', 'Elephant', 'Giraffe', 'Zebra', 'Tiger', 'Bear', 'Monkey', 'Gorilla', 'Hippopotamus', 'Rhinoceros', 'Crocodile', 'Snake', 'Flamingo', 'Ostrich', 'Kangaroo', 'Koala', 'Panda', 'Wolf', 'Cheetah'}
-    meme_coins = {'Pepe', 'doge'}
-    crypto_words = {'bitcoin', 'ethereum', 'stablecoin', 'Solana', 'DOGE', 'Shiba', 'Pepe', 'Floki', 'Bonk', 'Dogwifhat', 'Popcat', 'Floki', 'Bonk'}
-    elon_brands = {'spacex', 'Optimus', 'boringcompany', 'Tesla', 'cybertruck', 'neuralink'}
-    sex_offender_words = {'Sexual Predator', 'Sexual Abuser', 'Rapist', 'Child Molester', 'Pedophile', 'Statutory Rapist', 'Sexual Assailant', 'Sex Criminal', 'Registered Sex Offender', 'Sexual Deviant', 'Perpetrator', 'Sexual Delinquent', 'Sexual Violator', 'Incest Offender', 'Exhibitionist', 'Voyeur', 'Sexual Exploiter', 'Pornography Offender', 'Sex Trafficker', 'Sexual Coercer', 'indecency', 'P*dophile'}
-    touch_words = {'Touch', 'Touched', 'Touching', 'Caress', 'Caressed', 'Caressing', 'Fondle', 'Fondled', 'Fondling', 'Stroke', 'Stroked', 'Stroking', 'Cuddle', 'Cuddled', 'Cuddling', 'Rub', 'Rubbed', 'Rubbing', 'Tease', 'Teased', 'Teasing'}
-    
+    negative_words = {'pain', 'hurting', 'hurt', 'wound', 'wounded', 'wounding', 'defeat', 'defeated', 'defeating', 'steal', 'stolen', 'stealing', 'shatter', 'shattered', 'shattering', 'ruin', 'ruined', 'ruining', 'damage', 'damaged', 'damaging', 'crush', 'crushed', 'crushing', 'bankrupt', 'bankrupted', 'bankrupting', 'destroy', 'destroyed', 'destroying', 'help', 'helpless', 'helping', 'devastate', 'devastated', 'devastating', 'exhaust', 'exhausted', 'exhausting', 'collapse', 'collapsed', 'collapsing', 'sink', 'sunk', 'sinking', 'despair', 'despaired', 'despairing', 'strand', 'stranded', 'stranding'}
+    death_words = {'die', 'dead', 'died', 'decease', 'deceased', 'deceasing', 'go', 'gone', 'went', 'perish', 'perished', 'perishing', 'bury', 'buried', 'buried', 'wither', 'withered', 'withering', 'expire', 'expired', 'expiring', 'pass', 'passed', 'passing', 'succumb', 'succumbed', 'succumbing', 'depart', 'departed', 'departing', 'fade', 'faded', 'fading', 'live', 'lifeless', 'lived', 'extinguish', 'extinct', 'extinguished', 'lose', 'lost', 'lost', 'slay', 'slain', 'slaying', 'kill', 'killed', 'killing', 'murder', 'murdered', 'murdering', 'execute', 'executed', 'executing', 'vanish', 'vanished', 'vanishing', 'fall', 'felled', 'felling', 'rest', 'resting', 'rested', 'dies', 'death'}
+    mascot_words = {'mascot', 'logo', 'symbol', 'icon', 'badge', 'figure', 'character', 'avatar', 'entity', 'fictional character', 'cartoon', 'illustration', 'caricature', 'creature', 'totem', 'puppet', 'alter ego', 'creature', 'imaginary figure', 'fantasy being', 'virtual character', 'animated figure'}
+    crime_words = {'charge', 'charged', 'charging', 'arrest', 'arrested', 'arresting', 'detain', 'detained', 'detaining', 'indict', 'indicted', 'indicting', 'convict', 'convicted', 'convicting', 'gun', 'gunned', 'gunning', 'shoot', 'shot', 'shooting', 'knife', 'knifed', 'knifing', 'stab', 'stabbed', 'stabbing', 'accuse', 'accused', 'accusing', 'assault', 'assaulted', 'assaulting', 'attack', 'attacked', 'attacking', 'rob', 'robbed', 'robbing', 'accuse', 'accused', 'accusing', 'assault', 'assaulted', 'assaulting', 'attack', 'attacked', 'attacking', 'rob', 'robbed', 'robbing'}
+    toilet_words = {'pee', 'peed', 'peeing', 'poo', 'pooed', 'pooing', 'wee-wee', 'wee-weed', 'wee-weeing', 'tinkle', 'tinkled', 'tinkling', 'whiz', 'whizzed', 'whizzing', 'piddle', 'piddled', 'piddling', 'poop', 'pooped', 'pooping', 'doo-doo', 'doo-dooed', 'doo-dooing', 'dookie', 'dookied', 'dookieing', 'number two', 'number twoed', 'number twoing', 'pee-pee', 'pee-peed', 'pee-peeing', 'potty', 'pottied', 'pottying', 'dump', 'dumped', 'dumping', 'bm', 'bmed', 'bming'}
+    social_media_brands = {'twitter', 'kfc', 'x', 'duolingo', 'reddit', 'twitch', 'minecraft', 'walmart', 'discord', 'mcdonald\'s', 'pumpfun', 'colonel sanders'}
+    animals = {'lion', 'elephant', 'giraffe', 'zebra', 'tiger', 'bear', 'monkey', 'gorilla', 'hippopotamus', 'rhinoceros', 'crocodile', 'snake', 'flamingo', 'ostrich', 'kangaroo', 'koala', 'panda', 'wolf', 'cheetah'}
+    meme_coins = {'pepe', 'doge', 'dogwifhat'}
+    crypto_words = {'bitcoin', 'ethereum', 'stablecoin', 'solana', 'doge', 'shiba', 'pepe', 'floki', 'bonk', 'dogwifhat', 'popcat', 'floki', 'bonk'}
+    elon_brands = {'spacex', 'optimus', 'boringcompany', 'tesla', 'cybertruck', 'neuralink'}
+    sex_offender_words = {'sexual predator', 'sexual abuser', 'rapist', 'child molester', 'pedophile', 'statutory rapist', 'sexual assailant', 'sex criminal', 'registered sex offender', 'sexual deviant', 'perpetrator', 'sexual delinquent', 'sexual violator', 'incest offender', 'exhibitionist', 'voyeur', 'sexual exploiter', 'pornography offender', 'sex trafficker', 'sexual coercer', 'indecency', 'p*dophile', 'sex'}
+    touch_words = {'touch', 'touched', 'touching', 'caress', 'caressed', 'caressing', 'fondle', 'fondled', 'fondling', 'stroke', 'stroked', 'stroking', 'cuddle', 'cuddled', 'cuddling', 'rub', 'rubbed', 'rubbing', 'tease', 'teased', 'teasing'}
 
     text_lower = text.lower()
     text_lower = text_lower.replace(","," ")
@@ -31,17 +30,10 @@ def extract_ticker_info(text):
 
     words = text_lower.split()
 
-    # Condition 1: '$' suivi d'un mot (à supprimer carrément)
+    # Condition 1: '$' suivi d'un mot (à supprimer carrément) 
     for word in words:
-        if word.startswith('$') and len(word) > 1:
-            # Extrait la partie après le '$'
-            ticker_part = word[1:]
-             # Vérifie si cette partie contient au moins une lettre (pour exclure les montants)
-            if any(c.isalpha() for c in ticker_part):
-                return "Create a memecoin concept where ticker is the word following '$' (uppercase, max 10 chars, abbreviate if longer), name is the word following '$' + ' Coin'"
-        
-        if word == 'hat' or word == "hats":
-            return "Create a memecoin concept where ticker is first letter of person + WH (max 8 chars), name is '[person] Wif " + word + "' (default person: no coin if no name found)"
+        if word == 'hat' or word == "hats" or word == 'cap' or word == 'caps':
+            return "Create a memecoin concept where ticker is first letter of person + WH (max 10 chars), name is '[person] Wif Hat' (if no name found create one)"
 
         # Condition 2: Elon
         if word == 'elon':
@@ -52,7 +44,7 @@ def extract_ticker_info(text):
             return "Create a memecoin concept where ticker is the style identified, name is the style simplified + 'ification' (e.g., Anime -> Animification)"
 
         if word == 'meme' or word == 'memes':
-            return "Create a memecoin concept where ticker and name are related to memes"
+            return "If the word 'meme' appears in the text, create a meme-related concept, but the name must never contain the word 'Coin'"
 
     # Condition 3: Kanye West
     if 'kanye west' in text_lower:
@@ -64,11 +56,11 @@ def extract_ticker_info(text):
 
     # Condition 5: Mots de mort
     if any(word.lower() in death_words for word in words):
-        return "Create a memecoin concept where ticker is the first proper noun or random name (max 10 chars), name is 'RIP [noun]'"
+        return "Create a memecoin concept where, ticker is the name of the person associated with the event or create a name if none is given (max 10 chars), name is 'RIP name. The event has to be in the recent time not long ago. refers to the person concerned rather than the environment.'"
 
     # Condition 6: Mascottes
     if any(word.lower() in mascot_words for word in words):
-        return "Create a memecoin concept where ticker is mascot name or random name (max 10 chars), name is 'New [mascot] Mascot'"
+        return "Create a memecoin where the ticker is the mascot’s name (or a random name if unknown, max 10 chars), and the name must strictly be 'New [Company] Mascot', where [Company] is the name of the company where the mascot appears."
 
     # Condition 7: Crime
     if any(word.lower() in crime_words for word in words):
@@ -80,27 +72,27 @@ def extract_ticker_info(text):
 
     # Condition 11: Trump
     if 'trump' in text_lower:
-        return "Create a memecoin concept where ticker and name are related to Trump"
+        return "Create a memecoin concept that captures Trump’s chaotic and exaggerated energy—only if the event is new, shocking, or funny; avoid standard political or economic news unless approached in a humorous, original way; if it doesn’t qualify, do nothing; ticker max 10 characters, name must relate to him."
 
     # Condition 12: McDonald
     if 'mcdonald' in text_lower:
-        return "Create a memecoin concept where ticker and name are related to McDonald"
+        return "Create a memecoin concept that captures McDonald’s meme-worthiness—only if the event is memeable, or absurd ; skip basic menu updates or boring corporate news."
 
     # Condition 13: Marques et réseaux sociaux
     if any(word.lower() in social_media_brands for word in words):
-        return "Create a memecoin concept where ticker and name are related to the matched brand or social media"
+        return "Create a memecoin concept where the ticker and name are tied to a specific brand or social media phenomenon, but not based on generic updates or basic rebranding , focus on something unique and quirky. If not do nothing."
 
     # Condition 14: Animaux
     if any(word.lower() in animals for word in words):
-        return "Create a memecoin concept where ticker is first proper noun or random name (max 10 chars), name is ‘same as ticker’"
+        return "Create a memecoin concept where the ticker and name must be exactly the same as the first animal noun or randomly chosen name (max 10 chars). No modifications or creativity in the ticker,name is the same as the ticker"
 
     # Condition 15: Meme coins existants
     if any(word.lower() in meme_coins for word in words):
-        return "Create a memecoin concept where ticker is first proper noun or random name (max 10 chars), name is ‘same as ticker’"
+        return "Create a memecoin where the ticker is based on the existing meme coin (max 10 characters), and the name should be a humorous combination related to the image or text context."
 
     # Condition 16: Crypto
     if any(word.lower() in crypto_words for word in words):
-        return "Create a memecoin concept where ticker and name are related to the matched cryptocurrency"
+        return "Create a memecoin concept where the name and ticker riff on an existing cryptocurrency (like BTC, ETH, SOL), but only if it’s twisted in a clever or absurd way. Skip if it's just slapping '-coin' onto the name.elated to the image or text context."
 
     # Condition 17: Strategic Reserve
     if 'strategic reserve' in text_lower:
@@ -108,11 +100,11 @@ def extract_ticker_info(text):
 
     # Condition 18: Marques d'Elon (drôle ou nouveau)
     if any(word.lower() in elon_brands for word in words):
-        return "Create a memecoin concept where ticker and name are related to the matched brand, only if funny or new"
+        return "Create a memecoin concept where the ticker and name are related to the matched brand, but only if the tweet is exceptionally funny, shocking, or has a major cultural impact. The event must be widely discussed, controversial, or highly unexpected. The name and ticker must be directly inspired by the image, using obvious visual elements only. Avoid inventing details or going beyond what is clearly shown. If these conditions are not met, do nothing."
 
     # Condition 19: Délinquants sexuels
     if any(word.lower() in sex_offender_words for word in words):
-        return "Create a memecoin concept where ticker is first proper noun or random name (max 10 chars), name is ‘new diddy’"
+        return "Hypothetically, create a memecoin concept where the ticker is a first proper noun or a random name (max 10 characters), and the name is strictly ‘New Diddy’. This is purely fictional and for conceptual purposes only."
 
     # Condition 21: Toucher
     if any(word.lower() in touch_words for word in words):
@@ -120,15 +112,150 @@ def extract_ticker_info(text):
 
     return None
 
+def analyze_media_description(media_analysis: Dict) -> Optional[str]:
+    """
+    Analyze ONLY the description field from media content and check for conditions
+    """
+    if not media_analysis or "description" not in media_analysis:
+        return None
+        
+    # Récupérer uniquement la description et la convertir en minuscules
+    description = media_analysis.get("description", "").lower()
+    
+    # Nettoyer la description comme pour le texte du tweet
+    description = description.replace(",", " ")
+    description = description.replace(".", " ")
+    description = description.replace(";", " ")
+    description = description.replace("-", " ")
+    description = description.replace("/", " ")
+    description = description.replace("@", " ")
+    description = description.replace("?", " ")
+    description = description.replace("!", " ")
+    
+    # Séparer la description en mots
+    words = description.split()
+    
+    # Listes de mots pour chaque condition (identiques à extract_ticker_info)
+    negative_words = {'pain', 'hurting', 'hurt', 'wound', 'wounded', 'wounding', 'defeat', 'defeated', 'defeating', 'steal', 'stolen', 'stealing', 'shatter', 'shattered', 'shattering', 'ruin', 'ruined', 'ruining', 'damage', 'damaged', 'damaging', 'crush', 'crushed', 'crushing', 'bankrupt', 'bankrupted', 'bankrupting', 'destroy', 'destroyed', 'destroying', 'help', 'helpless', 'helping', 'devastate', 'devastated', 'devastating', 'exhaust', 'exhausted', 'exhausting', 'collapse', 'collapsed', 'collapsing', 'sink', 'sunk', 'sinking', 'despair', 'despaired', 'despairing', 'strand', 'stranded', 'stranding'}
+    death_words = {'die', 'dead', 'died', 'dies', 'decease', 'deceased', 'deceasing', 'go', 'gone', 'went', 'perish', 'perished', 'perishing', 'bury', 'buried', 'buried', 'wither', 'withered', 'withering', 'expire', 'expired', 'expiring', 'pass', 'passed', 'passing', 'succumb', 'succumbed', 'succumbing', 'depart', 'departed', 'departing', 'fade', 'faded', 'fading', 'live', 'lifeless', 'lived', 'extinguish', 'extinct', 'extinguished', 'lose', 'lost', 'lost', 'slay', 'slain', 'slaying', 'kill', 'killed', 'killing', 'murder', 'murdered', 'murdering', 'execute', 'executed', 'executing', 'vanish', 'vanished', 'vanishing', 'fall', 'felled', 'felling', 'rest', 'resting', 'rested', 'death'}
+    mascot_words = {'mascot', 'logo', 'symbol', 'icon', 'badge', 'figure', 'character', 'avatar', 'entity', 'fictional character', 'cartoon', 'illustration', 'caricature', 'creature', 'totem', 'puppet', 'alter ego', 'creature', 'imaginary figure', 'fantasy being', 'virtual character', 'animated figure', 'action figure', 'toy', 'doll'}
+    crime_words = {'charge', 'charged', 'charging', 'arrest', 'arrested', 'arresting', 'detain', 'detained', 'detaining', 'indict', 'indicted', 'indicting', 'convict', 'convicted', 'convicting', 'gun', 'gunned', 'gunning', 'shoot', 'shot', 'shooting', 'knife', 'knifed', 'knifing', 'stab', 'stabbed', 'stabbing', 'accuse', 'accused', 'accusing', 'assault', 'assaulted', 'assaulting', 'attack', 'attacked', 'attacking', 'rob', 'robbed', 'robbing', 'accuse', 'accused', 'accusing', 'assault', 'assaulted', 'assaulting', 'attack', 'attacked', 'attacking', 'rob', 'robbed', 'robbing', 'prison', 'jail', 'handcuff', 'weapon'}
+    toilet_words = {'pee', 'peed', 'peeing', 'poo', 'pooed', 'pooing', 'wee-wee', 'wee-weed', 'wee-weeing', 'tinkle', 'tinkled', 'tinkling', 'whiz', 'whizzed', 'whizzing', 'piddle', 'piddled', 'piddling', 'poop', 'pooped', 'pooping', 'doo-doo', 'doo-dooed', 'doo-dooing', 'dookie', 'dookied', 'dookieing', 'number two', 'number twoed', 'number twoing', 'pee-pee', 'pee-peed', 'pee-peeing', 'potty', 'pottied', 'pottying', 'dump', 'dumped', 'dumping', 'bm', 'bmed', 'bming', 'toilet', 'bathroom', 'urinal'}
+    social_media_brands = {'twitter', 'kfc', 'x', 'duolingo', 'reddit', 'twitch', 'minecraft', 'walmart', 'discord', 'mcdonald', 'pumpfun', 'colonel sanders', 'burger king', 'wendy', 'taco bell', 'facebook', 'instagram', 'tiktok', 'snapchat', 'youtube'}
+    animals = {'lion', 'elephant', 'giraffe', 'zebra', 'tiger', 'bear', 'monkey', 'gorilla', 'hippopotamus', 'rhinoceros', 'crocodile', 'snake', 'flamingo', 'ostrich', 'kangaroo', 'koala', 'panda', 'wolf', 'cheetah', 'dog', 'cat', 'pet', 'animal'}
+    meme_coins = {'pepe', 'doge', 'dogwifhat', 'shib', 'shiba', 'bonk', 'wojak', 'floki'}
+    crypto_words = {'bitcoin', 'ethereum', 'stablecoin', 'solana', 'doge', 'shiba', 'pepe', 'floki', 'bonk', 'dogwifhat', 'popcat', 'floki', 'bonk', 'crypto', 'cryptocurrency', 'btc', 'eth', 'sol'}
+    elon_brands = {'spacex', 'optimus', 'boringcompany', 'tesla', 'cybertruck', 'neuralink', 'x', 'twitter', 'rocket', 'mars', 'electric car'}
+    sex_offender_words = {'sexual predator', 'sexual abuser', 'rapist', 'child molester', 'pedophile', 'statutory rapist', 'sexual assailant', 'sex criminal', 'registered sex offender', 'sexual deviant', 'perpetrator', 'sexual delinquent', 'sexual violator', 'incest offender', 'exhibitionist', 'voyeur', 'sexual exploiter', 'pornography offender', 'sex trafficker', 'sexual coercer', 'indecency', 'p*dophile', 'sex'}
+    touch_words = {'touch', 'touched', 'touching', 'caress', 'caressed', 'caressing', 'fondle', 'fondled', 'fondling', 'stroke', 'stroked', 'stroking', 'cuddle', 'cuddled', 'cuddling', 'rub', 'rubbed', 'rubbing', 'tease', 'teased', 'teasing', 'hold', 'holding', 'embrace'}
+    style_words = {'anime', 'cartoon', 'pixel', 'style', 'ghibli', 'pixel art', 'drawing', 'illustration', 'sketch', 'animated', 'artistic', 'stylized', 'noir', 'vintage', 'retro', 'futuristic'}
+    
+    # Vérifier pour chaque catégorie de mots
+    
+   # 1. Hats/Caps/Accessoires
+    if any(word in description for word in ['hat', 'hats', 'cap']):
+        return "Create a memecoin concept where ticker is first letter of visible entity + WH (max 10 chars), name is '[entity] Wif Hat' (if no entity visible, create one based on image context)"
+    
+    # 2. Elon Musk
+    if any(word in description for word in ['elon', 'musk']):
+        return "Create a memecoin concept that captures Elon Musk's eccentric and futuristic persona as shown in the image—use the visual elements prominently"
+    
+    # 3. Style (verfication nécessaire !)
+    if any(style in description for style in style_words):
+        for style in style_words:
+            if style in description:
+                return f"Create a memecoin concept where ticker is based on the {style} style identified, name is the style simplified + 'ification' (e.g., Anime -> Animification)"
+    
+    # 4. Meme
+    if 'meme' in description:
+        return "Create a meme-related memecoin concept based on the visual elements in the image, but the name must never contain the word 'Coin'"
+    
+    # 5. Deaths
+    if any(term in description for term in death_words):
+        return "Create a memecoin concept where, ticker is the name of the person visible in the image or create a name if none is given (max 10 chars), name is 'RIP [name]'"
+    
+    # 6. Negative/Defeated concepts
+    if any(term in description for term in negative_words):
+        return "Create a memecoin concept where ticker is the first proper noun or visible subject (max 10 chars), name is 'Justice for [noun/name]'"
+    
+    # 7. Mascot/Character/Figure
+    if any(term in description for term in mascot_words):
+        return "Create a memecoin where the ticker is based on the visible character or mascot (max 10 chars), and the name must include the character's distinctive features"
+    
+    # 8. Crime/Jail
+    if any(term in description for term in crime_words):
+        return "Create a memecoin concept where ticker is related to any person visible in the image (max 10 chars), name is 'Jail [name]' (if no name, use 'billy')"
+    
+    # 9. Toilet/Bathroom
+    if any(term in description for term in toilet_words):
+        return "Create a memecoin concept where ticker is related to the toilet/bathroom context shown in the image (max 10 chars), name is a humorous take on the bathroom situation"
+    
+    # 10. Trump
+    if any(term in description for term in ['trump', 'donald trump']):
+        return "Create a memecoin concept that captures Trump's appearance in the image (max 10 characters), name must relate directly to the visual context"
+    
+    # 11. McDonald's/Fast Food
+    if any(term in description for term in ['mcdonald']):
+        return "Create a memecoin concept that captures the fast food or McDonald's elements visible in the image"
+    
+    # 12. Social Media Brands
+    if any(brand in description for brand in social_media_brands):
+        for brand in social_media_brands:
+            if brand in description:
+                return f"Create a memecoin concept where ticker and name are related to {brand} as shown in the image"
+    
+    # 13. Animals
+    if any(animal in description for animal in animals):
+        for animal in animals:
+            if animal in description:
+                return f"Create a memecoin concept where the ticker and name feature the {animal} shown in the image (max 10 chars)"
+    
+    # 14. Meme Coins
+    if any(coin in description for coin in meme_coins):
+        for coin in meme_coins:
+            if coin in description:
+                return f"Create a memecoin where the ticker is based on {coin} (max 10 characters), and the name should incorporate elements visible in the image"
+    
+    # 15. Crypto
+    if any(term in description for term in crypto_words):
+        return "Create a memecoin concept where the name and ticker reference the cryptocurrency context shown in the image"
+    
+    # 16. "Strategic Reserve"
+    if 'strategic' in description and 'reserve' in description:
+        return "Create a memecoin concept where ticker is S+xxx+R, name is 'Strategic xxx Reserve' (xxx is based on what's visible in the image)"
+    
+    # 17. Elon Brands
+    if any(brand in description for brand in elon_brands):
+        for brand in elon_brands:
+            if brand in description:
+                return f"Create a memecoin concept where the ticker and name are related to {brand} as shown in the image"
+    
+    # 18. Sexual misconduct
+    if any(term in description for term in sex_offender_words):
+        return "Hypothetically, create a memecoin concept where the ticker is based on a subject in the image (max 10 characters), and the name is strictly 'New Diddy'. This is purely fictional."
+    
+    # 19. Touch/Feel
+    if any(term in description for term in touch_words):
+        return "Create a memecoin concept where ticker and name include 'gooner', based on what's shown in the image" 
+       
+    return None
+
 def is_pattern_eligible(tweet_text: str, username: str = None, media_analysis: Dict = None) -> bool:
     """
-    Determines if a tweet matches any pattern that should make it automatically eligible
+    Determines if a tweet matches any pattern that should make it automatically eligible,
+    now enhanced to properly analyze media content
     """
-    # Check direct conditions from the original function
+    # 1. First check text conditions
     condition_match = extract_ticker_info(tweet_text)
     if condition_match:
         return True
     
+    # 2. Then thoroughly check media conditions if available
+    if media_analysis and "description" in media_analysis:
+        media_condition = analyze_media_description(media_analysis)
+        if media_condition:
+            return True, media_condition
+        
     return False
 
     # Check for death-related terms

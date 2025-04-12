@@ -406,6 +406,8 @@ class MediaAnalyzer:
         
         return detected_themes
     
+    # DEPRECATED: Cette fonction est obsolète et ne doit plus être utilisée
+    # Utilise is_pattern_elligible à la place (condition_handler.py)
     def is_media_eligible(self, analysis: Dict[str, Any]) -> bool:
         """
         Détermine si un média est éligible pour la génération d'un meme coin

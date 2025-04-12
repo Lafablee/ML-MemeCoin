@@ -1,20 +1,23 @@
 {
-  "description": "The image depicts a cartoonish character with a head resembling a well-known fast-food mascot, but with a sausage-like body and legs. The character is holding a club-like object, standing outside what appears to be a shelter or station at night.",
+  "description": "The image depicts a surreal cartoonish character with a stick-like body, a human face with glasses and a goatee, and a baseball bat in hand. It stands in front of a wooden building with a bench, which has a sign that reads 'PENTUNGUAN POS RONDA'. The setting appears to be outdoors at night with a street lamp providing illumination.",
   "subjects": [
     "Cartoon character",
-    "Club",
-    "Building"
+    "Baseball bat",
+    "Wooden building",
+    "Bench",
+    "Street lamp"
   ],
   "actions": [
-    "Standing"
+    "Standing posed",
+    "Holding a bat"
   ],
   "mood": "Humorous and surreal",
   "visible_text": [
-    "PENTUNG POS RON"
+    "PENTUNGUAN POS RONDA"
   ],
   "emotional_themes": [
     "Amusement",
-    "Confusion"
+    "Surrealism"
   ],
   "is_meme": true,
   "is_crisis": false,

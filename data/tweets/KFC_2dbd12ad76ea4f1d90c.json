@@ -1,0 +1,19 @@
+{
+  "id": "2dbd12ad76ea4f1d90c",
+  "text": "KFC buenos d\u00edas",
+  "created_at": "2025-04-08T10:49:11.915214",
+  "public_metrics": {
+    "like_count": 51,
+    "retweet_count": 0,
+    "reply_count": 0,
+    "quote_count": 0
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/Gn_95-jWoAAhN93?format=jpg&name=900x900",
+      "preview_image_url": "https://pbs.twimg.com/media/Gn_95-jWoAAhN93?format=jpg&name=900x900",
+      "media_key": "media_key_2dbd12ad76ea4f1d90c_0"
+    }
+  ]
+}

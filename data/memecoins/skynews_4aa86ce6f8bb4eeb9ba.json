@@ -1,0 +1,15 @@
+{
+  "token_name": "RIP LDN",
+  "token_symbol": "LONDON",
+  "tweet_author": "skynews",
+  "relevant_keywords": [
+    "Person",
+    "BREAKING",
+    "London",
+    "skynews",
+    "death",
+    "year"
+  ],
+  "generated_at": "2025-04-12 11:28:14",
+  "condition": "Create a memecoin concept where, ticker is the name of the person associated with the event or create a name if none is given (max 10 chars), name is 'RIP name. The event has to be in the recent time not long ago'"
+}

@@ -1,16 +1,16 @@
 {
-  "token_name": "BitBuzz",
-  "token_symbol": "BTCBUZZ",
+  "token_name": "BisonBit",
+  "token_symbol": "BISONBTC",
   "tweet_author": "Bitcoin",
   "relevant_keywords": [
-    "field",
-    "bison",
-    "#Bitcoin",
+    "Bison",
     "Follow: @Bitcoin",
+    "Grassy plain",
     "Bitcoin symbol",
-    "clouds",
+    "#Bitcoin",
+    "Clouds",
     "Bitcoin"
   ],
-  "generated_at": "2025-04-06 21:58:06",
-  "condition": "Create a memecoin concept where ticker and name are related to the matched cryptocurrency"
+  "generated_at": "2025-04-12 12:13:34",
+  "condition": "Create a memecoin concept where the name and ticker riff on an existing cryptocurrency (like BTC, ETH, SOL), but only if it\u2019s twisted in a clever or absurd way. Skip if it's just slapping '-coin' onto the name.elated to the image or text context."
 }

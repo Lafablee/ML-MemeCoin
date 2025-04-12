@@ -1,13 +1,13 @@
 {
-  "description": "The image shows a boxed toy labeled 'Pump Fun Action Figure.' The box is green with a cute, egg-shaped character inside, dressed in green. The package includes miniature items resembling a mobile phone, a laptop, and a red cap with a fast-food logo. The box features a small flag symbol in the bottom corner.",
+  "description": "The image is a depiction of a toy package labeled 'PUMP FUN ACTION FIGURE'. Inside the package, there is a cute, smiling figure in green and white, along with a red cap featuring a logo, possibly representing a fast-food chain. There are also graphics of phones or screens displaying data or applications.",
   "subjects": [
-    "Toy action figure",
-    "Phone",
-    "Laptop",
-    "Cap"
+    "Action figure",
+    "Toy package",
+    "Cap",
+    "Screens"
   ],
   "actions": [
-    "The toy is packaged in a box; no actions depicted"
+    "The action figure is stationary within the package"
   ],
   "mood": "Playful and humorous",
   "visible_text": [
@@ -18,7 +18,7 @@
     "Joy",
     "Amusement"
   ],
-  "is_meme": false,
+  "is_meme": true,
   "is_crisis": false,
   "crisis_type": null,
   "detected_themes": {}

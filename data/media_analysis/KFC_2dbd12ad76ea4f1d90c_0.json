@@ -1,0 +1,27 @@
+{
+  "description": "Image of a laptop placed on dirt, surrounded by cans and debris, with a red arrow pointing towards it and the text 'this is where i post from' at the bottom.",
+  "subjects": [
+    "Laptop",
+    "Dirt",
+    "Cans",
+    "Debris"
+  ],
+  "actions": [
+    "Laptop placed on ground"
+  ],
+  "mood": "Humorous",
+  "visible_text": [
+    "this is where i post from"
+  ],
+  "emotional_themes": [
+    "Humor"
+  ],
+  "is_meme": true,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {
+    "conflit": [
+      "war"
+    ]
+  }
+}

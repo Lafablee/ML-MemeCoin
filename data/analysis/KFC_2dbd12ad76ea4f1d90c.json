@@ -1,0 +1,25 @@
+{
+  "tweet_id": "2dbd12ad76ea4f1d90c",
+  "original_text": "KFC buenos d\u00edas",
+  "named_entities": [
+    {
+      "text": "KFC",
+      "type": "ORG"
+    }
+  ],
+  "capital_words": [],
+  "symbols": [],
+  "important_nouns": [
+    "buenos"
+  ],
+  "significant_verbs": [
+    "d\u00edas"
+  ],
+  "unique_identifiers": [
+    "KFC",
+    "buenos"
+  ],
+  "tweet_identity": "KFC buenos",
+  "detected_themes": {},
+  "username": "KFC"
+}

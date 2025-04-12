@@ -1,0 +1,42 @@
+{
+  "tweet_id": "4aa86ce6f8bb4eeb9ba",
+  "original_text": "skynews BREAKING: A 17-year-old boy has been stabbed to death in west London.",
+  "named_entities": [
+    {
+      "text": "17-year-old",
+      "type": "DATE"
+    },
+    {
+      "text": "London",
+      "type": "GPE"
+    }
+  ],
+  "capital_words": [
+    "BREAKING",
+    "London"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "skynews",
+    "BREAKING",
+    "year",
+    "death"
+  ],
+  "significant_verbs": [
+    "stabbed"
+  ],
+  "unique_identifiers": [
+    "BREAKING",
+    "London",
+    "skynews",
+    "death",
+    "year"
+  ],
+  "tweet_identity": "BREAKING London skynews death year",
+  "detected_themes": {
+    "celebrite": [
+      "death"
+    ]
+  },
+  "username": "skynews"
+}

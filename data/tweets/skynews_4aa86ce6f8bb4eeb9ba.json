@@ -1,0 +1,19 @@
+{
+  "id": "4aa86ce6f8bb4eeb9ba",
+  "text": "skynews BREAKING: A 17-year-old boy has been stabbed to death in west London.",
+  "created_at": "2025-04-12T11:28:09.857689",
+  "public_metrics": {
+    "like_count": 30,
+    "retweet_count": 21,
+    "reply_count": 0,
+    "quote_count": 0
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/card_img/1908860124703150081/AduQcr8i?format=jpg&name=900x900",
+      "preview_image_url": "https://pbs.twimg.com/card_img/1908860124703150081/AduQcr8i?format=jpg&name=900x900",
+      "media_key": "media_key_4aa86ce6f8bb4eeb9ba_0"
+    }
+  ]
+}

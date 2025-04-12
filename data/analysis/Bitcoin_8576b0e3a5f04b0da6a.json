@@ -22,10 +22,10 @@
     "Bitcoin"
   ],
   "unique_identifiers": [
-    "#Bitcoin",
-    "Bitcoin"
+    "Bitcoin",
+    "#Bitcoin"
   ],
-  "tweet_identity": "#Bitcoin Bitcoin",
+  "tweet_identity": "Bitcoin #Bitcoin",
   "detected_themes": {},
   "username": "Bitcoin"
 }
