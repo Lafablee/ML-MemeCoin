@@ -1,0 +1,19 @@
+{
+  "description": "The image shows a chocolate chip cookie on a cooling rack, resembling a smiling face.",
+  "subjects": [
+    "Cookie",
+    "Cooling rack"
+  ],
+  "actions": [
+    "Cooling on a rack"
+  ],
+  "mood": "Lighthearted",
+  "visible_text": [],
+  "emotional_themes": [
+    "Joy"
+  ],
+  "is_meme": true,
+  "is_crisis": false,
+  "crisis_type": "",
+  "detected_themes": {}
+}

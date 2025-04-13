@@ -1,0 +1,51 @@
+{
+  "tweet_id": "a6548524f47e480f8b3",
+  "original_text": "netflix Would do anything for this Thronglet. You can raise your own throng on Black Mirror: Thronglets. Now on Netflix Games \ud83d\udc9b",
+  "named_entities": [
+    {
+      "text": "netflix",
+      "type": "GPE"
+    },
+    {
+      "text": "Black Mirror: Thronglets",
+      "type": "ORG"
+    },
+    {
+      "text": "Netflix",
+      "type": "GPE"
+    }
+  ],
+  "capital_words": [
+    "Would",
+    "Thronglet",
+    "You",
+    "Black",
+    "Mirror",
+    "Thronglets",
+    "Now",
+    "Netflix",
+    "Games"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "throng",
+    "Thronglets"
+  ],
+  "significant_verbs": [
+    "raise"
+  ],
+  "unique_identifiers": [
+    "Black Mirror: Thronglets",
+    "Games",
+    "Thronglet",
+    "Mirror",
+    "Thronglets",
+    "Would",
+    "Netflix",
+    "Black",
+    "throng"
+  ],
+  "tweet_identity": "Black Mirror: Thronglets Games Thronglet Mirror Thronglets",
+  "detected_themes": {},
+  "username": "netflix"
+}

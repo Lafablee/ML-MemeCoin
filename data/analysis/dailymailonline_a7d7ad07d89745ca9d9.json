@@ -1,0 +1,58 @@
+{
+  "tweet_id": "a7d7ad07d89745ca9d9",
+  "original_text": "dailymailonline Meet the man who has created an exact replica of a First World War trench that has been visited by thousands... after building one by his BACK GARDEN",
+  "named_entities": [
+    {
+      "text": "First World War",
+      "type": "EVENT"
+    },
+    {
+      "text": "thousands",
+      "type": "CARDINAL"
+    },
+    {
+      "text": "BACK GARDEN",
+      "type": "LOC"
+    }
+  ],
+  "capital_words": [
+    "Meet",
+    "First",
+    "World",
+    "War",
+    "BACK",
+    "GARDEN"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "dailymailonline",
+    "replica",
+    "trench",
+    "thousands",
+    "GARDEN"
+  ],
+  "significant_verbs": [
+    "created",
+    "visited",
+    "building"
+  ],
+  "unique_identifiers": [
+    "GARDEN",
+    "First",
+    "War",
+    "Meet",
+    "World",
+    "BACK",
+    "thousands",
+    "dailymailonline",
+    "trench",
+    "replica"
+  ],
+  "tweet_identity": "GARDEN thousands First War Meet",
+  "detected_themes": {
+    "conflit": [
+      "war"
+    ]
+  },
+  "username": "dailymailonline"
+}

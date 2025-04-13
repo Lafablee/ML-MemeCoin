@@ -1,0 +1,54 @@
+{
+  "tweet_id": "33f2a8d73c374b27920",
+  "original_text": "WIF $WIF closing on 219k holders I keep onboarding everyone I meet and asks me about memes Road to 1M holders Hat stays on ",
+  "named_entities": [
+    {
+      "text": "WIF",
+      "type": "ORG"
+    },
+    {
+      "text": "WIF",
+      "type": "PERSON"
+    },
+    {
+      "text": "219k",
+      "type": "CARDINAL"
+    },
+    {
+      "text": "Road to 1M",
+      "type": "FAC"
+    }
+  ],
+  "capital_words": [
+    "Road",
+    "Hat"
+  ],
+  "symbols": [
+    "$WIF"
+  ],
+  "important_nouns": [
+    "holders",
+    "memes",
+    "holders"
+  ],
+  "significant_verbs": [
+    "closing",
+    "keep",
+    "onboarding",
+    "meet",
+    "asks",
+    "stays"
+  ],
+  "unique_identifiers": [
+    "$WIF",
+    "WIF",
+    "Hat",
+    "$WIF",
+    "Road",
+    "holders",
+    "memes"
+  ],
+  "tweet_identity": "WIF Hat holders memes $WIF",
+  "detected_themes": {},
+  "username": "WIF"
+}

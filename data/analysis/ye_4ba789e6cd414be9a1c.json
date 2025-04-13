@@ -1,0 +1,21 @@
+{
+  "tweet_id": "4ba789e6cd414be9a1c",
+  "original_text": "ye I hate clothes on women",
+  "named_entities": [],
+  "capital_words": [],
+  "symbols": [],
+  "important_nouns": [
+    "clothes",
+    "women"
+  ],
+  "significant_verbs": [
+    "hate"
+  ],
+  "unique_identifiers": [
+    "women",
+    "clothes"
+  ],
+  "tweet_identity": "women clothes",
+  "detected_themes": {},
+  "username": "ye"
+}

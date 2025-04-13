@@ -1,0 +1,19 @@
+{
+  "description": "The image features a young person with short hair, wearing a dark-colored outfit against a neutral background. The expression appears neutral or serious.",
+  "subjects": [
+    "A young person"
+  ],
+  "actions": [
+    "The person is looking directly at the camera"
+  ],
+  "mood": "Serious",
+  "visible_text": [],
+  "emotional_themes": [
+    "Neutral",
+    "Seriousness"
+  ],
+  "is_meme": false,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

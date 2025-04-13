@@ -1,0 +1,73 @@
+{
+  "tweet_id": "dcedbbaf17bd4bf78e4",
+  "original_text": "zoo sheldrick Someone special is just about ready to make your acquaintance! Friendly little Olomunyak beat us to the front of the welcoming committee. This was taken the evening after the new arrival's rescue \u2014 Olomunyak, sensing a newbie in his midst and perhaps remembering his own Now, this young orphan is ready to meet you, too. We will properly introduce you to Tali later today \u2014 stay tuned! ",
+  "named_entities": [
+    {
+      "text": "zoo sheldrick Someone",
+      "type": "PERSON"
+    },
+    {
+      "text": "the evening",
+      "type": "TIME"
+    },
+    {
+      "text": "Tali",
+      "type": "PERSON"
+    },
+    {
+      "text": "later today",
+      "type": "TIME"
+    }
+  ],
+  "capital_words": [
+    "Someone",
+    "Friendly",
+    "Olomunyak",
+    "This",
+    "Olomunyak",
+    "Now",
+    "We",
+    "Tali"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "acquaintance",
+    "front",
+    "committee",
+    "evening",
+    "arrival",
+    "rescue",
+    "newbie",
+    "midst",
+    "orphan",
+    "today"
+  ],
+  "significant_verbs": [
+    "sheldrick",
+    "make",
+    "beat",
+    "welcoming",
+    "taken",
+    "sensing",
+    "remembering",
+    "meet",
+    "introduce",
+    "stay",
+    "tuned"
+  ],
+  "unique_identifiers": [
+    "Olomunyak",
+    "Friendly",
+    "Someone",
+    "Tali",
+    "midst",
+    "evening",
+    "newbie",
+    "today",
+    "zoo sheldrick Someone",
+    "front"
+  ],
+  "tweet_identity": "midst evening newbie Olomunyak today",
+  "detected_themes": {},
+  "username": "zoo sheldrick"
+}

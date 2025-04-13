@@ -1,0 +1,21 @@
+{
+  "success": false,
+  "error": "Erreur HTTP 500",
+  "memecoin_data": {
+    "token_name": "Pump Wif Hat",
+    "token_symbol": "PWH",
+    "description": "",
+    "relevant_keywords": [
+      "PUMP FUN",
+      "Cartoon character",
+      "Smartphone",
+      "Cap",
+      "Laptop",
+      "Packaging box",
+      "ACTION FIGURE"
+    ],
+    "tweet_author": "pump.fun",
+    "primary_theme": null,
+    "generated_at": "2025-04-12 15:31:09"
+  }
+}

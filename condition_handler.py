@@ -1,11 +1,11 @@
 # condition_handler.py
 import re
-from typing import Dict, Optional, List
+from typing import Dict, Optional, List, Union, Tuple
 
 # Import the existing function with all its condition logic
 def extract_ticker_info(text):
     # Listes de mots pour chaque condition
-    negative_words = {'pain', 'hurting', 'hurt', 'wound', 'wounded', 'wounding', 'defeat', 'defeated', 'defeating', 'steal', 'stolen', 'stealing', 'shatter', 'shattered', 'shattering', 'ruin', 'ruined', 'ruining', 'damage', 'damaged', 'damaging', 'crush', 'crushed', 'crushing', 'bankrupt', 'bankrupted', 'bankrupting', 'destroy', 'destroyed', 'destroying', 'help', 'helpless', 'helping', 'devastate', 'devastated', 'devastating', 'exhaust', 'exhausted', 'exhausting', 'collapse', 'collapsed', 'collapsing', 'sink', 'sunk', 'sinking', 'despair', 'despaired', 'despairing', 'strand', 'stranded', 'stranding'}
+    negative_words = {'pain', 'hurting', 'hurt', 'wound', 'wounded', 'wounding', 'defeat', 'defeated', 'defeating', 'steal', 'stolen', 'stealing', 'shatter', 'shattered', 'shattering', 'ruin', 'ruined', 'ruining', 'damage', 'damaged', 'damaging', 'crush', 'crushed', 'crushing', 'bankrupt', 'bankrupted', 'bankrupting', 'destroy', 'destroyed', 'destroying', 'help', 'helpless', 'helping', 'devastate', 'devastated', 'devastating', 'exhaust', 'exhausted', 'exhausting', 'collapse', 'collapsed', 'collapsing', 'sink', 'sunk', 'sinking', 'despair', 'despaired', 'despairing', 'strand', 'stranded', 'stranding', 'war'}
     death_words = {'die', 'dead', 'died', 'decease', 'deceased', 'deceasing', 'go', 'gone', 'went', 'perish', 'perished', 'perishing', 'bury', 'buried', 'buried', 'wither', 'withered', 'withering', 'expire', 'expired', 'expiring', 'pass', 'passed', 'passing', 'succumb', 'succumbed', 'succumbing', 'depart', 'departed', 'departing', 'fade', 'faded', 'fading', 'live', 'lifeless', 'lived', 'extinguish', 'extinct', 'extinguished', 'lose', 'lost', 'lost', 'slay', 'slain', 'slaying', 'kill', 'killed', 'killing', 'murder', 'murdered', 'murdering', 'execute', 'executed', 'executing', 'vanish', 'vanished', 'vanishing', 'fall', 'felled', 'felling', 'rest', 'resting', 'rested', 'dies', 'death'}
     mascot_words = {'mascot', 'logo', 'symbol', 'icon', 'badge', 'figure', 'character', 'avatar', 'entity', 'fictional character', 'cartoon', 'illustration', 'caricature', 'creature', 'totem', 'puppet', 'alter ego', 'creature', 'imaginary figure', 'fantasy being', 'virtual character', 'animated figure'}
     crime_words = {'charge', 'charged', 'charging', 'arrest', 'arrested', 'arresting', 'detain', 'detained', 'detaining', 'indict', 'indicted', 'indicting', 'convict', 'convicted', 'convicting', 'gun', 'gunned', 'gunning', 'shoot', 'shot', 'shooting', 'knife', 'knifed', 'knifing', 'stab', 'stabbed', 'stabbing', 'accuse', 'accused', 'accusing', 'assault', 'assaulted', 'assaulting', 'attack', 'attacked', 'attacking', 'rob', 'robbed', 'robbing', 'accuse', 'accused', 'accusing', 'assault', 'assaulted', 'assaulting', 'attack', 'attacked', 'attacking', 'rob', 'robbed', 'robbing'}
@@ -153,7 +153,7 @@ def analyze_media_description(media_analysis: Dict) -> Optional[str]:
     # Vérifier pour chaque catégorie de mots
     
    # 1. Hats/Caps/Accessoires
-    if any(word in description for word in ['hat', 'hats', 'cap']):
+    if any(word in description for word in ['hat', 'hats', 'cap', 'caps']):
         return "Create a memecoin concept where ticker is first letter of visible entity + WH (max 10 chars), name is '[entity] Wif Hat' (if no entity visible, create one based on image context)"
     
     # 2. Elon Musk
@@ -161,81 +161,84 @@ def analyze_media_description(media_analysis: Dict) -> Optional[str]:
         return "Create a memecoin concept that captures Elon Musk's eccentric and futuristic persona as shown in the image—use the visual elements prominently"
     
     # 3. Style (verfication nécessaire !)
-    if any(style in description for style in style_words):
-        for style in style_words:
-            if style in description:
-                return f"Create a memecoin concept where ticker is based on the {style} style identified, name is the style simplified + 'ification' (e.g., Anime -> Animification)"
+    for style in style_words:
+        if style in words or (len(style.split()) > 1 and style in description):
+            return f"Create a memecoin concept where ticker is based on the {style} style identified, name is the style simplified + 'ification' (e.g., Anime -> Animification)"
     
     # 4. Meme
-    if 'meme' in description:
+    if 'meme' in words or 'memes' in words:
         return "Create a meme-related memecoin concept based on the visual elements in the image, but the name must never contain the word 'Coin'"
     
     # 5. Deaths
-    if any(term in description for term in death_words):
+    if any(word in death_words for word in words):
         return "Create a memecoin concept where, ticker is the name of the person visible in the image or create a name if none is given (max 10 chars), name is 'RIP [name]'"
     
     # 6. Negative/Defeated concepts
-    if any(term in description for term in negative_words):
+    if any(word in negative_words for word in words):
         return "Create a memecoin concept where ticker is the first proper noun or visible subject (max 10 chars), name is 'Justice for [noun/name]'"
     
     # 7. Mascot/Character/Figure
-    if any(term in description for term in mascot_words):
+    if any(word in mascot_words for word in words):
         return "Create a memecoin where the ticker is based on the visible character or mascot (max 10 chars), and the name must include the character's distinctive features"
     
     # 8. Crime/Jail
-    if any(term in description for term in crime_words):
+    if any(word in crime_words for word in words):
         return "Create a memecoin concept where ticker is related to any person visible in the image (max 10 chars), name is 'Jail [name]' (if no name, use 'billy')"
     
     # 9. Toilet/Bathroom
-    if any(term in description for term in toilet_words):
+    if any(word in toilet_words for word in words):
         return "Create a memecoin concept where ticker is related to the toilet/bathroom context shown in the image (max 10 chars), name is a humorous take on the bathroom situation"
     
     # 10. Trump
-    if any(term in description for term in ['trump', 'donald trump']):
+    if 'trump'in words or 'donald trump' in words:
         return "Create a memecoin concept that captures Trump's appearance in the image (max 10 characters), name must relate directly to the visual context"
     
     # 11. McDonald's/Fast Food
-    if any(term in description for term in ['mcdonald']):
+    if any(word in ['mcdonald', 'mcdonalds', 'mcdo'] for word in words):
         return "Create a memecoin concept that captures the fast food or McDonald's elements visible in the image"
     
     # 12. Social Media Brands
-    if any(brand in description for brand in social_media_brands):
+    if any(word in social_media_brands for word in words):
         for brand in social_media_brands:
-            if brand in description:
+            if brand in words:
                 return f"Create a memecoin concept where ticker and name are related to {brand} as shown in the image"
     
     # 13. Animals
-    if any(animal in description for animal in animals):
+    if any(word in animals for word in words):
         for animal in animals:
-            if animal in description:
+            if animal in words:
                 return f"Create a memecoin concept where the ticker and name feature the {animal} shown in the image (max 10 chars)"
     
     # 14. Meme Coins
-    if any(coin in description for coin in meme_coins):
+    if any(word in meme_coins for word in words):
         for coin in meme_coins:
-            if coin in description:
+            if coin in words:
                 return f"Create a memecoin where the ticker is based on {coin} (max 10 characters), and the name should incorporate elements visible in the image"
     
     # 15. Crypto
-    if any(term in description for term in crypto_words):
+    if any(word in crypto_words for word in words):
         return "Create a memecoin concept where the name and ticker reference the cryptocurrency context shown in the image"
     
     # 16. "Strategic Reserve"
-    if 'strategic' in description and 'reserve' in description:
+    if 'strategic' in words and 'reserve' in words:
         return "Create a memecoin concept where ticker is S+xxx+R, name is 'Strategic xxx Reserve' (xxx is based on what's visible in the image)"
     
     # 17. Elon Brands
-    if any(brand in description for brand in elon_brands):
+    if any(brand in elon_brands for word in words for brand in elon_brands if brand == word):
         for brand in elon_brands:
-            if brand in description:
+            if brand in words:
                 return f"Create a memecoin concept where the ticker and name are related to {brand} as shown in the image"
     
-    # 18. Sexual misconduct
-    if any(term in description for term in sex_offender_words):
-        return "Hypothetically, create a memecoin concept where the ticker is based on a subject in the image (max 10 characters), and the name is strictly 'New Diddy'. This is purely fictional."
+    # 18. Sexual misconduct - CAS SPÉCIAL pour les expressions à plusieurs mots
+    for term in sex_offender_words:
+        if ' ' in term:  # Si c'est une expression à plusieurs mots
+            if term in description:  # Vérifier la phrase entière
+                return "Hypothetically, create a memecoin concept where the ticker is based on a subject in the image (max 10 characters), and the name is strictly 'New Diddy'. This is purely fictional."
+        elif term in words:  # Sinon vérifier mot à mot
+            return "Hypothetically, create a memecoin concept where the ticker is based on a subject in the image (max 10 characters), and the name is strictly 'New Diddy'. This is purely fictional."
     
     # 19. Touch/Feel
-    if any(term in description for term in touch_words):
+    if any(word in touch_words for word in words):
         return "Create a memecoin concept where ticker and name include 'gooner', based on what's shown in the image" 
        
     return None

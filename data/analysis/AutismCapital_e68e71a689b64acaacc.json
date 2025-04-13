@@ -1,0 +1,25 @@
+{
+  "tweet_id": "e68e71a689b64acaacc",
+  "original_text": "AutismCapital This one's a banger ",
+  "named_entities": [
+    {
+      "text": "AutismCapital",
+      "type": "ORG"
+    }
+  ],
+  "capital_words": [
+    "This"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "banger"
+  ],
+  "significant_verbs": [],
+  "unique_identifiers": [
+    "AutismCapital",
+    "banger"
+  ],
+  "tweet_identity": "AutismCapital banger",
+  "detected_themes": {},
+  "username": "AutismCapital"
+}

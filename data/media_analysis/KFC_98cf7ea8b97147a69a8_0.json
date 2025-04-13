@@ -1,0 +1,25 @@
+{
+  "description": "The image is a meme featuring a bed from the game Minecraft with a photoshopped face of an older man who appears to be in distress on the pillow. The text in Spanish humorously translates to 'I can't stand this suffering called having to wake up early.'",
+  "subjects": [
+    "Minecraft bed",
+    "photoshopped face of an older person"
+  ],
+  "actions": [
+    "Person in bed",
+    "Expression of distress"
+  ],
+  "mood": "Humorous",
+  "visible_text": [
+    "YA NO SOPORTO ESTE",
+    "SUFRIMIENTO LLAMADO",
+    "tener que madrugar"
+  ],
+  "emotional_themes": [
+    "Frustration",
+    "Humor"
+  ],
+  "is_meme": true,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

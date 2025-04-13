@@ -1,0 +1,61 @@
+{
+  "tweet_id": "d3fef1d20b1446ddbad",
+  "original_text": "AFpost Wisconsin 17-year-old Nikita Casap murdered his parents to fund a plot to kill President Trump and spark a revolution to \u201csave the White race.\u201d",
+  "named_entities": [
+    {
+      "text": "Wisconsin",
+      "type": "GPE"
+    },
+    {
+      "text": "17-year-old",
+      "type": "DATE"
+    },
+    {
+      "text": "Nikita Casap",
+      "type": "PERSON"
+    },
+    {
+      "text": "Trump",
+      "type": "PERSON"
+    }
+  ],
+  "capital_words": [
+    "Wisconsin",
+    "Nikita",
+    "Casap",
+    "President",
+    "Trump",
+    "White"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "AFpost",
+    "year",
+    "parents",
+    "plot",
+    "revolution",
+    "race"
+  ],
+  "significant_verbs": [
+    "murdered",
+    "fund",
+    "kill",
+    "spark",
+    "save"
+  ],
+  "unique_identifiers": [
+    "Wisconsin",
+    "AFpost",
+    "President",
+    "Nikita Casap",
+    "Nikita",
+    "White",
+    "Casap",
+    "Trump",
+    "year",
+    "plot"
+  ],
+  "tweet_identity": "year Wisconsin AFpost President plot",
+  "detected_themes": {},
+  "username": "AFpost"
+}

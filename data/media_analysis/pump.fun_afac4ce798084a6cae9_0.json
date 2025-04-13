@@ -1,21 +1,21 @@
 {
-  "description": "The image is a depiction of a toy package labeled 'PUMP FUN ACTION FIGURE'. Inside the package, there is a cute, smiling figure in green and white, along with a red cap featuring a logo, possibly representing a fast-food chain. There are also graphics of phones or screens displaying data or applications.",
+  "description": "The image depicts a packaged action figure labeled 'PUMP FUN ACTION FIGURE'. The figure is a cartoonish character with a round body, wearing a green outfit. Accompanying items include a small laptop, a smartphone showing stock trading apps, and a red cap with a fast-food chain logo. A small American flag is visible on the package.",
   "subjects": [
-    "Action figure",
-    "Toy package",
+    "Cartoon character",
+    "Laptop",
+    "Smartphone",
     "Cap",
-    "Screens"
+    "Packaging box"
   ],
   "actions": [
-    "The action figure is stationary within the package"
+    "None"
   ],
-  "mood": "Playful and humorous",
+  "mood": "Playful",
   "visible_text": [
     "PUMP FUN",
     "ACTION FIGURE"
   ],
   "emotional_themes": [
-    "Joy",
     "Amusement"
   ],
   "is_meme": true,

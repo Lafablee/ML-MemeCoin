@@ -1,0 +1,23 @@
+{
+  "description": "The image shows a plate with rice shaped like a chicken, decorated with red vegetables to resemble its features. Beside it, there's a slice of tomato. Overlaid text reads 'pollo con arroz' with a thumbs-up emoji.",
+  "subjects": [
+    "Plate",
+    "Rice",
+    "Tomato",
+    "Text"
+  ],
+  "actions": [
+    "Food arranged artistically"
+  ],
+  "mood": "Humorous",
+  "visible_text": [
+    "pollo con arroz \ud83d\udc4d"
+  ],
+  "emotional_themes": [
+    "Amusement"
+  ],
+  "is_meme": true,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

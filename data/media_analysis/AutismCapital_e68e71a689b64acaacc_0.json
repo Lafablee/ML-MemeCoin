@@ -1,0 +1,29 @@
+{
+  "description": "A cartoon drawing of two elderly men facing each other, each holding a cane. They appear to be engaged in a confrontation, with speech bubbles above their heads displaying the percentages '7000%' and '8000%' respectively.",
+  "subjects": [
+    "Two elderly men",
+    "Canes"
+  ],
+  "actions": [
+    "Facing each other",
+    "Holding canes",
+    "Confrontational stance"
+  ],
+  "mood": "Humorous and satirical",
+  "visible_text": [
+    "7000%",
+    "8000%"
+  ],
+  "emotional_themes": [
+    "Tension",
+    "Rivalry"
+  ],
+  "is_meme": true,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {
+    "crise_economique": [
+      "bubble"
+    ]
+  }
+}

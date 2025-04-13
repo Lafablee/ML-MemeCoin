@@ -1,0 +1,28 @@
+{
+  "description": "The image shows a forest area with a reconstructed trench resembling those from World War I. On the right, there are two people standing in the trench, and a sign with 'THE RITZ' is visible.",
+  "subjects": [
+    "Forest",
+    "Trench",
+    "Two people",
+    "Sign 'THE RITZ'"
+  ],
+  "actions": [
+    "People standing in the trench"
+  ],
+  "mood": "Historical and educational",
+  "visible_text": [
+    "THE RITZ"
+  ],
+  "emotional_themes": [
+    "Curiosity",
+    "Nostalgia"
+  ],
+  "is_meme": false,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {
+    "conflit": [
+      "war"
+    ]
+  }
+}

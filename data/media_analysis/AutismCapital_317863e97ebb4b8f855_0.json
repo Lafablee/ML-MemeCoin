@@ -1,0 +1,22 @@
+{
+  "description": "The image is a humorous depiction of the fable 'The Scorpion and the Frog' with an added comedic twist. It features a frog with an edited human face on its back representing a scorpion. The text includes a dialogue about losing money.",
+  "subjects": [
+    "Frog with a human face",
+    "Scorpion"
+  ],
+  "actions": [
+    "Frog carrying a scorpion"
+  ],
+  "mood": "Humorous",
+  "visible_text": [
+    "But now we shall both surely lose money, said the Anon",
+    "lol said Jim Cramer, lmao"
+  ],
+  "emotional_themes": [
+    "Humor"
+  ],
+  "is_meme": true,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

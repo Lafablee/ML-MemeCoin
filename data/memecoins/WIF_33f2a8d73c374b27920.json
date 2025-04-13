@@ -1,0 +1,19 @@
+{
+  "token_name": "HatDog",
+  "token_symbol": "HATDOG",
+  "tweet_author": "WIF",
+  "relevant_keywords": [
+    "WIF",
+    "Hat",
+    "Nebula",
+    "holders",
+    "memes",
+    "Road to 1M",
+    "Green beam of light",
+    "Dog",
+    "$WIF",
+    "Stars"
+  ],
+  "generated_at": "2025-04-13 19:03:37",
+  "condition": "If the word 'meme' appears in the text, create a meme-related concept, but the name must never contain the word 'Coin'"
+}

@@ -1,15 +1,16 @@
 {
   "token_name": "Pump Wif Hat",
-  "token_symbol": "PWFH",
+  "token_symbol": "PWH",
   "tweet_author": "pump.fun",
   "relevant_keywords": [
-    "Cap",
-    "Screens",
-    "Toy package",
     "PUMP FUN",
-    "ACTION FIGURE",
-    "Action figure"
+    "Cartoon character",
+    "Smartphone",
+    "Cap",
+    "Laptop",
+    "Packaging box",
+    "ACTION FIGURE"
   ],
-  "generated_at": "2025-04-12 12:11:34",
+  "generated_at": "2025-04-12 15:31:09",
   "condition": "Create a memecoin concept where ticker is first letter of visible entity + WH (max 10 chars), name is '[entity] Wif Hat' (if no entity visible, create one based on image context)"
 }

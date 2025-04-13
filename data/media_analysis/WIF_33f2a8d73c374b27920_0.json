@@ -1,0 +1,23 @@
+{
+  "description": "An image depicting a dog wearing a red knitted hat, sitting under a glowing green beam of light in a cosmic or sci-fi environment. The sky is filled with stars and a green nebula.",
+  "subjects": [
+    "Dog",
+    "Green beam of light",
+    "Stars",
+    "Nebula"
+  ],
+  "actions": [
+    "Dog sitting",
+    "Light emanating from the sky"
+  ],
+  "mood": "Mystical and whimsical",
+  "visible_text": [],
+  "emotional_themes": [
+    "Curiosity",
+    "Wonder"
+  ],
+  "is_meme": false,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

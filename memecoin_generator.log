@@ -2209,3 +2209,98 @@ Create a memecoin concept where the name and ticker riff on an existing cryptocu
             
 2025-04-12 12:13:34,242 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-04-12 12:13:34,244 - simulator - INFO - Meme coin généré: BisonBit (BISONBTC)
+2025-04-12 14:38:02,879 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-12 14:38:02,879 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-12 14:38:40,452 - simulator - INFO - Tweet fictif créé avec l'ID 98cf7ea8b97147a69a8 pour @KFC
+2025-04-12 14:38:41,876 - simulator - INFO - Traitement du tweet 98cf7ea8b97147a69a8 de @KFC
+2025-04-12 14:38:41,876 - simulator - INFO - Analyse du texte du tweet...
+2025-04-12 14:38:41,894 - simulator - INFO - Analyse de 1 médias...
+2025-04-12 14:38:41,894 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GoKUXpsWkAAd3Ee?format=jpg&name=medium
+2025-04-12 14:38:46,918 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 14:38:46,924 - media_analyzer - INFO -  *** Analyse média: {'description': "The image is a meme featuring a bed from the game Minecraft with a photoshopped face of an older man who appears to be in distress on the pillow. The text in Spanish humorously translates to 'I can't stand this suffering called having to wake up early.'", 'subjects': ['Minecraft bed', 'photoshopped face of an older person'], 'actions': ['Person in bed', 'Expression of distress'], 'mood': 'Humorous', 'visible_text': ['YA NO SOPORTO ESTE', 'SUFRIMIENTO LLAMADO', 'tener que madrugar'], 'emotional_themes': ['Frustration', 'Humor'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-12 14:38:46,924 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where the ticker and name are tied to a specific brand or social media phenomenon, but not based on generic updates or basic rebranding , focus on something unique and quirky. If not do nothing.
+2025-04-12 14:38:46,924 - simulator - INFO - Mots-clés pertinents: ['KFC', 'Minecraft bed', 'SUFRIMIENTO LLAMADO', 'tener que madrugar', 'YA NO SOPORTO ESTE', 'photoshopped face of an older person']
+2025-04-12 14:38:46,926 - simulator - INFO - Generating meme coin...
+2025-04-12 14:38:46,926 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where the ticker and name are tied to a specific brand or social media phenomenon, but not based on generic updates or basic rebranding , focus on something unique and quirky. If not do nothing.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-12 14:38:46,926 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @KFC:
+
+        "KFC "
+        
+            
+            The image shows: The image is a meme featuring a bed from the game Minecraft with a photoshopped face of an older man who appears to be in distress on the pillow. The text in Spanish humorously translates to 'I can't stand this suffering called having to wake up early.' 
+            
+2025-04-12 14:38:47,956 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 14:38:47,959 - simulator - INFO - Meme coin généré: WakeUpMan (WUMAN)
+2025-04-12 14:41:20,009 - simulator - INFO - Tweet fictif créé avec l'ID 4ba789e6cd414be9a1c pour @ye
+2025-04-12 14:41:22,332 - simulator - INFO - Traitement du tweet 4ba789e6cd414be9a1c de @ye
+2025-04-12 14:41:22,333 - simulator - INFO - Analyse du texte du tweet...
+2025-04-12 14:41:22,347 - simulator - INFO - Tweet éligible via is_pattern_eligible: False
+2025-04-12 14:41:22,347 - simulator - INFO - Tweet non éligible - aucune condition validée
+2025-04-12 14:43:00,611 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-12 14:43:00,612 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-12 14:45:04,450 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-12 14:45:04,451 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-12 14:45:57,397 - simulator - INFO - Tweet fictif créé avec l'ID 84cecfead4f44c8f99e pour @ye
+2025-04-12 14:46:00,683 - simulator - INFO - Traitement du tweet 84cecfead4f44c8f99e de @ye
+2025-04-12 14:46:00,684 - simulator - INFO - Analyse du texte du tweet...
+2025-04-12 14:46:00,703 - simulator - INFO - Analyse de 1 médias...
+2025-04-12 14:46:00,704 - media_analyzer - INFO - Extraction de la première frame de: https://x.com/i/status/1911008459333722469
+2025-04-12 14:46:01,175 - media_analyzer - ERROR - Erreur lors de l'extraction du frame: 400 Client Error: Bad Request for url: https://x.com/i/status/1911008459333722469
+2025-04-12 14:46:01,179 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where ticker is person's name (max 10 chars, use first name if multiple), name is 'Jail [first name]' (if no name, use 'billy')
+2025-04-12 14:46:01,179 - simulator - INFO - Mots-clés pertinents: ['kick', 'violence', 'Mark Morrison', 'clip', 'Retuuuurn', 'return', 'slap', 'Morrison', 'Mark']
+2025-04-12 14:46:01,182 - simulator - INFO - Generating meme coin...
+2025-04-12 14:46:01,182 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where ticker is person's name (max 10 chars, use first name if multiple), name is 'Jail [first name]' (if no name, use 'billy')
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-12 14:46:01,182 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @ye:
+
+        "ye Retuuuurn of the slap 👋 😅    And I’m assuming a kick also if you see the end of the clip Mark Morrison was arrested for domestic violence     That’s why I said return … ugh    You get it"
+        
+2025-04-12 14:46:03,175 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 14:46:03,184 - simulator - INFO - Meme coin généré: Jail Ye (YEEZY)

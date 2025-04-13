@@ -1,0 +1,27 @@
+{
+  "tweet_id": "c77b3ab5c8614848902",
+  "original_text": "ye the CUCK sound also got rage in it",
+  "named_entities": [
+    {
+      "text": "CUCK",
+      "type": "ORG"
+    }
+  ],
+  "capital_words": [
+    "CUCK"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "sound",
+    "rage"
+  ],
+  "significant_verbs": [],
+  "unique_identifiers": [
+    "CUCK",
+    "sound",
+    "rage"
+  ],
+  "tweet_identity": "sound CUCK rage",
+  "detected_themes": {},
+  "username": "ye"
+}

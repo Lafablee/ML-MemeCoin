@@ -1,0 +1,18 @@
+{
+  "token_name": "Jail Ye",
+  "token_symbol": "YEEZY",
+  "tweet_author": "ye",
+  "relevant_keywords": [
+    "kick",
+    "violence",
+    "Mark Morrison",
+    "clip",
+    "Retuuuurn",
+    "return",
+    "slap",
+    "Morrison",
+    "Mark"
+  ],
+  "generated_at": "2025-04-12 14:46:03",
+  "condition": "Create a memecoin concept where ticker is person's name (max 10 chars, use first name if multiple), name is 'Jail [first name]' (if no name, use 'billy')"
+}

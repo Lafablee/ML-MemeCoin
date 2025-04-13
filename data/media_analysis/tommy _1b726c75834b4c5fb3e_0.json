@@ -1,0 +1,22 @@
+{
+  "description": "The image displays a humorous take on the logos of various AI companies, comparing them to a specific anatomical feature. It features multiple logos arranged in a grid-like fashion with a provocative headline at the top.",
+  "subjects": [
+    "AI company logos"
+  ],
+  "actions": [
+    "Comparison of logos to anatomical feature"
+  ],
+  "mood": "Humorous and satirical",
+  "visible_text": [
+    "Why do AI company logos look like buttholes?",
+    "April 10th, 2025",
+    "velvetshark.com"
+  ],
+  "emotional_themes": [
+    "Humor"
+  ],
+  "is_meme": true,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

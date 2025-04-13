@@ -1,0 +1,27 @@
+{
+  "description": "The image features a pixelated yellow character with large eyes looking upwards. Above its head, there's a speech bubble with a graphical representation, including a beach ball and a downward arrow.",
+  "subjects": [
+    "Pixelated character",
+    "Speech bubble",
+    "Beach ball graphic"
+  ],
+  "actions": [
+    "The character appears to be expressing a thought or emotion"
+  ],
+  "mood": "Playful",
+  "visible_text": [],
+  "emotional_themes": [
+    "Curiosity"
+  ],
+  "is_meme": true,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {
+    "conflit": [
+      "war"
+    ],
+    "crise_economique": [
+      "bubble"
+    ]
+  }
+}

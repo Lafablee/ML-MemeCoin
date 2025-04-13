@@ -1,0 +1,102 @@
+{
+  "tweet_id": "0be6fa07027a4a90a3b",
+  "original_text": "marionawfall $102 FOR BAD TACOS & ICE WATER LEMONADE? COACHELLA CALLED A \u201cDESERT SCAM\u201d Coachella: where $600 GA tickets just earn you the privilege of spending $17 on lemonade and $23 on a vodka Red Bull. One influencer dropped $102 on cold tortillas, nachos that \u201cweren\u2019t good at all,\u201d ",
+  "named_entities": [
+    {
+      "text": "102",
+      "type": "MONEY"
+    },
+    {
+      "text": "BAD TACOS & ICE WATER",
+      "type": "ORG"
+    },
+    {
+      "text": "COACHELLA",
+      "type": "ORG"
+    },
+    {
+      "text": "Coachella",
+      "type": "PERSON"
+    },
+    {
+      "text": "600",
+      "type": "MONEY"
+    },
+    {
+      "text": "17",
+      "type": "MONEY"
+    },
+    {
+      "text": "23",
+      "type": "MONEY"
+    },
+    {
+      "text": "Red Bull",
+      "type": "ORG"
+    },
+    {
+      "text": "One",
+      "type": "CARDINAL"
+    },
+    {
+      "text": "102",
+      "type": "MONEY"
+    }
+  ],
+  "capital_words": [
+    "FOR",
+    "BAD",
+    "TACOS",
+    "ICE",
+    "WATER",
+    "LEMONADE",
+    "COACHELLA",
+    "CALLED",
+    "SCAM",
+    "Coachella",
+    "GA",
+    "Red",
+    "Bull",
+    "One"
+  ],
+  "symbols": [
+    "$102",
+    "$600",
+    "$17",
+    "$23",
+    "$102"
+  ],
+  "important_nouns": [
+    "tickets",
+    "privilege",
+    "lemonade",
+    "vodka",
+    "influencer"
+  ],
+  "significant_verbs": [
+    "marionawfall",
+    "CALLED",
+    "earn",
+    "spending",
+    "dropped"
+  ],
+  "unique_identifiers": [
+    "$102",
+    "$600",
+    "$17",
+    "$23",
+    "$102",
+    "GA",
+    "LEMONADE",
+    "$102",
+    "WATER",
+    "COACHELLA"
+  ],
+  "tweet_identity": "GA LEMONADE $102 WATER COACHELLA",
+  "detected_themes": {
+    "crise_economique": [
+      "drop"
+    ]
+  },
+  "username": "marionawfall"
+}

@@ -1,0 +1,90 @@
+{
+  "tweet_id": "989df8059b914147908",
+  "original_text": "whitehouse WEEK OF VICTORIES at the White House! 145% Tariffs on China  Bilateral with Netanyahu L.A. Dodgers & Racing Champions Gas and Energy Prices Down Real Wages UP, Inflation DOWN  Companies Invest Billions U.S. Coal EO 4 SCOTUS Wins",
+  "named_entities": [
+    {
+      "text": "the White House",
+      "type": "FAC"
+    },
+    {
+      "text": "145%",
+      "type": "PERCENT"
+    },
+    {
+      "text": "China",
+      "type": "GPE"
+    },
+    {
+      "text": "Netanyahu L.A. Dodgers & Racing Champions Gas and Energy Prices Down Real Wages UP",
+      "type": "ORG"
+    },
+    {
+      "text": "U.S.",
+      "type": "GPE"
+    }
+  ],
+  "capital_words": [
+    "WEEK",
+    "OF",
+    "VICTORIES",
+    "White",
+    "House",
+    "Tariffs",
+    "China",
+    "Bilateral",
+    "Netanyahu",
+    "Dodgers",
+    "Racing",
+    "Champions",
+    "Gas",
+    "Energy",
+    "Prices",
+    "Down",
+    "Real",
+    "Wages",
+    "UP",
+    "Inflation",
+    "DOWN",
+    "Companies",
+    "Invest",
+    "Billions",
+    "Coal",
+    "EO",
+    "SCOTUS",
+    "Wins"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "whitehouse",
+    "VICTORIES",
+    "Tariffs",
+    "Prices",
+    "Inflation",
+    "Wins"
+  ],
+  "significant_verbs": [
+    "WEEK"
+  ],
+  "unique_identifiers": [
+    "Gas",
+    "Inflation",
+    "Energy",
+    "Tariffs",
+    "Down",
+    "VICTORIES",
+    "UP",
+    "Prices",
+    "Netanyahu L.A. Dodgers & Racing Champions Gas and Energy Prices Down Real Wages UP",
+    "Invest"
+  ],
+  "tweet_identity": "Gas Inflation Energy Tariffs Down",
+  "detected_themes": {
+    "crise_economique": [
+      "inflation"
+    ],
+    "celebrite": [
+      "price"
+    ]
+  },
+  "username": "whitehouse"
+}

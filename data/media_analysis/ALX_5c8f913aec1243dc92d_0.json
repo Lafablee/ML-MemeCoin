@@ -1,0 +1,23 @@
+{
+  "description": "The image shows an aerial view from an airplane window during flight, with the wing of the plane visible. Below, a cityscape is seen along with some greenery and bodies of water. The sky is partly clear with a hint of sunset light.",
+  "subjects": [
+    "Airplane wing",
+    "Cityscape",
+    "Sky"
+  ],
+  "actions": [
+    "Flight"
+  ],
+  "mood": "Calm and serene",
+  "visible_text": [
+    "GSE"
+  ],
+  "emotional_themes": [
+    "Tranquility",
+    "Wanderlust"
+  ],
+  "is_meme": false,
+  "is_crisis": false,
+  "crisis_type": null,
+  "detected_themes": {}
+}

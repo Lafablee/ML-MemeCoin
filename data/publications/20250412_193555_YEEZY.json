@@ -1,0 +1,23 @@
+{
+  "success": false,
+  "error": "Erreur HTTP 500",
+  "memecoin_data": {
+    "token_name": "Jail Ye",
+    "token_symbol": "YEEZY",
+    "description": "",
+    "relevant_keywords": [
+      "kick",
+      "violence",
+      "Mark Morrison",
+      "clip",
+      "Retuuuurn",
+      "return",
+      "slap",
+      "Morrison",
+      "Mark"
+    ],
+    "tweet_author": "ye",
+    "primary_theme": null,
+    "generated_at": "2025-04-12 14:46:03"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "The image shows food items including tacos and nachos placed on grass, alongside a cup with a drink. A shoe is visible in the top right corner. There's text on the image displaying a price, likely suggesting the cost of the food.",
+  "subjects": [
+    "Tacos",
+    "Nachos",
+    "Cup with drink",
+    "Shoe"
+  ],
+  "actions": [
+    "Food placed on grass"
+  ],
+  "mood": "Casual",
+  "visible_text": [
+    "$102.00 ****"
+  ],
+  "emotional_themes": [
+    "Surprise",
+    "Humor"
+  ],
+  "is_meme": true,
+  "is_crisis": false,
+  "crisis_type": "",
+  "detected_themes": {
+    "celebrite": [
+      "price"
+    ]
+  }
+}

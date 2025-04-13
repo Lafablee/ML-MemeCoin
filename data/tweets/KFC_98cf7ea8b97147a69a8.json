@@ -1,0 +1,19 @@
+{
+  "id": "98cf7ea8b97147a69a8",
+  "text": "KFC ",
+  "created_at": "2025-04-12T14:38:40.449167",
+  "public_metrics": {
+    "like_count": 904,
+    "retweet_count": 63,
+    "reply_count": 0,
+    "quote_count": 0
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/GoKUXpsWkAAd3Ee?format=jpg&name=medium",
+      "preview_image_url": "https://pbs.twimg.com/media/GoKUXpsWkAAd3Ee?format=jpg&name=medium",
+      "media_key": "media_key_98cf7ea8b97147a69a8_0"
+    }
+  ]
+}

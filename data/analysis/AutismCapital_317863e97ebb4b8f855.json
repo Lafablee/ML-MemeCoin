@@ -1,0 +1,20 @@
+{
+  "tweet_id": "317863e97ebb4b8f855",
+  "original_text": "AutismCapital ",
+  "named_entities": [
+    {
+      "text": "AutismCapital",
+      "type": "ORG"
+    }
+  ],
+  "capital_words": [],
+  "symbols": [],
+  "important_nouns": [],
+  "significant_verbs": [],
+  "unique_identifiers": [
+    "AutismCapital"
+  ],
+  "tweet_identity": "AutismCapital",
+  "detected_themes": {},
+  "username": "AutismCapital"
+}

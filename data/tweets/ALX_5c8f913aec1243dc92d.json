@@ -1,0 +1,19 @@
+{
+  "id": "5c8f913aec1243dc92d",
+  "text": "ALX gm @TrumpDoral",
+  "created_at": "2025-04-13T15:18:27.275981",
+  "public_metrics": {
+    "like_count": 162,
+    "retweet_count": 16,
+    "reply_count": 0,
+    "quote_count": 0
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/GoaU5q8XcAAFLhK?format=jpg&name=large",
+      "preview_image_url": "https://pbs.twimg.com/media/GoaU5q8XcAAFLhK?format=jpg&name=large",
+      "media_key": "media_key_5c8f913aec1243dc92d_0"
+    }
+  ]
+}

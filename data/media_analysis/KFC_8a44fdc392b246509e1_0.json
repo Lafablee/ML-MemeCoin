@@ -1,23 +1,20 @@
 {
-  "description": "The image depicts a surreal cartoonish character with a stick-like body, a human face with glasses and a goatee, and a baseball bat in hand. It stands in front of a wooden building with a bench, which has a sign that reads 'PENTUNGUAN POS RONDA'. The setting appears to be outdoors at night with a street lamp providing illumination.",
+  "description": "The image features a surreal character with a face resembling a well-known figure, combined with a cartoon-like body holding a baseball bat. The background appears to be a nighttime scene at a rustic station or shelter.",
   "subjects": [
-    "Cartoon character",
+    "Surreal character",
     "Baseball bat",
-    "Wooden building",
-    "Bench",
-    "Street lamp"
+    "Wooden structure"
   ],
   "actions": [
-    "Standing posed",
-    "Holding a bat"
+    "Standing"
   ],
   "mood": "Humorous and surreal",
   "visible_text": [
-    "PENTUNGUAN POS RONDA"
+    "PENTUNG POS RON"
   ],
   "emotional_themes": [
-    "Amusement",
-    "Surrealism"
+    "Whimsy",
+    "Humor"
   ],
   "is_meme": true,
   "is_crisis": false,

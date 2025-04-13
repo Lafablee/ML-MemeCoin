@@ -1,0 +1,23 @@
+{
+  "tweet_id": "5c8f913aec1243dc92d",
+  "original_text": "ALX gm @TrumpDoral",
+  "named_entities": [
+    {
+      "text": "ALX",
+      "type": "ORG"
+    }
+  ],
+  "capital_words": [],
+  "symbols": [
+    "@TrumpDoral"
+  ],
+  "important_nouns": [],
+  "significant_verbs": [],
+  "unique_identifiers": [
+    "ALX",
+    "@TrumpDoral"
+  ],
+  "tweet_identity": "@TrumpDoral ALX",
+  "detected_themes": {},
+  "username": "ALX"
+}

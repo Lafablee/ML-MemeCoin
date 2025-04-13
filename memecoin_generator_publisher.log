@@ -1,0 +1,777 @@
+2025-04-12 15:28:17,516 - __main__ - INFO - Démarrage du générateur de meme coins avec publication PumpPortal
+2025-04-12 15:28:17,516 - __main__ - INFO - MODE SIMULATION: Les meme coins ne seront pas réellement publiés
+2025-04-12 15:28:17,792 - coin_publisher - INFO - Aucun fichier de configuration trouvé à publisher_config.json, utilisation des valeurs par défaut
+2025-04-12 15:30:03,836 - simulator_integration - INFO - Traitement du tweet 8a44fdc392b246509e1 de @KFC
+2025-04-12 15:30:03,837 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-12 15:30:03,857 - simulator_integration - INFO - Analyse de 1 médias...
+2025-04-12 15:30:03,857 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GnrzdKeXIAABE66?format=jpg&name=medium
+2025-04-12 15:30:09,606 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 15:30:09,616 - media_analyzer - INFO -  *** Analyse média: {'description': 'The image features a cartoonish character resembling a wooden stick figure with a human face, possibly caricatured from a famous figure, standing in a night-time exterior setting. The character holds a large club and has a tie painted on its body. In the background, there is a street lamp and a wooden structure or shed.', 'subjects': ['Cartoon character', 'Wooden structure', 'Street lamp'], 'actions': ['Character standing with a club'], 'mood': 'Humorous and surreal', 'visible_text': ['PENTUNGU POS RON'], 'emotional_themes': ['Humor', 'Surrealism'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-12 15:30:09,619 - simulator_integration - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-12 15:30:09,619 - simulator_integration - INFO - Mots-clés pertinents: ['Cartoon character', 'Street lamp', 'CHICKEN', 'PENTUNGU POS RON', 'TUNG', 'Wooden structure']
+2025-04-12 15:30:09,621 - simulator_integration - INFO - Generating meme coin...
+2025-04-12 15:30:09,621 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where ticker is based on the cartoon style identified, name is the style simplified + 'ification' (e.g., Anime -> Animification)
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-12 15:30:09,621 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @KFC:
+
+        "TUNG TUNG TUNG CHICKEN"
+        
+            
+            The image shows: The image features a cartoonish character resembling a wooden stick figure with a human face, possibly caricatured from a famous figure, standing in a night-time exterior setting. The character holds a large club and has a tie painted on its body. In the background, there is a street lamp and a wooden structure or shed. 
+            
+2025-04-12 15:30:10,741 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 15:30:10,742 - simulator_integration - INFO - Meme coin généré: Stickification (STICKIFIED)
+2025-04-12 15:31:02,082 - simulator_integration - INFO - Traitement du tweet afac4ce798084a6cae9 de @pump.fun
+2025-04-12 15:31:02,084 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-12 15:31:02,100 - simulator_integration - INFO - Analyse de 1 médias...
+2025-04-12 15:31:02,102 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GntkUeIXgAAooqi?format=jpg&name=medium
+2025-04-12 15:31:07,920 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 15:31:07,923 - media_analyzer - INFO -  *** Analyse média: {'description': "The image depicts a packaged action figure labeled 'PUMP FUN ACTION FIGURE'. The figure is a cartoonish character with a round body, wearing a green outfit. Accompanying items include a small laptop, a smartphone showing stock trading apps, and a red cap with a fast-food chain logo. A small American flag is visible on the package.", 'subjects': ['Cartoon character', 'Laptop', 'Smartphone', 'Cap', 'Packaging box'], 'actions': ['None'], 'mood': 'Playful', 'visible_text': ['PUMP FUN', 'ACTION FIGURE'], 'emotional_themes': ['Amusement'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-12 15:31:07,924 - simulator_integration - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-12 15:31:07,925 - simulator_integration - INFO - Mots-clés pertinents: ['PUMP FUN', 'Cartoon character', 'Smartphone', 'Cap', 'Laptop', 'Packaging box', 'ACTION FIGURE']
+2025-04-12 15:31:07,925 - simulator_integration - INFO - Generating meme coin...
+2025-04-12 15:31:07,925 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where ticker is first letter of visible entity + WH (max 10 chars), name is '[entity] Wif Hat' (if no entity visible, create one based on image context)
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-12 15:31:07,925 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @pump.fun:
+
+        "pump.fun idc if this is tariffed where can i get one???"
+        
+            
+            The image shows: The image depicts a packaged action figure labeled 'PUMP FUN ACTION FIGURE'. The figure is a cartoonish character with a round body, wearing a green outfit. Accompanying items include a small laptop, a smartphone showing stock trading apps, and a red cap with a fast-food chain logo. A small American flag is visible on the package. 
+            
+2025-04-12 15:31:09,162 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 15:31:09,165 - simulator_integration - INFO - Meme coin généré: Pump Wif Hat (PWH)
+2025-04-12 15:31:12,056 - coin_publisher - ERROR - Erreur lors de la génération de l'image: No module named 'PIL'
+2025-04-12 15:31:12,517 - pumportal_api - ERROR - Erreur lors de l'upload des métadonnées: 500 - 
+2025-04-12 15:31:12,520 - coin_publisher - ERROR - Préparation du token échouée: Erreur HTTP 500
+2025-04-12 15:31:12,520 - memecoin_publisher_integration - INFO - Résultat de publication sauvegardé: data/publications/20250412_153112_PWH.json
+2025-04-12 15:31:12,521 - simulator_integration - ERROR - Publication échouée: Erreur HTTP 500
+2025-04-12 15:33:42,871 - __main__ - INFO - Démarrage du générateur de meme coins avec publication PumpPortal
+2025-04-12 15:33:42,872 - __main__ - INFO - MODE SIMULATION: Les meme coins ne seront pas réellement publiés
+2025-04-12 15:33:43,064 - coin_publisher - INFO - Aucun fichier de configuration trouvé à publisher_config.json, utilisation des valeurs par défaut
+2025-04-12 15:34:27,768 - simulator_integration - INFO - Traitement du tweet 375c86f5ba894547850 de @elonmusk
+2025-04-12 15:34:27,768 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-12 15:34:27,776 - simulator_integration - INFO - Analyse de 1 médias...
+2025-04-12 15:34:27,780 - media_analyzer - INFO - Extraction de la première frame de: https://x.com/i/status/1907317741763084507
+2025-04-12 15:34:28,160 - media_analyzer - ERROR - Erreur lors de l'extraction du frame: 400 Client Error: Bad Request for url: https://x.com/i/status/1907317741763084507
+2025-04-12 15:34:28,164 - simulator_integration - INFO - Tweet éligible via is_pattern_eligible: False
+2025-04-12 15:34:28,164 - simulator_integration - INFO - Tweet non éligible - aucune condition validée
+2025-04-12 18:10:32,638 - __main__ - INFO - Démarrage du générateur de meme coins avec publication PumpPortal
+2025-04-12 18:10:32,640 - __main__ - INFO - MODE SIMULATION: Les meme coins ne seront pas réellement publiés
+2025-04-12 18:10:32,908 - coin_publisher - INFO - Aucun fichier de configuration trouvé à publisher_config.json, utilisation des valeurs par défaut
+2025-04-12 18:11:28,022 - simulator_integration - INFO - Tweet fictif créé avec l'ID 1125bbda9677412a8ad pour @KFC
+2025-04-12 18:11:30,884 - simulator_integration - INFO - Traitement du tweet 1125bbda9677412a8ad de @KFC
+2025-04-12 18:11:30,885 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-12 18:11:30,912 - simulator_integration - INFO - Analyse de 1 médias...
+2025-04-12 18:11:30,912 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GoL8kS5WUAA3r04?format=png&name=900x900
+2025-04-12 18:11:36,820 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 18:11:36,824 - media_analyzer - INFO -  *** Analyse média: {'description': "The image shows a plate with rice shaped like a chicken, decorated with red vegetables to resemble its features. Beside it, there's a slice of tomato. Overlaid text reads 'pollo con arroz' with a thumbs-up emoji.", 'subjects': ['Plate', 'Rice', 'Tomato', 'Text'], 'actions': ['Food arranged artistically'], 'mood': 'Humorous', 'visible_text': ['pollo con arroz 👍'], 'emotional_themes': ['Amusement'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-12 18:11:36,825 - simulator_integration - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where the ticker and name are tied to a specific brand or social media phenomenon, but not based on generic updates or basic rebranding , focus on something unique and quirky. If not do nothing.
+2025-04-12 18:11:36,825 - simulator_integration - INFO - Mots-clés pertinents: ['pollo con arroz 👍', 'Plate', 'Tomato', 'KFC', 'Text', 'Rice']
+2025-04-12 18:11:36,827 - simulator_integration - INFO - Generating meme coin...
+2025-04-12 18:11:36,828 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where the ticker and name are tied to a specific brand or social media phenomenon, but not based on generic updates or basic rebranding , focus on something unique and quirky. If not do nothing.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-12 18:11:36,828 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @KFC:
+
+        "KFC "
+        
+            
+            The image shows: The image shows a plate with rice shaped like a chicken, decorated with red vegetables to resemble its features. Beside it, there's a slice of tomato. Overlaid text reads 'pollo con arroz' with a thumbs-up emoji. 
+            
+2025-04-12 18:11:38,254 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-12 18:11:38,259 - simulator_integration - INFO - Meme coin généré: PolloRice (POLLRICE)
+2025-04-12 18:13:58,999 - coin_publisher - INFO - Image générée pour PWH: coin_images/PWH_1744474438_o5ld40.png
+2025-04-12 18:14:00,204 - pumportal_api - INFO - Métadonnées uploadées avec succès: https://ipfs.io/ipfs/QmXN62X8Ss5ZTHdRzFfdAT1VHb2jkVopmSQeDtkbvHq3hV
+2025-04-12 18:14:01,776 - pumportal_api - ERROR - Erreur lors de la préparation de la transaction: 400 - Bad Request
+2025-04-12 18:14:01,779 - coin_publisher - ERROR - Préparation de la transaction échouée: Erreur HTTP 400
+2025-04-12 18:14:01,780 - memecoin_publisher_integration - INFO - Résultat de publication sauvegardé: data/publications/20250412_181401_PWH.json
+2025-04-12 18:14:01,780 - simulator_integration - ERROR - Publication échouée: Erreur HTTP 400
+2025-04-12 18:56:29,531 - __main__ - INFO - Démarrage du générateur de meme coins avec publication PumpPortal
+2025-04-12 18:56:29,531 - __main__ - INFO - MODE SIMULATION: Les meme coins ne seront pas réellement publiés
+2025-04-12 18:56:29,763 - coin_publisher - INFO - Aucun fichier de configuration trouvé à publisher_config.json, utilisation des valeurs par défaut
+2025-04-12 18:57:03,542 - simulator_integration - INFO - Image trouvée dans le tweet: https://pbs.twimg.com/media/Gn_95-jWoAAhN93?format=jpg&name=900x900
+2025-04-12 18:57:03,776 - coin_publisher - INFO - Image téléchargée depuis https://pbs.twimg.com/media/Gn_95-jWoAAhN93?format=jpg&name=900x900 vers coin_images/tweet_image_dbf92ed4.jpg
+2025-04-12 18:57:05,310 - pumportal_api - INFO - Métadonnées uploadées avec succès: https://ipfs.io/ipfs/Qmedgvfcuhzm8fbaU22iLyonnaetDuqLMjxrsjresHyYGG
+2025-04-12 18:57:05,787 - pumportal_api - ERROR - Erreur lors de la préparation de la transaction: 400 - Bad Request
+2025-04-12 18:57:05,791 - coin_publisher - ERROR - Préparation de la transaction échouée: Erreur HTTP 400
+2025-04-12 18:57:05,792 - memecoin_publisher_integration - INFO - Résultat de publication sauvegardé: data/publications/20250412_185705_KFCPOST.json
+2025-04-12 18:57:05,792 - simulator_integration - ERROR - Publication échouée: Erreur HTTP 400
+2025-04-12 19:34:39,603 - __main__ - INFO - Démarrage du générateur de meme coins avec publication PumpPortal
+2025-04-12 19:34:39,603 - __main__ - INFO - MODE SIMULATION: Les meme coins ne seront pas réellement publiés
+2025-04-12 19:34:39,836 - coin_publisher - INFO - Aucun fichier de configuration trouvé à publisher_config.json, utilisation des valeurs par défaut
+2025-04-12 19:35:54,903 - pumportal_api - INFO - === PRÉPARATION TOKEN - DONNÉES BRUTES ===
+2025-04-12 19:35:54,903 - pumportal_api - INFO - Memecoin data: {
+  "token_name": "Jail Ye",
+  "token_symbol": "YEEZY",
+  "description": "",
+  "relevant_keywords": [
+    "kick",
+    "violence",
+    "Mark Morrison",
+    "clip",
+    "Retuuuurn",
+    "return",
+    "slap",
+    "Morrison",
+    "Mark"
+  ],
+  "tweet_author": "ye",
+  "primary_theme": null,
+  "generated_at": "2025-04-12 14:46:03"
+}
+2025-04-12 19:35:54,903 - pumportal_api - INFO - Image path: None
+2025-04-12 19:35:54,903 - pumportal_api - INFO - === UPLOAD IPFS - DÉTAILS ===
+2025-04-12 19:35:54,903 - pumportal_api - INFO - Endpoint IPFS: https://pump.fun/api/ipfs
+2025-04-12 19:35:54,903 - pumportal_api - INFO - Formulaire: {'name': 'Jail Ye', 'symbol': 'YEEZY', 'description': "Token based on @ye's viral tweet! Keywords: kick, violence, Mark Morrison, clip, Retuuuurn", 'showName': 'true'}
+2025-04-12 19:35:54,903 - pumportal_api - INFO - Image à uploader: None (existe: Non)
+2025-04-12 19:35:55,584 - pumportal_api - ERROR - Erreur lors de l'upload des métadonnées: 500 - 
+2025-04-12 19:35:55,585 - coin_publisher - ERROR - Préparation du token échouée: Erreur HTTP 500
+2025-04-12 19:35:55,585 - memecoin_publisher_integration - INFO - Résultat de publication sauvegardé: data/publications/20250412_193555_YEEZY.json
+2025-04-12 19:35:55,585 - simulator_integration - ERROR - Publication échouée: Erreur HTTP 500
+2025-04-12 19:37:05,223 - simulator_integration - INFO - Image trouvée dans le tweet: https://pbs.twimg.com/media/GntkUeIXgAAooqi?format=jpg&name=medium
+2025-04-12 19:37:05,390 - coin_publisher - INFO - Image téléchargée depuis https://pbs.twimg.com/media/GntkUeIXgAAooqi?format=jpg&name=medium vers coin_images/tweet_image_4009fe98.jpg
+2025-04-12 19:37:05,392 - pumportal_api - INFO - === PRÉPARATION TOKEN - DONNÉES BRUTES ===
+2025-04-12 19:37:05,392 - pumportal_api - INFO - Memecoin data: {
+  "token_name": "Pump Wif Hat",
+  "token_symbol": "PWH",
+  "description": "",
+  "relevant_keywords": [
+    "PUMP FUN",
+    "Cartoon character",
+    "Smartphone",
+    "Cap",
+    "Laptop",
+    "Packaging box",
+    "ACTION FIGURE"
+  ],
+  "tweet_author": "pump.fun",
+  "primary_theme": null,
+  "generated_at": "2025-04-12 15:31:09"
+}
+2025-04-12 19:37:05,392 - pumportal_api - INFO - Image path: coin_images/tweet_image_4009fe98.jpg
+2025-04-12 19:37:05,392 - pumportal_api - INFO - === UPLOAD IPFS - DÉTAILS ===
+2025-04-12 19:37:05,393 - pumportal_api - INFO - Endpoint IPFS: https://pump.fun/api/ipfs
+2025-04-12 19:37:05,393 - pumportal_api - INFO - Formulaire: {'name': 'Pump Wif Hat', 'symbol': 'PWH', 'description': "Token based on @pump.fun's viral tweet! Keywords: PUMP FUN, Cartoon character, Smartphone, Cap, Laptop", 'showName': 'true'}
+2025-04-12 19:37:05,393 - pumportal_api - INFO - Image à uploader: coin_images/tweet_image_4009fe98.jpg (existe: Oui)
+2025-04-12 19:37:06,766 - pumportal_api - INFO - Métadonnées uploadées avec succès: https://ipfs.io/ipfs/QmcBKsmakQtxDNRJqZaJcEd5UJDarua7HxHau8vNxo7cT8
+2025-04-12 19:37:06,768 - pumportal_api - INFO - === TOKEN METADATA FORMAT FINAL ===
+2025-04-12 19:37:06,769 - pumportal_api - INFO - Token metadata: {
+  "name": "Pump Wif Hat",
+  "symbol": "PWH",
+  "uri": "https://ipfs.io/ipfs/QmcBKsmakQtxDNRJqZaJcEd5UJDarua7HxHau8vNxo7cT8"
+}
+2025-04-12 19:37:06,769 - pumportal_api - INFO - URI IPFS: https://ipfs.io/ipfs/QmcBKsmakQtxDNRJqZaJcEd5UJDarua7HxHau8vNxo7cT8
+2025-04-12 19:37:06,769 - pumportal_api - INFO - === FIN TOKEN METADATA ===
+2025-04-12 19:37:06,798 - pumportal_api - INFO - === DÉTAILS COMPLETS DE LA REQUÊTE ===
+2025-04-12 19:37:06,798 - pumportal_api - INFO - Endpoint: https://pumpportal.fun/api/trade-local
+2025-04-12 19:37:06,798 - pumportal_api - INFO - Public Key: YourPublicKeyWouldBeHere1234567890123456789012345
+2025-04-12 19:37:06,798 - pumportal_api - INFO - Mint Address: E44H3aXDRbiFzitaMM5Kcp1o4DaUXsqbiLteQWZpR4N9
+2025-04-12 19:37:06,798 - pumportal_api - INFO - Token Metadata (exact): {
+  "name": "Pump Wif Hat",
+  "symbol": "PWH",
+  "uri": "https://ipfs.io/ipfs/QmcBKsmakQtxDNRJqZaJcEd5UJDarua7HxHau8vNxo7cT8"
+}
+2025-04-12 19:37:06,798 - pumportal_api - INFO - Requête complète: {
+  "publicKey": "YourPublicKeyWouldBeHere1234567890123456789012345",
+  "action": "create",
+  "tokenMetadata": {
+    "name": "Pump Wif Hat",
+    "symbol": "PWH",
+    "uri": "https://ipfs.io/ipfs/QmcBKsmakQtxDNRJqZaJcEd5UJDarua7HxHau8vNxo7cT8"
+  },
+  "mint": "E44H3aXDRbiFzitaMM5Kcp1o4DaUXsqbiLteQWZpR4N9",
+  "denominatedInSol": "true",
+  "amount": 1.0,
+  "slippage": 10,
+  "priorityFee": 0.0005,
+  "pool": "pump"
+}
+2025-04-12 19:37:06,798 - pumportal_api - INFO - === FIN DES DÉTAILS DE REQUÊTE ===
+2025-04-12 19:37:06,799 - pumportal_api - INFO - En-têtes HTTP: {'Content-Type': 'application/json'}
+2025-04-12 19:37:06,799 - pumportal_api - INFO - JSON envoyé (brut): {"publicKey": "YourPublicKeyWouldBeHere1234567890123456789012345", "action": "create", "tokenMetadata": {"name": "Pump Wif Hat", "symbol": "PWH", "uri": "https://ipfs.io/ipfs/QmcBKsmakQtxDNRJqZaJcEd5UJDarua7HxHau8vNxo7cT8"}, "mint": "E44H3aXDRbiFzitaMM5Kcp1o4DaUXsqbiLteQWZpR4N9", "denominatedInSol": "true", "amount": 1.0, "slippage": 10, "priorityFee": 0.0005, "pool": "pump"}
+2025-04-12 19:37:07,317 - pumportal_api - INFO - === DÉTAILS COMPLETS DE LA RÉPONSE ===
+2025-04-12 19:37:07,317 - pumportal_api - INFO - Statut: 400
+2025-04-12 19:37:07,318 - pumportal_api - INFO - En-têtes de réponse: {'Server': 'nginx/1.18.0', 'Date': 'Sat, 12 Apr 2025 17:37:07 GMT', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '11', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*'}
+2025-04-12 19:37:07,318 - pumportal_api - INFO - Corps de la réponse (texte): Bad Request
+2025-04-12 19:37:07,318 - pumportal_api - INFO - Début du contenu binaire (hex): 4261642052657175657374...
+2025-04-12 19:37:07,318 - pumportal_api - INFO - === FIN DES DÉTAILS DE RÉPONSE ===
+2025-04-12 19:37:07,318 - pumportal_api - ERROR - Erreur lors de la préparation de la transaction: 400 - Bad Request
+2025-04-12 19:37:07,320 - coin_publisher - ERROR - Préparation de la transaction échouée: Erreur HTTP 400
+2025-04-12 19:37:07,321 - memecoin_publisher_integration - INFO - Résultat de publication sauvegardé: data/publications/20250412_193707_PWH.json
+2025-04-12 19:37:07,321 - simulator_integration - ERROR - Publication échouée: Erreur HTTP 400
+2025-04-13 09:12:40,084 - __main__ - INFO - Démarrage du générateur de meme coins avec publication PumpPortal
+2025-04-13 09:12:40,084 - __main__ - INFO - MODE SIMULATION: Les meme coins ne seront pas réellement publiés
+2025-04-13 09:12:40,353 - coin_publisher - INFO - Aucun fichier de configuration trouvé à publisher_config.json, utilisation des valeurs par défaut
+2025-04-13 09:14:31,282 - simulator_integration - INFO - Tweet fictif créé avec l'ID 989df8059b914147908 pour @whitehouse
+2025-04-13 09:14:32,799 - simulator_integration - INFO - Traitement du tweet 989df8059b914147908 de @whitehouse
+2025-04-13 09:14:32,800 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-13 09:14:32,840 - simulator_integration - INFO - Tweet éligible via is_pattern_eligible: False
+2025-04-13 09:14:32,840 - simulator_integration - INFO - Tweet non éligible - aucune condition validée
+2025-04-13 09:16:45,763 - simulator_integration - INFO - Tweet fictif créé avec l'ID e68e71a689b64acaacc pour @AutismCapital
+2025-04-13 09:16:47,053 - simulator_integration - INFO - Traitement du tweet e68e71a689b64acaacc de @AutismCapital
+2025-04-13 09:16:47,053 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-13 09:16:47,059 - simulator_integration - INFO - Analyse de 1 médias...
+2025-04-13 09:16:47,059 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GoRsXBYbAAAdN7Y?format=png&name=900x900
+2025-04-13 09:16:52,145 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 09:16:52,150 - media_analyzer - INFO -  *** Analyse média: {'description': 'The image is a black and white cartoon sketch of two elderly men facing each other, each using a cane for support. They appear to be having a heated discussion, with both making aggressive gestures.', 'subjects': ['Two elderly men'], 'actions': ['Arguing or debating'], 'mood': 'Humorous, satirical', 'visible_text': ['7000%', '8000%'], 'emotional_themes': ['Conflict, humor'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-13 09:16:52,151 - simulator_integration - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-13 09:16:52,151 - simulator_integration - INFO - Mots-clés pertinents: ['8000%', '7000%', 'Two elderly men', 'AutismCapital', 'banger']
+2025-04-13 09:16:52,153 - simulator_integration - INFO - Generating meme coin...
+2025-04-13 09:16:52,153 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where ticker is based on the cartoon style identified, name is the style simplified + 'ification' (e.g., Anime -> Animification)
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 09:16:52,154 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @AutismCapital:
+
+        "AutismCapital This one's a banger "
+        
+            
+            The image shows: The image is a black and white cartoon sketch of two elderly men facing each other, each using a cane for support. They appear to be having a heated discussion, with both making aggressive gestures. 
+            
+2025-04-13 09:16:52,938 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 09:16:52,941 - simulator_integration - INFO - Meme coin généré: Cartoonification (CARTOON)
+2025-04-13 09:16:52,942 - simulator_integration - INFO - Image trouvée dans le tweet: https://pbs.twimg.com/media/GoRsXBYbAAAdN7Y?format=png&name=900x900
+2025-04-13 11:41:18,367 - simulator_integration - INFO - Tweet fictif créé avec l'ID a7d7ad07d89745ca9d9 pour @dailymailonline
+2025-04-13 11:41:21,059 - simulator_integration - INFO - Traitement du tweet a7d7ad07d89745ca9d9 de @dailymailonline
+2025-04-13 11:41:21,060 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-13 11:41:21,080 - simulator_integration - INFO - Analyse de 1 médias...
+2025-04-13 11:41:21,080 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/card_img/1911340165039022080/KmNjRCqq?format=jpg&name=small
+2025-04-13 11:41:26,121 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 11:41:26,123 - media_analyzer - INFO -  *** Analyse média: {'description': "The image shows a reconstructed World War I trench from above, alongside two men in historical attire standing in the trench, and another perspective showing a sign labeled 'The Ritz' inside the trench.", 'subjects': ['World War I trench', 'two men', "sign 'The Ritz'"], 'actions': ['Reconstruction of a trench', 'Men posing for a photo'], 'mood': 'Reflective and educational', 'visible_text': ['THE RITZ'], 'emotional_themes': ['Historical interest', 'Nostalgia'], 'is_meme': False, 'is_crisis': False, 'crisis_type': ''} ***
+2025-04-13 11:41:26,125 - simulator_integration - INFO - Tweet éligible via is_pattern_eligible: False
+2025-04-13 11:41:26,125 - simulator_integration - INFO - Tweet non éligible - aucune condition validée
+2025-04-13 11:41:26,125 - simulator_integration - INFO - Image trouvée dans le tweet: https://pbs.twimg.com/card_img/1911340165039022080/KmNjRCqq?format=jpg&name=small
+2025-04-13 11:41:57,010 - __main__ - INFO - Démarrage du générateur de meme coins avec publication PumpPortal
+2025-04-13 11:41:57,010 - __main__ - INFO - MODE SIMULATION: Les meme coins ne seront pas réellement publiés
+2025-04-13 11:41:57,239 - coin_publisher - INFO - Aucun fichier de configuration trouvé à publisher_config.json, utilisation des valeurs par défaut
+2025-04-13 11:42:08,110 - simulator_integration - INFO - Traitement du tweet a7d7ad07d89745ca9d9 de @dailymailonline
+2025-04-13 11:42:08,110 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-13 11:42:08,131 - simulator_integration - INFO - Analyse de 1 médias...
+2025-04-13 11:42:08,131 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/card_img/1911340165039022080/KmNjRCqq?format=jpg&name=small
+2025-04-13 11:42:13,559 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 11:42:13,568 - media_analyzer - INFO -  *** Analyse média: {'description': "The image shows a forest area with a reconstructed trench resembling those from World War I. On the right, there are two people standing in the trench, and a sign with 'THE RITZ' is visible.", 'subjects': ['Forest', 'Trench', 'Two people', "Sign 'THE RITZ'"], 'actions': ['People standing in the trench'], 'mood': 'Historical and educational', 'visible_text': ['THE RITZ'], 'emotional_themes': ['Curiosity', 'Nostalgia'], 'is_meme': False, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-13 11:42:13,569 - simulator_integration - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where ticker is the first proper noun or random name (max 10 chars), name is 'Justice for [noun/name]'
+2025-04-13 11:42:13,569 - simulator_integration - INFO - Mots-clés pertinents: ['GARDEN', 'thousands', 'First', 'Two people', 'First World War', "Sign 'THE RITZ'", 'War', 'Meet', 'World', 'dailymailonline']
+2025-04-13 11:42:13,571 - simulator_integration - INFO - Generating meme coin...
+2025-04-13 11:42:13,571 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where ticker is the first proper noun or random name (max 10 chars), name is 'Justice for [noun/name]'
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 11:42:13,571 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @dailymailonline:
+
+        "dailymailonline Meet the man who has created an exact replica of a First World War trench that has been visited by thousands... after building one by his BACK GARDEN"
+        
+            
+            The image shows: The image shows a forest area with a reconstructed trench resembling those from World War I. On the right, there are two people standing in the trench, and a sign with 'THE RITZ' is visible. 
+            
+2025-04-13 11:42:14,658 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 11:42:14,669 - simulator_integration - INFO - Meme coin généré: RitzTrench (RITZTRENCH)
+2025-04-13 11:42:14,669 - simulator_integration - INFO - Image trouvée dans le tweet: https://pbs.twimg.com/card_img/1911340165039022080/KmNjRCqq?format=jpg&name=small
+2025-04-13 11:47:31,491 - simulator_integration - INFO - Tweet fictif créé avec l'ID 0be6fa07027a4a90a3b pour @marionawfall
+2025-04-13 11:47:33,476 - simulator_integration - INFO - Traitement du tweet 0be6fa07027a4a90a3b de @marionawfall
+2025-04-13 11:47:33,477 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-13 11:47:33,502 - simulator_integration - INFO - Analyse de 1 médias...
+2025-04-13 11:47:33,503 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GoZ56NYW4AEQ2Ok?format=jpg&name=medium
+2025-04-13 11:47:37,834 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 11:47:37,835 - media_analyzer - INFO -  *** Analyse média: {'description': "The image shows food items including tacos and nachos placed on grass, alongside a cup with a drink. A shoe is visible in the top right corner. There's text on the image displaying a price, likely suggesting the cost of the food.", 'subjects': ['Tacos', 'Nachos', 'Cup with drink', 'Shoe'], 'actions': ['Food placed on grass'], 'mood': 'Casual', 'visible_text': ['$102.00 ****'], 'emotional_themes': ['Surprise', 'Humor'], 'is_meme': True, 'is_crisis': False, 'crisis_type': ''} ***
+2025-04-13 11:47:37,836 - simulator_integration - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-13 11:47:37,836 - simulator_integration - INFO - Mots-clés pertinents: ['BAD TACOS & ICE WATER', 'Nachos', 'Shoe', 'LEMONADE', '$102', 'Cup with drink', '$600', 'WATER', 'COACHELLA', 'Red Bull']
+2025-04-13 11:47:37,836 - simulator_integration - INFO - Generating meme coin...
+2025-04-13 11:47:37,836 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where ticker and name are related to x as shown in the image
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 11:47:37,836 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @marionawfall:
+
+        "marionawfall $102 FOR BAD TACOS & ICE WATER LEMONADE? COACHELLA CALLED A “DESERT SCAM” Coachella: where $600 GA tickets just earn you the privilege of spending $17 on lemonade and $23 on a vodka Red Bull. One influencer dropped $102 on cold tortillas, nachos that “weren’t good at all,” "
+        
+            
+            The image shows: The image shows food items including tacos and nachos placed on grass, alongside a cup with a drink. A shoe is visible in the top right corner. There's text on the image displaying a price, likely suggesting the cost of the food. 
+            
+2025-04-13 11:47:38,908 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 11:47:38,911 - simulator_integration - INFO - Meme coin généré: TacoTrap (TACOTRAP)
+2025-04-13 11:47:38,911 - simulator_integration - INFO - Image trouvée dans le tweet: https://pbs.twimg.com/media/GoZ56NYW4AEQ2Ok?format=jpg&name=medium
+2025-04-13 12:02:47,608 - simulator_integration - INFO - Tweet fictif créé avec l'ID c77b3ab5c8614848902 pour @ye
+2025-04-13 12:02:48,660 - simulator_integration - INFO - Traitement du tweet c77b3ab5c8614848902 de @ye
+2025-04-13 12:02:48,660 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-13 12:02:48,675 - simulator_integration - INFO - Tweet éligible via is_pattern_eligible: False
+2025-04-13 12:02:48,675 - simulator_integration - INFO - Tweet non éligible - aucune condition validée
+2025-04-13 12:10:15,566 - simulator_integration - INFO - Tweet fictif créé avec l'ID dcedbbaf17bd4bf78e4 pour @zoo sheldrick
+2025-04-13 12:10:49,874 - simulator_integration - INFO - Traitement du tweet dcedbbaf17bd4bf78e4 de @zoo sheldrick
+2025-04-13 12:10:49,874 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-13 12:10:49,897 - simulator_integration - INFO - Tweet éligible via is_pattern_eligible: False
+2025-04-13 12:10:49,897 - simulator_integration - INFO - Tweet non éligible - aucune condition validée
+2025-04-13 12:13:39,077 - __main__ - INFO - Démarrage du générateur de meme coins avec publication PumpPortal
+2025-04-13 12:13:39,077 - __main__ - INFO - MODE SIMULATION: Les meme coins ne seront pas réellement publiés
+2025-04-13 12:13:39,317 - coin_publisher - INFO - Aucun fichier de configuration trouvé à publisher_config.json, utilisation des valeurs par défaut
+2025-04-13 12:14:44,409 - simulator_integration - INFO - Tweet fictif créé avec l'ID 1b726c75834b4c5fb3e pour @tommy 
+2025-04-13 12:14:46,505 - simulator_integration - INFO - Traitement du tweet 1b726c75834b4c5fb3e de @tommy 
+2025-04-13 12:14:46,506 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-13 12:14:46,519 - simulator_integration - INFO - Analyse de 1 médias...
+2025-04-13 12:14:46,519 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GoTfWxCWgAE6VYf?format=jpg&name=small
+2025-04-13 12:14:50,587 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 12:14:50,590 - media_analyzer - INFO -  *** Analyse média: {'description': 'The image displays a humorous take on the logos of various AI companies, comparing them to a specific anatomical feature. It features multiple logos arranged in a grid-like fashion with a provocative headline at the top.', 'subjects': ['AI company logos'], 'actions': ['Comparison of logos to anatomical feature'], 'mood': 'Humorous and satirical', 'visible_text': ['Why do AI company logos look like buttholes?', 'April 10th, 2025', 'velvetshark.com'], 'emotional_themes': ['Humor'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-13 12:14:50,591 - simulator_integration - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-13 12:14:50,591 - simulator_integration - INFO - Mots-clés pertinents: ['tommy  ', 'velvetshark.com', 'Why do AI company logos look like buttholes?', 'AI company logos', 'April 10th, 2025']
+2025-04-13 12:14:50,593 - simulator_integration - INFO - Generating meme coin...
+2025-04-13 12:14:50,593 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where, ticker is the name of the person visible in the image or create a name if none is given (max 10 chars), name is 'RIP [name]'
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 12:14:50,593 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @tommy :
+
+        "tommy  "
+        
+            
+            The image shows: The image displays a humorous take on the logos of various AI companies, comparing them to a specific anatomical feature. It features multiple logos arranged in a grid-like fashion with a provocative headline at the top. 
+            
+2025-04-13 12:14:51,545 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 12:14:51,553 - simulator_integration - INFO - Meme coin généré: RIP TOMMY (TOMMY)
+2025-04-13 12:14:51,553 - simulator_integration - INFO - Image trouvée dans le tweet: https://pbs.twimg.com/media/GoTfWxCWgAE6VYf?format=jpg&name=small
+2025-04-13 15:18:27,281 - simulator_integration - INFO - Tweet fictif créé avec l'ID 5c8f913aec1243dc92d pour @ALX
+2025-04-13 15:18:29,043 - simulator_integration - INFO - Traitement du tweet 5c8f913aec1243dc92d de @ALX
+2025-04-13 15:18:29,044 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-13 15:18:29,051 - simulator_integration - INFO - Analyse de 1 médias...
+2025-04-13 15:18:29,051 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GoaU5q8XcAAFLhK?format=jpg&name=large
+2025-04-13 15:18:36,228 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 15:18:36,234 - media_analyzer - INFO -  *** Analyse média: {'description': 'The image shows an aerial view from an airplane window during flight, with the wing of the plane visible. Below, a cityscape is seen along with some greenery and bodies of water. The sky is partly clear with a hint of sunset light.', 'subjects': ['Airplane wing', 'Cityscape', 'Sky'], 'actions': ['Flight'], 'mood': 'Calm and serene', 'visible_text': ['GSE'], 'emotional_themes': ['Tranquility', 'Wanderlust'], 'is_meme': False, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-13 15:18:36,235 - simulator_integration - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept that captures Trump’s chaotic and exaggerated energy—only if the event is new, shocking, or funny; avoid standard political or economic news unless approached in a humorous, original way; if it doesn’t qualify, do nothing; ticker max 10 characters, name must relate to him.
+2025-04-13 15:18:36,236 - simulator_integration - INFO - Mots-clés pertinents: ['@TrumpDoral', 'Cityscape', 'ALX', 'Sky', 'Airplane wing', 'GSE']
+2025-04-13 15:18:36,236 - simulator_integration - INFO - Generating meme coin...
+2025-04-13 15:18:36,236 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept that captures Trump’s chaotic and exaggerated energy—only if the event is new, shocking, or funny; avoid standard political or economic news unless approached in a humorous, original way; if it doesn’t qualify, do nothing; ticker max 10 characters, name must relate to him.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 15:18:36,236 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @ALX:
+
+        "ALX gm @TrumpDoral"
+        
+            
+            The image shows: The image shows an aerial view from an airplane window during flight, with the wing of the plane visible. Below, a cityscape is seen along with some greenery and bodies of water. The sky is partly clear with a hint of sunset light. 
+            
+2025-04-13 15:18:37,256 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 15:18:37,261 - simulator_integration - INFO - Meme coin généré: DoralFly (DORALFLY)
+2025-04-13 15:18:37,262 - simulator_integration - INFO - Image trouvée dans le tweet: https://pbs.twimg.com/media/GoaU5q8XcAAFLhK?format=jpg&name=large
+2025-04-13 18:30:18,261 - __main__ - INFO - Démarrage du générateur de meme coins avec publication PumpPortal
+2025-04-13 18:30:18,261 - __main__ - INFO - MODE SIMULATION: Les meme coins ne seront pas réellement publiés
+2025-04-13 18:30:18,490 - coin_publisher - INFO - Aucun fichier de configuration trouvé à publisher_config.json, utilisation des valeurs par défaut
+2025-04-13 18:31:02,069 - simulator_integration - INFO - Tweet fictif créé avec l'ID a6548524f47e480f8b3 pour @netflix
+2025-04-13 18:31:05,007 - simulator_integration - INFO - Traitement du tweet a6548524f47e480f8b3 de @netflix
+2025-04-13 18:31:05,008 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-13 18:31:05,026 - simulator_integration - INFO - Analyse de 1 médias...
+2025-04-13 18:31:05,026 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GobaCADW8AAo36o?format=jpg&name=small
+2025-04-13 18:31:09,916 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 18:31:09,920 - media_analyzer - INFO -  *** Analyse média: {'description': "The image features a pixelated yellow character with large eyes looking upwards. Above its head, there's a speech bubble with a graphical representation, including a beach ball and a downward arrow.", 'subjects': ['Pixelated character', 'Speech bubble', 'Beach ball graphic'], 'actions': ['The character appears to be expressing a thought or emotion'], 'mood': 'Playful', 'visible_text': [], 'emotional_themes': ['Curiosity'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-13 18:31:09,921 - simulator_integration - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-13 18:31:09,921 - simulator_integration - INFO - Mots-clés pertinents: ['Speech bubble', 'Black Mirror: Thronglets', 'Games', 'Beach ball graphic', 'Black', 'Thronglet', 'Mirror', 'Thronglets', 'throng', 'Pixelated character']
+2025-04-13 18:31:09,923 - simulator_integration - INFO - Generating meme coin...
+2025-04-13 18:31:09,923 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where ticker is based on the pixel style identified, name is the style simplified + 'ification' (e.g., Anime -> Animification)
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 18:31:09,923 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @netflix:
+
+        "netflix Would do anything for this Thronglet. You can raise your own throng on Black Mirror: Thronglets. Now on Netflix Games 💛"
+        
+            
+            The image shows: The image features a pixelated yellow character with large eyes looking upwards. Above its head, there's a speech bubble with a graphical representation, including a beach ball and a downward arrow. 
+            
+2025-04-13 18:31:11,103 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 18:31:11,111 - simulator_integration - INFO - Meme coin généré: Pixelify (PIXELTHRONG)
+2025-04-13 18:31:11,111 - simulator_integration - INFO - Image trouvée dans le tweet: https://pbs.twimg.com/media/GobaCADW8AAo36o?format=jpg&name=small
+2025-04-13 18:50:29,288 - __main__ - INFO - Démarrage du générateur de meme coins avec publication PumpPortal
+2025-04-13 18:50:29,289 - __main__ - INFO - MODE SIMULATION: Les meme coins ne seront pas réellement publiés
+2025-04-13 18:50:29,547 - coin_publisher - INFO - Aucun fichier de configuration trouvé à publisher_config.json, utilisation des valeurs par défaut
+2025-04-13 18:52:21,359 - simulator_integration - INFO - Traitement du tweet e68e71a689b64acaacc de @AutismCapital
+2025-04-13 18:52:21,360 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-13 18:52:21,373 - simulator_integration - INFO - Analyse de 1 médias...
+2025-04-13 18:52:21,374 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GoRsXBYbAAAdN7Y?format=png&name=900x900
+2025-04-13 18:52:26,919 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 18:52:26,923 - media_analyzer - INFO -  *** Analyse média: {'description': "A cartoon drawing of two elderly men facing each other, each holding a cane. They appear to be engaged in a confrontation, with speech bubbles above their heads displaying the percentages '7000%' and '8000%' respectively.", 'subjects': ['Two elderly men', 'Canes'], 'actions': ['Facing each other', 'Holding canes', 'Confrontational stance'], 'mood': 'Humorous and satirical', 'visible_text': ['7000%', '8000%'], 'emotional_themes': ['Tension', 'Rivalry'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-13 18:52:26,924 - simulator_integration - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-13 18:52:26,924 - simulator_integration - INFO - Mots-clés pertinents: ['AutismCapital', '8000%', '7000%', 'Canes', 'Two elderly men', 'banger']
+2025-04-13 18:52:26,925 - simulator_integration - INFO - Generating meme coin...
+2025-04-13 18:52:26,925 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where ticker is based on the cartoon style identified, name is the style simplified + 'ification' (e.g., Anime -> Animification)
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 18:52:26,925 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @AutismCapital:
+
+        "AutismCapital This one's a banger "
+        
+            
+            The image shows: A cartoon drawing of two elderly men facing each other, each holding a cane. They appear to be engaged in a confrontation, with speech bubbles above their heads displaying the percentages '7000%' and '8000%' respectively. 
+            
+2025-04-13 18:52:28,164 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 18:52:28,165 - simulator_integration - INFO - Meme coin généré: Cartoonification (CARTOON)
+2025-04-13 18:52:28,165 - simulator_integration - INFO - Image trouvée dans le tweet: https://pbs.twimg.com/media/GoRsXBYbAAAdN7Y?format=png&name=900x900
+2025-04-13 18:53:07,634 - simulator_integration - INFO - Traitement du tweet 8a44fdc392b246509e1 de @KFC
+2025-04-13 18:53:07,634 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-13 18:53:07,642 - simulator_integration - INFO - Analyse de 1 médias...
+2025-04-13 18:53:07,643 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GnrzdKeXIAABE66?format=jpg&name=medium
+2025-04-13 18:53:15,068 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 18:53:15,070 - media_analyzer - INFO -  *** Analyse média: {'description': 'The image features a surreal character with a face resembling a well-known figure, combined with a cartoon-like body holding a baseball bat. The background appears to be a nighttime scene at a rustic station or shelter.', 'subjects': ['Surreal character', 'Baseball bat', 'Wooden structure'], 'actions': ['Standing'], 'mood': 'Humorous and surreal', 'visible_text': ['PENTUNG POS RON'], 'emotional_themes': ['Whimsy', 'Humor'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-13 18:53:15,073 - simulator_integration - INFO - Tweet éligible via is_pattern_eligible: True
+2025-04-13 18:53:15,073 - simulator_integration - INFO - Mots-clés pertinents: ['CHICKEN', 'Surreal character', 'Baseball bat', 'TUNG', 'PENTUNG POS RON', 'Wooden structure']
+2025-04-13 18:53:15,074 - simulator_integration - INFO - Generating meme coin...
+2025-04-13 18:53:15,075 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where ticker is based on the cartoon style identified, name is the style simplified + 'ification' (e.g., Anime -> Animification)
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 18:53:15,075 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @KFC:
+
+        "TUNG TUNG TUNG CHICKEN"
+        
+            
+            The image shows: The image features a surreal character with a face resembling a well-known figure, combined with a cartoon-like body holding a baseball bat. The background appears to be a nighttime scene at a rustic station or shelter. 
+            
+2025-04-13 18:53:16,192 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 18:53:16,195 - simulator_integration - INFO - Meme coin généré: Cartoonify (CARTOON)
+2025-04-13 18:53:16,195 - simulator_integration - INFO - Image trouvée dans le tweet: https://pbs.twimg.com/media/GnrzdKeXIAABE66?format=jpg&name=medium
+2025-04-13 18:55:14,331 - simulator_integration - INFO - Tweet fictif créé avec l'ID bbbbf9593c0e461985d pour @greg
+2025-04-13 18:55:15,401 - simulator_integration - INFO - Traitement du tweet bbbbf9593c0e461985d de @greg
+2025-04-13 18:55:15,402 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-13 18:55:15,415 - simulator_integration - INFO - Analyse de 1 médias...
+2025-04-13 18:55:15,416 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gobe2ltWMAADvLq?format=jpg&name=small
+2025-04-13 18:55:19,620 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 18:55:19,624 - media_analyzer - INFO -  *** Analyse média: {'description': 'The image shows a chocolate chip cookie on a cooling rack, resembling a smiling face.', 'subjects': ['Cookie', 'Cooling rack'], 'actions': ['Cooling on a rack'], 'mood': 'Lighthearted', 'visible_text': [], 'emotional_themes': ['Joy'], 'is_meme': True, 'is_crisis': False, 'crisis_type': ''} ***
+2025-04-13 18:55:19,626 - simulator_integration - INFO - Tweet éligible via is_pattern_eligible: False
+2025-04-13 18:55:19,626 - simulator_integration - INFO - Tweet non éligible - aucune condition validée
+2025-04-13 18:55:19,626 - simulator_integration - INFO - Image trouvée dans le tweet: https://pbs.twimg.com/media/Gobe2ltWMAADvLq?format=jpg&name=small
+2025-04-13 18:56:25,149 - simulator_integration - INFO - Tweet fictif créé avec l'ID d3fef1d20b1446ddbad pour @AFpost
+2025-04-13 18:56:26,602 - simulator_integration - INFO - Traitement du tweet d3fef1d20b1446ddbad de @AFpost
+2025-04-13 18:56:26,603 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-13 18:56:26,617 - simulator_integration - INFO - Analyse de 1 médias...
+2025-04-13 18:56:26,617 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GobaWQLW4AIlday?format=jpg&name=small
+2025-04-13 18:56:29,980 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 18:56:29,981 - media_analyzer - INFO -  *** Analyse média: {'description': 'The image features a young person with short hair, wearing a dark-colored outfit against a neutral background. The expression appears neutral or serious.', 'subjects': ['A young person'], 'actions': ['The person is looking directly at the camera'], 'mood': 'Serious', 'visible_text': [], 'emotional_themes': ['Neutral', 'Seriousness'], 'is_meme': False, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-13 18:56:29,982 - simulator_integration - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where, ticker is the name of the person associated with the event or create a name if none is given (max 10 chars), name is 'RIP name. The event has to be in the recent time not long ago. refers to the person concerned rather than the environment.'
+2025-04-13 18:56:29,982 - simulator_integration - INFO - Mots-clés pertinents: ['year', 'Wisconsin', 'AFpost', 'President', 'plot', 'Nikita Casap', 'Nikita', 'Trump', 'White', 'Casap']
+2025-04-13 18:56:29,982 - simulator_integration - INFO - Generating meme coin...
+2025-04-13 18:56:29,982 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept where, ticker is the name of the person associated with the event or create a name if none is given (max 10 chars), name is 'RIP name. The event has to be in the recent time not long ago. refers to the person concerned rather than the environment.'
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 18:56:29,982 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @AFpost:
+
+        "AFpost Wisconsin 17-year-old Nikita Casap murdered his parents to fund a plot to kill President Trump and spark a revolution to “save the White race.”"
+        
+            
+            The image shows: The image features a young person with short hair, wearing a dark-colored outfit against a neutral background. The expression appears neutral or serious. 
+            
+2025-04-13 18:56:30,958 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 18:56:30,969 - simulator_integration - INFO - Meme coin généré: RIP Nikita (CASAP)
+2025-04-13 18:56:30,969 - simulator_integration - INFO - Image trouvée dans le tweet: https://pbs.twimg.com/media/GobaWQLW4AIlday?format=jpg&name=small
+2025-04-13 18:59:45,404 - simulator_integration - INFO - Tweet fictif créé avec l'ID 317863e97ebb4b8f855 pour @AutismCapital
+2025-04-13 18:59:46,791 - simulator_integration - INFO - Traitement du tweet 317863e97ebb4b8f855 de @AutismCapital
+2025-04-13 18:59:46,792 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-13 18:59:46,796 - simulator_integration - INFO - Analyse de 1 médias...
+2025-04-13 18:59:46,797 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gobh1xaWoAA4aBd?format=jpg&name=small
+2025-04-13 18:59:53,919 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 18:59:53,921 - media_analyzer - INFO -  *** Analyse média: {'description': "The image is a humorous depiction of the fable 'The Scorpion and the Frog' with an added comedic twist. It features a frog with an edited human face on its back representing a scorpion. The text includes a dialogue about losing money.", 'subjects': ['Frog with a human face', 'Scorpion'], 'actions': ['Frog carrying a scorpion'], 'mood': 'Humorous', 'visible_text': ['But now we shall both surely lose money, said the Anon', 'lol said Jim Cramer, lmao'], 'emotional_themes': ['Humor'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-13 18:59:53,922 - simulator_integration - INFO - Tweet éligible via is_pattern_eligible: False
+2025-04-13 18:59:53,922 - simulator_integration - INFO - Tweet non éligible - aucune condition validée
+2025-04-13 18:59:53,922 - simulator_integration - INFO - Image trouvée dans le tweet: https://pbs.twimg.com/media/Gobh1xaWoAA4aBd?format=jpg&name=small
+2025-04-13 19:03:28,550 - simulator_integration - INFO - Tweet fictif créé avec l'ID 33f2a8d73c374b27920 pour @WIF
+2025-04-13 19:03:30,702 - simulator_integration - INFO - Traitement du tweet 33f2a8d73c374b27920 de @WIF
+2025-04-13 19:03:30,702 - simulator_integration - INFO - Analyse du texte du tweet...
+2025-04-13 19:03:30,712 - simulator_integration - INFO - Analyse de 1 médias...
+2025-04-13 19:03:30,713 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GoZb-DOWoAAEH-k?format=jpg&name=small
+2025-04-13 19:03:36,811 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 19:03:36,814 - media_analyzer - INFO -  *** Analyse média: {'description': 'An image depicting a dog wearing a red knitted hat, sitting under a glowing green beam of light in a cosmic or sci-fi environment. The sky is filled with stars and a green nebula.', 'subjects': ['Dog', 'Green beam of light', 'Stars', 'Nebula'], 'actions': ['Dog sitting', 'Light emanating from the sky'], 'mood': 'Mystical and whimsical', 'visible_text': [], 'emotional_themes': ['Curiosity', 'Wonder'], 'is_meme': False, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-13 19:03:36,815 - simulator_integration - INFO - Tweet éligible via extract_ticker_info: If the word 'meme' appears in the text, create a meme-related concept, but the name must never contain the word 'Coin'
+2025-04-13 19:03:36,815 - simulator_integration - INFO - Mots-clés pertinents: ['WIF', 'Hat', 'Nebula', 'holders', 'memes', 'Road to 1M', 'Green beam of light', 'Dog', '$WIF', 'Stars']
+2025-04-13 19:03:36,815 - simulator_integration - INFO - Generating meme coin...
+2025-04-13 19:03:36,815 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+If the word 'meme' appears in the text, create a meme-related concept, but the name must never contain the word 'Coin'
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 19:03:36,816 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @WIF:
+
+        "WIF $WIF closing on 219k holders I keep onboarding everyone I meet and asks me about memes Road to 1M holders Hat stays on "
+        
+            
+            The image shows: An image depicting a dog wearing a red knitted hat, sitting under a glowing green beam of light in a cosmic or sci-fi environment. The sky is filled with stars and a green nebula. 
+            
+2025-04-13 19:03:37,719 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 19:03:37,731 - simulator_integration - INFO - Meme coin généré: HatDog (HATDOG)
+2025-04-13 19:03:37,733 - simulator_integration - INFO - Image trouvée dans le tweet: https://pbs.twimg.com/media/GoZb-DOWoAAEH-k?format=jpg&name=small

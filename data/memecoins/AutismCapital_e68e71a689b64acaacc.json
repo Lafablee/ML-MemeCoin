@@ -1,15 +1,15 @@
 {
-  "token_name": "Cartoonify",
+  "token_name": "Cartoonification",
   "token_symbol": "CARTOON",
-  "tweet_author": "KFC",
+  "tweet_author": "AutismCapital",
   "relevant_keywords": [
-    "CHICKEN",
-    "Surreal character",
-    "Baseball bat",
-    "TUNG",
-    "PENTUNG POS RON",
-    "Wooden structure"
+    "AutismCapital",
+    "8000%",
+    "7000%",
+    "Canes",
+    "Two elderly men",
+    "banger"
   ],
-  "generated_at": "2025-04-13 18:53:16",
+  "generated_at": "2025-04-13 18:52:28",
   "condition": "Create a memecoin concept where ticker is based on the cartoon style identified, name is the style simplified + 'ification' (e.g., Anime -> Animification)"
 }

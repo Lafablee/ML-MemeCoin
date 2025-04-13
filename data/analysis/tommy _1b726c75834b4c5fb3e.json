@@ -1,0 +1,20 @@
+{
+  "tweet_id": "1b726c75834b4c5fb3e",
+  "original_text": "tommy  ",
+  "named_entities": [
+    {
+      "text": "tommy  ",
+      "type": "PERSON"
+    }
+  ],
+  "capital_words": [],
+  "symbols": [],
+  "important_nouns": [],
+  "significant_verbs": [],
+  "unique_identifiers": [
+    "tommy  "
+  ],
+  "tweet_identity": "tommy  ",
+  "detected_themes": {},
+  "username": "tommy "
+}

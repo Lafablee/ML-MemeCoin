@@ -1,0 +1,57 @@
+{
+  "tweet_id": "84cecfead4f44c8f99e",
+  "original_text": "ye Retuuuurn of the slap \ud83d\udc4b \ud83d\ude05    And I\u2019m assuming a kick also if you see the end of the clip Mark Morrison was arrested for domestic violence     That\u2019s why I said return \u2026 ugh    You get it",
+  "named_entities": [
+    {
+      "text": "Retuuuurn",
+      "type": "NORP"
+    },
+    {
+      "text": "\ud83d\udc4b",
+      "type": "CARDINAL"
+    },
+    {
+      "text": "Mark Morrison",
+      "type": "PERSON"
+    }
+  ],
+  "capital_words": [
+    "Retuuuurn",
+    "And",
+    "Mark",
+    "Morrison",
+    "That",
+    "You"
+  ],
+  "symbols": [],
+  "important_nouns": [
+    "slap",
+    "kick",
+    "clip",
+    "violence",
+    "return"
+  ],
+  "significant_verbs": [
+    "assuming",
+    "arrested",
+    "said"
+  ],
+  "unique_identifiers": [
+    "Mark Morrison",
+    "Retuuuurn",
+    "Morrison",
+    "Mark",
+    "kick",
+    "violence",
+    "clip",
+    "return",
+    "slap"
+  ],
+  "tweet_identity": "kick violence Mark Morrison clip Retuuuurn",
+  "detected_themes": {
+    "conflit": [
+      "violence"
+    ]
+  },
+  "username": "ye"
+}

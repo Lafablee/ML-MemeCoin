@@ -1,0 +1,20 @@
+{
+  "tweet_id": "98cf7ea8b97147a69a8",
+  "original_text": "KFC ",
+  "named_entities": [
+    {
+      "text": "KFC",
+      "type": "ORG"
+    }
+  ],
+  "capital_words": [],
+  "symbols": [],
+  "important_nouns": [],
+  "significant_verbs": [],
+  "unique_identifiers": [
+    "KFC"
+  ],
+  "tweet_identity": "KFC",
+  "detected_themes": {},
+  "username": "KFC"
+}
