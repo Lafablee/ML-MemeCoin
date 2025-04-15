@@ -60,6 +60,30 @@ class MemecoinsGenerator:
             Dictionary containing meme coin information
         """
 
+        # Build the system prompt using the instructions
+        system_prompt = self.base_prompt
+
+        # Complétez le prompt système en expliquant les codes de statut spécifiques
+        status_instruction = """
+        IMPORTANT: For certain conditions, you must evaluate if the content qualifies:
+        
+        If you see instructions mentioning status codes (801, 802, 803, 804), you must evaluate:
+        
+        - For status code 801 (Elon): Is this content weird, impulsive, or techy in a viral way?
+        - For status code 802 (Trump): Is this content new, shocking, or funny?
+        - For status code 803 (Social Media): Is this about a unique/quirky event, not generic updates?
+        - For status code 804 (Elon Brands): Is this content exceptionally funny, shocking, or culturally impactful?
+        
+        If the content doesn't qualify, ONLY respond with the status code number.
+        Example: "801" (without quotes)
+        
+        If it does qualify, create the memecoin as requested.
+        """
+        
+        # Ajoutez cette instruction uniquement pour les conditions spécifiques
+        if condition_match and any(f"status code {code}" in condition_match for code in [801, 802, 803, 804]):
+            system_prompt += status_instruction
+
         # First, check if we match any specific conditions from extract_ticker_info
         try:
             from condition_handler import get_prompt_instructions
@@ -79,8 +103,6 @@ class MemecoinsGenerator:
             #self.logger.warning(f"Error finding matching examples: {str(e)}")
             #matching_examples = []
 
-        # Build the system prompt using the instructions
-        system_prompt = self.base_prompt
 
          # Add the matched condition if available (prioritize this)
         if condition_match:
@@ -152,68 +174,89 @@ class MemecoinsGenerator:
                         response_format={"type": "json_object"},
                         max_tokens=500
                     )
-                except Exception as e:
-                    self.logger.warning(f"Error with JSON format, trying without specified format: {str(e)}")
-                    # Try without specifying response format (possibilité d'échec...)
-                    completion = self.client.chat.completions.create(
-                        model=self.config.OPENAI_TEXT_MODEL,
-                        messages=[
-                            {"role": "system", "content": system_prompt + "\nRespond ONLY with JSON format."},
-                            {"role": "user", "content": user_prompt}
-                        ],
-                        temperature=0.7,
-                        max_tokens=500
-                    )    
                 
                 # Extract response
                 response_text = completion.choices[0].message.content.strip()
+                self.logger.info(f"Raw API response: {response_text}")
                 
-                # Parse JSON - with support for code delimiters
-                try:
-                    # First try direct parsing
-                    memecoin_data = json.loads(response_text)
-                except json.JSONDecodeError:
-                    # If failed, look for valid JSON block
-                    self.logger.warning("First JSON parsing attempt failed, searching for JSON block")
-                    # Look for JSON block between ``` or ```json
-                    import re
-                    json_blocks = re.findall(r'```(?:json)?\s*([\s\S]*?)\s*```', response_text)
-                    
-                    if json_blocks:
-                        # Try each found block
-                        for block in json_blocks:
-                            try:
-                                memecoin_data = json.loads(block.strip())
-                                break  # Exit if valid block found
-                            except json.JSONDecodeError:
-                                continue
-                        else:
-                            memecoin_data = {}    
-                    else:
-                        # If no block, just look for braces
-                        json_pattern = r'\{[\s\S]*\}'
-                        matches = re.search(json_pattern, response_text)
-                        if matches:
-                            try:
-                                memecoin_data = json.loads(matches.group(0))
-                            except json.JSONDecodeError:
-                                raise json.JSONDecodeError("Could not find valid JSON", response_text, 0)
-                        else:
-                            memecoin_data = {}
+                # Initialiser memecoin_data ici pour éviter l'erreur
+                memecoin_data = {}
 
-                # Handle name and ticker variations
+                # Vérifier d'abord si c'est juste un code de statut
+                status_codes = ["801", "802", "803", "804"]
+                if response_text in status_codes:
+                    status_code = int(response_text)
+                    return {
+                        "token_name": None,
+                        "token_symbol": None,
+                        "tweet_author": username,
+                        "relevant_keywords": relevant_keywords,
+                        "generated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+                        "condition": condition_match,
+                        "status_code": status_code,                            "status_message": f"Content does not qualify per condition criteria (code {status_code})"
+                    }
+                else:
+                    # Vérifier s'il s'agit d'un JSON avec un champ status
+                    try:
+                        response_json = json.loads(response_text)
+                        if "status" in response_json and str(response_json["status"]) in status_codes:
+                            # C'est un JSON avec un code de statut
+                            status_code = response_json["status"]
+                            return {
+                                "token_name": None,
+                                "token_symbol": None,
+                                "tweet_author": username,
+                                "relevant_keywords": relevant_keywords,
+                                "generated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+                                "condition": condition_match,
+                                "status_code": status_code,
+                                "status_message": f"Content does not qualify per condition criteria (code {status_code})"
+                            }
+                        else:
+                            # Si c'est un JSON valide sans code de statut, utiliser directement
+                            memecoin_data = response_json
+                            
+                    except json.JSONDecodeError:
+                        # Si échec, chercher un bloc JSON valide
+                        self.logger.warning("First JSON parsing attempt failed, searching for JSON block")
+                        
+                        # Chercher du JSON entre ``` ou ```json
+                        import re
+                        json_blocks = re.findall(r'```(?:json)?\s*([\s\S]*?)\s*```', response_text)
+                        
+                        if json_blocks:
+                            # Essayer chaque bloc trouvé
+                            for block in json_blocks:
+                                try:
+                                    memecoin_data = json.loads(block.strip())
+                                    break  # Sortir si un bloc valide est trouvé
+                                except json.JSONDecodeError:
+                                    continue 
+                        else:
+                            # Si pas de bloc, chercher simplement des accolades
+                            json_pattern = r'\{[\s\S]*\}'
+                            matches = re.search(json_pattern, response_text)
+                            if matches:
+                                try:
+                                    memecoin_data = json.loads(matches.group(0))
+                                except json.JSONDecodeError:
+                                    raise json.JSONDecodeError("Could not find valid JSON", response_text, 0)
+
+                # Traiter les champs du memecoin
                 name_field = memecoin_data.get("name") or memecoin_data.get("token_name")
                 symbol_field = memecoin_data.get("ticker") or memecoin_data.get("token_symbol")
                 
                 if name_field and symbol_field:
-                    # Create standardized response
+                    # Créer la réponse standardisée
                     result = {
                         "token_name": name_field,
                         "token_symbol": symbol_field.upper(),
                         "tweet_author": username,
                         "relevant_keywords": relevant_keywords,
                         "generated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
-                        "condition": condition_match
+                        "condition": condition_match,
+                        "status_code": 200,  # Code de succès par défaut
+                        "status_message": "Generation successful"
                     }
                     
                     return result
@@ -225,7 +268,18 @@ class MemecoinsGenerator:
                         missing.append("ticker/token_symbol")
                         
                     self.logger.warning(f"Missing fields in OpenAI response: {missing}")
-            
+                    # Retourner un message d'erreur avec code d'erreur approprié
+                    return {
+                        "token_name": None,
+                        "token_symbol": None,
+                        "tweet_author": username,
+                        "relevant_keywords": relevant_keywords,
+                        "generated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+                        "condition": condition_match,
+                        "status_code": 900,  # Code d'erreur de structure
+                        "status_message": f"Missing required fields in response: {', '.join(missing)}"
+                    }
+
             except Exception as e:
                 self.logger.error(f"Error calling OpenAI: {str(e)}")
                 
@@ -233,40 +287,15 @@ class MemecoinsGenerator:
                     wait_time = 2 ** attempt  # Exponential backoff
                     self.logger.info(f"Retrying in {wait_time} seconds...")
                     time.sleep(wait_time)
-        
-        # Fallback response in case of failure
-        self.logger.warning("Fallback generation after OpenAI calls failure")
-        
-        # Basic fallback format - avoid using "coin"
-        if relevant_keywords:
-            # Use top keyword directly as name if possible
-            top_keyword = relevant_keywords[0].upper()
-            if len(top_keyword) < 10:
-                backup_name = top_keyword
-            else:
-                # Take first few characters for longer keywords
-                backup_name = top_keyword[:10]
-        else:
-            # Use username if no keywords
-            backup_name = username.upper()
-            
-        # Create ticker from first letters or characters
-        if len(backup_name) <= 6:
-            backup_symbol = backup_name
-        else:
-            # Take first letters of words or first characters
-            if ' ' in backup_name:
-                backup_symbol = ''.join([word[0].upper() for word in backup_name.split()[:3]])
-            else:
-                backup_symbol = backup_name[:4].upper()
-        
-        return {
-            "token_name": backup_name[:15],  # Limited to 15 characters
-            "token_symbol": backup_symbol[:6],  # Limited to 6 characters
-            "tweet_author": username,
-            "primary_theme": primary_theme,
-            "relevant_keywords": relevant_keywords,
-            "generated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
-            "is_fallback": True,
-            "condition": condition_match
-        }
+                else:
+                    # Retourner une erreur après tous les essais
+                    return {
+                        "token_name": None,
+                        "token_symbol": None,
+                        "tweet_author": username,
+                        "relevant_keywords": relevant_keywords,
+                        "generated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+                        "condition": condition_match,
+                        "status_code": 999,  # Erreur après tous les essais
+                        "status_message": f"Failed after {max_retries} attempts: {str(e)}"
+                    }

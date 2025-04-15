@@ -2304,3 +2304,482 @@ Create a memecoin concept where ticker is person's name (max 10 chars, use first
         
 2025-04-12 14:46:03,175 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-04-12 14:46:03,184 - simulator - INFO - Meme coin généré: Jail Ye (YEEZY)
+2025-04-13 19:59:26,225 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-13 19:59:26,226 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-13 19:59:50,544 - simulator - INFO - Tweet fictif créé avec l'ID 3f6b971d2a264096933 pour @FAKEskynews
+2025-04-13 19:59:52,093 - simulator - INFO - Traitement du tweet 3f6b971d2a264096933 de @FAKEskynews
+2025-04-13 19:59:52,094 - simulator - INFO - Analyse du texte du tweet...
+2025-04-13 19:59:52,132 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801.
+2025-04-13 19:59:52,132 - simulator - INFO - Mots-clés pertinents: ['Twitter', 'Trump', '#ElonBeingElon', 'McDonald', 'Elon Musk', 'ElonBeingElon', 'BREAKING', 'SpaceX', 'Floki', 'Elon']
+2025-04-13 19:59:52,134 - simulator - INFO - Generating meme coin...
+2025-04-13 19:59:52,134 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 19:59:52,134 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @FAKEskynews:
+
+        "FAKEskynews BREAKING: Elon Musk appears at Trump rally wearing a SpaceX mascot hat, announces strategic reserve of "meme power" while his new Twitter mascot does the Floki dance. The crowd goes wild as McDonald's mascot challenges him to a dance-off! #ElonBeingElon"
+        
+2025-04-13 19:59:53,873 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 19:59:53,883 - simulator - INFO - Meme coin généré: FlokiHat (FLOKIDNC)
+2025-04-13 20:01:42,299 - simulator - INFO - Tweet fictif créé avec l'ID e51793a1b8f6458998f pour @FAKEskynews
+2025-04-13 20:01:43,826 - simulator - INFO - Traitement du tweet e51793a1b8f6458998f de @FAKEskynews
+2025-04-13 20:01:43,827 - simulator - INFO - Analyse du texte du tweet...
+2025-04-13 20:01:43,841 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801.
+2025-04-13 20:01:43,841 - simulator - INFO - Mots-clés pertinents: ['costume', 'Trump', 'Elon Musk', 'SpaceX', 'BREAKING', 'Elon', 'Musk', 'rally']
+2025-04-13 20:01:43,842 - simulator - INFO - Generating meme coin...
+2025-04-13 20:01:43,842 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 20:01:43,842 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @FAKEskynews:
+
+        "FAKEskynews BREAKING: Elon Musk appears at Trump rally wearing a SpaceX costume"
+        
+2025-04-13 20:01:44,824 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 20:01:44,827 - simulator - INFO - Meme coin généré: SpaceRally (SPCRLY)
+2025-04-13 20:17:08,099 - simulator - INFO - Tweet fictif créé avec l'ID ce9a488f955844db9fa pour @fakenews
+2025-04-13 20:17:23,158 - simulator - INFO - Traitement du tweet ce9a488f955844db9fa de @fakenews
+2025-04-13 20:17:23,158 - simulator - INFO - Analyse du texte du tweet...
+2025-04-13 20:17:23,165 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801.
+2025-04-13 20:17:23,166 - simulator - INFO - Mots-clés pertinents: ['elon', 'fakenews']
+2025-04-13 20:17:23,166 - simulator - INFO - Generating meme coin...
+2025-04-13 20:17:23,166 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 20:17:23,166 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @fakenews:
+
+        "fakenews elon was not there "
+        
+2025-04-13 20:17:25,699 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 20:17:25,701 - memecoin_generator - WARNING - Missing fields in OpenAI response: ['name/token_name', 'ticker/token_symbol']
+2025-04-13 20:17:25,702 - simulator - INFO - Meme coin généré: None (None)
+2025-04-13 20:24:39,085 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-13 20:24:39,086 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-13 20:24:49,503 - simulator - INFO - Traitement du tweet ce9a488f955844db9fa de @fakenews
+2025-04-13 20:24:49,504 - simulator - INFO - Analyse du texte du tweet...
+2025-04-13 20:24:49,517 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801.
+2025-04-13 20:24:49,517 - simulator - INFO - Mots-clés pertinents: ['elon', 'fakenews']
+2025-04-13 20:24:49,518 - simulator - INFO - Generating meme coin...
+2025-04-13 20:24:49,518 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 20:24:49,518 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @fakenews:
+
+        "fakenews elon was not there "
+        
+2025-04-13 20:24:50,434 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 20:24:50,440 - memecoin_generator - INFO - Raw API response: {"status":801}
+2025-04-13 20:24:50,440 - memecoin_generator - WARNING - Missing fields in OpenAI response: ['name/token_name', 'ticker/token_symbol']
+2025-04-13 20:24:50,441 - simulator - INFO - Meme coin généré: None (None)
+2025-04-13 20:30:04,026 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-13 20:30:04,026 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-13 20:30:10,212 - simulator - INFO - Traitement du tweet ce9a488f955844db9fa de @fakenews
+2025-04-13 20:30:10,213 - simulator - INFO - Analyse du texte du tweet...
+2025-04-13 20:30:10,225 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801.
+2025-04-13 20:30:10,225 - simulator - INFO - Mots-clés pertinents: ['fakenews', 'elon']
+2025-04-13 20:30:10,227 - simulator - INFO - Generating meme coin...
+2025-04-13 20:30:10,227 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 20:30:10,227 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @fakenews:
+
+        "fakenews elon was not there "
+        
+2025-04-13 20:30:11,185 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 20:30:11,196 - memecoin_generator - INFO - Raw API response: {
+    "name": "ElonAbs",
+    "ticker": "ELONAB"
+}
+2025-04-13 20:30:11,196 - memecoin_generator - ERROR - Error calling OpenAI: cannot access local variable 'memecoin_data' where it is not associated with a value
+2025-04-13 20:30:11,196 - memecoin_generator - INFO - Retrying in 1 seconds...
+2025-04-13 20:30:13,024 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 20:30:13,026 - memecoin_generator - INFO - Raw API response: {"status": 801}
+2025-04-13 20:30:13,026 - simulator - WARNING - Génération annulée: Contenu Elon insuffisamment viral ou impulsif (code 801)
+2025-04-13 20:31:42,070 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-13 20:31:42,070 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-13 20:31:50,770 - simulator - INFO - Traitement du tweet 2dbd12ad76ea4f1d90c de @KFC
+2025-04-13 20:31:50,771 - simulator - INFO - Analyse du texte du tweet...
+2025-04-13 20:31:50,786 - simulator - INFO - Analyse de 1 médias...
+2025-04-13 20:31:50,787 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Gn_95-jWoAAhN93?format=jpg&name=900x900
+2025-04-13 20:31:56,477 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 20:31:56,483 - media_analyzer - INFO -  *** Analyse média: {'description': "The image shows a laptop placed in a hole or a dirt area, surrounded by empty cans and debris. An arrow points to the laptop with text in bold red letters stating, 'this is where i post from.'", 'subjects': ['laptop', 'dirt area', 'cans', 'debris'], 'actions': ['laptop positioned in dirt', 'indication of posting location'], 'mood': 'humorous', 'visible_text': ['this is where i post from'], 'emotional_themes': ['humor'], 'is_meme': True, 'is_crisis': False, 'crisis_type': ''} ***
+2025-04-13 20:31:56,485 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept where the ticker and name are tied to a specific brand or social media phenomenon, but not based on generic updates or basic rebranding , focus on something unique and quirky. return status code 803.
+2025-04-13 20:31:56,485 - simulator - INFO - Mots-clés pertinents: ['buenos', 'dirt area', 'debris', 'KFC', 'this is where i post from', 'laptop', 'cans']
+2025-04-13 20:31:56,487 - simulator - INFO - Generating meme coin...
+2025-04-13 20:35:03,067 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-13 20:35:03,068 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-13 20:35:23,526 - simulator - INFO - Traitement du tweet ac289459c9ce4fa699c de @AutismCapital
+2025-04-13 20:35:23,527 - simulator - INFO - Analyse du texte du tweet...
+2025-04-13 20:35:23,538 - simulator - INFO - Analyse de 1 médias...
+2025-04-13 20:35:23,540 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GntfdhmbYAc40va?format=png&name=small
+2025-04-13 20:35:28,248 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 20:35:28,254 - media_analyzer - INFO -  *** Analyse média: {'description': "The image is a photoshopped portrait resembling a well-known figure, modified with 'thug life' elements such as pixelated sunglasses, a smoking effect, and a large 'Gangsta' chain. The text 'Thug Life' is prominently displayed.", 'subjects': ['Portrait of a person', 'Pixelated sunglasses', 'Cigar', 'Gangsta chain', 'Text elements'], 'actions': ["The person is depicted wearing accessories related to 'thug life' memes"], 'mood': 'Humorous', 'visible_text': ['Thug Life', 'GANGSTA'], 'emotional_themes': ['Humor', 'Playfulness'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-13 20:35:28,257 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept that captures Trump’s chaotic and exaggerated energy—only if the event is new, shocking, or funny; avoid standard political or economic news unless approached in a humorous, original way; if it doesn’t qualify, return status 802; ticker max 10 characters, name must relate to him.
+2025-04-13 20:35:28,257 - simulator - INFO - Mots-clés pertinents: ['Text elements', 'Trump', 'officials', 'Gangsta chain', 'Based', 'GANGSTA', 'White House', 'Cigar', 'Thug Life', 'Pixelated sunglasses']
+2025-04-13 20:35:28,258 - simulator - INFO - Generating meme coin...
+2025-04-13 20:35:28,259 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept that captures Trump’s chaotic and exaggerated energy—only if the event is new, shocking, or funny; avoid standard political or economic news unless approached in a humorous, original way; if it doesn’t qualify, return status 802; ticker max 10 characters, name must relate to him.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 20:35:28,259 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @AutismCapital:
+
+        "NEW: White House officials say Trump is "at the peak of not giving a fu*k anymore." Based. 💀"
+        
+            
+            The image shows: The image is a photoshopped portrait resembling a well-known figure, modified with 'thug life' elements such as pixelated sunglasses, a smoking effect, and a large 'Gangsta' chain. The text 'Thug Life' is prominently displayed. 
+            
+2025-04-13 20:35:29,379 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 20:35:29,384 - memecoin_generator - INFO - Raw API response: {"name": "ThugTrump","ticker": "THUGTRUMP"}
+2025-04-13 20:35:29,384 - memecoin_generator - ERROR - Error calling OpenAI: cannot access local variable 'memecoin_data' where it is not associated with a value
+2025-04-13 20:35:29,384 - memecoin_generator - INFO - Retrying in 1 seconds...
+2025-04-13 20:35:31,062 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 20:35:31,064 - memecoin_generator - INFO - Raw API response: {"name":"ThugTrump","ticker":"THUGTRUMP"}
+2025-04-13 20:35:31,064 - memecoin_generator - ERROR - Error calling OpenAI: cannot access local variable 'memecoin_data' where it is not associated with a value
+2025-04-13 20:35:31,064 - memecoin_generator - INFO - Retrying in 2 seconds...
+2025-04-13 20:35:34,063 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 20:35:34,065 - memecoin_generator - INFO - Raw API response: {"name": "TrumpLife", "ticker": "TRUMPLF"}
+2025-04-13 20:35:34,065 - memecoin_generator - ERROR - Error calling OpenAI: cannot access local variable 'memecoin_data' where it is not associated with a value
+2025-04-13 20:35:34,067 - simulator - INFO - Meme coin généré: None (None)
+2025-04-13 22:39:33,238 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-13 22:39:33,238 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-13 22:40:20,220 - simulator - INFO - Traitement du tweet 9fceea1f9a2c4a92991 de @BRICSN
+2025-04-13 22:40:20,220 - simulator - INFO - Analyse du texte du tweet...
+2025-04-13 22:40:20,237 - simulator - INFO - Analyse de 1 médias...
+2025-04-13 22:40:20,237 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/GnrFSOqX0AAzl60?format=jpg&name=medium
+2025-04-13 22:40:25,824 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 22:40:25,829 - media_analyzer - INFO -  *** Analyse média: {'description': 'A close-up image of a man in a suit with a neutral expression, set against a dark background.', 'subjects': ['Man'], 'actions': ['Sitting or standing calmly'], 'mood': 'Neutral', 'visible_text': [], 'emotional_themes': ['Neutral'], 'is_meme': False, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-13 22:40:25,833 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801.
+2025-04-13 22:40:25,833 - simulator - INFO - Mots-clés pertinents: ['Elon', 'France', 'Marine', 'Musk', 'Le Pen', 'UST', 'Man', 'Pen']
+2025-04-13 22:40:25,835 - simulator - INFO - Generating meme coin...
+2025-04-13 22:40:25,835 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 22:40:25,836 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @BRICSN:
+
+        "BRICSN UST IN: 🇫🇷 Elon Musk calls on France to free Marine Le Pen."
+        
+            
+            The image shows: A close-up image of a man in a suit with a neutral expression, set against a dark background. 
+            
+2025-04-13 22:40:27,475 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 22:40:27,479 - memecoin_generator - INFO - Raw API response: {
+    "name": "FreeLePen",
+    "ticker": "FRELEPEN"
+}
+2025-04-13 22:40:27,480 - simulator - INFO - Meme coin généré: FreeLePen (FRELEPEN)
+2025-04-13 22:40:41,269 - simulator - INFO - Traitement du tweet ce9a488f955844db9fa de @fakenews
+2025-04-13 22:40:41,270 - simulator - INFO - Analyse du texte du tweet...
+2025-04-13 22:40:41,283 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801.
+2025-04-13 22:40:41,283 - simulator - INFO - Mots-clés pertinents: ['fakenews', 'elon']
+2025-04-13 22:40:41,283 - simulator - INFO - Generating meme coin...
+2025-04-13 22:40:41,283 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 22:40:41,284 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @fakenews:
+
+        "fakenews elon was not there "
+        
+2025-04-13 22:40:42,128 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 22:40:42,130 - memecoin_generator - INFO - Raw API response: {"status": 801}
+2025-04-13 22:40:42,130 - simulator - WARNING - Génération annulée: Contenu Elon insuffisamment viral ou impulsif (code 801)
+2025-04-13 22:44:24,645 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-13 22:44:24,646 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-13 22:44:58,997 - simulator - INFO - Tweet fictif créé avec l'ID 1c2e4d3fe6db4523be8 pour @fakenews
+2025-04-13 22:45:00,594 - simulator - INFO - Traitement du tweet 1c2e4d3fe6db4523be8 de @fakenews
+2025-04-13 22:45:00,595 - simulator - INFO - Analyse du texte du tweet...
+2025-04-13 22:45:00,609 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept that captures Trump’s chaotic and exaggerated energy—only if the event is new, shocking, or funny; avoid standard political or economic news unless approached in a humorous, original way; if it doesn’t qualify, return status 802; ticker max 10 characters, name must relate to him.
+2025-04-13 22:45:00,610 - simulator - INFO - Mots-clés pertinents: ['trump']
+2025-04-13 22:45:00,611 - simulator - INFO - Generating meme coin...
+2025-04-13 22:45:00,611 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept that captures Trump’s chaotic and exaggerated energy—only if the event is new, shocking, or funny; avoid standard political or economic news unless approached in a humorous, original way; if it doesn’t qualify, return status 802; ticker max 10 characters, name must relate to him.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 22:45:00,611 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @fakenews:
+
+        "fakenews trump don't get it fr.."
+        
+2025-04-13 22:45:02,413 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 22:45:02,416 - memecoin_generator - INFO - Raw API response: {"name":"TrumpNope","ticker":"TRUMPLOL"}
+2025-04-13 22:45:02,417 - simulator - INFO - Meme coin généré: TrumpNope (TRUMPLOL)
+2025-04-13 22:45:50,788 - simulator - INFO - Traitement du tweet ce9a488f955844db9fa de @fakenews
+2025-04-13 22:45:50,789 - simulator - INFO - Analyse du texte du tweet...
+2025-04-13 22:45:50,801 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801.
+2025-04-13 22:45:50,801 - simulator - INFO - Mots-clés pertinents: ['fakenews', 'elon']
+2025-04-13 22:45:50,801 - simulator - INFO - Generating meme coin...
+2025-04-13 22:45:50,801 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 22:45:50,801 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @fakenews:
+
+        "fakenews elon was not there "
+        
+2025-04-13 22:45:51,592 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 22:45:51,594 - memecoin_generator - INFO - Raw API response: {"status": 801}
+2025-04-13 22:45:51,594 - simulator - WARNING - Génération annulée: Contenu Elon insuffisamment viral ou impulsif (code 801)
+2025-04-13 22:47:05,109 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-13 22:47:05,109 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-13 22:47:13,665 - simulator - INFO - Traitement du tweet ce9a488f955844db9fa de @fakenews
+2025-04-13 22:47:13,666 - simulator - INFO - Analyse du texte du tweet...
+2025-04-13 22:47:13,679 - simulator - INFO - Tweet éligible via extract_ticker_info: Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801.
+2025-04-13 22:47:13,679 - simulator - INFO - Mots-clés pertinents: ['elon', 'fakenews']
+2025-04-13 22:47:13,679 - simulator - INFO - Generating meme coin...
+2025-04-13 22:47:13,679 - memecoin_generator - INFO - SYSTEM PROMPT:
+
+        Generate a name and ticker for a crypto token based on a tweet.
+
+        Rules for the meme coin name:
+        1. The name must be CLEAR, catchy and memorable (maximum 10 characters)
+        2. It must have a DIRECT connection to the tweet content or the descritpion(preferably the descritpion and dont be too creative)
+        3. NEVER include the word "coin" in the name
+        4. If the tweet mentions a person, incorporate their name (important)
+
+        Rules for the ticker:
+        1. The ticker must be between 3 and 10 characters(the longer the better but do not add number to make it longer)
+        2. CAPITAL LETTERS ONLY
+        3. It must be directly related to the name or main subject(important)
+        4. Should be memorable and distinctive
+        
+
+Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801.
+
+        Provide ONLY a JSON with these fields:
+        - name: the meme coin name (without the word "coin")
+        - ticker: the ticker (without the word "COIN")
+        
+2025-04-13 22:47:13,680 - memecoin_generator - INFO - USER PROMPT:
+
+        Generate a meme coin for this tweet by @fakenews:
+
+        "fakenews elon was not there "
+        
+2025-04-13 22:47:14,660 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 22:47:14,666 - memecoin_generator - INFO - Raw API response: {"status": 801}
+2025-04-13 22:47:14,666 - simulator - WARNING - Génération annulée: Contenu Elon insuffisamment viral ou impulsif (code 801)
+2025-04-15 10:23:25,115 - __main__ - INFO - Démarrage du générateur de meme coins
+2025-04-15 10:23:25,117 - __main__ - INFO - Démarrage en mode simulateur
+2025-04-15 10:23:48,116 - simulator - INFO - Tweet fictif créé avec l'ID af05247d295e4147a7d pour @grok
+2025-04-15 10:23:49,530 - simulator - INFO - Traitement du tweet af05247d295e4147a7d de @grok
+2025-04-15 10:23:49,530 - simulator - INFO - Analyse du texte du tweet...
+2025-04-15 10:23:49,537 - simulator - INFO - Analyse de 1 médias...
+2025-04-15 10:23:49,537 - media_analyzer - INFO - Analyzing image: https://pbs.twimg.com/media/Goj2WNAW0AAto0N?format=jpg&name=small
+2025-04-15 10:23:56,088 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-15 10:23:56,094 - media_analyzer - INFO -  *** Analyse média: {'description': "The image features a green frog sitting on a hand against a background with vertical black and white stripes. The word '$FRED' is prominently displayed below the frog.", 'subjects': ['frog', 'hand'], 'actions': ['frog sits on hand'], 'mood': 'Lighthearted', 'visible_text': ['$FRED'], 'emotional_themes': ['humor'], 'is_meme': True, 'is_crisis': False, 'crisis_type': None} ***
+2025-04-15 10:23:56,096 - simulator - INFO - Tweet éligible via is_pattern_eligible: False
+2025-04-15 10:23:56,097 - simulator - INFO - Tweet non éligible - aucune condition validée

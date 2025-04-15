@@ -132,6 +132,42 @@ class DataStorage:
         with open(memecoin_file, "w") as f:
             json.dump(memecoin_data, f, indent=2)
         return memecoin_file
+    
+    def save_rejected_tweet(self, tweet_id: str, username: str, status_code: int, message: str):
+        """
+        Sauvegarde les informations sur un tweet rejeté pour analyse ultérieure
+        
+        Args:
+            tweet_id: ID du tweet rejeté
+            username: Nom d'utilisateur
+            status_code: Code de statut expliquant le rejet
+            message: Message détaillant la raison du rejet
+        """
+        
+        from datetime import datetime
+        
+        # Créer le répertoire si nécessaire
+        rejected_dir = os.path.join(self.data_dir, "rejected_tweets")
+        os.makedirs(rejected_dir, exist_ok=True)
+        
+        # Créer l'objet de rejet
+        rejected_data = {
+            "tweet_id": tweet_id,
+            "username": username,
+            "status_code": status_code,
+            "message": message,
+            "rejected_at": datetime.now().isoformat()
+        }
+        
+        # Générer un nom de fichier unique
+        filename = f"{username}_{tweet_id}_{status_code}.json"
+        filepath = os.path.join(rejected_dir, filename)
+        
+        # Sauvegarder les données
+        with open(filepath, "w") as f:
+            json.dump(rejected_data, f, indent=2)
+        
+        return filepath
 
     def get_latest_tweet_id(self, username: str) -> Optional[str]:
         """Récupère le dernier ID de tweet pour un utilisateur donné"""

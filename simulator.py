@@ -192,7 +192,27 @@ class TweetSimulator:
             media_analysis=first_media_analysis,
             condition_match=condition_match  # Passer la condition déclenchée
         )
-        
+
+        # Vérifier si un code de statut spécial a été retourné
+        status_code = memecoin.get("status_code")
+        if status_code in [801, 802, 803, 804]:
+            # Coder les messages spécifiques pour chaque code
+            status_messages = {
+                801: "Contenu Elon insuffisamment viral ou impulsif",
+                802: "Contenu Trump insuffisamment choquant ou humoristique",
+                803: "Contenu de marque sociale trop générique",
+                804: "Contenu de marque Elon insuffisamment impactant"
+            }
+            
+            message = status_messages.get(status_code, "Contenu ne répondant pas aux critères de condition")
+            self.logger.warning(f"Génération annulée: {message} (code {status_code})")
+            print(f"\nGénération non effectuée: {message}")
+            
+            # Vous pouvez encore enregistrer cet échec pour analyse ultérieure
+            self.storage.save_rejected_tweet(tweet_id, username, status_code, message)
+
+            return None
+            
         # 8. Sauvegarder le meme coin
         self.storage.save_memecoin(memecoin, username, tweet_id)
         

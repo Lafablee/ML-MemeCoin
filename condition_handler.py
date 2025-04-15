@@ -10,7 +10,7 @@ def extract_ticker_info(text):
     mascot_words = {'mascot', 'logo', 'symbol', 'icon', 'badge', 'figure', 'character', 'avatar', 'entity', 'fictional character', 'cartoon', 'illustration', 'caricature', 'creature', 'totem', 'puppet', 'alter ego', 'creature', 'imaginary figure', 'fantasy being', 'virtual character', 'animated figure'}
     crime_words = {'charge', 'charged', 'charging', 'arrest', 'arrested', 'arresting', 'detain', 'detained', 'detaining', 'indict', 'indicted', 'indicting', 'convict', 'convicted', 'convicting', 'gun', 'gunned', 'gunning', 'shoot', 'shot', 'shooting', 'knife', 'knifed', 'knifing', 'stab', 'stabbed', 'stabbing', 'accuse', 'accused', 'accusing', 'assault', 'assaulted', 'assaulting', 'attack', 'attacked', 'attacking', 'rob', 'robbed', 'robbing', 'accuse', 'accused', 'accusing', 'assault', 'assaulted', 'assaulting', 'attack', 'attacked', 'attacking', 'rob', 'robbed', 'robbing'}
     toilet_words = {'pee', 'peed', 'peeing', 'poo', 'pooed', 'pooing', 'wee-wee', 'wee-weed', 'wee-weeing', 'tinkle', 'tinkled', 'tinkling', 'whiz', 'whizzed', 'whizzing', 'piddle', 'piddled', 'piddling', 'poop', 'pooped', 'pooping', 'doo-doo', 'doo-dooed', 'doo-dooing', 'dookie', 'dookied', 'dookieing', 'number two', 'number twoed', 'number twoing', 'pee-pee', 'pee-peed', 'pee-peeing', 'potty', 'pottied', 'pottying', 'dump', 'dumped', 'dumping', 'bm', 'bmed', 'bming'}
-    social_media_brands = {'twitter', 'kfc', 'x', 'duolingo', 'reddit', 'twitch', 'minecraft', 'walmart', 'discord', 'mcdonald\'s', 'pumpfun', 'colonel sanders'}
+    social_media_brands = {'twitter', 'x', 'duolingo', 'reddit', 'twitch', 'minecraft', 'walmart', 'discord', 'mcdonald\'s', 'pumpfun', 'colonel sanders'}
     animals = {'lion', 'elephant', 'giraffe', 'zebra', 'tiger', 'bear', 'monkey', 'gorilla', 'hippopotamus', 'rhinoceros', 'crocodile', 'snake', 'flamingo', 'ostrich', 'kangaroo', 'koala', 'panda', 'wolf', 'cheetah'}
     meme_coins = {'pepe', 'doge', 'dogwifhat'}
     crypto_words = {'bitcoin', 'ethereum', 'stablecoin', 'solana', 'doge', 'shiba', 'pepe', 'floki', 'bonk', 'dogwifhat', 'popcat', 'floki', 'bonk'}
@@ -37,7 +37,7 @@ def extract_ticker_info(text):
 
         # Condition 2: Elon
         if word == 'elon':
-            return "Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, do nothing."
+            return "Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status 801."
 
         # Condition 10: Style (simulé ici pour texte, à adapter pour images)
         if word == 'style' or word =='styles':
@@ -72,7 +72,7 @@ def extract_ticker_info(text):
 
     # Condition 11: Trump
     if 'trump' in text_lower:
-        return "Create a memecoin concept that captures Trump’s chaotic and exaggerated energy—only if the event is new, shocking, or funny; avoid standard political or economic news unless approached in a humorous, original way; if it doesn’t qualify, do nothing; ticker max 10 characters, name must relate to him."
+        return "Create a memecoin concept that captures Trump’s chaotic, exaggerated, or meme-worthy energy, only if the event involves a viral quote, bizarre facial expression, funny behavior, or outrageous claim. Ignore all basic political updates, travel appearances, or traditional media events unless there’s clear meme potential. If it’s not instantly funny, shocking, or absurd in a way that social media would latch onto,, return status 802"
 
     # Condition 12: McDonald
     if 'mcdonald' in text_lower:
@@ -80,7 +80,7 @@ def extract_ticker_info(text):
 
     # Condition 13: Marques et réseaux sociaux
     if any(word.lower() in social_media_brands for word in words):
-        return "Create a memecoin concept where the ticker and name are tied to a specific brand or social media phenomenon, but not based on generic updates or basic rebranding , focus on something unique and quirky. If not do nothing."
+        return "Create a memecoin concept where the ticker and name are directly inspired by the matched brand or social media platform—only if the context is absurd, funny, viral, or culturally explosive; skip if it's just routine updates, promotions, or feature announcements. return status code 803."
 
     # Condition 14: Animaux
     if any(word.lower() in animals for word in words):
@@ -100,7 +100,7 @@ def extract_ticker_info(text):
 
     # Condition 18: Marques d'Elon (drôle ou nouveau)
     if any(word.lower() in elon_brands for word in words):
-        return "Create a memecoin concept where the ticker and name are related to the matched brand, but only if the tweet is exceptionally funny, shocking, or has a major cultural impact. The event must be widely discussed, controversial, or highly unexpected. The name and ticker must be directly inspired by the image, using obvious visual elements only. Avoid inventing details or going beyond what is clearly shown. If these conditions are not met, do nothing."
+        return "Create a memecoin concept where the ticker and name are related to the matched brand, but only if the tweet is exceptionally funny, shocking, or has a major cultural impact. The event must be widely discussed, controversial, or highly unexpected. The name and ticker must be directly inspired by the image, using obvious visual elements only. Avoid inventing details or going beyond what is clearly shown. If these conditions are not met, return status code 804."
 
     # Condition 19: Délinquants sexuels
     if any(word.lower() in sex_offender_words for word in words):
@@ -109,6 +109,10 @@ def extract_ticker_info(text):
     # Condition 21: Toucher
     if any(word.lower() in touch_words for word in words):
         return "Create a memecoin concept where ticker and name include 'gooner'"
+    
+    # Condition 22: KFC, Importance 0.8
+    if 'kfc' in text_lower: 
+        return "Create a memecoin concept that captures KFC’s absurd or viral potential, only if the event is truly meme-worthy, bizarre, or culturally hilarious. Do *not* create anything if it’s just a new menu item, standard promo, or routine corporate news."
 
     return None
 
@@ -141,7 +145,7 @@ def analyze_media_description(media_analysis: Dict) -> Optional[str]:
     mascot_words = {'mascot', 'logo', 'symbol', 'icon', 'badge', 'figure', 'character', 'avatar', 'entity', 'fictional character', 'cartoon', 'illustration', 'caricature', 'creature', 'totem', 'puppet', 'alter ego', 'creature', 'imaginary figure', 'fantasy being', 'virtual character', 'animated figure', 'action figure', 'toy', 'doll'}
     crime_words = {'charge', 'charged', 'charging', 'arrest', 'arrested', 'arresting', 'detain', 'detained', 'detaining', 'indict', 'indicted', 'indicting', 'convict', 'convicted', 'convicting', 'gun', 'gunned', 'gunning', 'shoot', 'shot', 'shooting', 'knife', 'knifed', 'knifing', 'stab', 'stabbed', 'stabbing', 'accuse', 'accused', 'accusing', 'assault', 'assaulted', 'assaulting', 'attack', 'attacked', 'attacking', 'rob', 'robbed', 'robbing', 'accuse', 'accused', 'accusing', 'assault', 'assaulted', 'assaulting', 'attack', 'attacked', 'attacking', 'rob', 'robbed', 'robbing', 'prison', 'jail', 'handcuff', 'weapon'}
     toilet_words = {'pee', 'peed', 'peeing', 'poo', 'pooed', 'pooing', 'wee-wee', 'wee-weed', 'wee-weeing', 'tinkle', 'tinkled', 'tinkling', 'whiz', 'whizzed', 'whizzing', 'piddle', 'piddled', 'piddling', 'poop', 'pooped', 'pooping', 'doo-doo', 'doo-dooed', 'doo-dooing', 'dookie', 'dookied', 'dookieing', 'number two', 'number twoed', 'number twoing', 'pee-pee', 'pee-peed', 'pee-peeing', 'potty', 'pottied', 'pottying', 'dump', 'dumped', 'dumping', 'bm', 'bmed', 'bming', 'toilet', 'bathroom', 'urinal'}
-    social_media_brands = {'twitter', 'kfc', 'x', 'duolingo', 'reddit', 'twitch', 'minecraft', 'walmart', 'discord', 'mcdonald', 'pumpfun', 'colonel sanders', 'burger king', 'wendy', 'taco bell', 'facebook', 'instagram', 'tiktok', 'snapchat', 'youtube'}
+    social_media_brands = {'twitter', 'x', 'duolingo', 'reddit', 'twitch', 'minecraft', 'walmart', 'discord', 'mcdonald', 'pumpfun', 'colonel sanders', 'burger king', 'wendy', 'taco bell', 'facebook', 'instagram', 'tiktok', 'snapchat', 'youtube'}
     animals = {'lion', 'elephant', 'giraffe', 'zebra', 'tiger', 'bear', 'monkey', 'gorilla', 'hippopotamus', 'rhinoceros', 'crocodile', 'snake', 'flamingo', 'ostrich', 'kangaroo', 'koala', 'panda', 'wolf', 'cheetah', 'dog', 'cat', 'pet', 'animal'}
     meme_coins = {'pepe', 'doge', 'dogwifhat', 'shib', 'shiba', 'bonk', 'wojak', 'floki'}
     crypto_words = {'bitcoin', 'ethereum', 'stablecoin', 'solana', 'doge', 'shiba', 'pepe', 'floki', 'bonk', 'dogwifhat', 'popcat', 'floki', 'bonk', 'crypto', 'cryptocurrency', 'btc', 'eth', 'sol'}
@@ -158,7 +162,7 @@ def analyze_media_description(media_analysis: Dict) -> Optional[str]:
     
     # 2. Elon Musk
     if any(word in description for word in ['elon', 'musk']):
-        return "Create a memecoin concept that captures Elon Musk's eccentric and futuristic persona as shown in the image—use the visual elements prominently"
+        return "Create a memecoin concept that captures Elon Musk’s eccentric and futuristic persona—only if the event is weird, impulsive, or techy in a viral way; avoid standard Tesla/SpaceX updates unless there's meme potential; if it doesn’t qualify, return status code 801."
     
     # 3. Style (verfication nécessaire !)
     for style in style_words:
@@ -191,7 +195,7 @@ def analyze_media_description(media_analysis: Dict) -> Optional[str]:
     
     # 10. Trump
     if 'trump'in words or 'donald trump' in words:
-        return "Create a memecoin concept that captures Trump's appearance in the image (max 10 characters), name must relate directly to the visual context"
+        return "Create a memecoin concept that captures Trump’s chaotic, exaggerated, or meme-worthy energy, only if the event involves a viral quote, bizarre facial expression, funny behavior, or outrageous claim. Ignore all basic political updates, travel appearances, or traditional media events unless there’s clear meme potential. If it’s not instantly funny, shocking, or absurd in a way that social media would latch onto, return 902"
     
     # 11. McDonald's/Fast Food
     if any(word in ['mcdonald', 'mcdonalds', 'mcdo'] for word in words):
@@ -201,7 +205,7 @@ def analyze_media_description(media_analysis: Dict) -> Optional[str]:
     if any(word in social_media_brands for word in words):
         for brand in social_media_brands:
             if brand in words:
-                return f"Create a memecoin concept where ticker and name are related to {brand} as shown in the image"
+                return f"Create a memecoin concept where the ticker and name are directly inspired by the matched brand or social media platform—only if the context is absurd, funny, viral, or culturally explosive; return status code 803 if it's just routine updates, promotions, or feature announcements."
     
     # 13. Animals
     if any(word in animals for word in words):
@@ -227,7 +231,7 @@ def analyze_media_description(media_analysis: Dict) -> Optional[str]:
     if any(brand in elon_brands for word in words for brand in elon_brands if brand == word):
         for brand in elon_brands:
             if brand in words:
-                return f"Create a memecoin concept where the ticker and name are related to {brand} as shown in the image"
+                return f"Create a memecoin concept where the ticker and name are related to the matched brand, but only if the tweet is exceptionally funny, shocking, or has a major cultural impact. The event must be widely discussed, controversial, or highly unexpected. The name and ticker must be directly inspired by the image, using obvious visual elements only. Avoid inventing details or going beyond what is clearly shown. If these conditions are not met, return status code 804."
     
     # 18. Sexual misconduct - CAS SPÉCIAL pour les expressions à plusieurs mots
     for term in sex_offender_words:
@@ -240,7 +244,12 @@ def analyze_media_description(media_analysis: Dict) -> Optional[str]:
     # 19. Touch/Feel
     if any(word in touch_words for word in words):
         return "Create a memecoin concept where ticker and name include 'gooner', based on what's shown in the image" 
-       
+    
+    # Condition 22: KFC, Importance 0.8
+    if 'kfc' in words: 
+        return "Create a memecoin concept that captures KFC’s absurd or viral potential, only if the event is truly meme-worthy, bizarre, or culturally hilarious. Do *not* create anything if it’s just a new menu item, standard promo, or routine corporate news."
+
+
     return None
 
 def is_pattern_eligible(tweet_text: str, username: str = None, media_analysis: Dict = None) -> bool:
