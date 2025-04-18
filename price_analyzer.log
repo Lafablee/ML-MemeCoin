@@ -1,0 +1,37 @@
+2025-04-17 15:01:32,178 - __main__ - INFO - 🔌 Connexion au websocket PumpPortal...
+2025-04-17 15:01:32,609 - __main__ - INFO - ✅ Connexion websocket établie avec succès
+2025-04-17 15:01:32,610 - __main__ - INFO - 📡 Abonné aux trades du token FRkxK998pAQQpqAVnVCqzR7qMZLmVUi1sVX7YnjCpump
+2025-04-17 15:01:32,610 - __main__ - INFO - 📊 Début de l'analyse du token FRkxK998pAQQpqAVnVCqzR7qMZLmVUi1sVX7YnjCpump pendant 60 secondes
+2025-04-17 15:01:32,707 - __main__ - INFO - ✅ Successfully subscribed to keys.
+2025-04-17 15:01:33,709 - __main__ - INFO - 📊 ANALYSE TERMINÉE (60s) - Aucune donnée pour FRkxK998pAQQpqAVnVCqzR7qMZLmVUi1sVX7YnjCpump
+2025-04-17 15:01:33,807 - __main__ - INFO - Analyse terminée
+2025-04-17 15:02:27,290 - __main__ - INFO - 🔌 Connexion au websocket PumpPortal...
+2025-04-17 15:02:27,753 - __main__ - INFO - ✅ Connexion websocket établie avec succès
+2025-04-17 15:02:27,754 - __main__ - INFO - 📡 Abonné aux trades du token 3DhuvZij6pny2rK5tvzLhHNEC8Ssp3GuWVptanEQpump
+2025-04-17 15:02:27,754 - __main__ - INFO - 📊 Début de l'analyse du token 3DhuvZij6pny2rK5tvzLhHNEC8Ssp3GuWVptanEQpump pendant 60 secondes
+2025-04-17 15:02:27,852 - __main__ - INFO - ✅ Successfully subscribed to keys.
+2025-04-17 15:02:28,002 - __main__ - INFO - 💹 BUY: Prix=0.0000000447 SOL/token, Variation=+0.00%, Chute=0.00%, Volume=0.079134 SOL, MarketCap=44.79 SOL
+2025-04-17 15:02:28,286 - __main__ - INFO - 💹 BUY: Prix=0.0000000454 SOL/token, Variation=+1.49%, Chute=0.00%, Volume=0.564960 SOL, MarketCap=45.94 SOL
+2025-04-17 15:02:28,502 - __main__ - INFO - 💹 BUY: Prix=0.0000000482 SOL/token, Variation=+7.83%, Chute=0.00%, Volume=2.451296 SOL, MarketCap=50.56 SOL
+2025-04-17 15:02:28,814 - __main__ - INFO - 💹 BUY: Prix=0.0000000515 SOL/token, Variation=+15.16%, Chute=0.00%, Volume=3.177576 SOL, MarketCap=52.40 SOL
+2025-04-17 15:02:29,917 - __main__ - INFO - 
+==================================================
+2025-04-17 15:02:29,917 - __main__ - INFO - 📊 ANALYSE TERMINÉE - 3DhuvZij6pny2rK5tvzLhHNEC8Ssp3GuWVptanEQpump (60s)
+2025-04-17 15:02:29,918 - __main__ - INFO - 🔢 Nombre de trades: 4 (4 achats, 0 ventes)
+2025-04-17 15:02:29,918 - __main__ - INFO - 💰 Volume total: 3.177576 SOL
+2025-04-17 15:02:29,918 - __main__ - INFO - 📈 Prix initial: 0.0000000447 SOL/token
+2025-04-17 15:02:29,918 - __main__ - INFO - 📉 Prix final: 0.0000000515 SOL/token
+2025-04-17 15:02:29,918 - __main__ - INFO - ⬆️ Prix le plus haut: 0.0000000515 SOL/token
+2025-04-17 15:02:29,918 - __main__ - INFO - ⬇️ Prix le plus bas: 0.0000000447 SOL/token
+2025-04-17 15:02:29,919 - __main__ - INFO - 📊 Variation totale: +15.16%
+2025-04-17 15:02:29,919 - __main__ - INFO - 📉 Chute depuis le sommet: 0.00%
+2025-04-17 15:02:29,919 - __main__ - INFO - 📊 Volatilité: 15.16%
+2025-04-17 15:02:29,919 - __main__ - INFO - 
+🤖 ANALYSE DES CONDITIONS DE VENTE:
+2025-04-17 15:02:29,919 - __main__ - INFO - Condition 2 (Profit +100%): ❌ Non activée (15.16%)
+2025-04-17 15:02:29,919 - __main__ - INFO - Condition 3 (Profit +75% puis chute 25%): ❌ Non activée (Profit: 15.16%, Chute: 0.00%)
+2025-04-17 15:02:29,919 - __main__ - INFO - Condition 4 (Profit 10-75% puis chute 15%): ❌ Non activée (Profit: 15.16%, Chute: 0.00%)
+2025-04-17 15:02:29,919 - __main__ - INFO - 🚨 STRATÉGIE RECOMMANDÉE: Vendre 100% après timeout (aucune condition activée)
+2025-04-17 15:02:29,919 - __main__ - INFO - ==================================================
+
+2025-04-17 15:02:30,077 - __main__ - INFO - Analyse terminée
